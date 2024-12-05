@@ -37,3 +37,7 @@ footer {
     color: #333;
     font-size: 0.9rem;
 }
+/* Align the profile picture and content at the top */
+.row.align-items-center {
+    align-items: flex-start;
+}
