@@ -4,12 +4,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Sooraj Soman's Personal Website</title>
+    <title>Sooraj Soman | Personal Website</title>
+
+    <!-- Inline CSS for Troubleshooting -->
+    <style>
+        /* General Page Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header and Navigation Bar */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .name-title h1 {
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        .nav-bar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .nav-bar ul li {
+            margin: 0 20px;
+        }
+
+        .nav-bar ul li a {
+            color: #0077b5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .nav-bar ul li a:hover {
+            color: #005b8a;
+        }
+
+        /* About Me Section Styling */
+        .about-container {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-column {
+            width: 30%;
+            text-align: center;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .right-column {
+            width: 70%;
+            padding-left: 20px;
+        }
+
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
+            margin-top: 15px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            color: #0077b5;
+        }
+
+        /* Interests and Education Section */
+        .interests-education {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            gap: 40px; /* Space between columns */
+        }
+
+        .interests,
+        .education {
+            flex: 1; /* Make sure both sections are equal width */
+            padding: 10px;
+        }
+
+        .interests h2,
+        .education h2 {
+            color: #0077b5;
+        }
+
+        .interests ul,
+        .education ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .interests ul li,
+        .education ul li {
+            margin: 10px 0;
+        }
+
+        .education ul li i {
+            margin-right: 8px;
+            color: #333;
+        }
+
+        /* Media Query for Smaller Screens */
+        @media (max-width: 768px) {
+            .about-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-column,
+            .right-column {
+                width: 100%;
+                text-align: center;
+            }
+
+            .interests-education {
+                flex-direction: column; /* Stack the columns vertically */
+                row-gap: 20px; /* Space between stacked sections */
+            }
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 
 <body>
-    <!-- Header Section -->
+    <!-- Header Section with Navigation Bar -->
     <header>
         <div class="header-content">
             <div class="name-title">
@@ -27,26 +194,24 @@
     </header>
 
     <!-- About Me Section -->
-    <section class="about-container" id="about">
+    <section id="about" class="about-container">
         <div class="left-column">
             <div class="profile-pic">
-                <img src="images/profile_pic.jpg" alt="Sooraj Soman">
+                <img src="profile_pic.jpg" alt="Sooraj Soman">
             </div>
             <div class="social-links">
-                <a href="mailto:ss4kx@umsystem.edu">📧</a>
-                <a href="https://www.linkedin.com/in/soorajsoman" target="_blank">🔗</a>
+                <a href="mailto:ss4kx@umsystem.edu" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://linkedin.com" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
         <div class="right-column">
             <h2>About Me</h2>
-            <p>PhD student in Quantum Computing at Missouri S&T. Passionate about theoretical quantum computing, graph
-                theory, and mathematics. Currently exploring the applications of quantum walks in topological data
-                analysis.</p>
+            <p>PhD student in Quantum Computing at Missouri S&T. Passionate about theoretical quantum computing, graph theory, and mathematics. Currently exploring the applications of quantum walks in topological data analysis.</p>
         </div>
     </section>
 
     <!-- Interests and Education Section -->
-    <section class="interests-education" id="education">
+    <section class="interests-education">
         <div class="interests">
             <h2>Interests</h2>
             <ul>
@@ -59,9 +224,9 @@
         <div class="education">
             <h2>Education</h2>
             <ul>
-                <li>PhD in Quantum Computing, 2024, Missouri S&T</li>
-                <li>Master of Science in Physics, 2017, CUSAT</li>
-                <li>Bachelor of Science in Physics, 2014, XYZ University</li>
+                <li><i class="fas fa-graduation-cap"></i> PhD in Quantum Computing, 2024, Missouri S&T</li>
+                <li><i class="fas fa-graduation-cap"></i> Master of Science in Physics, 2017, CUSAT</li>
+                <li><i class="fas fa-graduation-cap"></i> Bachelor of Science in Physics, 2014, XYZ University</li>
             </ul>
         </div>
     </section>
@@ -70,6 +235,9 @@
     <footer>
         <p>&copy; 2024 Sooraj Soman</p>
     </footer>
+
+    <!-- Link to Font Awesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
