@@ -1,78 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sooraj Soman | Personal Website</title>
+    <title>Your Name - Academic Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
-
 <body>
-    <!-- Header Section with Navigation Bar -->
     <header>
-        <div class="header-content">
-            <div class="name-title">
-                <h1>Sooraj Soman</h1>
-                <p>PhD student in Quantum Computing</p>
-            </div>
-            <nav class="nav-bar">
-                <ul>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#interests">Interests</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Your Name</h1>
+        <h2>PhD Student in [Your Field] at [Your Institution]</h2>
+        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
     </header>
 
-    <!-- About Me Section -->
-    <section id="about" class="about-container">
-        <div class="left-column">
-            <div class="profile-pic">
-                <img src="images/profile.jpg" alt="Sooraj Soman">
-            </div>
-            <div class="social-links">
-                <a href="mailto:ss4kx@umsystem.edu" title="Email"><i class="fas fa-envelope"></i></a>
-                <a href="https://linkedin.com" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="right-column">
-            <h2>About Me</h2>
-            <p>PhD student in Quantum Computing at Missouri S&T. Passionate about theoretical quantum computing, graph theory, and mathematics. Currently exploring the applications of quantum walks in topological data analysis.</p>
-        </div>
-    </section>
+    <main>
+        <section id="about">
+            <h3>About Me</h3>
+            <p>I am a passionate researcher specializing in [your specialization area], with a focus on [key research topics]. My research interests span a variety of topics, including [topic 1], [topic 2], and [topic 3]. I actively work to integrate [specific interests, like social justice or diversity] into my research to promote an inclusive approach. I am also an experienced teacher, having helped students develop skills that go beyond the classroom.</p>
+            <p>Before entering academia, I worked as [previous professional experience].</p>
+        </section>
 
-    <!-- Interests Section -->
-    <section id="interests" class="section-container">
-        <h2>Interests</h2>
-        <ul>
-            <li>Quantum Computing</li>
-            <li>Graph Theory</li>
-            <li>Mathematics</li>
-            <li>Badminton</li>
-        </ul>
-    </section>
+        <section id="current-roles">
+            <h3>Current Roles</h3>
+            <ul>
+                <li>Chair of [Special Interest Group or Committee]</li>
+                <li>Co-founder of [Research Group or Network]</li>
+                <li>Editor-in-Chief of [Journal Name]</li>
+            </ul>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="section-container">
-        <h2>Education</h2>
-        <ul>
-            <li><i class="fas fa-graduation-cap"></i> PhD in Quantum Computing, 2024, Missouri S&T</li>
-            <li><i class="fas fa-graduation-cap"></i> Master of Science in Physics, 2017, CUSAT</li>
-            <li><i class="fas fa-graduation-cap"></i> Bachelor of Science in Physics, 2014, XYZ University</li>
-        </ul>
-    </section>
+        <section id="teaching">
+            <h3>Teaching</h3>
+            <p>I have coordinated and taught courses on [list of subjects or fields]. I strive to make sure every student is visible and engaged in the learning process, supporting their growth inside and outside the classroom.</p>
+        </section>
 
-    <!-- Footer Section -->
+        <section id="publications">
+            <h3>Selected Publications</h3>
+            <ul>
+                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+            </ul>
+        </section>
+
+        <section id="research">
+            <h3>Research Topics</h3>
+            <p>My research focuses on areas such as [research area 1], [research area 2], and [research area 3]. My goal is to contribute to [specific goal or impact of your research].</p>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2024 Sooraj Soman</p>
+        <p>&copy; 2024 Your Name</p>
     </footer>
-
-    <!-- Optional JavaScript -->
-    <script src="script.js"></script>
 </body>
-
 </html>
+
+/* CSS - style.css */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    margin-bottom: 0;
+}
+
+header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #1e90ff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
