@@ -20,27 +20,28 @@
     </header>
     
     <div class="container">
-        <div class="profile">
-            <img src="profile_pic.jpg" alt="Sooraj Soman" class="profile-photo">
-            <h1>Sooraj Soman</h1>
-            <h2>PhD Student in Quantum Computing</h2>
-            <p>Missouri S&T</p>
-            <div class="social-links">
-                <a href="mailto:ss4kx@umsystem.edu"><i class="fas fa-envelope"></i></a>
-                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <div class="profile-section">
+            <div class="profile">
+                <img src="profile_pic.jpg" alt="Sooraj Soman" class="profile-photo">
+                <h1>Sooraj Soman</h1>
+                <h2>PhD Student in Quantum Computing</h2>
+                <p>Missouri S&T</p>
+                <div class="social-links">
+                    <a href="mailto:ss4kx@umsystem.edu"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
-        </div>
-
-        <div class="main-content">
-            <section id="about">
+            <div class="about">
                 <h3>About Me</h3>
                 <p>I am a passionate researcher in the field of quantum computing, specializing in theoretical quantum computing, graph theory, and mathematics. My current research focuses on exploring the applications of quantum walks in topological data analysis. In essence, I am deeply interested in harnessing quantum algorithms to provide novel solutions to complex problems in these fields.</p>
                 <p>In addition to my research work, I am a dedicated teacher and have helped guide students through complex subjects in quantum computing, enhancing their understanding and skills beyond the classroom. I am also an advocate for fostering an inclusive and supportive academic environment where students can excel and contribute meaningfully.</p>
                 <p>Before entering academia, I worked as a teaching assistant and actively contributed to open source projects in computational mathematics.</p>
-            </section>
+            </div>
+        </div>
 
+        <div class="main-content">
             <section id="current-roles">
                 <h3>Current Roles</h3>
                 <ul>
@@ -120,16 +121,21 @@ header nav ul li a:hover {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
 }
 
+.profile-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
 .profile {
     text-align: center;
+    flex: 1;
 }
 
 .profile-photo {
@@ -150,8 +156,11 @@ header nav ul li a:hover {
     color: #1e90ff;
 }
 
+.about {
+    flex: 2;
+}
+
 .main-content {
-    margin-top: 40px;
     text-align: left;
 }
 
