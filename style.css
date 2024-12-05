@@ -37,20 +37,29 @@ footer {
     color: #333;
     font-size: 0.9rem;
 }
-/* Ensure the row aligns items to the top */
-.row.align-items-center {
-    display: flex;
-    align-items: flex-start; /* Align content at the top */
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+/* Force profile picture to align at the top */
+.row {
+    align-items: flex-start; /* Ensures columns align at the top */
 }
 
-/* Left column styling for profile */
-.col-md-4 {
+/* Remove unnecessary padding/margin from columns */
+.col-md-4, .col-md-8 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+/* Profile picture styling */
+.profile-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center-align the image and text within the column */
-    justify-content: flex-start; /* Ensure alignment starts from the top */
-    margin-top: 0;
+    align-items: center;
+    justify-content: flex-start; /* Align content at the top */
+    height: 100%; /* Ensures alignment across varying heights */
+}
+
+/* Remove extra space between sections */
+section {
+    margin-bottom: 20px;
 }
 
 /* Right column spacing fix */
