@@ -15,7 +15,7 @@ header {
 }
 
 .header-content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -51,17 +51,16 @@ header {
 /* About Me Section Styling */
 .about-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .left-column {
-    flex: 1;
-    max-width: 30%;
+    width: 30%;
     text-align: center;
     padding-right: 20px;
     display: flex;
@@ -70,7 +69,7 @@ header {
 }
 
 .right-column {
-    flex: 2;
+    width: 70%;
     padding-left: 20px;
 }
 
@@ -99,42 +98,37 @@ header {
 /* Interests and Education Section */
 .interests-education {
     display: flex;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 40px; /* Space between columns */
 }
 
-.interests,
-.education {
-    flex: 1;
-    padding: 20px;
-    background-color: #f8f8f8;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.interests, .education {
+    flex: 1; /* Make sure both sections are equal width */
+    padding: 10px;
 }
 
-.interests h2,
-.education h2 {
+.interests h2, .education h2 {
     color: #0077b5;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
 }
 
-.interests ul,
-.education ul {
+.interests ul, .education ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.interests ul li,
-.education ul li {
+.interests ul li, .education ul li {
     margin: 10px 0;
-    font-size: 1rem;
+}
+
+.education ul li i {
+    margin-right: 8px;
+    color: #333;
 }
 
 /* Media Query for Smaller Screens */
@@ -144,17 +138,14 @@ header {
         align-items: center;
     }
 
-    .left-column,
-    .right-column,
-    .interests,
-    .education {
+    .left-column, .right-column {
         width: 100%;
         text-align: center;
     }
 
     .interests-education {
-        flex-direction: column;
-        row-gap: 20px;
+        flex-direction: column; /* Stack the columns vertically */
+        row-gap: 20px;  /* Space between stacked sections */
     }
 }
 
