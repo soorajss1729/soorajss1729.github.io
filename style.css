@@ -23,14 +23,16 @@ body {
 .col-md-4 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start; /* Align items towards the top */
     align-items: center;
+    margin-top: 20px; /* Adjust this value as needed */
 }
 
 /* Profile Picture Styling */
 img {
     border: 3px solid #007acc;
     padding: 5px;
+    margin-top: -20px; /* Moves the image upwards to align with "About Me" */
 }
 
 /* Section Titles */
@@ -48,5 +50,5 @@ footer {
 
 /* Adjust Row for Vertical Alignment */
 .row {
-    align-items: center;
+    align-items: flex-start; /* Ensure all items align at the top */
 }
