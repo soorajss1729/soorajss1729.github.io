@@ -105,13 +105,13 @@
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        gap: 40px; /* Space between columns */
+        gap: 20px; /* Reduced gap for a more balanced look */
         align-items: flex-start; /* Align content to the top for consistency */
     }
 
     .interests,
     .education {
-        flex: 1;
+        width: 50%; /* Ensure both sections take up equal space */
         padding: 10px;
     }
 
@@ -153,8 +153,13 @@
         }
 
         .interests-education {
-            flex-direction: column;
+            flex-direction: column; /* Stack the columns vertically */
             row-gap: 20px; /* Space between stacked sections */
+        }
+
+        .interests,
+        .education {
+            width: 100%; /* Full width for each section on smaller screens */
         }
     }
 
