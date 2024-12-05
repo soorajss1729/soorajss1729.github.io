@@ -55,20 +55,24 @@ header {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* About Me Section Styling */
-.left-column {
-    text-align: center;
-    margin-bottom: 20px;
+/* About Section */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .profile-pic img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-bottom: 15px;
+}
+
+.about-text {
+    flex: 1;
 }
 
 .social-links {
@@ -86,32 +90,20 @@ header {
     color: #0077b5;
 }
 
-/* Details Section: Interests and Education */
-.single-section {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.single-section h2 {
+/* Interests and Education Sections */
+.section-container h2 {
     color: #0077b5;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
 }
 
-.single-section ul {
+.section-container ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.single-section ul li {
+.section-container ul li {
     margin: 10px 0;
     font-size: 1rem;
-}
-
-.single-section ul li i {
-    margin-right: 8px;
-    color: #333;
 }
 
 /* Footer Section */
