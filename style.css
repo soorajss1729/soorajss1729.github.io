@@ -97,7 +97,7 @@ header {
 /* Single Section Styling for Interests and Education */
 .single-section {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -126,20 +126,6 @@ header {
 .single-section ul li i {
     margin-right: 8px;
     color: #333;
-}
-
-/* Media Query for Smaller Screens */
-@media (max-width: 768px) {
-    .about-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .left-column,
-    .right-column {
-        width: 100%;
-        text-align: center;
-    }
 }
 
 /* Footer Section */
