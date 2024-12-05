@@ -9,6 +9,16 @@
 </head>
 <body>
     <header>
+        <div class="header-container">
+            <h1>Sooraj Soman</h1>
+            <h2>PhD Student in Quantum Computing at Missouri S&T</h2>
+            <div class="social-links">
+                <a href="mailto:ss4kx@umsystem.edu"><i class="fas fa-envelope"></i></a>
+                <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="#about">About me</a></li>
@@ -19,63 +29,43 @@
         </nav>
     </header>
     
-    <div class="container">
-        <div class="profile-section">
-            <div class="profile">
+    <main>
+        <section id="about">
+            <div class="about-container">
                 <img src="profile_pic.jpg" alt="Sooraj Soman" class="profile-photo">
-                <h1>Sooraj Soman</h1>
-                <h2>PhD Student in Quantum Computing</h2>
-                <p>Missouri S&T</p>
-                <div class="social-links">
-                    <a href="mailto:ss4kx@umsystem.edu"><i class="fas fa-envelope"></i></a>
-                    <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <div class="about-text">
+                    <h3>About Me</h3>
+                    <p>I am a passionate researcher in the field of quantum computing, specializing in theoretical quantum computing, graph theory, and mathematics. My current research focuses on exploring the applications of quantum walks in topological data analysis. In essence, I am deeply interested in harnessing quantum algorithms to provide novel solutions to complex problems in these fields.</p>
+                    <p>In addition to my research work, I am a dedicated teacher and have helped guide students through complex subjects in quantum computing, enhancing their understanding and skills beyond the classroom. I am also an advocate for fostering an inclusive and supportive academic environment where students can excel and contribute meaningfully.</p>
+                    <p>Before entering academia, I worked as a teaching assistant and actively contributed to open source projects in computational mathematics.</p>
                 </div>
             </div>
-            <div class="about">
-                <h3>About Me</h3>
-                <p>I am a passionate researcher in the field of quantum computing, specializing in theoretical quantum computing, graph theory, and mathematics. My current research focuses on exploring the applications of quantum walks in topological data analysis. In essence, I am deeply interested in harnessing quantum algorithms to provide novel solutions to complex problems in these fields.</p>
-                <p>In addition to my research work, I am a dedicated teacher and have helped guide students through complex subjects in quantum computing, enhancing their understanding and skills beyond the classroom. I am also an advocate for fostering an inclusive and supportive academic environment where students can excel and contribute meaningfully.</p>
-                <p>Before entering academia, I worked as a teaching assistant and actively contributed to open source projects in computational mathematics.</p>
-            </div>
-        </div>
+        </section>
 
-        <div class="main-content">
-            <section id="current-roles">
-                <h3>Current Roles</h3>
-                <ul>
-                    <li>Research Assistant in Quantum Computing at Missouri S&T</li>
-                    <li>Contributor to the Quantum Computing Stack Exchange</li>
-                    <li>Member of the Graph Theory and Quantum Computing Special Interest Group</li>
-                </ul>
-            </section>
+        <section id="teaching">
+            <h3>Teaching</h3>
+            <p>I have coordinated and taught courses on quantum computing, graph theory, and theoretical computer science. I strive to ensure that every student is visible and engaged in the learning process, supporting their growth both academically and personally.</p>
+        </section>
 
-            <section id="teaching">
-                <h3>Teaching</h3>
-                <p>I have coordinated and taught courses on quantum computing, graph theory, and theoretical computer science. I strive to ensure that every student is visible and engaged in the learning process, supporting their growth both academically and personally.</p>
-            </section>
+        <section id="publications">
+            <h3>Selected Publications</h3>
+            <ul>
+                <li>S. Soman, "Quantum Walks on Simplicial Complexes and Harmonic Homology: Application to Topological Data Analysis with Superpolynomial Speedups", <em>Quantum Information Processing</em>, 2024.</li>
+                <li>S. Soman, "A Study of Quantum Algorithms for Graph Theory Problems", <em>Journal of Theoretical Computer Science</em>, 2023.</li>
+                <li>S. Soman, "Exploring Quantum Walk-Based Search Algorithms", <em>International Journal of Quantum Computing</em>, 2023.</li>
+            </ul>
+        </section>
 
-            <section id="publications">
-                <h3>Selected Publications</h3>
-                <ul>
-                    <li>S. Soman, "Quantum Walks on Simplicial Complexes and Harmonic Homology: Application to Topological Data Analysis with Superpolynomial Speedups", <em>Quantum Information Processing</em>, 2024.</li>
-                    <li>S. Soman, "A Study of Quantum Algorithms for Graph Theory Problems", <em>Journal of Theoretical Computer Science</em>, 2023.</li>
-                    <li>S. Soman, "Exploring Quantum Walk-Based Search Algorithms", <em>International Journal of Quantum Computing</em>, 2023.</li>
-                </ul>
-            </section>
-
-            <section id="research">
-                <h3>Research Topics</h3>
-                <p>My research interests include:</p>
-                <ul>
-                    <li>Quantum walks and their applications in topological data analysis</li>
-                    <li>Graph theory and its intersection with quantum computing</li>
-                    <li>Development of quantum algorithms for complex computational problems</li>
-                </ul>
-            </section>
-        </div>
-    </div>
+        <section id="research">
+            <h3>Research Topics</h3>
+            <p>My research interests include:</p>
+            <ul>
+                <li>Quantum walks and their applications in topological data analysis</li>
+                <li>Graph theory and its intersection with quantum computing</li>
+                <li>Development of quantum algorithms for complex computational problems</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2024 Sooraj Soman</p>
@@ -90,59 +80,30 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
-
-header nav ul {
-    list-style: none;
     text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-header nav ul li a:hover {
-    color: #1e90ff;
-}
-
-.container {
-    max-width: 1000px;
-    margin: 40px auto;
     padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
-.profile-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 40px;
-    margin-bottom: 40px;
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.profile {
-    text-align: center;
-    flex: 1;
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
 }
 
-.profile-photo {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+header h2 {
+    font-size: 1.2em;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .social-links a {
@@ -156,12 +117,48 @@ header nav ul li a:hover {
     color: #1e90ff;
 }
 
-.about {
-    flex: 2;
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
 }
 
-.main-content {
-    text-align: left;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #1e90ff;
+}
+
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    flex: 1;
 }
 
 section {
@@ -171,8 +168,8 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: #fff;
-    width: 100%;
+    background-color: #f9f9f9;
+    color: #777;
+    border-top: 1px solid #ddd;
     margin-top: 40px;
 }
