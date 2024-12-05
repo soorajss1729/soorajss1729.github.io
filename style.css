@@ -1,76 +1,7 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-}
-
-/* Navbar Styling */
-.navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.nav-link {
-    font-weight: bold;
-    color: #007acc;
-}
-
-.nav-link:hover {
-    color: #0056b3;
-}
-
-/* Profile Picture */
-img {
-    border: 3px solid #007acc;
-    padding: 5px;
-}
-
-/* Section Titles */
-h2 {
-    color: #007acc;
-    margin-bottom: 10px;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #f1f1f1;
-    color: #333;
-    font-size: 0.9rem;
-}
-/* Force profile picture to align at the top */
-.row {
-    align-items: flex-start; /* Ensures columns align at the top */
-}
-
-/* Remove unnecessary padding/margin from columns */
-.col-md-4, .col-md-8 {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-/* Profile picture styling */
-.profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; /* Align content at the top */
-    height: 100%; /* Ensures alignment across varying heights */
-}
-
-/* Remove extra space between sections */
-section {
-    margin-bottom: 20px;
-}
-
-/* Right column spacing fix */
-.col-md-8 {
-    margin-top: 0;
-    padding-top: 0; /* Remove unnecessary padding */
-}
-/* Ensure the row aligns both columns at the top */
+/* Ensure the row aligns items to the top */
 .row.align-items-center {
     display: flex;
-    align-items: flex-start; /* Align items to the top */
+    align-items: flex-start; /* Align content at the top */
     gap: 20px; /* Add spacing between the two columns */
 }
 
