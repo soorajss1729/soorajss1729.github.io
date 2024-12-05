@@ -12,20 +12,20 @@
         <div class="header-container">
             <h1>Sooraj Soman</h1>
             <h2>PhD Student in Quantum Computing at Missouri S&T</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#research">Research Topics</a></li>
+            </ul>
             <div class="social-links">
                 <a href="mailto:ss4kx@umsystem.edu"><i class="fas fa-envelope"></i></a>
                 <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
                 <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#teaching">Teaching</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#research">Research Topics</a></li>
-            </ul>
         </nav>
     </header>
     
@@ -84,9 +84,10 @@ body {
 }
 
 header {
-    text-align: center;
     padding: 20px;
     border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
 }
 
 .header-container {
@@ -106,6 +107,37 @@ header h2 {
     margin-bottom: 20px;
 }
 
+nav {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1e90ff;
+}
+
 .social-links a {
     color: #333;
     margin: 0 10px;
@@ -117,27 +149,6 @@ header h2 {
     color: #1e90ff;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.1em;
-}
-
-nav ul li a:hover {
-    color: #1e90ff;
-}
-
 main {
     max-width: 800px;
     margin: 40px auto;
@@ -146,8 +157,10 @@ main {
 
 .about-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 30px;
+    text-align: center;
 }
 
 .profile-photo {
@@ -163,6 +176,7 @@ main {
 
 section {
     margin-bottom: 40px;
+    text-align: left;
 }
 
 footer {
