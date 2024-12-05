@@ -1,3 +1,4 @@
+/* General Page Styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -6,41 +7,79 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Header and Navigation Bar */
 header {
     background-color: #333;
-    color: #fff;
     padding: 10px 0;
-    text-align: center;
 }
 
-nav ul {
+.nav-bar ul {
     list-style: none;
+    text-align: center;
     padding: 0;
 }
 
-nav ul li {
+.nav-bar ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
-nav ul li a {
+.nav-bar ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* About Me Section Styling */
+.about-container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.left-column {
+    width: 30%;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.right-column {
+    width: 70%;
+    padding-left: 20px;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 30px;  /* Adjust icon size as needed */
+    height: 30px;
+}
+
+/* Section Styling */
 section {
     padding: 20px;
     margin: 10px auto;
     max-width: 800px;
     background-color: #fff;
-}
-
-.profile_pic img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 footer {
@@ -48,4 +87,5 @@ footer {
     padding: 10px 0;
     background-color: #333;
     color: #fff;
+    margin-top: 40px;
 }
