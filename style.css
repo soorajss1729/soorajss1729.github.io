@@ -56,23 +56,12 @@ header {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 /* About Me Section Styling */
 .left-column {
-    width: 30%;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin-bottom: 20px;
-}
-
-.right-column {
-    width: 100%;
 }
 
 .profile-pic img {
@@ -97,23 +86,22 @@ header {
     color: #0077b5;
 }
 
-/* Single Section for Interests and Education */
+/* Details Section: Interests and Education */
 .single-section {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .single-section h2 {
     color: #0077b5;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    text-align: left;
 }
 
 .single-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: left;
 }
 
 .single-section ul li {
