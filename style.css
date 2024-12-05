@@ -118,9 +118,10 @@ header {
 .interests ul, .education ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-.education ul li {
+.interests ul li, .education ul li {
     margin: 10px 0;
 }
 
