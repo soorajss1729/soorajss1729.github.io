@@ -23,16 +23,22 @@ body {
 .col-md-4 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Start aligning from the top */
+    justify-content: flex-start;
     align-items: center;
-    margin-top: -60px; /* Adjust this value to move the entire left column up */
+    position: relative; /* Make adjustments precise */
+    top: -30px; /* Move profile picture upwards */
 }
 
 /* Profile Picture Styling */
 img {
     border: 3px solid #007acc;
     padding: 5px;
-    margin-bottom: 20px; /* Add spacing between the picture and name */
+    margin-bottom: 15px;
+}
+
+/* Right Column Content */
+.col-md-8 {
+    margin-top: 20px; /* Align right column content with profile section */
 }
 
 /* Section Titles */
@@ -46,9 +52,4 @@ footer {
     background-color: #f1f1f1;
     color: #333;
     font-size: 0.9rem;
-}
-
-/* Adjust Row for Top Alignment */
-.row {
-    align-items: flex-start; /* Align all items at the top of the row */
 }
