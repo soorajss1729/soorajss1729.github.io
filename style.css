@@ -41,3 +41,18 @@ footer {
 .row.align-items-center {
     align-items: flex-start;
 }
+/* Ensure the row aligns items to the top */
+.row.align-items-center {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Adjust the margin for the profile picture section */
+.col-md-4 {
+    margin-top: 0;
+}
+
+/* Fine-tune the right column spacing */
+.col-md-8 {
+    margin-top: 0;
+}
