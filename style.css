@@ -97,18 +97,18 @@ header {
 
 /* Interests and Education Section */
 .interests-education {
-    display: grid;
-    grid-template-columns: 1fr 1fr;  /* Two equal-width columns */
-    column-gap: 40px;  /* Space between columns */
+    display: flex;
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    gap: 40px; /* Space between columns */
 }
 
 .interests, .education {
+    flex: 1; /* Make sure both sections are equal width */
     padding: 10px;
 }
 
@@ -144,8 +144,8 @@ header {
     }
 
     .interests-education {
-        grid-template-columns: 1fr;  /* Stack the columns vertically */
-        row-gap: 20px;  /* Add space between stacked sections */
+        flex-direction: column; /* Stack the columns vertically */
+        row-gap: 20px;  /* Space between stacked sections */
     }
 }
 
