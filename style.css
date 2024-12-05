@@ -37,22 +37,24 @@ footer {
     color: #333;
     font-size: 0.9rem;
 }
-/* Align the profile picture and content at the top */
-.row.align-items-center {
-    align-items: flex-start;
-}
 /* Ensure the row aligns items to the top */
 .row.align-items-center {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-start; /* Align content at the top */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
-/* Adjust the margin for the profile picture section */
+/* Left column styling for profile */
 .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align the image and text within the column */
+    justify-content: flex-start; /* Ensure alignment starts from the top */
     margin-top: 0;
 }
 
-/* Fine-tune the right column spacing */
+/* Right column spacing fix */
 .col-md-8 {
     margin-top: 0;
+    padding-top: 0; /* Remove unnecessary padding */
 }
