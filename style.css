@@ -9,36 +9,49 @@ body {
 
 /* Header and Navigation Bar */
 header {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-title h1 {
+    font-size: 1.8rem;
+    color: #333;
 }
 
 .nav-bar ul {
     list-style: none;
-    text-align: center;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .nav-bar ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 .nav-bar ul li a {
-    color: #fff;
+    color: #0077b5;
     text-decoration: none;
     font-weight: bold;
 }
 
 .nav-bar ul li a:hover {
-    color: #0077b5;  /* Add a hover effect */
+    color: #005b8a;
 }
 
 /* About Me Section Styling */
 .about-container {
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
@@ -73,7 +86,7 @@ header {
 
 .social-links a {
     margin: 0 10px;
-    font-size: 24px;  /* Adjust icon size as needed */
+    font-size: 24px;
     color: #333;
     text-decoration: none;
 }
@@ -82,19 +95,44 @@ header {
     color: #0077b5;
 }
 
-/* Section Styling */
-section {
+/* Interests and Education Section */
+.interests-education {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 40px auto;
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.interests, .education {
+    width: 45%;
+}
+
+.interests h2, .education h2 {
+    color: #0077b5;
+}
+
+.interests ul, .education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    margin: 10px 0;
+}
+
+.education ul li i {
+    margin-right: 8px;
+    color: #333;
+}
+
+/* Footer Section */
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px;
     background-color: #333;
     color: #fff;
     margin-top: 40px;
