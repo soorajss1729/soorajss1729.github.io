@@ -10,67 +10,71 @@
 <body>
     <div class="sidebar">
         <img src="profile_pic.jpg" alt="Your Photo" class="profile-photo">
-        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <div class="social-links">
+            <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://scholar.google.com/citations?user=yourID" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
     </div>
 
-    <header>
-        <h1>Your Name</h1>
-        <h2>PhD Student in [Your Field] at [Your Institution]</h2>
-    </header>
+    <div class="content">
+        <header>
+            <h1>Your Name</h1>
+            <h2>PhD Student in [Your Field] at [Your Institution]</h2>
+        </header>
 
-    <main>
-        <section id="about">
-            <h3>About Me</h3>
-            <p>I am a passionate researcher specializing in [your specialization area], with a focus on [key research topics]. My research interests span a variety of topics, including [topic 1], [topic 2], and [topic 3]. I actively work to integrate [specific interests, like social justice or diversity] into my research to promote an inclusive approach. I am also an experienced teacher, having helped students develop skills that go beyond the classroom.</p>
-            <p>Before entering academia, I worked as [previous professional experience].</p>
-        </section>
+        <main>
+            <section id="about">
+                <h3>About Me</h3>
+                <p>I am a passionate researcher specializing in [your specialization area], with a focus on [key research topics]. My research interests span a variety of topics, including [topic 1], [topic 2], and [topic 3]. I actively work to integrate [specific interests, like social justice or diversity] into my research to promote an inclusive approach. I am also an experienced teacher, having helped students develop skills that go beyond the classroom.</p>
+                <p>Before entering academia, I worked as [previous professional experience].</p>
+            </section>
 
-        <section id="interests">
-            <h3>Interests</h3>
-            <div class="box">
+            <section id="interests">
+                <h3>Interests</h3>
+                <div class="box">
+                    <ul>
+                        <li>Quantum Computing</li>
+                        <li>Graph Theory</li>
+                        <li>Mathematics</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="current-roles">
+                <h3>Current Roles</h3>
                 <ul>
-                    <li>Quantum Computing</li>
-                    <li>Graph Theory</li>
-                    <li>Mathematics</li>
+                    <li>Chair of [Special Interest Group or Committee]</li>
+                    <li>Co-founder of [Research Group or Network]</li>
+                    <li>Editor-in-Chief of [Journal Name]</li>
                 </ul>
-            </div>
-        </section>
+            </section>
 
-        <section id="current-roles">
-            <h3>Current Roles</h3>
-            <ul>
-                <li>Chair of [Special Interest Group or Committee]</li>
-                <li>Co-founder of [Research Group or Network]</li>
-                <li>Editor-in-Chief of [Journal Name]</li>
-            </ul>
-        </section>
+            <section id="teaching">
+                <h3>Teaching</h3>
+                <p>I have coordinated and taught courses on [list of subjects or fields]. I strive to make sure every student is visible and engaged in the learning process, supporting their growth inside and outside the classroom.</p>
+            </section>
 
-        <section id="teaching">
-            <h3>Teaching</h3>
-            <p>I have coordinated and taught courses on [list of subjects or fields]. I strive to make sure every student is visible and engaged in the learning process, supporting their growth inside and outside the classroom.</p>
-        </section>
+            <section id="publications">
+                <h3>Selected Publications</h3>
+                <ul>
+                    <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+                    <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+                    <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
+                </ul>
+            </section>
 
-        <section id="publications">
-            <h3>Selected Publications</h3>
-            <ul>
-                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
-                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
-                <li>Author(s), "Title of Paper", <em>Journal Name</em>, Year.</li>
-            </ul>
-        </section>
+            <section id="research">
+                <h3>Research Topics</h3>
+                <p>My research focuses on areas such as [research area 1], [research area 2], and [research area 3]. My goal is to contribute to [specific goal or impact of your research].</p>
+            </section>
+        </main>
 
-        <section id="research">
-            <h3>Research Topics</h3>
-            <p>My research focuses on areas such as [research area 1], [research area 2], and [research area 3]. My goal is to contribute to [specific goal or impact of your research].</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Your Name</p>
+        </footer>
+    </div>
 </body>
 </html>
 
@@ -90,6 +94,8 @@ body {
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: fixed;
+    height: 100vh;
 }
 
 .sidebar img.profile-photo {
@@ -99,7 +105,7 @@ body {
     margin-bottom: 15px;
 }
 
-.sidebar a {
+.sidebar .social-links a {
     color: #fff;
     margin: 10px;
     display: inline-block;
@@ -107,12 +113,17 @@ body {
     font-size: 1.5em;
 }
 
-.sidebar a:hover {
+.sidebar .social-links a:hover {
     color: #1e90ff;
 }
 
-header {
+.content {
+    margin-left: 270px;
     flex-grow: 1;
+    padding: 20px;
+}
+
+header {
     text-align: center;
     padding: 20px;
     background-color: #333;
