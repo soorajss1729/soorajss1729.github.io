@@ -48,28 +48,31 @@ header {
     color: #005b8a;
 }
 
-/* About Me Section Styling */
-.about-container {
-    display: flex;
+/* Section Container Styling */
+.section-container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
+/* About Me Section Styling */
 .left-column {
     width: 30%;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .right-column {
-    width: 70%;
+    width: 100%;
 }
 
 .profile-pic img {
@@ -94,28 +97,23 @@ header {
     color: #0077b5;
 }
 
-/* Single Section Styling for Interests and Education */
+/* Single Section for Interests and Education */
 .single-section {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .single-section h2 {
     color: #0077b5;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .single-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .single-section ul li {
