@@ -1,37 +1,39 @@
-/* Ensure the row aligns items to the top */
-.row.align-items-center {
-    display: flex;
-    align-items: flex-start; /* Align content at the top */
-    gap: 20px; /* Add spacing between the two columns */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
-/* Left Column: Profile Section */
-.col-md-4 {
-    flex: 0 0 auto; /* Prevent the column from stretching */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center align the profile elements horizontally */
-    justify-content: flex-start; /* Align elements to the top */
-    margin-top: 0;
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Right Column: Content Section */
-.col-md-8 {
-    flex: 1; /* Allow this column to take remaining space */
-    margin-top: 0;
+.nav-link {
+    font-weight: bold;
+    color: #007acc;
 }
 
-/* Profile Picture Styling */
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* Profile Picture */
 img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
     border: 3px solid #007acc;
     padding: 5px;
 }
 
-/* Remove extra spacing between sections */
-section {
-    margin-bottom: 30px;
+/* Section Titles */
+h2 {
+    color: #007acc;
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 0.9rem;
 }
