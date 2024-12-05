@@ -7,8 +7,9 @@
     <title>Sooraj Soman | Personal Website</title>
 </head>
 <body>
+    <!-- Header Section with Navigation Bar -->
     <header>
-        <nav>
+        <nav class="nav-bar">
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#education">Education</a></li>
@@ -18,23 +19,30 @@
         </nav>
     </header>
     
-    <section id="about">
-        <div class="profile-pic">
-            <img src="profile_pic.jpg" alt="Sooraj Soman">
+    <!-- About Me Section -->
+    <section id="about" class="about-container">
+        <div class="left-column">
+            <div class="profile-pic">
+                <img src="profile_pic.jpg" alt="Sooraj Soman">
+            </div>
+            <div class="social-links">
+                <a href="mailto:ss4kx@umsystem.edu"><img src="email-icon.png" alt="Email"></a>
+                <a href="https://linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            </div>
         </div>
-        <h1>Sooraj Soman</h1>
-        <p>PhD student in Quantum Computing at Missouri S&T...</p>
-        <div class="social-links">
-            <a href="mailto:ss4kx@umsystem.edu"><img src="email-icon.png" alt="Email"></a>
-            <a href="https://linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        <div class="right-column">
+            <h1>Sooraj Soman</h1>
+            <p>PhD student in Quantum Computing at Missouri S&T. Passionate about theoretical quantum computing, graph theory, and mathematics. Currently exploring the applications of quantum walks in topological data analysis.</p>
         </div>
     </section>
     
+    <!-- Education Section -->
     <section id="education">
         <h2>Education</h2>
         <p>PhD in Quantum Computing, Missouri S&T...</p>
     </section>
     
+    <!-- Interests Section -->
     <section id="interests">
         <h2>Interests</h2>
         <ul>
@@ -44,11 +52,13 @@
         </ul>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: ss4kx@umsystem.edu</p>
     </section>
 
+    <!-- Footer Section -->
     <footer>
         <p>&copy; 2024 Sooraj Soman</p>
     </footer>
