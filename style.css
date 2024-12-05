@@ -67,3 +67,40 @@ section {
     margin-top: 0;
     padding-top: 0; /* Remove unnecessary padding */
 }
+/* Ensure the row aligns both columns at the top */
+.row.align-items-center {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Add spacing between the two columns */
+}
+
+/* Left Column: Profile Section */
+.col-md-4 {
+    flex: 0 0 auto; /* Prevent the column from stretching */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the profile elements horizontally */
+    justify-content: flex-start; /* Align elements to the top */
+    margin-top: 0;
+}
+
+/* Right Column: Content Section */
+.col-md-8 {
+    flex: 1; /* Allow this column to take remaining space */
+    margin-top: 0;
+}
+
+/* Profile Picture Styling */
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #007acc;
+    padding: 5px;
+}
+
+/* Remove extra spacing between sections */
+section {
+    margin-bottom: 30px;
+}
