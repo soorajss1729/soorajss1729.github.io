@@ -97,19 +97,19 @@ header {
 
 /* Interests and Education Section */
 .interests-education {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
     max-width: 1000px;
     margin: 40px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    gap: 20px; /* Add some gap between columns */
 }
 
 .interests, .education {
-    width: 48%;
+    padding: 10px;
 }
 
 .interests h2, .education h2 {
