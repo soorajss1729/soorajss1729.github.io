@@ -8,10 +8,10 @@ main:
   - title: "Mathematics"
     url: /publications/
 
-  - title: "Quantum Computing"
+#  - title: "Quantum Computing"
     url: /publications/
 
-  - title: "Publications"
+#  - title: "Publications"
     url: /publications/
 
   - title: "Talks"
