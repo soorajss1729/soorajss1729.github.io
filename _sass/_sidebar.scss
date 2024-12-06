@@ -18,8 +18,6 @@
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
     position: fixed;
     padding-top: $masthead-height;
-    width: auto; // Adjust width dynamically 
-    max-width: 100%; // Prevent overflow beyond container 
   }
 
   @include breakpoint($large) {
@@ -59,22 +57,18 @@
 }
 
 .sidebar__right {
-  
   margin-bottom: 1em;
 
   @include breakpoint($large) {
     position: relative;
     float: right;
-    width: auto;
-    max-width: 100%; // Prevent overflow
-    min-width: 250px; // Ensure a reasonable minimum width
+    width: $right-sidebar-width-narrow;
     margin-left: span(0.5 of 12);
     z-index: 10;
   }
 
   @include breakpoint($x-large) {
-    width: auto;
-    max-width: 500px; // Optional: Cap the maximum width for large screens
+    width: $right-sidebar-width;
   }
 }
 
