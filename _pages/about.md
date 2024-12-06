@@ -18,6 +18,18 @@ I am a passionate researcher in the field of theoretical quantum computing, focu
 - Quantum Algorithms
 - Theoretical Computer Science
 
+## Education
+
+**PhD in Computer Science (Theoretical Quantum Computing)**  
+Missouri University of Science and Technology, 2024-Present
+
+**Master of Science in Physics (Photonics)**  
+CUSAT, 2016-2018
+
+**Bachelor of Science in Physics**  
+CUSAT, 2013-2016
+
+
 A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
