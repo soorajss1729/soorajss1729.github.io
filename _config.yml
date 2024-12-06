@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : Sooraj Soman
+title                    : "<Sooraj Soman>"
 title_separator          : "-"
 name                     : &name Sooraj Soman
 description              : &description "personal description"
