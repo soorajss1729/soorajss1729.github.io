@@ -16,7 +16,6 @@ body {
 .nav-link {
     color: #007bff;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 .nav-link:hover {
@@ -26,24 +25,19 @@ body {
 .nav-icons a {
     color: #007bff;
     font-size: 1.2rem;
-    transition: color 0.3s ease;
-}
-
-.nav-icons a:hover {
-    color: #0056b3;
 }
 
 /* Profile Section */
 .profile-section {
     background-color: #ffffff;
-    padding: 25px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-pic {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
@@ -51,22 +45,21 @@ body {
 }
 
 .profile-section h3 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     color: #333;
 }
 
 .profile-section p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #555;
 }
 
 .profile-icons a {
     color: #007acc;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-decoration: none;
-    margin-right: 15px;
-    transition: color 0.3s ease;
+    margin-right: 10px;
 }
 
 .profile-icons a:hover {
@@ -75,7 +68,7 @@ body {
 
 /* About Section */
 .about-section {
-    padding: 30px;
+    padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -84,31 +77,15 @@ body {
 .about-section h2 {
     color: #007acc;
     margin-bottom: 20px;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
-.about-section p,
-.about-section ul {
+.about-section p {
     font-size: 1.1rem;
     color: #333;
-}
-
-.about-section ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.about-section ul li {
-    margin-bottom: 10px;
 }
 
 /* Main Content */
 .main-content {
     margin-top: 30px;
-}
-
-@media (max-width: 768px) {
-    .profile-section {
-        margin-bottom: 30px;
-    }
 }
