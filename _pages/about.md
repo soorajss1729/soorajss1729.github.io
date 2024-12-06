@@ -20,13 +20,13 @@ I am a passionate researcher in the field of theoretical quantum computing, focu
 
 ## Education
 
-**PhD in Computer Science (Theoretical Quantum Computing)**  
+🎓 **PhD in Computer Science (Theoretical Quantum Computing)**  
 Missouri University of Science and Technology, 2024-Present
 
-**Master of Science in Physics (Photonics)**  
+🎓 **Master of Science in Physics (Photonics)**  
 CUSAT, 2016-2018
 
-**Bachelor of Science in Physics**  
+🎓 **Bachelor of Science in Physics**  
 CUSAT, 2013-2016
 
 
