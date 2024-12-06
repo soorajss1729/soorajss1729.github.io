@@ -9,6 +9,15 @@ redirect_from:
 
 I am a passionate researcher in the field of theoretical quantum computing, focusing on quantum walks, simplicial complexes, and topological data analysis. My research spans from applying quantum algorithms to understanding complex systems. I am committed to collaborative work that pushes the boundaries of quantum computing to address emerging challenges in this exciting field. Before diving into quantum computing, I developed a strong background in advanced linear algebra and theoretical computer science. I have a passion for solving complex problems and bringing innovative solutions to life.
 
+## Interests
+
+- Quantum Walks
+- Simplicial Complexes
+- Topological Data Analysis
+- Advanced Linear Algebra
+- Quantum Algorithms
+- Theoretical Computer Science
+
 A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
