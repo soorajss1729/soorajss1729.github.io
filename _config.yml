@@ -25,7 +25,7 @@ author:
   name             : "Sooraj Soman"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  stackexchange    : "https://math.stackexchange.com/users/223599/sooraj-soman"
+  mathstackexchange    : "https://math.stackexchange.com/users/223599/sooraj-soman"
   location         : #"Earth"
   employer         : "Missouri University of Science and Technology"
   uri              : # URL
