@@ -33,21 +33,29 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 250px; /* Constrain the maximum width of the profile section */
-    margin: 0 auto; /* Center it horizontally */
+    text-align: center;
+}
+
+.profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile-pic {
-    width: 100%; /* Make sure it stays within its container */
-    max-width: 150px; /* Set a maximum width to prevent it from being too large */
+    width: 100%;
     height: auto;
-    border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #007acc;
 }
 
 .profile-section h3 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     color: #333;
 }
@@ -78,7 +86,7 @@ body {
 .about-section h2 {
     color: #007acc;
     margin-bottom: 15px;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .about-section p {
@@ -90,7 +98,8 @@ body {
 .main-content {
     margin-top: 30px;
     display: flex;
-    flex-wrap: wrap; /* Make sections wrap if they don’t fit in a row */
+    flex-wrap: nowrap;
     gap: 30px;
-    justify-content: space-between; /* Ensure proper spacing between sections */
+    align-items: flex-start;
+    justify-content: center;
 }
