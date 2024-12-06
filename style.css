@@ -1,39 +1,67 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Navbar Styling */
 .navbar {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link {
+    color: #333;
     font-weight: bold;
-    color: #007acc;
 }
 
 .nav-link:hover {
-    color: #0056b3;
+    color: #007bff;
 }
 
-/* Profile Picture */
-img {
-    border: 3px solid #007acc;
-    padding: 5px;
+.section {
+    padding: 100px 0;
 }
 
-/* Section Titles */
-h2 {
-    color: #007acc;
+.section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section p,
+.section ul {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section ul li {
     margin-bottom: 10px;
 }
 
-/* Footer Styling */
-footer {
-    background-color: #f1f1f1;
-    color: #333;
-    font-size: 0.9rem;
+#cv a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+#cv a:hover {
+    color: #0056b3;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
 }
