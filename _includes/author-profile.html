@@ -24,6 +24,17 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
+      
+      {% if author.stackexchange %}
+        <li>
+          <a href="{{ author.stackexchange }}" target="_blank">
+            <i class="fab fa-stack-exchange icon-pad-right" aria-hidden="true"></i>Stack Exchange
+          </a>
+        </li>
+      {% endif %}
+ 
+
+      
       {% if author.location %}
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
