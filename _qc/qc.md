@@ -8,4 +8,3 @@ classes: wide
 ---
 ## Quantum Computation and Quantum Information
 
-
