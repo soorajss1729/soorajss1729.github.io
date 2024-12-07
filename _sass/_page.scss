@@ -2,7 +2,7 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-main {
+#main {
   @include container;
   @include clearfix;
   margin-top: 2em;
