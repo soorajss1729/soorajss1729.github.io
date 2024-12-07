@@ -1,8 +1,8 @@
 ---
 title: ""
-permalink: /mathematics/
+permalink: /qc/
 layout: archive
-collection: mathematics
+collection: qc
 entries_layout: grid
 classes: wide
 ---
