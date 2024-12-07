@@ -32,7 +32,7 @@ Sooraj Soman<br>
 PhD Student, Computer Science Department<br>
 Missouri University of Science and Technology<br>  
 Rolla, MO - 65401, United States<br>  
-Email: <a href="ss4kx@mst.edu">ss4kx@mst.edu</a><a href="soorajss1729@gmail.com">soorajss1729@gmail.com</a>, <br>
+Email: <a href="ss4kx@mst.edu">ss4kx@mst.edu</a>, <a href="soorajss1729@gmail.com">soorajss1729@gmail.com</a>, <br>
 Phone: +1 573 537 0671, +91 94 00 63 5788<br>
 </div>
 
