@@ -219,6 +219,8 @@ kramdown:
 collections:
   mathematics:
     output: true
+  qc:
+    output: true
   teaching:
     output: true
     permalink: /:collection/:path/
