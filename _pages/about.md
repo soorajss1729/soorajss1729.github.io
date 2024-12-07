@@ -36,4 +36,4 @@ Email: <a href="ss4kx@mst.edu">ss4kx@mst.edu</a>, <a href="soorajss1729@gmail.co
 Phone: +1 573 537 0671, +91 94 00 63 5788<br>
 </div>
 
-#[soorajss1729@gmail.com](soorajss1729@gmail.com)
+<!-- [soorajss1729@gmail.com](soorajss1729@gmail.com) -->
