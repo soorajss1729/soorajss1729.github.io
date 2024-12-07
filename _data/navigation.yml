@@ -13,8 +13,7 @@ main:
     url: /mathematics#
     
   - title: "Quantum Computing"
-    url: /#qc
-
+    url: /qc/
 
 #  - title: "Publications"
     url: /publications/
