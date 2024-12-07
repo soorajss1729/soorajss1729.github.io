@@ -28,10 +28,10 @@ Cochin University of Science and Technology, 2017
 ## Contact
 
 <div style="font-size: 14px;">
-Sooraj Soman  
-PhD Student, Computer Science Department  
-Missouri University of Science and Technology  
-Rolla, MO - 65401, United States  
-Email: [ss4kx@mst.edu](ss4kx@mst.edu), [soorajss1729@gmail.com](soorajss1729@gmail.com)  
-Phone: +1 573 537 0671, +91 94 00 63 5788  
+Sooraj Soman<br>
+PhD Student, Computer Science Department<br>
+Missouri University of Science and Technology<br>  
+Rolla, MO - 65401, United States<br>  
+Email: [ss4kx@mst.edu](ss4kx@mst.edu), [soorajss1729@gmail.com](soorajss1729@gmail.com)<br>
+Phone: +1 573 537 0671, +91 94 00 63 5788<br>
 </div>
