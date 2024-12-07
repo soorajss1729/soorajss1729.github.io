@@ -6,11 +6,8 @@
 
 main:
 
-#  - title: "Interests"
-    url: /publications/
-
   - title: "About Me"
-    url: /#contact
+    url: /#about-me
 
   - title: "Mathematics"
     url: /publications/
