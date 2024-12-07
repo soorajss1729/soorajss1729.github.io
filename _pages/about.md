@@ -25,8 +25,6 @@ Missouri University of Science and Technology, 2024 - Present
 🎓 **Integrated MSc in Photonics**  
 Cochin University of Science and Technology, 2017
 
-[GitHub pages](https://pages.github.com/)
-
 ## Contact
 
 Sooraj Soman  
