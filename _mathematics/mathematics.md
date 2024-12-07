@@ -6,4 +6,4 @@ collection: mathematics
 entries_layout: grid
 classes: wide
 ---
-## Linrar Algebra
+## Linear Algebra
