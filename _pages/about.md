@@ -20,7 +20,7 @@ I am a passionate researcher in the field of theoretical quantum computing, focu
 ## Education
 
 🎓 **PhD in Computer Science (Theoretical Quantum Computing)**  
-Missouri University of Science and Technology, 2024 - Present
+Missouri University of Science and Technology, 2023 Fall - Present
 
 🎓 **Integrated MSc in Photonics**  
 Cochin University of Science and Technology, 2017
