@@ -11,12 +11,10 @@ I am a passionate researcher in the field of theoretical quantum computing, focu
 </div>
 ## Interests
 
-- Quantum Walks
-- Simplicial Complexes
-- Topological Data Analysis
+- Mathematical Constructs of Quantum Computing
+- Classical and Quantum Algorithms
 - Advanced Linear Algebra
-- Quantum Algorithms
-- Theoretical Computer Science
+- Group Theory
 
 ## Education
 
