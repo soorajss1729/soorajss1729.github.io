@@ -6,7 +6,7 @@
 
 main:
   - title: "About Me"
-    url: /#about-me
+    url: /#contact
 
 #  - title: "Interests"
     url: /publications/
