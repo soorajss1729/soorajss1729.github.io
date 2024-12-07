@@ -1,5 +1,5 @@
 # Welcome to Jekyll!
-#
+
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -19,9 +19,11 @@ repository               : "soorajss1729/soorajss1729.github.io"
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
+
 author:
+
   # Biographic information
-  avatar           : https://soorajss1729.github.io/images/profile.png
+#  avatar           : https://soorajss1729.github.io/images/profile.png
   name             : "Sooraj Soman"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
