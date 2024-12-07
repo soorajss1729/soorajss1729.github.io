@@ -10,7 +10,7 @@ main:
     url: /#about-me
 
   - title: "Mathematics"
-    url: /publications/
+    url: /mathematics#
 
   - title: "Quantum Computing"
     url: /publications/
