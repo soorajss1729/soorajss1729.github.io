@@ -23,14 +23,15 @@ repository               : "soorajss1729/soorajss1729.github.io"
 author:
 
   # Biographic information
-#  avatar           : https://soorajss1729.github.io/images/profile.png
+
+  avatar           : https://soorajss1729.github.io/images/profile.png
   name             : "Sooraj Soman"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   
   stackexchange    : "https://math.stackexchange.com/users/223599/sooraj-soman"
-  location         : #"Earth"
-  employer         : #"Missouri S & T"
+  location         : # "Earth"
+  employer         : # "Missouri S & T"
   uri              : # https://www.mst.edu/
   email            : "ss4kx@mst.edu" 
 
@@ -70,7 +71,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          :  
+  twitter          : # account
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
