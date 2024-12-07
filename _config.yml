@@ -219,6 +219,7 @@ kramdown:
 collections:
   mathematics:
     output: true
+    permalink: /:collection/:path/
   qc:
     output: true
     permalink: /:collection/:path/
