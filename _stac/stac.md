@@ -8,12 +8,13 @@ classes: wide
 ---
 
 <style>
-ul, ol {
-    text-align: justify;
+/* Restrict styling only to lists within this page */
+.page-content ul, .page-content ol {
     margin-right: auto;
-    max-width: 8.27in;
+    max-width: 8.27in; /* A4 width */
 }
 </style>
+
 
 ## Mathematics Stack Exchange
 
