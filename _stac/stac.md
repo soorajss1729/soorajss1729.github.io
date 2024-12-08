@@ -18,8 +18,7 @@ ul, ol {
 ## Mathematics Stack Exchange
 
 
-1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
-][1]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
+1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$][1]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
 2. [Understanding Filippov’s Inductive Proof for Jordan Canonical Form][2]: Provided a detailed explanation and visual aid for the proof after extended discussions.
 
