@@ -8,12 +8,26 @@ classes: wide
 ---
 
 <style>
+/* Ensure name stays on one line */
+header .site-title {
+    white-space: nowrap; /* Prevent breaking */
+    max-width: 100%;     /* Ensure full width is used */
+    overflow: hidden;    /* Avoid overflow */
+    text-align: left;    /* Align as needed */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 8.27in; /* Constrain overall page content */
+}
+
+/* Ensure list aligns within A4 width */
 ul, ol {
-    text-align-last: left; /* Prevents large gaps in the last line */
-    max-width: 8.27in; /* A4 width */
-    padding: 0; /* Remove padding for precise alignment */
+    text-align: left; /* Prevent justification gaps */
+    max-width: 8.27in; /* A4 size constraint */
+    margin-right: auto; /* Center content */
+    padding: 0; /* Remove extra padding */
 }
 </style>
+
 
 
 
