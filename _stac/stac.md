@@ -9,8 +9,7 @@ classes: wide
 
 ## Mathematics Stack Exchange
 
-1. [1. Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
-](https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
+1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$](https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
 2. [Understanding Filippov’s Inductive Proof for Jordan Canonical Form](https://math.stackexchange.com/questions/...): Provided a detailed explanation and visual aid for the proof after extended discussions.
 
