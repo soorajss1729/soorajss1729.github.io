@@ -10,10 +10,8 @@ classes: wide
 <style>
 ul, ol {
     text-align-last: left; /* Prevents large gaps in the last line */
-    margin: 0 auto; /* Center content horizontally */
     max-width: 8.27in; /* A4 width */
     padding: 0; /* Remove padding for precise alignment */
-    line-height: 1.8; /* Improve readability */
 }
 </style>
 
