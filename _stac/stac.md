@@ -24,9 +24,7 @@ ul, ol {
 1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
 ][1]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
-<div class="text-block">
 2. [Understanding Filippov’s Inductive Proof for Jordan Canonical Form][2]: Provided a detailed explanation and visual aid for the proof after extended discussions.
-</div>
 
 3. [Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$][3]: Initiated and contributed to a detailed discussion on the trace properties of tensor products.
 
