@@ -11,8 +11,8 @@ classes: wide
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: auto;
     margin-left: auto; /* Center align horizontally */
+    margin-right: auto;
     max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
@@ -28,6 +28,7 @@ classes: wide
 
 4. [The median minimizes the sum of absolute deviations (the $\ell_1$ norm)](https://math.stackexchange.com/questions/...): Provided a detailed explanation of a standard proof with an original example.
 </div>
+
 
 
   [1]: https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296
