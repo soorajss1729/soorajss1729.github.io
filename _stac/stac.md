@@ -21,6 +21,7 @@ classes: wide
 ## Mathematics Stack Exchange
 
 <div class="text-block">
+
 1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
 ][1]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
