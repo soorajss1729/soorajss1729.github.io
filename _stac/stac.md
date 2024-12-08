@@ -8,32 +8,28 @@ classes: wide
 ---
 
 <style>
-/* Adjust site title to stay in one line */
+/* Ensure "SOORAJ SOMAN" does not break into two lines */
 header .site-title {
-    display: block;
-    white-space: nowrap; /* Prevent wrapping */
-    overflow: hidden; /* Ensure text doesn't overflow */
-    text-overflow: ellipsis; /* Add ellipsis if too long */
-    margin: 0 auto; /* Center title */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Prevent content overflow */
+    text-overflow: ellipsis; /* Truncate with ellipsis if too long */
+    max-width: 100%; /* Ensure it doesn't exceed available width */
+    text-align: center; /* Center-align the text */
+    margin: 0 auto; /* Center in the header */
 }
 
-/* Ensure lists are constrained to A4 width */
-ul, ol {
-    text-align: justify;
-    max-width: 8.27in; /* A4 width */
-    margin: 0 auto; /* Center horizontally */
-    padding: 0; /* Remove default padding */
-}
-
-/* Address body margins */
-body {
-    margin: 0; /* Remove all body-level margins */
-}
-
-/* Adjust global header spacing */
+/* Adjust the header container to fit content */
 header {
-    margin-bottom: 0; /* Ensure no unnecessary spacing below */
-    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for proper layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 0; /* Remove unnecessary padding */
+    margin: 0; /* Remove unnecessary margin */
+}
+
+/* Prevent any layout shifts in the header */
+header .logo, header .site-title {
+    flex-shrink: 0; /* Prevent shrinking of elements */
 }
 </style>
 
