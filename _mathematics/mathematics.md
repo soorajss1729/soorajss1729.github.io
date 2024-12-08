@@ -5,6 +5,7 @@ layout: archive
 collection: mathematics
 entries_layout: grid
 classes: wide
+
 <style>
 .text-block {
     text-align: justify;
@@ -12,6 +13,7 @@ classes: wide
     margin-right: 5%; /* Adjust this value as needed */
 }
 </style>
+
 ## Linear Algebra
 <a name="linear-algebra"></a>
 <div class="text-block">
