@@ -25,25 +25,43 @@ classes: wide
 
 
 <style>
-  ul.toc {
-    list-style: none;
-    padding: 0;
-  }
-  ul.toc li {
-    margin: 10px 0;
-  }
-  ul.toc li a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  ul.toc li a:hover {
-    text-decoration: underline;
-  }
+    .toc {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        max-width: 600px;
+        margin: 20px auto;
+    }
+    .toc h2 {
+        font-size: 1.5em;
+        color: #333;
+        text-align: center;
+        text-transform: none; /* Ensure title is not in uppercase */
+    }
+    .toc ul {
+        list-style: none;
+        padding: 0;
+    }
+    .toc li {
+        margin: 10px 0;
+    }
+    .toc a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 1.1em;
+        text-transform: none; /* Ensure links are not in uppercase */
+    }
+    .toc a:hover {
+        text-decoration: underline;
+    }
 </style>
 
-<h2>table of contents</h2>
-<ul class="toc">
-    <li>Chapter 1. <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">matrices - introduction</a></li>
-    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">determinants</a></li>
-    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">eigenvalues and eigenvectors</a></li>
-</ul>
+<div class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a></li>
+        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">Determinants</a></li>
+        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a></li>
+    </ul>
+</div>
