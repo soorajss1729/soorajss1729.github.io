@@ -7,22 +7,27 @@ entries_layout: grid
 classes: wide
 ---
 
-## Mathematics Stack Exchange
 <style>
 .text-block {
     text-align: justify;
     text-indent: 2em;
     margin-right: auto;
+    margin-left: auto; /* Center align horizontally */
     max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
 
- 1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq 1/2$ given $f(x) = -x \log_2 x$
-][2]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
- 2. [Understanding Filippov's Inductive Proof for Jordan Canonical Form][1]: Provided a detailed explanation and visual aid for the proof after extended discussions.
- 3. [Understanding the Expression $tr\Big(\rho(X\otimes I)\Big)=\sum_{a,b,a',b'} \rho_{ab,a'b'}X_{a,a'}\delta_{b,b'}$][3]: Initiated and contributed to a detailed discussion on the trace properties of tensor products.
- 4. [The median minimizes the sum of absolute deviations (the $ℓ_1$
- norm)][4]: Provided a detailed explanation of a standard proof with an original example.
+<div class="text-block">
+## Mathematics Stack Exchange
+
+1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq 1/2$ given $f(x) = -x \log_2 x$](https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
+
+2. [Understanding Filippov’s Inductive Proof for Jordan Canonical Form](https://math.stackexchange.com/questions/...): Provided a detailed explanation and visual aid for the proof after extended discussions.
+
+3. [Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$](https://math.stackexchange.com/questions/...): Initiated and contributed to a detailed discussion on the trace properties of tensor products.
+
+4. [The median minimizes the sum of absolute deviations (the $\ell_1$ norm)](https://math.stackexchange.com/questions/...): Provided a detailed explanation of a standard proof with an original example.
+</div>
 
 
   [1]: https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296
