@@ -172,10 +172,9 @@ classes: wide
 
 
 <iframe
-    id="pdf-viewer"
-    src="https://drive.google.com/file/d/1f3K9YLWhz6vVbn6-ZbezSaqHsPCz_uSk/preview#page=1"
+    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://drive.google.com/uc?id=1f3K9YLWhz6vVbn6-ZbezSaqHsPCz_uSk"
     width="100%"
-    height="600px"
+    height="800px"
     frameborder="0">
 </iframe>
 
