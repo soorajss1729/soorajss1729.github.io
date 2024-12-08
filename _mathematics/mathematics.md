@@ -178,12 +178,13 @@ classes: wide
 </div>
 
 
-<iframe 
-    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/soorajss1729/notes/main/lanotes-strang.pdf" 
-    width="100%" 
-    height="800px" 
+<iframe
+    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/soorajss1729/notes/main/lanotes-strang.pdf"
+    width="100%"
+    height="800px"
     frameborder="0">
 </iframe>
+
 
 
 <script>
