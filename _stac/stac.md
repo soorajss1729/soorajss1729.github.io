@@ -9,8 +9,6 @@ classes: wide
 
 <style>
 .text-block {
-    text-align: justify;
-    text-indent: 2em;
     margin-right: auto;
     margin-left: auto;
     max-width: 8.27in; /* A4 width */
