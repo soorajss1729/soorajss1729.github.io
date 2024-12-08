@@ -80,28 +80,52 @@ classes: wide
 <div class="toc">
     <h2>Table of Contents</h2>
     <ul>
+        <!-- Chapter 1 -->
         <li class="chapter-number">
             <a href="https://drive.google.com/file/d/<file_id_1>/preview" target="_blank">1. Matrices - Introduction</a>
             <ul class="subsection">
-                <li><a href="https://example.com/matrix_addition.pdf" target="_blank">- Matrix Addition</a></li>
-                <li><a href="https://example.com/matrix_multiplication.pdf" target="_blank">- Matrix Multiplication</a></li>
-                <li><a href="https://example.com/transpose.pdf" target="_blank">- Transpose of a Matrix</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id_1>/preview#page=13" target="_blank">- Matrix Addition</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id_1>/preview#page=15" target="_blank">- Matrix Multiplication</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id_1>/preview#page=17" target="_blank">- Transpose of a Matrix</a></li>
             </ul>
         </li>
+
+        <!-- Chapter 2 -->
         <li class="chapter-number">
-            <a href="https://drive.google.com/file/d/<file_id_2>/preview" target="_blank">2. Determinants</a>
+            <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=20" target="_blank">2. Determinants</a>
             <ul class="subsection">
-                <li><a href="https://example.com/properties_of_determinants.pdf" target="_blank">- Properties of Determinants</a></li>
-                <li><a href="https://example.com/cofactor_expansion.pdf" target="_blank">- Cofactor Expansion</a></li>
-                <li><a href="https://example.com/applications_of_determinants.pdf" target="_blank">- Applications of Determinants</a></li>
+                <!-- For non-contiguous pages -->
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=22" target="_blank">Properties of Determinants (Page 22)</a>
+                    <br>
+                    - <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=45" target="_blank">Properties of Determinants (Page 45)</a>
+                </li>
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=28" target="_blank">Cofactor Expansion (Page 28)</a>
+                    <br>
+                    - <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=50" target="_blank">Cofactor Expansion (Page 50)</a>
+                </li>
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_2>/preview#page=30" target="_blank">Applications of Determinants (Page 30)</a>
+                </li>
             </ul>
         </li>
+
+        <!-- Chapter 3 -->
         <li class="chapter-number">
-            <a href="https://drive.google.com/file/d/<file_id_3>/preview" target="_blank">3. Eigenvalues and Eigenvectors</a>
+            <a href="https://drive.google.com/file/d/<file_id_3>/preview#page=45" target="_blank">3. Eigenvalues and Eigenvectors</a>
             <ul class="subsection">
-                <li><a href="https://example.com/finding_eigenvalues.pdf" target="_blank">- Finding Eigenvalues</a></li>
-                <li><a href="https://example.com/finding_eigenvectors.pdf" target="_blank">- Finding Eigenvectors</a></li>
-                <li><a href="https://example.com/linear_transformations.pdf" target="_blank">- Applications in Linear Transformations</a></li>
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_3>/preview#page=47" target="_blank">Finding Eigenvalues (Page 47)</a>
+                </li>
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_3>/preview#page=50" target="_blank">Finding Eigenvectors (Page 50)</a>
+                    <br>
+                    - <a href="https://drive.google.com/file/d/<file_id_3>/preview#page=60" target="_blank">Finding Eigenvectors (Page 60)</a>
+                </li>
+                <li>
+                    - <a href="https://drive.google.com/file/d/<file_id_3>/preview#page=53" target="_blank">Applications in Linear Transformations (Page 53)</a>
+                </li>
             </ul>
         </li>
     </ul>
