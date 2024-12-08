@@ -10,7 +10,6 @@ classes: wide
 <style>
 ul, ol {
     text-align: justify;
-    text-indent: 2em;
     margin-right: auto;
     margin-left: auto;
     max-width: 8.27in;
