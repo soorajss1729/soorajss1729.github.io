@@ -188,7 +188,7 @@ classes: wide
 
 
 <iframe
-    src="https://USERNAME.github.io/notes/lanotes-strang.pdf"
+    src="https://soorajss1729.github.io/notes/lanotes-strang.pdf"
     width="100%"
     height="800px"
     frameborder="0">
