@@ -168,3 +168,19 @@ classes: wide
         </li>
     </ul>
 </div>
+
+
+<iframe
+    id="pdf-viewer"
+    src="https://drive.google.com/file/d/<file_id>/preview#page=1"
+    width="100%"
+    height="600px"
+    frameborder="0">
+</iframe>
+
+<script>
+function navigateToPage(pageNumber) {
+    const viewer = document.getElementById("pdf-viewer");
+    viewer.src = `https://drive.google.com/file/d/<file_id>/preview#page=${pageNumber}`;
+}
+</script>
