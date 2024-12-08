@@ -1,8 +1,8 @@
 ---
 title: ""
-permalink: /qc/
+permalink: /stac/
 layout: archive
-collection: qc
+collection: stac
 entries_layout: grid
 classes: wide
 ---
