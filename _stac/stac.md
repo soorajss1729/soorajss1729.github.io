@@ -8,11 +8,13 @@ classes: wide
 ---
 
 <style>
-.text-block {
+ul, ol {
+    text-align: justify;
+    text-indent: 2em;
     margin-right: auto;
     margin-left: auto;
-    max-width: 8.27in; /* A4 width */
-    line-height: 1.6; /* Optional for better readability */
+    max-width: 8.27in;
+    line-height: 1.6;
 }
 </style>
 
