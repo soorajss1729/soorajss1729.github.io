@@ -223,6 +223,10 @@ collections:
   qc:
     output: true
     permalink: /:collection/:path/
+collections:
+  stac:
+    output: true
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
