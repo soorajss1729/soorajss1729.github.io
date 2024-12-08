@@ -175,8 +175,8 @@ classes: wide
     src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://drive.google.com/uc?id=1f3K9YLWhz6vVbn6-ZbezSaqHsPCz_uSk"
     width="100%"
     height="800px"
-    frameborder="0">
-</iframe>
+    frameborder="0"
+></iframe>
 
 <script>
 function navigateToPage(pageNumber) {
