@@ -26,7 +26,6 @@ classes: wide
 
 <style>
     .toc {
-        background-color: #f9f9f9;
         padding: 15px;
         border-radius: 8px;
         border: 1px solid #ddd;
