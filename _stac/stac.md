@@ -7,17 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-<style>
-.text-block {
-    text-align: justify;
-    text-indent: 2em;
-    margin-left: auto; /* Center align horizontally */
-    margin-right: auto;
-    max-width: 8.27in; /* Constrain to A4 width */
-}
-</style>
-
-<div class="text-block">
 ## Mathematics Stack Exchange
 
 1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq 1/2$ given $f(x) = -x \log_2 x$](https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
