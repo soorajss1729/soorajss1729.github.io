@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 
+## Mathematics Stack Exchange
 <style>
 .text-block {
     text-align: justify;
@@ -15,8 +16,6 @@ classes: wide
     max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
-
-## Mathematics Stack Exchange
 
  1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq 1/2$ given $f(x) = -x \log_2 x$
 ][2]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
