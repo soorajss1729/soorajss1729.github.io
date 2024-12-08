@@ -223,7 +223,6 @@ collections:
   qc:
     output: true
     permalink: /:collection/:path/
-collections:
   stac:
     output: true
     permalink: /:collection/:path/
