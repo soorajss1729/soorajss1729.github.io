@@ -11,7 +11,6 @@ classes: wide
 ul, ol {
     text-align: justify;
     margin-right: auto;
-    margin-left: auto;
     max-width: 8.27in;
     line-height: 1.6;
 }
