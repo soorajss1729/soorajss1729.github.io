@@ -29,12 +29,16 @@ classes: wide
         border: none; /* Remove border */
         max-width: 100%; /* Align with text environment */
         margin: 20px 0; /* Add spacing above and below */
+        font-family: inherit; /* Use the same font as the page */
+        font-weight: normal; /* Ensure no bolding */
     }
     .toc h2 {
         font-size: 1.5em;
         color: #333;
         text-align: left; /* Align with text */
         text-transform: none; /* Ensure title is not in uppercase */
+        font-family: inherit; /* Use the same font as the page */
+        font-weight: normal; /* Ensure no bolding */
     }
     .toc ul {
         list-style: none; /* Remove bullets */
@@ -42,11 +46,15 @@ classes: wide
     }
     .toc li {
         margin: 10px 0;
+        font-weight: normal; /* Ensure no bolding */
     }
     .toc a {
         text-decoration: none;
         font-size: 1.1em;
         text-transform: none; /* Ensure links are not in uppercase */
+        font-family: inherit; /* Use the same font as the page */
+        font-weight: normal; /* Ensure no bolding */
+        color: inherit; /* Use the same color as normal text links */
     }
     .toc a:hover {
         text-decoration: underline;
@@ -54,6 +62,7 @@ classes: wide
     .toc .subsection {
         margin-left: 20px; /* Indent subsections */
         font-size: 0.95em; /* Slightly smaller font size for subsections */
+        font-weight: normal; /* Ensure no bolding */
     }
     .toc .subsection li::before {
         content: "- "; /* Add dash in front of subsections */
@@ -62,12 +71,12 @@ classes: wide
     .toc .chapter-number::before {
         content: counter(chapter) ". "; /* Numbering chapters */
         counter-increment: chapter;
-        font-weight: bold;
     }
     .toc {
         counter-reset: chapter; /* Reset numbering */
     }
 </style>
+
 
 <div class="toc">
     <h2>Table of Contents</h2>
