@@ -12,7 +12,6 @@ ul, ol {
     text-align: justify;
     margin-right: auto;
     max-width: 8.27in;
-    line-height: 1.6;
 }
 </style>
 
