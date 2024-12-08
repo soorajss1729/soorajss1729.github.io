@@ -8,14 +8,21 @@ classes: wide
 ---
 
 <style>
-/* Restrict styling to lists only within the content section of this page */
+/* Ensure styles are applied to list items within the content area */
 .page-content ul, .page-content ol {
     text-align: justify;
-    margin-left: auto; /* Ensure centered layout */
-    margin-right: auto; /* Add the right border/margin */
-    max-width: 8.27in; /* A4 width */
-    padding: 0; /* Reset padding for consistent spacing */
-    line-height: 1.6; /* Optional for better readability */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 8.27in; /* Constrain to A4 width */
+    padding-left: 1rem; /* Add some padding for list items */
+    line-height: 1.8; /* Improve readability */
+}
+
+/* Optionally, limit width of the entire page-content */
+.page-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
 
