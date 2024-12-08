@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 ---
 
+
 <style>
 .text-block {
     text-align: justify;
