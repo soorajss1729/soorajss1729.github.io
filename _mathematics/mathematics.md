@@ -44,7 +44,6 @@ classes: wide
         margin: 10px 0;
     }
     .toc a {
-        color: #007bff;
         text-decoration: none;
         font-size: 1.1em;
         text-transform: none; /* Ensure links are not in uppercase */
