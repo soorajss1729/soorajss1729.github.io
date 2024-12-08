@@ -7,38 +7,6 @@ entries_layout: grid
 classes: wide
 ---
 
-<style>
-/* Maintain A4 width with proper margins */
-body, .page-content {
-    margin: 0 auto; /* Center-align content */
-    max-width: 8.27in; /* A4 width */
-    padding-left: 1em; /* Add some padding for left margin */
-    padding-right: 1em; /* Add some padding for right margin */
-    box-sizing: border-box; /* Include padding in width calculations */
-}
-
-/* Ensure header is not affected by content-specific styles */
-header, header .site-title {
-    max-width: 100%; /* Ensure header uses full width */
-    margin: 0; /* Remove margins from header */
-}
-
-/* Fix for the list alignment */
-ul, ol {
-    text-align: justify; /* Justify list content */
-    padding: 0; /* Remove padding */
-    margin: 0 auto; /* Center list items */
-    max-width: 8.27in; /* Ensure list respects A4 width */
-    line-height: 1.6; /* Improve readability */
-}
-
-/* Prevent any overflow issues */
-* {
-    overflow-wrap: break-word; /* Ensure words wrap properly */
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
-}
-</style>
-
 
 
 ## Mathematics Stack Exchange
