@@ -9,8 +9,7 @@ classes: wide
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: auto; /* Adjust this value as needed */
-    max-width: 8.27in;
+    margin-right: 10%; /* Adjust this value as needed */
 }
 </style>
 ## Linear Algebra
