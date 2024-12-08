@@ -58,7 +58,7 @@ classes: wide
     counter-increment: subsection; /* Increment subsection */
 }
 .toc .subsection li::before {
-    content: counters(chapter, ".") "." counter(subsection) " "; /* Format as 1.1, 1.2 */
+    content: counter(chapter) "." counter(subsection) " "; /* Format as 1.1, 1.2 */
     color: #555;
     margin-right: 5px;
 }
@@ -75,6 +75,7 @@ classes: wide
     text-decoration: none;
     font-size: 0.95em;
     color: inherit; /* Matches website link color */
+    font-family: inherit;
 }
 .toc .link-numbers a:hover {
     text-decoration: underline;
