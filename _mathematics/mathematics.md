@@ -187,9 +187,10 @@ classes: wide
 
 
 
-<script>
-function navigateToPage(pageNumber) {
-    const viewer = document.getElementById("pdf-viewer");
-    viewer.src = `https://drive.google.com/file/d/<file_id>/preview#page=${pageNumber}`;
-}
-</script>
+<iframe
+    src="https://USERNAME.github.io/notes/lanotes-strang.pdf"
+    width="100%"
+    height="800px"
+    frameborder="0">
+</iframe>
+
