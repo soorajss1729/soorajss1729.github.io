@@ -11,7 +11,8 @@ classes: wide
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: 5%; /* Adjust this value as needed */
+    margin-right: auto; /* Adjust this value as needed */
+    max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
 
