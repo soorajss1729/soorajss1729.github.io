@@ -8,21 +8,20 @@ classes: wide
 ---
 
 <style>
-/* Ensure styles are applied to list items within the content area */
-.page-content ul, .page-content ol {
-    text-align: justify;
-    margin-right: auto;
+/* Target all ordered and unordered lists specifically on this page */
+ul, ol {
+    text-align: justify; /* Justify text for better readability */
     margin-left: auto;
+    margin-right: auto;
     max-width: 8.27in; /* Constrain to A4 width */
-    padding-left: 1rem; /* Add some padding for list items */
-    line-height: 1.8; /* Improve readability */
+    line-height: 1.8; /* Optional: Improve readability */
 }
 
-/* Optionally, limit width of the entire page-content */
-.page-content {
+/* Ensure proper margins for the entire body of the page */
+body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 8.27in; /* Constrain to A4 width */
+    max-width: 8.27in; /* Keep consistent with other pages */
 }
 </style>
 
