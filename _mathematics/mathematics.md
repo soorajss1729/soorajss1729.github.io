@@ -44,7 +44,7 @@ classes: wide
     font-size: 1.1em;
     font-family: inherit;
     font-weight: normal;
-    color: var(--link-color); /* Matches website link color */
+    color: inherit; /* Matches website link color */
 }
 .toc a:hover {
     text-decoration: underline;
@@ -75,7 +75,7 @@ classes: wide
     text-decoration: none;
     font-size: 0.95em;
     font-family: inherit;
-    color: var(--link-color); /* Matches website link color */
+    color: inherit; /* Matches website link color */
 }
 .toc .link-numbers a:hover {
     text-decoration: underline;
