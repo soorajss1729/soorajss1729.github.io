@@ -8,10 +8,14 @@ classes: wide
 ---
 
 <style>
-/* Restrict styling only to lists within this page */
+/* Restrict styling to lists only within the content section of this page */
 .page-content ul, .page-content ol {
-    margin-right: auto;
+    text-align: justify;
+    margin-left: auto; /* Ensure centered layout */
+    margin-right: auto; /* Add the right border/margin */
     max-width: 8.27in; /* A4 width */
+    padding: 0; /* Reset padding for consistent spacing */
+    line-height: 1.6; /* Optional for better readability */
 }
 </style>
 
