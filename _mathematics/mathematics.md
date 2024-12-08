@@ -44,7 +44,7 @@ classes: wide
     font-size: 1.1em;
     font-family: inherit;
     font-weight: normal;
-    color: inherit; /* Matches website link color */
+    color: var(--link-color); /* Matches website link color */
 }
 .toc a:hover {
     text-decoration: underline;
@@ -58,7 +58,7 @@ classes: wide
     counter-increment: subsection; /* Increment subsection */
 }
 .toc .subsection li::before {
-    content: counter(chapter) "." counter(subsection) " "; /* Format as 1.1, 1.2 */
+    content: counters(chapter, ".") "." counter(subsection) " "; /* Format as 1.1, 1.2 */
     color: #555;
     margin-right: 5px;
 }
@@ -74,8 +74,8 @@ classes: wide
 .toc .link-numbers a {
     text-decoration: none;
     font-size: 0.95em;
-    color: inherit; /* Matches website link color */
     font-family: inherit;
+    color: var(--link-color); /* Matches website link color */
 }
 .toc .link-numbers a:hover {
     text-decoration: underline;
