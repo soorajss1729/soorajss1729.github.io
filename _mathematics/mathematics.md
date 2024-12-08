@@ -15,58 +15,48 @@ classes: wide
     max-width: 8.27in; /* Constrain to A4 width */
 }
 .toc {
-    padding: 0;
-    border: none;
-    max-width: 100%;
-    margin: 20px 0;
-    font-family: inherit;
-    font-weight: normal;
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
+    max-width: 100%; /* Align with text environment */
+    margin: 20px 0; /* Add spacing above and below */
 }
 .toc h2 {
     font-size: 1.5em;
     color: #333;
-    text-align: left;
-    text-transform: none;
-    font-family: inherit;
-    font-weight: normal;
+    text-align: left; /* Align with text */
+    text-transform: none; /* Ensure title is not in uppercase */
+    font-family: inherit; /* Use the same font as the page */
 }
 .toc ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
 }
 .toc li {
     margin: 10px 0;
-    font-weight: normal;
-    text-transform: none;
 }
 .toc a {
     text-decoration: none;
     font-size: 1.1em;
-    font-family: inherit;
-    font-weight: normal;
-    color: inherit; /* Matches website link color */
+    font-family: inherit; /* Use same font */
+    color: inherit; /* Automatically matches website link color */
 }
 .toc a:hover {
     text-decoration: underline;
 }
 .toc .subsection {
-    margin-left: 20px;
-    font-size: 0.95em;
-    counter-reset: subsection; /* Reset subsection counter */
-}
-.toc .subsection li {
-    counter-increment: subsection; /* Increment subsection */
+    margin-left: 20px; /* Indent subsections */
+    font-size: 0.95em; /* Slightly smaller font size for subsections */
 }
 .toc .subsection li::before {
     content: counters(chapter, ".") "." counter(subsection) " "; /* Format as 1.1, 1.2 */
-    color: #555;
-    margin-right: 5px;
+    color: #555; /* Optional: Change dash color */
 }
 .toc .chapter-number {
     counter-increment: chapter; /* Increment chapter number */
 }
 .toc .chapter-number::before {
     content: counter(chapter) ". "; /* Add chapter number */
+    font-weight: bold;
 }
 .toc .link-numbers {
     margin-left: 5px;
@@ -74,8 +64,7 @@ classes: wide
 .toc .link-numbers a {
     text-decoration: none;
     font-size: 0.95em;
-    font-family: inherit;
-    color: inherit; /* Matches website link color */
+    color: inherit; /* Automatically matches website link color */
 }
 .toc .link-numbers a:hover {
     text-decoration: underline;
