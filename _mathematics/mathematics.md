@@ -179,18 +179,9 @@ classes: wide
 
 
 <iframe
-    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/soorajss1729/notes/main/la4.pdf"
+    src="https://raw.githubusercontent.com/soorajss1729/notes/main/la4.pdf"
     width="100%"
     height="800px"
-    frameborder="0">
-</iframe>
-
-
-
-<iframe
-    src="https://soorajss1729.github.io/notes/lanotes-strang.pdf"
-    width="100%"
-    height="800px"
-    frameborder="0">
+    style="border: none;">
 </iframe>
 
