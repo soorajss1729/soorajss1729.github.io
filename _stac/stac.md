@@ -17,7 +17,6 @@ classes: wide
 3. [Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$](https://math.stackexchange.com/questions/...): Initiated and contributed to a detailed discussion on the trace properties of tensor products.
 
 4. [The median minimizes the sum of absolute deviations (the $\ell_1$ norm)](https://math.stackexchange.com/questions/...): Provided a detailed explanation of a standard proof with an original example.
-</div>
 
 
 
