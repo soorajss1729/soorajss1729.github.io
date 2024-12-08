@@ -11,7 +11,8 @@ classes: wide
 /* Apply styling to the entire page content */
 body {
     max-width: 8.27in; /* A4 width */
-    margin: 0 auto; /* Center the content */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
     text-align: justify;
     line-height: 1.8; /* Improve readability */
 }
