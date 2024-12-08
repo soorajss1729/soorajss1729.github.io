@@ -34,16 +34,16 @@ classes: wide
   }
   ul.toc li a {
     text-decoration: none;
-    color: #007BFF;
+    color: #007bff;
   }
   ul.toc li a:hover {
     text-decoration: underline;
   }
 </style>
 
-<h2>Table of Contents</h2>
+<h2>table of contents</h2>
 <ul class="toc">
-    <li><a href="https://drive.google.com/file/d/<FILE_ID>/preview#page=12" target="_blank">Matrices - Introduction</a></li>
-    <li><a href="https://drive.google.com/file/d/<FILE_ID>/preview#page=20" target="_blank">Determinants</a></li>
-    <li><a href="https://drive.google.com/file/d/<FILE_ID>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a></li>
+    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">matrices - introduction</a></li>
+    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">determinants</a></li>
+    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">eigenvalues and eigenvectors</a></li>
 </ul>
