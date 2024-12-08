@@ -15,7 +15,6 @@ classes: wide
 }
 </style>
 
-
 ## Mathematics Stack Exchange
 
 
