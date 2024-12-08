@@ -14,7 +14,6 @@ ul, ol {
     margin-left: auto;
     margin-right: auto;
     max-width: 8.27in; /* Constrain to A4 width */
-    line-height: 1.8; /* Optional: Improve readability */
 }
 
 /* Ensure proper margins for the entire body of the page */
