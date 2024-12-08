@@ -179,7 +179,7 @@ classes: wide
 
 
 <iframe
-    src="https://raw.githubusercontent.com/soorajss1729/notes/main/la7.pdf"
+    src="https://soorajss1729.github.io/notes/la7.pdf"
     width="100%"
     height="800px"
     style="border: none;">
