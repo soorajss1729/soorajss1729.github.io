@@ -8,30 +8,37 @@ classes: wide
 ---
 
 <style>
-/* Ensure "SOORAJ SOMAN" does not break into two lines */
-header .site-title {
-    white-space: nowrap; /* Prevent text wrapping */
-    overflow: hidden; /* Prevent content overflow */
-    text-overflow: ellipsis; /* Truncate with ellipsis if too long */
-    max-width: 100%; /* Ensure it doesn't exceed available width */
-    text-align: center; /* Center-align the text */
-    margin: 0 auto; /* Center in the header */
+/* Maintain A4 width with proper margins */
+body, .page-content {
+    margin: 0 auto; /* Center-align content */
+    max-width: 8.27in; /* A4 width */
+    padding-left: 1em; /* Add some padding for left margin */
+    padding-right: 1em; /* Add some padding for right margin */
+    box-sizing: border-box; /* Include padding in width calculations */
 }
 
-/* Adjust the header container to fit content */
-header {
-    display: flex; /* Use flexbox for proper layout */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    padding: 0; /* Remove unnecessary padding */
-    margin: 0; /* Remove unnecessary margin */
+/* Ensure header is not affected by content-specific styles */
+header, header .site-title {
+    max-width: 100%; /* Ensure header uses full width */
+    margin: 0; /* Remove margins from header */
 }
 
-/* Prevent any layout shifts in the header */
-header .logo, header .site-title {
-    flex-shrink: 0; /* Prevent shrinking of elements */
+/* Fix for the list alignment */
+ul, ol {
+    text-align: justify; /* Justify list content */
+    padding: 0; /* Remove padding */
+    margin: 0 auto; /* Center list items */
+    max-width: 8.27in; /* Ensure list respects A4 width */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Prevent any overflow issues */
+* {
+    overflow-wrap: break-word; /* Ensure words wrap properly */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 </style>
+
 
 
 ## Mathematics Stack Exchange
