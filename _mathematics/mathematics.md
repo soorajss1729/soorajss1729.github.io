@@ -5,12 +5,13 @@ layout: archive
 collection: mathematics
 entries_layout: grid
 classes: wide
----
-<style>
+---<style>
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: 5%; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the block horizontally */
+    width: 8in; /* Adjusts the text block to A4 width */
+    max-width: 100%; /* Ensures it remains responsive */
 }
 </style>
 ## Linear Algebra
