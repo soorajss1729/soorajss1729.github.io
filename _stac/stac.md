@@ -7,6 +7,17 @@ entries_layout: grid
 classes: wide
 ---
 
+<style>
+.text-block {
+    text-align: justify;
+    text-indent: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 8.27in; /* A4 width */
+    line-height: 1.6; /* Optional for better readability */
+}
+</style>
+
 ## Mathematics Stack Exchange
 
 1. [Prove $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
