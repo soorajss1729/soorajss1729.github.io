@@ -8,19 +8,20 @@ classes: wide
 ---
 
 <style>
-/* Target all ordered and unordered lists specifically on this page */
-ul, ol {
-    text-align: justify; /* Justify text for better readability */
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 8.27in; /* Constrain to A4 width */
-}
-
-/* Ensure proper margins for the entire body of the page */
+/* Constrain the body width to A4 dimensions */
 body {
     margin-left: auto;
     margin-right: auto;
-    max-width: 8.27in; /* Keep consistent with other pages */
+    max-width: 8.27in; /* A4 width */
+    line-height: 1.8; /* Improve readability */
+}
+
+/* Target ordered and unordered lists for styling */
+ul, ol {
+    text-align: justify; /* Justify text for better alignment */
+    margin-left: 1.5em; /* Optional: Fine-tune left indentation */
+    margin-right: 1.5em; /* Ensure margin consistency */
+    line-height: 1.8; /* Maintain readability */
 }
 </style>
 
