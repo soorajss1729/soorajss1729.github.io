@@ -11,8 +11,8 @@ classes: wide
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: auto; /* Adjust as needed */
-    max-width: 8.27in; /* Constrain to A4 width */
+    margin-right: auto;
+    max-width: 8.27in;
 }
 .toc {
     padding: 0;
@@ -37,14 +37,14 @@ classes: wide
 .toc li {
     margin: 10px 0;
     font-weight: normal;
+    text-transform: none; /* Keeps original casing */
 }
 .toc a {
     text-decoration: none;
     font-size: 1.1em;
-    text-transform: none;
     font-family: inherit;
     font-weight: normal;
-    color: inherit; /* Matches website links */
+    color: inherit; /* Matches website link color */
 }
 .toc a:hover {
     text-decoration: underline;
@@ -70,7 +70,7 @@ classes: wide
 .toc .link-numbers a {
     text-decoration: none;
     font-size: 0.95em;
-    color: inherit; /* Matches website links */
+    color: inherit; /* Matches website link color */
 }
 .toc .link-numbers a:hover {
     text-decoration: underline;
