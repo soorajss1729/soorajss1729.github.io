@@ -43,7 +43,7 @@ classes: wide
 
 <h2>table of contents</h2>
 <ul class="toc">
-    <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">matrices - introduction</a></li>
+    <li>Chapter 1. <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">matrices - introduction</a></li>
     <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">determinants</a></li>
     <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">eigenvalues and eigenvectors</a></li>
 </ul>
