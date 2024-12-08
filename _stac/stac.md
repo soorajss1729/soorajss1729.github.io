@@ -8,24 +8,15 @@ classes: wide
 ---
 
 <style>
-/* Constrain the content width within the A4 dimensions */
-#content, .content, #main, .main {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 8.27in; /* A4 width */
-    padding-left: 1rem; /* Add padding to prevent text from touching edges */
-    padding-right: 1rem;
-    line-height: 1.8; /* Ensure readability */
-}
-
-/* Ensure list styling is adjusted properly */
 ul, ol {
-    text-align: justify;
-    line-height: 1.8;
-    padding-left: 2rem; /* Indent lists slightly for readability */
-    padding-right: 2rem;
+    text-align-last: left; /* Prevents large gaps in the last line */
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 8.27in; /* A4 width */
+    padding: 0; /* Remove padding for precise alignment */
+    line-height: 1.8; /* Improve readability */
 }
 </style>
+
 
 
 ## Mathematics Stack Exchange
