@@ -8,20 +8,33 @@ classes: wide
 ---
 
 <style>
-/* Prevent name breaking into two lines */
+/* Force header title to be inline and prevent wrapping */
 header .site-title {
-    display: inline-block; /* Force it to stay inline */
-    white-space: nowrap; /* Prevent wrapping */
-    margin-left: 0; /* Reset left margin */
-    margin-right: auto; /* Allow right alignment */
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: flex-start; /* Align to the left */
+    margin-left: 0;
+    margin-right: auto;
+    font-size: inherit; /* Keep the font consistent */
 }
 
-/* Adjust the list area */
+/* Correct list formatting and ensure proper width */
 ul, ol {
-    text-align: justify; /* Ensure even alignment */
-    max-width: 8.27in; /* Constrain width to A4 size */
-    margin: 0 auto; /* Center list block */
-    padding: 0; /* Remove extra padding */
+    text-align: justify;
+    max-width: 8.27in; /* A4 width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 0; /* Remove padding */
+}
+
+/* Fix margin for the content under the header */
+body {
+    margin-top: 0; /* Remove extra top margin */
+}
+
+/* Additional global resets */
+header {
+    display: block;
+    white-space: normal; /* Allow header spacing */
 }
 </style>
 
