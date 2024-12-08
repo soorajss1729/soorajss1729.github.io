@@ -8,36 +8,34 @@ classes: wide
 ---
 
 <style>
-/* Force header title to be inline and prevent wrapping */
+/* Adjust site title to stay in one line */
 header .site-title {
-    display: flex;
-    flex-wrap: nowrap; /* Prevent wrapping */
-    justify-content: flex-start; /* Align to the left */
-    margin-left: 0;
-    margin-right: auto;
-    font-size: inherit; /* Keep the font consistent */
+    display: block;
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Ensure text doesn't overflow */
+    text-overflow: ellipsis; /* Add ellipsis if too long */
+    margin: 0 auto; /* Center title */
 }
 
-/* Correct list formatting and ensure proper width */
+/* Ensure lists are constrained to A4 width */
 ul, ol {
     text-align: justify;
     max-width: 8.27in; /* A4 width */
     margin: 0 auto; /* Center horizontally */
-    padding: 0; /* Remove padding */
+    padding: 0; /* Remove default padding */
 }
 
-/* Fix margin for the content under the header */
+/* Address body margins */
 body {
-    margin-top: 0; /* Remove extra top margin */
+    margin: 0; /* Remove all body-level margins */
 }
 
-/* Additional global resets */
+/* Adjust global header spacing */
 header {
-    display: block;
-    white-space: normal; /* Allow header spacing */
+    margin-bottom: 0; /* Ensure no unnecessary spacing below */
+    padding: 0; /* Remove default padding */
 }
 </style>
-
 
 
 ## Mathematics Stack Exchange
