@@ -23,24 +23,22 @@ classes: wide
   <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S&T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
 </div>
 
-
 <style>
     .toc {
-        padding: 15px;
-        border-radius: 8px;
-        border: 1px solid #ddd;
-        max-width: 600px;
-        margin: 20px auto;
+        padding: 0; /* Remove padding */
+        border: none; /* Remove border */
+        max-width: 100%; /* Align with text environment */
+        margin: 20px 0; /* Add spacing above and below */
     }
     .toc h2 {
         font-size: 1.5em;
         color: #333;
-        text-align: center;
+        text-align: left; /* Align with text */
         text-transform: none; /* Ensure title is not in uppercase */
     }
     .toc ul {
-        list-style: none;
-        padding: 0;
+        list-style: none; /* Remove bullets */
+        padding: 0; /* Remove default padding */
     }
     .toc li {
         margin: 10px 0;
@@ -54,13 +52,38 @@ classes: wide
     .toc a:hover {
         text-decoration: underline;
     }
+    .toc .subsection {
+        margin-left: 20px; /* Indent subsections */
+        font-size: 0.95em; /* Slightly smaller font size for subsections */
+    }
 </style>
 
 <div class="toc">
     <h2>Table of Contents</h2>
     <ul>
-        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a></li>
-        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">Determinants</a></li>
-        <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a></li>
+        <li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=13" target="_blank">Matrix Addition</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=15" target="_blank">Matrix Multiplication</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=17" target="_blank">Transpose of a Matrix</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">Determinants</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=22" target="_blank">Properties of Determinants</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=25" target="_blank">Cofactor Expansion</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=28" target="_blank">Applications of Determinants</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=47" target="_blank">Finding Eigenvalues</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=50" target="_blank">Finding Eigenvectors</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=53" target="_blank">Applications in Linear Transformations</a></li>
+            </ul>
+        </li>
     </ul>
 </div>
