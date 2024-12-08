@@ -92,6 +92,13 @@ classes: wide
 
 <div class="toc">
     <h2>Table of Contents</h2>
+    
+<li>
+    <a href="#viewer" onclick="document.getElementById('pdf-viewer').src = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=https://drive.google.com/uc?id=1f3K9YLWhz6vVbn6-ZbezSaqHsPCz_uSk&page=75';">
+        Applications in Linear Transformations
+    </a>
+</li>
+
     <ul>
         <li class="chapter-number">
             <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a>
