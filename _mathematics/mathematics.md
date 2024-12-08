@@ -56,12 +56,24 @@ classes: wide
         margin-left: 20px; /* Indent subsections */
         font-size: 0.95em; /* Slightly smaller font size for subsections */
     }
+    .toc .subsection li::before {
+        content: "- "; /* Add dash in front of subsections */
+        color: #555; /* Optional: Change dash color */
+    }
+    .toc .chapter-number::before {
+        content: counter(chapter) ". "; /* Numbering chapters */
+        counter-increment: chapter;
+        font-weight: bold;
+    }
+    .toc {
+        counter-reset: chapter; /* Reset numbering */
+    }
 </style>
 
 <div class="toc">
     <h2>Table of Contents</h2>
     <ul>
-        <li>
+        <li class="chapter-number">
             <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a>
             <ul class="subsection">
                 <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=13" target="_blank">Matrix Addition</a></li>
@@ -69,7 +81,7 @@ classes: wide
                 <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=17" target="_blank">Transpose of a Matrix</a></li>
             </ul>
         </li>
-        <li>
+        <li class="chapter-number">
             <a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">Determinants</a>
             <ul class="subsection">
                 <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=22" target="_blank">Properties of Determinants</a></li>
@@ -77,7 +89,7 @@ classes: wide
                 <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=28" target="_blank">Applications of Determinants</a></li>
             </ul>
         </li>
-        <li>
+        <li class="chapter-number">
             <a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a>
             <ul class="subsection">
                 <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=47" target="_blank">Finding Eigenvalues</a></li>
