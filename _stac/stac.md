@@ -8,7 +8,7 @@ classes: wide
 ---
 ## Mathematics Stack Exchange
 
-1. [Prove $\ f(y) - f(x) \leq f(|y - x|) \ \text{if} \ |y - x| \leq \frac{1}{2} \ \text{given} \ f(x) = -x \log_2 x \ $](https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
+1. [Prove \( f(y) - f(x) \leq f(|y - x|) \) if \( |y - x| \leq 1/2 \) given \( f(x) = -x \log_2 x \)](https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x): Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
  2. [Understanding Filippov's Inductive Proof for Jordan Canonical Form][1]: Provided a detailed explanation and visual aid for the proof after extended discussions.
  3. [Understanding the Expression $tr\Big(\rho(X\otimes I)\Big)=\sum_{a,b,a',b'} \rho_{ab,a'b'}X_{a,a'}\delta_{b,b'}$][3]: Initiated and contributed to a detailed discussion on the trace properties of tensor products.
