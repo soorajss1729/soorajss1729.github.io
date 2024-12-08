@@ -9,10 +9,8 @@ classes: wide
 <style>
 .text-block {
     text-align: justify;
-}
-
-.text-block p {
     text-indent: 2em;
+    margin-right: 5%; /* Adjust this value as needed */
 }
 </style>
 ## Linear Algebra
