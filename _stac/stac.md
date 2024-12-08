@@ -30,6 +30,7 @@ classes: wide
 
 4. [The median minimizes the sum of absolute deviations (the $\ell_1$ norm)][4]: Provided a detailed explanation of a standard proof with an original example.
 </div>
+
   [1]: https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x
   [2]: https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296
   [3]: https://math.stackexchange.com/questions/4250990/understanding-the-expression-tr-big-rhox-otimes-i-big-sum-a-b-a-b-rho
