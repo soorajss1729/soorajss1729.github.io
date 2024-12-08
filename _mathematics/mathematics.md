@@ -172,7 +172,7 @@ classes: wide
 
 <iframe
     id="pdf-viewer"
-    src="https://drive.google.com/file/d/<file_id>/preview#page=1"
+    src="https://drive.google.com/file/d/1f3K9YLWhz6vVbn6-ZbezSaqHsPCz_uSk/view?usp=sharing/preview#page=1"
     width="100%"
     height="600px"
     frameborder="0">
