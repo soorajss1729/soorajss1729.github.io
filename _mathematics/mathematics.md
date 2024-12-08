@@ -83,86 +83,28 @@ classes: wide
     <h2>Table of Contents</h2>
     <ul>
         <li class="chapter-number">
-            1. Matrices - Introduction
-            <ul class="nested-links">
-                <li><a href="path/to/notes-page1.pdf" target="_blank">Basics of Matrices</a></li>
-                <li><a href="path/to/notes-page2.pdf" target="_blank">Matrix Multiplication</a></li>
-                <li><a href="path/to/notes-page3.pdf" target="_blank">Properties of Matrices</a></li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=12" target="_blank">Matrices - Introduction</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=13" target="_blank">Matrix Addition</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=15" target="_blank">Matrix Multiplication</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=17" target="_blank">Transpose of a Matrix</a></li>
             </ul>
         </li>
         <li class="chapter-number">
-            2. Determinants
-            <ul class="nested-links">
-                <li><a href="path/to/notes-page4.pdf" target="_blank">Basics of Determinants</a></li>
-                <li><a href="path/to/notes-page5.pdf" target="_blank">Applications of Determinants</a></li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=20" target="_blank">Determinants</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=22" target="_blank">Properties of Determinants</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=25" target="_blank">Cofactor Expansion</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=28" target="_blank">Applications of Determinants</a></li>
             </ul>
         </li>
         <li class="chapter-number">
-            3. Eigenvalues and Eigenvectors
-            <ul class="nested-links">
-                <li><a href="path/to/notes-page6.pdf" target="_blank">Introduction to Eigenvalues</a></li>
-                <li><a href="path/to/notes-page7.pdf" target="_blank">Computing Eigenvectors</a></li>
-                <li><a href="path/to/notes-page8.pdf" target="_blank">Applications of Eigenvectors</a></li>
+            <a href="https://drive.google.com/file/d/<file_id>/preview#page=45" target="_blank">Eigenvalues and Eigenvectors</a>
+            <ul class="subsection">
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=47" target="_blank">Finding Eigenvalues</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=50" target="_blank">Finding Eigenvectors</a></li>
+                <li><a href="https://drive.google.com/file/d/<file_id>/preview#page=53" target="_blank">Applications in Linear Transformations</a></li>
             </ul>
         </li>
     </ul>
 </div>
-
-<style>
-    /* General Table of Contents Styling */
-    .toc {
-        margin: 20px 0;
-        font-family: inherit; /* Matches website's font */
-        font-weight: normal;
-    }
-    .toc h2 {
-        text-transform: none; /* Keep case as typed */
-        font-weight: normal;
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-    .toc ul {
-        list-style: none;
-        padding: 0;
-    }
-    /* Top-level Chapters */
-    .toc > ul > li {
-        margin: 10px 0;
-        font-weight: normal;
-    }
-    /* Nested Links Styling */
-    .nested-links {
-        margin-left: 20px; /* Indent for nested links */
-        list-style: none;
-        padding: 5px 0;
-    }
-    .nested-links li {
-        margin: 5px 0;
-    }
-    /* Link Styling */
-    .nested-links a {
-        text-decoration: none;
-        color: inherit; /* Matches website's link color */
-        font-weight: normal;
-    }
-    .nested-links a:hover {
-        text-decoration: underline;
-    }
-    /* Optional Expandable/Collapsible Styling */
-    .nested-links {
-        display: none; /* Hide nested links by default */
-    }
-    .chapter-number:hover {
-        cursor: pointer; /* Indicates clickability */
-    }
-</style>
-
-<script>
-    /* JavaScript for Expand/Collapse Behavior */
-    document.querySelectorAll('.chapter-number').forEach(chapter => {
-        chapter.addEventListener('click', function () {
-            const nested = this.querySelector('.nested-links');
-            if (nested) nested.style.display = nested.style.display === 'none' ? 'block' : 'none';
-        });
-    });
-</script>
