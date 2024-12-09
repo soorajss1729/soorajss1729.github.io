@@ -179,8 +179,11 @@ classes: wide
 
 <iframe
     src="https://drive.google.com/file/d/1khkBmAcYj8RfHYgIqs_GQ_qP5aFk8IU/preview"
-    style="width: 100%; height: 100vh; border: none;">
+    width="100%"
+    height="800px"
+    style="border: none;">
 </iframe>
+
 
 
 
