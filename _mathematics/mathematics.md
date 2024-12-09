@@ -178,13 +178,11 @@ classes: wide
 </div>
 
 <iframe
-    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://drive.google.com/uc?id=1khkBmAcYj8RfHYgIqs_GQ_qPp5aFk8IU"
+    src="https://soorajss1729.github.io/notes/la7.pdf"
     width="100%"
     height="800px"
     style="border: none;">
 </iframe>
-
-
 
 
 
