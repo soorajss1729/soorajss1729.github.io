@@ -177,14 +177,19 @@ classes: wide
     </ul>
 </div>
 
-
-
 <iframe
-    src="https://soorajss1729.github.io/notes/la7.pdf"
+    src="https://soorajss1729.github.io/notes/viewer.html"
     width="100%"
     height="800px"
     style="border: none;">
 </iframe>
+
+<! <iframe >
+<!    src="https://soorajss1729.github.io/notes/la7.pdf" >
+<!    width="100%" >
+<!    height="800px" >
+<!    style="border: none;"> >
+<! </iframe> >
 
 
 <!-- https://thomasgultzow.com/ -->
