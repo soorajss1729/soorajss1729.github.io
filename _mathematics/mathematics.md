@@ -180,10 +180,11 @@ classes: wide
 
 
 <iframe
-    src="https://drive.google.com/file/d/1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j/preview"
+    src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/soorajss1729/notes/main/la7.pdf"
     width="100%"
     height="800px"
     style="border: none;">
 </iframe>
+
 
 
