@@ -177,12 +177,10 @@ classes: wide
     </ul>
 </div>
 
-
 <iframe
-    src="https://drive.google.com/file/d/1khkBmAcYj8RfHYgIqs_GQ_qPp5aFk8IU/preview"
-    width="100%"
-    height="800px"
-    style="border: none;">
+    src="https://drive.google.com/file/d/1khkBmAcYj8RfHYgIqs_GQ_qP5aFk8IU/preview"
+    style="width: 100%; height: 100vh; border: none;">
 </iframe>
+
 
 
