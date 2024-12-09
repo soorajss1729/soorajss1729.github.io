@@ -178,8 +178,10 @@ classes: wide
 </div>
 
 <iframe
-    src="https://docs.google.com/viewer?srcid=1khkBmAcYj8RfHYgIqs_GQ_qPp5aFk8IU&pid=explorer&efh=false&a=v&chrome=false&embedded=true"
-    style="width: 100%; height: 100vh; border: none;">
+    src="https://drive.google.com/file/d/1khkBmAcYj8RfHYgIqs_GQ_qPp5aFk8IU/preview"
+    width="100%"
+    height="800px"
+    style="border: none;">
 </iframe>
 
 
