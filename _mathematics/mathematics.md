@@ -180,7 +180,7 @@ classes: wide
 
 
 <iframe
-    src="https://soorajss1729.github.io/notes/la7.pdf"
+    src="https://drive.google.com/file/d/1khkBmAcYj8RfHYgIqs_GQ_qPp5aFk8IU/preview"
     width="100%"
     height="800px"
     style="border: none;">
