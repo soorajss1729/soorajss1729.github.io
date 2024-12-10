@@ -36,7 +36,9 @@ function loadPdfPage(pdfUrl) {
  - n dimentional cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')"> (Page 36)</a>
 
 2. Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations (Page 57)</a>
-- 
+
+
+
 <div id="pdf-viewer-container">
   <iframe id="pdf-viewer"
     src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
