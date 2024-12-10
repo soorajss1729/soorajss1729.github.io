@@ -31,10 +31,12 @@ classes: wide
 
 ul ul {
   margin-left: 0px;
+  padding-left: 0;
 }
 
 ul ul ul {
   margin-left: 0px;
+  padding-left: 0;
 }
 </style>
 
