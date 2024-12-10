@@ -33,7 +33,7 @@ ol {
 
 /* Remove bullets from main ordered list items */
 ol > li {
-  list-style-type: none;
+  list-style-type: decimal;
 }
 
 /* Add bullets to nested unordered lists (subsections) */
