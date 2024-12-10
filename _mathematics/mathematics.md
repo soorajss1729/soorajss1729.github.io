@@ -23,17 +23,18 @@ classes: wide
  <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
 </div>
 
+<script>
+function loadPdfPage(pdfUrl) {
+  document.getElementById('pdf-viewer').src = pdfUrl;
+  document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
+}
+</script>
+
 ## Table of Contents
-
 **Book 1**
-1. **Chapter 1: Fundamentals (Page 10)**  
-   1.1. [Vectors and Spaces (Page 12)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=12)  
-   1.2. [Linear Combinations and Span (Page 15)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=15)
+- Chapter 1: Fundamentals (Page 10)  
+  - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=12')">Vectors and Spaces (Page 12)</a>
 
-2. **Chapter 2: Matrices (Page 30)**  
-   2.1. [Matrix Addition and Scalar Multiplication (Page 32)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=32)  
-   2.2. [Matrix Multiplication (Page 40)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=40)  
-   2.3. [Transpose and Inverse of a Matrix (Page 45)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=45)
 
 
 
