@@ -38,10 +38,10 @@ function loadPdfPage(pdfUrl) {
 2. Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations (Page 57)</a>
 
 ul ul {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 ul ul ul {
-  margin-left: 40px;
+  margin-left: 2px;
 }
 
 <div id="pdf-viewer-container">
