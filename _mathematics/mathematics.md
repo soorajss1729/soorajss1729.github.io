@@ -32,14 +32,14 @@ function loadPdfPage(pdfUrl) {
 
 ## Table of Contents
 
-- Chapter 1: Fundamentals (Page 10)  
-  - Section 1.1: Basic Concepts (Page 11)  
-    - Subsection 1.1.1: Vectors (Page 12)  
-      - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">Vectors and Spaces (Page 12)</a>  
+1. Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">Chapter 1 - Introduction to Vectors(Page 3)</a>
+    - n dimentional cube<a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">[Page 22], [Page 36]</a>
       - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=13')">Vector Norms (Page 13)</a>  
     - Subsection 1.1.2: Linear Combinations (Page 15)  
       - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=15')">Linear Combinations and Span (Page 15)</a>  
 
+2. Book 2: Chapter 2 Solving Linear Equations
+    - 
 <div id="pdf-viewer-container">
   <iframe id="pdf-viewer"
     src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
