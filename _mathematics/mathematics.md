@@ -30,7 +30,7 @@ classes: wide
    The third level gets even more, etc. */
 /* Remove default bullet points and padding for all lists */
 ul, ol {
-  padding-left: 0;
+  padding-left: 5px;
   margin-left: 0;
 }
 
@@ -57,6 +57,7 @@ Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.
    - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=76')">Block Matrix (Page 76)</a>
    - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=92')">Gershgorin Circle Theorem (Page 92)</a>
    - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=97')">LU Factorization (Page 97)</a>
+
 
 Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
   - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius theorem (Page 22)</a>
