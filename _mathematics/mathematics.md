@@ -199,6 +199,10 @@ classes: wide
     style="border: none;">
 </iframe>
 
+<iframe
+  src="https://docs.google.com/viewer?url=https://soorajss1729.github.io/pdfjs/la17.pdf&embedded=true"
+  style="width: 100%; height: 100vh; border: none;">
+</iframe>
 
 <!-- https://thomasgultzow.com/ -->
 
