@@ -23,6 +23,17 @@ classes: wide
  <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
 </div>
 
+## <a name="book-1"></a>Book 1
+
+### <a name="book-1-ch1"></a>Chapter 1: Fundamentals
+#### <a name="book-1-ch1-vectors"></a>Topic: Vectors and Spaces
+Content related to this topic...
+
+#### <a name="book-1-ch1-linear-combinations"></a>Topic: Linear Combinations and Span
+Content related to this topic...
+
+
+
 <iframe
   src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
   style="width: 100%; height: 100vh; border: none;">
