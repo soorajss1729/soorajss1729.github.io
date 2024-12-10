@@ -193,7 +193,7 @@ classes: wide
 
 
 <iframe
-    src="https://soorajss1729.github.io/notes/la7.pdf"
+    src="https://soorajss1729.github.io/pdfjs/la17.pdf"
     width="100%"
     height="800px"
     style="border: none;">
