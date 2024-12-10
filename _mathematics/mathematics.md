@@ -26,14 +26,14 @@ classes: wide
 <style>
 /* Remove default numbering and padding from the main ordered list */
 ol {
-  list-style-type: decimal;
+  list-style-type: none;
   padding-left: 0;
   margin-left: 0;
 }
 
 /* Remove bullets from main ordered list items */
 ol > li {
-  list-style-type: decimal;
+  list-style-type: none;
 }
 
 /* Add bullets to nested unordered lists (subsections) */
