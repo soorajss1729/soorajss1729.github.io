@@ -30,14 +30,13 @@ classes: wide
    The third level gets even more, etc. */
 /* Remove default bullet points and padding for all lists */
 ul, ol {
-  list-style-type: none;
   padding-left: 0;
   margin-left: 0;
 }
 
 /* Apply minimal indentation to nested hyphenated lists */
 ol > li > ul {
-  padding-left: 15px; /* Adjust this value to control indentation */
+  padding-left: 20px; /* Adjust this value to control indentation */
   margin-left: 0;
 }
 </style>
