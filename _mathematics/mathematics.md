@@ -38,7 +38,7 @@ ol > li {
 
 /* Add bullets to nested unordered lists (subsections) */
 ol > li > ul {
-  list-style-type: disc; /* Options: disc, circle, square */
+  list-style-type: square; /* Options: disc, circle, square */
   padding-left: 10px;    /* Adjust to control indentation */
   margin-left: 0;
 }
