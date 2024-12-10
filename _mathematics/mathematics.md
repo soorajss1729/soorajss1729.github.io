@@ -200,7 +200,7 @@ classes: wide
 </iframe>
 
 <iframe
-  src="https://drive.google.com/uc?export=download&id=1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j"
+  src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf"
   style="width: 100%; height: 100vh; border: none;">
 </iframe>
 
