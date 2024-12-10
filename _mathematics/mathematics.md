@@ -28,19 +28,17 @@ classes: wide
    The first level of the list is normal. 
    The second level (ul inside ul) gets a 20px indentation. 
    The third level gets even more, etc. */
-ul {
-  margin-left: 0.5px;
-  padding-left: 0.1;
+/* Remove default bullet points and padding for all lists */
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
 }
 
-ul ul {
-  margin-left: 0.5px;
-  padding-left: 0.1;
-}
-
-ul ul ul {
-  margin-left: 0.5px;
-  padding-left: 0.1;
+/* Apply minimal indentation to nested hyphenated lists */
+ol > li > ul {
+  padding-left: 5px; /* Adjust this value to control indentation */
+  margin-left: 0;
 }
 </style>
 
