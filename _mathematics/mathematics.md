@@ -33,7 +33,7 @@ function loadPdfPage(pdfUrl) {
 ## Table of Contents
 **Book 1**
 - Chapter 1: Fundamentals (Page 10)  
-  - <a href="javascript:void(0)" onclick="loadPdfPage('[https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf](https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf)#page=12')">Vectors and Spaces (Page 12)</a>
+  - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">Vectors and Spaces (Page 12)</a>
 
 
 
