@@ -3,21 +3,48 @@
 <head>
   <title>PDF Viewer</title>
   <script src="pdf.mjs"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f5f5f5;
+    }
+    canvas {
+      border: 1px solid #ddd;
+    }
+  </style>
 </head>
 <body>
-  <canvas id="pdfCanvas" style="width:100%; height:100vh;"></canvas>
+  <canvas id="pdfCanvas"></canvas>
   <script>
+    // Path to the PDF
     const url = 'la17.pdf';
+
+    // Get the canvas element
     const canvas = document.getElementById('pdfCanvas');
     const context = canvas.getContext('2d');
+
+    // Set up PDF.js
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'pdf.worker.mjs';
+
+    // Load and render the PDF
     pdfjsLib.getDocument(url).promise.then(pdf => {
-      pdf.getPage(1).then(page => {
-        const viewport = page.getViewport({ scale: 1 });
-        canvas.width = viewport.width;
-        canvas.height = viewport.height;
-        page.render({ canvasContext: context, viewport });
+      return pdf.getPage(1); // Load the first page
+    }).then(page => {
+      const viewport = page.getViewport({ scale: 1.5 });
+      canvas.width = viewport.width;
+      canvas.height = viewport.height;
+
+      // Render the page
+      page.render({
+        canvasContext: context,
+        viewport: viewport
       });
+    }).catch(error => {
+      console.error('Error loading PDF:', error);
     });
   </script>
 </body>
