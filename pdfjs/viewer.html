@@ -29,7 +29,7 @@
     const canvas = document.getElementById('pdfCanvas');
     const context = canvas.getContext('2d');
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.mjs';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://soorajss1729.github.io/pdfjs/pdf.worker.mjs';
 
     pdfjsLib.getDocument(url).promise.then(pdf => {
       return pdf.getPage(1);
