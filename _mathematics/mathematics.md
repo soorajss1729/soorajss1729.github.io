@@ -24,21 +24,23 @@ classes: wide
 </div>
 
 <style>
-/* This sets the indentation for nested lists. 
-   The first level of the list is normal. 
-   The second level (ul inside ul) gets a 20px indentation. 
-   The third level gets even more, etc. */
-/* Remove default bullet points and padding for all lists */
-ul, ol {
-  list-style-type: none;
+/* Remove default numbering and padding from the main ordered list */
+ol {
+  list-style-type: decimal;
   padding-left: 0;
   margin-left: 0;
 }
 
-/* Apply minimal indentation to nested hyphenated lists */
+/* Remove bullets from main ordered list items */
+ol > li {
+  list-style-type: none;
+}
+
+/* Add bullets to nested unordered lists (subsections) */
 ol > li > ul {
-  padding-left: 20px; /* Adjust this value to control indentation */
-  margin-left: 5px;
+  list-style-type: disc; /* Options: disc, circle, square */
+  padding-left: 20px;    /* Adjust to control indentation */
+  margin-left: 0;
 }
 </style>
 
