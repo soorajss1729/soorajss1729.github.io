@@ -200,9 +200,10 @@ classes: wide
 </iframe>
 
 <iframe
-  src="https://docs.google.com/viewer?url=https://soorajss1729.github.io/pdfjs/la17.pdf&embedded=true"
+  src="https://drive.google.com/uc?export=download&id=1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j"
   style="width: 100%; height: 100vh; border: none;">
 </iframe>
+
 
 <!-- https://thomasgultzow.com/ -->
 
