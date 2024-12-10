@@ -2,7 +2,6 @@
 <html>
 <head>
   <title>PDF Viewer Debug</title>
-  <script src="./pdf.js"></script>
   <style>
     body {
       margin: 0;
@@ -14,6 +13,9 @@
     }
     canvas {
       border: 1px solid #ddd;
+    }
+    script {
+      display: block !important; /* Ensure scripts are not hidden */
     }
     #error {
       color: red;
@@ -27,20 +29,20 @@
 <body>
   <div id="error"></div>
   <canvas id="pdfCanvas"></canvas>
+  <script src="./pdf.js"></script>
   <script>
     console.log("Starting PDF.js rendering...");
 
-    const url = './la17.pdf'; // Path to your PDF file
+    const url = './la17.pdf'; // Path to the PDF file
     const canvas = document.getElementById('pdfCanvas');
     const context = canvas.getContext('2d');
 
-    // Update worker script to point to the renamed file
-    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.js';
+    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.js'; // Worker script path
 
     // Load and render the PDF
     pdfjsLib.getDocument(url).promise.then(pdf => {
       console.log(`PDF loaded: ${pdf.numPages} pages`);
-      return pdf.getPage(1); // Render the first page
+      return pdf.getPage(1);
     }).then(page => {
       console.log("Rendering page 1...");
       const viewport = page.getViewport({ scale: 1.5 });
