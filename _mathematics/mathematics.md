@@ -179,8 +179,10 @@ classes: wide
 
 
 <iframe
-    src="https://soorajss1729.github.io/pdfjs/web/viewer.html?file=https://soorajss1729.github.io/notes/la17.pdf"
-    style="width: 100%; height: 100vh; border: none;">
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf"
+    width="100%"
+    height="800px"
+    style="border: none;">
 </iframe>
 
 
