@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>PDF Viewer Debug</title>
-  <script src="./pdf.mjs"></script>
+  <script src="./pdf.js"></script>
   <style>
     body {
       margin: 0;
@@ -30,15 +30,17 @@
   <script>
     console.log("Starting PDF.js rendering...");
 
-    const url = './la17.pdf';
+    const url = './la17.pdf'; // Path to your PDF file
     const canvas = document.getElementById('pdfCanvas');
     const context = canvas.getContext('2d');
 
-    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.mjs';
+    // Update worker script to point to the renamed file
+    pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.js';
 
+    // Load and render the PDF
     pdfjsLib.getDocument(url).promise.then(pdf => {
       console.log(`PDF loaded: ${pdf.numPages} pages`);
-      return pdf.getPage(1);
+      return pdf.getPage(1); // Render the first page
     }).then(page => {
       console.log("Rendering page 1...");
       const viewport = page.getViewport({ scale: 1.5 });
