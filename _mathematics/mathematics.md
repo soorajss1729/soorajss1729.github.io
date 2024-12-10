@@ -37,7 +37,7 @@ ul, ol {
 
 /* Apply minimal indentation to nested hyphenated lists */
 ol > li > ul {
-  padding-left: 5px; /* Adjust this value to control indentation */
+  padding-left: 15px; /* Adjust this value to control indentation */
   margin-left: 0;
 }
 </style>
