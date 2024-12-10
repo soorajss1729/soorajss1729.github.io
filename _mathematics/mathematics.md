@@ -35,10 +35,9 @@ function loadPdfPage(pdfUrl) {
 - Chapter 1: Fundamentals (Page 10)  
   - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">Vectors and Spaces (Page 12)</a>
 
-
-
-
-<iframe
-  src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
-  style="width: 100%; height: 100vh; border: none;">
-</iframe>
+<div id="pdf-viewer-container">
+  <iframe id="pdf-viewer"
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
+    style="width: 100%; height: 100vh; border: none;">
+  </iframe>
+</div>
