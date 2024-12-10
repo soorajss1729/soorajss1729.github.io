@@ -179,6 +179,12 @@ classes: wide
 
 
 <iframe
+    src="https://soorajss1729.github.io/pdfjs/web/viewer.html?file=https://soorajss1729.github.io/notes/la17.pdf"
+    style="width: 100%; height: 100vh; border: none;">
+</iframe>
+
+
+<iframe
   src="https://drive.google.com/file/d/1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j/preview"
   style="width: 100%; height: 100vh; border: none;">
 </iframe>
