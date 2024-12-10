@@ -190,11 +190,10 @@ classes: wide
 </iframe>
 
 <iframe
-  src="https://drive.google.com/file/d/1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j/preview"
-  width="100%"
-  height="800px"
-  style="border: none;">
+  src="https://docs.google.com/viewer?url=https://drive.google.com/uc?id=1cGLAdAGYLAjP9qri1R7-aXTJQUHkN7-j&embedded=true"
+  style="width: 100%; height: 800px; border: none;">
 </iframe>
+
 <iframe
     src="https://soorajss1729.github.io/notes/la7.pdf"
     width="100%"
