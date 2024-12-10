@@ -23,6 +23,21 @@ classes: wide
  <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
 </div>
 
+<style>
+/* This sets the indentation for nested lists. 
+   The first level of the list is normal. 
+   The second level (ul inside ul) gets a 20px indentation. 
+   The third level gets even more, etc. */
+
+ul ul {
+  margin-left: 20px;
+}
+
+ul ul ul {
+  margin-left: 40px;
+}
+</style>
+
 <script>
 function loadPdfPage(pdfUrl) {
   document.getElementById('pdf-viewer').src = pdfUrl;
@@ -37,12 +52,6 @@ function loadPdfPage(pdfUrl) {
 
 2. Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations (Page 57)</a>
 
-ul ul {
-  margin-left: 0px;
-}
-ul ul ul {
-  margin-left: 2px;
-}
 
 <div id="pdf-viewer-container">
   <iframe id="pdf-viewer"
