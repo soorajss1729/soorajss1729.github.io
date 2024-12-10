@@ -30,7 +30,8 @@ classes: wide
    The third level gets even more, etc. */
 /* Remove default bullet points and padding for all lists */
 ul, ol {
-  padding-left: 5px;
+  list-style-type: none;
+  padding-left: 0;
   margin-left: 0;
 }
 
