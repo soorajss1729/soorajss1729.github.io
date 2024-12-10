@@ -29,17 +29,17 @@ classes: wide
    The second level (ul inside ul) gets a 20px indentation. 
    The third level gets even more, etc. */
 ul {
-  margin-left: 5px;
+  margin-left: 2px;
   padding-left: 1;
 }
 
 ul ul {
-  margin-left: 5px;
+  margin-left: 2px;
   padding-left: 1;
 }
 
 ul ul ul {
-  margin-left: 5px;
+  margin-left: 2px;
   padding-left: 1;
 }
 </style>
