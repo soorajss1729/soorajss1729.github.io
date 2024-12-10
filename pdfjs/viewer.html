@@ -1,60 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PDF Viewer Standalone</title>
+  <title>Simple PDF Viewer</title>
   <script src="./pdf.js"></script>
-  <style>
-    body {
-      margin: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f5f5f5;
-    }
-    canvas {
-      border: 1px solid #ddd;
-    }
-    #error {
-      color: red;
-      font-family: Arial, sans-serif;
-      position: absolute;
-      top: 10px;
-      left: 10px;
-    }
-  </style>
 </head>
 <body>
-  <div id="error"></div>
   <canvas id="pdfCanvas"></canvas>
   <script>
-    console.log("Starting PDF.js rendering...");
-
-    // Path to your PDF file
     const url = './la17.pdf';
-
-    // Get canvas context
     const canvas = document.getElementById('pdfCanvas');
     const context = canvas.getContext('2d');
 
-    // Set the worker source
     pdfjsLib.GlobalWorkerOptions.workerSrc = './pdf.worker.js';
 
-    // Load and render the PDF
     pdfjsLib.getDocument(url).promise.then(pdf => {
-      console.log(`PDF loaded: ${pdf.numPages} pages`);
-      return pdf.getPage(1); // Load the first page
+      return pdf.getPage(1);
     }).then(page => {
-      console.log("Rendering page 1...");
       const viewport = page.getViewport({ scale: 1.5 });
       canvas.width = viewport.width;
       canvas.height = viewport.height;
       return page.render({ canvasContext: context, viewport: viewport }).promise;
-    }).then(() => {
-      console.log("Page rendered successfully!");
     }).catch(error => {
-      console.error("Error rendering PDF:", error);
-      document.getElementById('error').innerText = `Error: ${error.message}`;
+      console.error("Error:", error);
     });
   </script>
 </body>
