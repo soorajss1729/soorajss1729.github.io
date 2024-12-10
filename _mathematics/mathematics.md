@@ -30,17 +30,17 @@ classes: wide
    The third level gets even more, etc. */
 ul {
   margin-left: 5px;
-  padding-left: 2;
+  padding-left: 1;
 }
 
 ul ul {
   margin-left: 5px;
-  padding-left: 2;
+  padding-left: 1;
 }
 
 ul ul ul {
   margin-left: 5px;
-  padding-left: 2;
+  padding-left: 1;
 }
 </style>
 
