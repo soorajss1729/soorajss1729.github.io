@@ -33,7 +33,7 @@ function loadPdfPage(pdfUrl) {
 ## Table of Contents
 
 1. Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">Chapter 1 - Introduction to Vectors(Page 3)</a>
-    - n dimentional cube<a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">[Page 22], [Page 36]</a>
+    - n dimentional cube<a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">[Page 22]</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=12')">[Page 36]</a>
       - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=13')">Vector Norms (Page 13)</a>  
     - Subsection 1.1.2: Linear Combinations (Page 15)  
       - <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=15')">Linear Combinations and Span (Page 15)</a>  
