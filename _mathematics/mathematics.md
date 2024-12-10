@@ -34,11 +34,11 @@ function loadPdfPage(pdfUrl) {
 
 <style>
 .toc-level-2 {
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 5px; /* Adjust as needed */
 }
 </style>
 
-1. Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 - Introduction to Vectors (Page 3)</a>
+1. Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors (Page 3)</a>
  - n dimentional cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')"> (Page 36)</a>
 
 2. Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations (Page 57)</a>
