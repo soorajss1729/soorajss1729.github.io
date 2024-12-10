@@ -23,14 +23,17 @@ classes: wide
  <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
 </div>
 
-## <a name="book-1"></a>Book 1
+## Table of Contents
 
-### <a name="book-1-ch1"></a>Chapter 1: Fundamentals
-#### <a name="book-1-ch1-vectors"></a>Topic: Vectors and Spaces
-Content related to this topic...
+**Book 1**
+1. **Chapter 1: Fundamentals (Page 10)**  
+   1.1. [Vectors and Spaces (Page 12)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=12)  
+   1.2. [Linear Combinations and Span (Page 15)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=15)
 
-#### <a name="book-1-ch1-linear-combinations"></a>Topic: Linear Combinations and Span
-Content related to this topic...
+2. **Chapter 2: Matrices (Page 30)**  
+   2.1. [Matrix Addition and Scalar Multiplication (Page 32)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=32)  
+   2.2. [Matrix Multiplication (Page 40)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=40)  
+   2.3. [Transpose and Inverse of a Matrix (Page 45)](https://soorajss1729.github.io/pdfjs/viewer.html?file=Book1.pdf#page=45)
 
 
 
