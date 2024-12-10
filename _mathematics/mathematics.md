@@ -32,24 +32,17 @@ function loadPdfPage(pdfUrl) {
 
 ## Table of Contents
 
-<style>
-  .toc-level-1 {
-    margin-left: 0px;    /* Main section no indentation */
-  }
-  .toc-level-2 {
-    margin-left: 20px;   /* Subsection slightly indented */
-  }
-  .toc-level-3 {
-    margin-left: 40px;   /* Sub-subsection more indented */
-  }
-</style>
-
 1. Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors (Page 3)</a>
 - n dimentional cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')"> (Page 36)</a>
 
 2. Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations (Page 57)</a>
 
-
+ul ul {
+  margin-left: 20px;
+}
+ul ul ul {
+  margin-left: 40px;
+}
 
 <div id="pdf-viewer-container">
   <iframe id="pdf-viewer"
