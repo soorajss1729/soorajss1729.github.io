@@ -11,14 +11,15 @@ classes: wide
 </div>
 
 <div class="learning-content">
-  <h1>Linear Lgebra</h1>
+  <h1>Linear Algebra</h1>
 </div>
 
 <style>
 .text-block {
     text-align: justify;
     text-indent: 2em;
-    margin-right: auto;
+    margin-left: 2em;
+    margin-right: 2em;
     max-width: 8.27in; /* Constrain to A4 width */
 }
 </style>
