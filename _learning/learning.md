@@ -6,7 +6,7 @@ classes: wide
 ---
 
 <div class="learning-topnav">
-  <a href="/mathematics/">Linear Algebra</a>
+  <a href="/linalg/">Linear Algebra</a>
   <a href="/quantum-computing/">Quantum Computing</a>
 </div>
 
