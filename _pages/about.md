@@ -10,7 +10,7 @@ redirect_from:
 <div style="text-align: justify;">
 I am an early-stage PhD student at the Computer Science Department of Missouri S&T, specializing in theoretical quantum computing. My academic journey began in Photonics, but my deep passion for mathematics and quantum computing inspired me to gradually transition into theoretical research.
 
-<p>Over the years, I have dedicated myself to building a strong foundation in mathematics and quantum computing through self-learning and independent study. Platforms like Mathematics and Quantum Computing Stack Exchange have been invaluable in this process, allowing me to engage with global communities, tackle challenging problems, and develop a structured understanding of complex concepts. Navigating this unconventional path has required resilience and perseverance to overcome both uncertainty and criticism, making the journey profoundly rewarding and fulfilling.</p>
+Over the years, I have dedicated myself to building a strong foundation in mathematics and quantum computing through self-learning and independent study. Platforms like Mathematics and Quantum Computing Stack Exchange have been invaluable in this process, allowing me to engage with global communities, tackle challenging problems, and develop a structured understanding of complex concepts. Navigating this unconventional path has required resilience and perseverance to overcome both uncertainty and criticism, making the journey profoundly rewarding and fulfilling.
 
 <p>Feel free to navigate through the sections to explore my notes, insights, and resources that have fueled my learning journey.</p>
 </div>
