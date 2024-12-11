@@ -34,6 +34,3 @@ classes: wide
  <p>The Learning Journey is designed to organize my insights, notes, and resources in a way that supports others in navigating these challenging fields while highlighting the depth of my exploration. From foundational concepts in Linear Algebra to the intricacies of Quantum Computing and the structure of Group Theory, each section offers detailed notes, problems, and proofs facilitating deeper understanding. Use the top navigation bar to explore these sections.</p>
 </div>
 
-
-<h1>Welcome to My Learning Journey</h1>
-<p>Explore topics like Linear Algebra and Quantum Computing in-depth. Use the navigation links on the left to switch between sections.</p>
