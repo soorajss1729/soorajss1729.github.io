@@ -28,7 +28,6 @@ classes: wide
 
 <div class="learning-content">
   <h1>Linear Algebra</h1>
-</div>
 
 <a name="linear-algebra"></a>
 <div class="text-block">
@@ -99,3 +98,4 @@ function loadPdfPage(pdfUrl) {
   </iframe>
 </div>
 
+</div>
