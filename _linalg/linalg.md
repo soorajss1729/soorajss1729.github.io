@@ -21,9 +21,9 @@ classes: wide
 }
 
 .learning-content {
-  margin-left: 2em;
-  margin-right: 2em;
-  max-width: 70%;
+  margin-left: 10em;
+  margin-right: 10em;
+  max-width: 90%;
 }
 
 .text-block {
