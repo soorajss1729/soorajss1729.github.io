@@ -9,6 +9,8 @@ classes: wide
 <div class="learning-topnav">
   <a href="/learning/">Back</a>
   <a href="/linalg/">Linear Algebra</a>
+  <a href="/linalg/">Special Functions</a>
+  <a href="/grp/">Group Theory</a>
 </div>
 
 
