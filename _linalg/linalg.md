@@ -12,11 +12,6 @@ classes: wide
 
 
 <style>
-.learning-topnav
-  margin-left: 10em;
-  margin-right: 10em;
-  max-width: 100%;
-}  
 .learning-content {
   margin-left: 10em;
   margin-right: 10em;
