@@ -40,33 +40,43 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-.learning-page {
-  display: flex;
-}
 
+/* Learning Sidebar for Archive */
 .learning-sidebar {
-  width: 200px; /* Sidebar width */
-  background-color: #f8f9fa; /* Light gray background */
-  padding: 15px; /* Padding for spacing */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  position: fixed;
+  top: 100px; /* Adjust based on your header size */
+  left: 0;
+  width: 200px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  height: calc(100vh - 100px); /* Full height minus header */
+  overflow-y: auto; /* Scrollbar if content exceeds height */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 
-.learning-sidebar a {
-  display: block; /* Make links appear in a block */
-  margin-bottom: 10px; /* Space between links */
-  padding: 10px; /* Padding for clickable area */
-  background-color: #007bff; /* Button color */
-  color: #ffffff; /* Text color */
-  text-decoration: none; /* Remove underline */
-  border-radius: 5px; /* Rounded corners */
-  text-align: center; /* Center align text */
+.learning-sidebar ul {
+  list-style: none;
+  padding: 0;
 }
 
-.learning-sidebar a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+.learning-sidebar ul li {
+  margin: 10px 0;
+}
+
+.learning-sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.learning-sidebar ul li a:hover {
+  color: #007acc;
 }
 
 .learning-content {
-  flex: 1; /* Take the remaining space */
-  padding: 20px; /* Padding for content area */
+  margin-left: 220px; /* Matches sidebar width */
+  padding: 20px;
 }
