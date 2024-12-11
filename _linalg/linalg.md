@@ -61,7 +61,7 @@ function loadPdfPage(pdfUrl) {
 }
 </script>
 
-<h2>Linear Algebra</h2>
+<h2>Table of Contents</h2>
 
 <ol>
   <li>
