@@ -1,7 +1,7 @@
 ---
 title: "Learning Journey"
 permalink: /learning/
-layout: learning
+layout: archive
 classes: wide
 ---
 
