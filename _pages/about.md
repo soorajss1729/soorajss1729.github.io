@@ -9,6 +9,7 @@ redirect_from:
 <a name="about-me"></a>
 <div style="text-align: justify;">
 I am a passionate researcher in the field of theoretical quantum computing, focusing on quantum walks, simplicial complexes, and topological data analysis. My research spans from applying quantum algorithms to understanding complex systems. I am committed to collaborative work that pushes the boundaries of quantum computing to address emerging challenges in this exciting field. Before diving into quantum computing, I developed a strong background in advanced linear algebra and theoretical computer science. I have a passion for solving complex problems and bringing innovative solutions to life.
+  Feel free to navigate through the sections to explore my notes, insights, and resources that have fueled my learning journey.
 </div>
 
 ## Interests
