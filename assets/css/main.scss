@@ -49,6 +49,7 @@
   gap: 20px; /* Space between the links */
   background-color: #696969; /* Gray bar */
   padding: 10px 0;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 
 .learning-topnav a {
@@ -62,4 +63,19 @@
 .learning-topnav a:hover {
   text-decoration: underline; /* Underline on hover */
   color: #ddd; /* Slightly lighter text on hover */
+}
+
+/* Add responsive behavior for small screens */
+@media (max-width: 768px) {
+  .learning-topnav {
+    flex-direction: column; /* Stack links vertically */
+    align-items: flex-start; /* Align links to the left */
+    gap: 10px; /* Reduce space between links */
+    padding: 15px; /* Add padding around the links */
+  }
+
+  .learning-topnav a {
+    font-size: 1.1rem; /* Slightly larger font for better visibility */
+    width: 100%; /* Make links take full width */
+  }
 }
