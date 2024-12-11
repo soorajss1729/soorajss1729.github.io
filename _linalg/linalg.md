@@ -12,6 +12,9 @@ classes: wide
 
 
 <style>
+.toc {
+    margin-bottom: 2em; /* Adds space below the Table of Contents */
+}
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
