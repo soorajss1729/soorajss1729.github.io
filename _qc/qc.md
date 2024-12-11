@@ -1,6 +1,7 @@
 ---
 title: "Quantum Computing"
 permalink: /qc/
+collection: qc
 layout: default
 classes: wide
 ---
