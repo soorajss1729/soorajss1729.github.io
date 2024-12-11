@@ -40,7 +40,7 @@ ol > li {
 ol > li > ul {
   list-style-type: square; /* Options: disc, circle, square */
   padding-left: 10px;    /* Adjust to control indentation */
-  margin-left: 0;
+  margin-left: 10px;
 }
 </style>
 
