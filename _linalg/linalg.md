@@ -15,7 +15,7 @@ classes: wide
 .learning-content {
   margin-left: 2em;
   margin-right: 2em;
-  max-width: 70%;
+  max-width: 100%;
 }
 .text-block {
     text-align: justify;
