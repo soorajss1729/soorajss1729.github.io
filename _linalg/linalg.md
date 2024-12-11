@@ -34,6 +34,10 @@ classes: wide
 </div>
 
 <style>
+/* Add vertical spacing below the Table of Contents */
+ul {
+  margin-bottom: 1.5em; /* Adjust this value for more or less vertical space */
+}
 /* Remove default numbering and padding from the main ordered list */
 ol {
   list-style-type: decimal;
@@ -61,7 +65,6 @@ function loadPdfPage(pdfUrl) {
 }
 </script>
 
-<div class="toc-wrapper">
 <h2 id="toc">Table of Contents</h2>
 
 <ol>
