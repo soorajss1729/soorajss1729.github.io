@@ -219,6 +219,8 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  linalg:
+    output: true
   learning:
     output: true
     permalink: /:collection/:path/
