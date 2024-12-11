@@ -34,8 +34,6 @@ classes: wide
 /* Inline styles ## Linear Algebraa*/
 
 
-<div class="learning-content">
-  <h1>Linear Algebra</h1>
   
 <a name="linear-algebra"></a>
 <div class="text-block">
