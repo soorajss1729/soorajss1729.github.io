@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <style>
-.about-me {
+.text-block {
     text-indent: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
