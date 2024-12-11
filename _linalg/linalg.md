@@ -30,10 +30,6 @@ classes: wide
   <h1>Linear Algebra</h1>
 </div>
 
-
-/* Inline styles ## Linear Algebraa*/
-
-
   
 <a name="linear-algebra"></a>
 <div class="text-block">
