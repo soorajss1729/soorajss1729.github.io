@@ -11,8 +11,9 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
-
+  {% <body> %}
+  <body class="{% if page.title == 'Learning Journey' %}learning-journey{% endif %}">
+    
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
