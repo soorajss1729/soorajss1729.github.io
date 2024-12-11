@@ -12,9 +12,6 @@ classes: wide
 
 
 <style>
-.toc {
-    margin-bottom: 50em; /* Adds space below the Table of Contents */
-}
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
@@ -64,6 +61,7 @@ function loadPdfPage(pdfUrl) {
 }
 </script>
 
+<div class="toc-wrapper">
 <h2>Table of Contents</h2>
 
 <ol>
@@ -89,7 +87,7 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
     </ul>
   </li>
-  
+</div>  
 
 
 <div id="pdf-viewer-container">
