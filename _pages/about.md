@@ -7,12 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-    <style>
-        p {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-    </style>
+<style>
+.about-me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+</style>
     
 <a name="about-me"></a>
 <div style="text-align: justify;">
