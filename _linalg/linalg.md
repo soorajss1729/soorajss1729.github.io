@@ -19,9 +19,9 @@ classes: wide
 }
 .text-block {
     text-align: justify;
-    text-indent: 2%;
+    text-indent: 2px;
     margin-left: 2%;
-    margin-right: 10em;
+    margin-right: 2%;
     max-width: 100%; /* Constrain to A4 width */
 }
 </style>
