@@ -41,50 +41,54 @@
 @import "print";
 
 
-/* Learning Journey Sidebar */
-body.learning-journey .learning-sidebar {
+
+/* Container for Learning Journey */
+.learning-page {
+  display: flex;
+}
+
+/* Sidebar styles */
+.learning-sidebar {
   position: fixed;
-  top: 100px;
-  left: 220px; /* Adjust based on your design */
+  top: 100px; /* Adjust based on header height */
+  left: 0;
   width: 200px;
-  padding: 15px;
   background-color: #f9f9f9;
   border-right: 1px solid #ddd;
+  padding: 15px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  height: 100%;
+  height: calc(100vh - 100px); /* Full height minus the header */
   overflow-y: auto;
 }
 
-body.learning-journey .learning-sidebar a {
+/* Sidebar links */
+.learning-sidebar a {
   display: block;
   margin: 10px 0;
   padding: 10px 15px;
   background-color: #007acc;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   text-align: center;
-  font-weight: bold;
 }
 
-body.learning-journey .learning-sidebar a:hover {
+.learning-sidebar a:hover {
   background-color: #005f99;
 }
 
-/* Learning Journey Content */
-body.learning-journey .learning-content {
-  margin-left: 450px; /* Push content to the right to make space for the sidebar */
+/* Content section */
+.learning-content {
+  margin-left: 220px; /* Push content to the right to fit the sidebar */
   padding: 20px;
 }
 
-/* Responsive Design for Smaller Screens */
+/* Responsive Design */
 @media (max-width: 768px) {
-  body.learning-journey .learning-sidebar {
+  .learning-sidebar {
     display: none; /* Hide sidebar on smaller screens */
   }
-  body.learning-journey .learning-content {
-    margin-left: 0; /* Reset content margin for small screens */
+  .learning-content {
+    margin-left: 0; /* Reset margin on smaller screens */
   }
 }
-
-
