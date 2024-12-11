@@ -45,14 +45,14 @@
 .learning-topnav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px; /* Space between the links */
+  background-color: #333; /* Gray bar */
   padding: 10px 0;
-  background-color: transparent;
-  border: none;
 }
 
 .learning-topnav a {
-  color: #007bff; /* Link color to match your website */
+  color: #fff; /* White text */
   text-decoration: none;
   font-size: 1rem;
   font-weight: normal;
@@ -60,5 +60,6 @@
 }
 
 .learning-topnav a:hover {
-  text-decoration: underline; /* Add underline on hover for a subtle effect */
+  text-decoration: underline; /* Underline on hover */
+  color: #ddd; /* Slightly lighter text on hover */
 }
