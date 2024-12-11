@@ -40,16 +40,6 @@ classes: wide
 </div>
 
 
-<style>
-.text-block {
-    text-align: justify;
-    text-indent: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    max-width: 70%; /* Constrain to A4 width */
-}
-</style>
-
 /* Inline styles ## Linear Algebraa*/
 
 <div class="learning-content">
