@@ -44,25 +44,21 @@
 
 .learning-topnav {
   display: flex;
-  justify-content: center; /* Center align the links */
-  gap: 15px; /* Space between the links */
-  padding: 10px 15px; /* Padding around the navigation bar */
-  background-color: #f8f9fa; /* Light gray background */
-  border-bottom: 1px solid #ddd; /* Bottom border for separation */
-  margin-bottom: 20px; /* Space below the navigation bar */
+  justify-content: center;
+  gap: 20px; /* Space between the links */
+  padding: 10px 0;
+  background-color: transparent;
+  border: none;
 }
 
 .learning-topnav a {
-  display: inline-block;
-  padding: 10px 20px;
-  color: #ffffff; /* White text */
-  background-color: #007bff; /* Blue background */
-  text-decoration: none; /* Remove underline */
-  font-size: 1rem; /* Adjust font size */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  color: #007bff; /* Link color to match your website */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 5px 10px;
 }
 
 .learning-topnav a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline; /* Add underline on hover for a subtle effect */
 }
