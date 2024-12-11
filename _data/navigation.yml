@@ -12,11 +12,11 @@ main:
   - title: "Learning Journey"
     url: /learning#
 
-  - title: "Mathematics"
-    url: /mathematics#
+#  - title: "Mathematics"
+#    url: /mathematics#
     
-  - title: "Quantum Computing"
-    url: /qc#
+#  - title: "Quantum Computing"
+#    url: /qc#
 
   - title: "Stack Exchange"
     url: /stac#
