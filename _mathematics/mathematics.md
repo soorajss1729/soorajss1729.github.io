@@ -1,7 +1,7 @@
 ---
 title: ""
 permalink: /mathematics/
-layout: learning
+layout: archive
 collection: mathematics
 entries_layout: grid
 classes: wide
