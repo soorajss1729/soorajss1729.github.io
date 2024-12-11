@@ -10,9 +10,35 @@ classes: wide
   <a href="/quantum-computing/">Quantum Computing</a>
 </div>
 
+<style>
+/* Inline styles */
+.learning-topnav {
+  background-color: #555;
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+.learning-content {
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 70%;
+}
+
+.text-block {
+  text-align: justify;
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+</style>
+
+
 <div class="learning-content">
   <h1>Linear Algebra</h1>
 </div>
+
 
 <style>
 .text-block {
