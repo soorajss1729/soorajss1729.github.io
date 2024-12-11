@@ -42,35 +42,3 @@
 
 
 
-.learning-sidebar a {
-  display: block;
-  padding: 10px 15px;
-  margin-bottom: 10px;
-  background-color: #007bff; /* Blue background */
-  color: #ffffff; /* White text */
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 5px;
-  text-align: center;
-  transition: background-color 0.3s ease;
-}
-
-.learning-sidebar a:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-}
-
-/* Adjust layout for mobile */
-@media screen and (max-width: 768px) {
-  .learning-sidebar {
-    display: flex;
-    justify-content: center;
-    gap: 10px; /* Add spacing between links */
-    margin-bottom: 20px; /* Add spacing below */
-  }
-
-  .learning-sidebar a {
-    display: inline-block; /* Make links inline for horizontal layout */
-    margin-bottom: 0; /* Remove vertical spacing */
-    padding: 10px 20px; /* Adjust padding for better appearance */
-  }
-}
