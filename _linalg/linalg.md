@@ -13,14 +13,14 @@ classes: wide
 
 <style>
 .learning-content {
-  margin-left: 10em;
-  margin-right: 10em;
+  margin-left: 2%;
+  margin-right: 2%em;
   max-width: 100%;
 }
 .text-block {
     text-align: justify;
-    text-indent: 2em;
-    margin-left: 10em;
+    text-indent: 2%;
+    margin-left: 2%;
     margin-right: 10em;
     max-width: 100%; /* Constrain to A4 width */
 }
