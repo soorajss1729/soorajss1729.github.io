@@ -1,6 +1,6 @@
 ---
 title: "Linear Algebra"
-permalink: /learning/
+permalink: /linalg/
 layout: default
 classes: wide
 ---
