@@ -90,7 +90,6 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
     </ul>
   </li>
-</div>  
 
 
 <div id="pdf-viewer-container">
