@@ -26,7 +26,7 @@ classes: wide
 <style>
 /* Remove default numbering and padding from the main ordered list */
 ol {
-  list-style-type: none;
+  list-style-type: decimal;
   padding-left: 0;
   margin-left: 0;
 }
