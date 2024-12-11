@@ -39,3 +39,52 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* Learning Journey Sidebar */
+body.learning-journey .learning-sidebar {
+  position: fixed;
+  top: 100px;
+  left: 220px; /* Adjust based on your design */
+  width: 200px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  overflow-y: auto;
+}
+
+body.learning-journey .learning-sidebar a {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #007acc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+body.learning-journey .learning-sidebar a:hover {
+  background-color: #005f99;
+}
+
+/* Learning Journey Content */
+body.learning-journey .learning-content {
+  margin-left: 450px; /* Push content to the right to make space for the sidebar */
+  padding: 20px;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  body.learning-journey .learning-sidebar {
+    display: none; /* Hide sidebar on smaller screens */
+  }
+  body.learning-journey .learning-content {
+    margin-left: 0; /* Reset content margin for small screens */
+  }
+}
+
+
