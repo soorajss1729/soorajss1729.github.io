@@ -7,7 +7,7 @@ classes: wide
 
 <div class="learning-topnav">
   <a href="/learning/">Back</a>
-  <a href="/quantum-computing/">Quantum Computing</a>
+  <a href="/qc/">Quantum Computing</a>
 </div>
 
 
