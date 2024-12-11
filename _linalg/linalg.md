@@ -50,7 +50,7 @@ classes: wide
 }
 </style>
 
-## Linear Algebra
+## Linear Algebraaa
 
 <div class="learning-content">
   <h1>Linear Algebra</h1>
