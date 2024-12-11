@@ -17,7 +17,7 @@ classes: wide
     text-indent: 2em;
     margin-left: 10em;
     margin-right: 10em;
-    max-width: 90%; /* Constrain to A4 width */
+    max-width: 100%; /* Constrain to A4 width */
 }
 </style>
 
