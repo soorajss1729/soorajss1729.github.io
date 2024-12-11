@@ -43,13 +43,13 @@
 
 .learning-topnav {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; /* Allow wrapping to next line */
-  gap: 10px; /* Adjust spacing between links */
+  flex-wrap: wrap; /* Allow wrapping to the next line when needed */
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add space between links */
   background-color: #696969; /* Background color */
-  padding: 10px;
-  margin-bottom: 20px; /* Space below the nav bar */
+  padding: 10px 0; /* Top and bottom padding */
+  margin-bottom: 20px; /* Space below the bar */
 }
 
 .learning-topnav a {
@@ -58,23 +58,22 @@
   font-size: 1rem;
   font-weight: normal;
   padding: 5px 10px;
-  white-space: nowrap; /* Prevent breaking within links */
+  white-space: nowrap; /* Prevent text wrapping inside links */
 }
 
 .learning-topnav a:hover {
   text-decoration: underline; /* Underline effect on hover */
-  color: #ddd; /* Slightly lighter hover effect */
+  color: #ddd; /* Slightly lighter text on hover */
 }
 
 @media (max-width: 768px) {
   .learning-topnav {
-    justify-content: center; /* Ensure links are centered on small screens */
-    gap: 5px; /* Reduce gap for smaller screens */
-    padding: 8px; /* Adjust padding */
+    justify-content: space-around; /* Space items evenly on smaller screens */
+    gap: 5px; /* Reduce the gap */
   }
 
   .learning-topnav a {
-    font-size: 0.9rem; /* Reduce font size for small screens */
-    padding: 4px 8px; /* Adjust padding */
+    font-size: 0.9rem; /* Slightly smaller text */
+    padding: 5px; /* Adjust padding */
   }
 }
