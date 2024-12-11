@@ -9,6 +9,7 @@ redirect_from:
 
 <style>
 .about-me {
+    text-indent: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
