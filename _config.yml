@@ -221,6 +221,8 @@ kramdown:
 collections:
   linalg:
     output: true
+  grp:
+    output: true
   learning:
     output: true
     permalink: /:collection/:path/
