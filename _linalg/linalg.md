@@ -94,6 +94,14 @@ function loadPdfPage(pdfUrl) {
   </li>
 
 
+<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
+  <iframe id="pdf-viewer"
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
+    style="width: 210mm; height: 297mm; border: none;">
+  </iframe>
+</div>
+
+
 <div id="pdf-viewer-container">
   <iframe id="pdf-viewer"
     src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf"
