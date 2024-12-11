@@ -14,7 +14,7 @@ redirect_from:
 }
 </style>
     
-<a name="about-me"></a>\
+<a name="about-me"></a>
 
 <div style="text-align: justify;">
 <p>I am an early-stage PhD student at the Computer Science Department of Missouri S&T, specializing in theoretical quantum computing. My academic journey began in Photonics, but my deep passion for mathematics and quantum computing inspired me to gradually transition into theoretical research.</p>
