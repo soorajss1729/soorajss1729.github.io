@@ -62,7 +62,7 @@ function loadPdfPage(pdfUrl) {
 </script>
 
 <div class="toc-wrapper">
-<h2>Table of Contents</h2>
+<h2 id="toc">Table of Contents</h2>
 
 <ol>
   <li>
