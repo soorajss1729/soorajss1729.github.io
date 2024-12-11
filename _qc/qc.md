@@ -104,5 +104,4 @@ function loadPdfPage(pdfUrl) {
   </iframe>
 </div>
 
-</div>
 
