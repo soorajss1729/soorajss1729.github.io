@@ -26,7 +26,7 @@ classes: wide
 </style>
 
 <div class="learning-content">
-  <h1>Linear Algebra</h1>
+  <h1>Learning Journey</h1>
 
 <a name="linear-algebra"></a>
 <div class="text-block">
