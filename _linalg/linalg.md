@@ -20,6 +20,7 @@ classes: wide
 .text-block {
     text-align: justify;
     text-indent: 10px;
+    max-width: 100%;
 }
 </style>
 
