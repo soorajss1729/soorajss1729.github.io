@@ -6,5 +6,5 @@ collection: learning
 entries_layout: grid
 classes: wide
 ---
-## 
+
 
