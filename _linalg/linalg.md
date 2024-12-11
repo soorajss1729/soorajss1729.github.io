@@ -14,7 +14,7 @@ classes: wide
 <style>
 .learning-content {
   margin-left: 5%;
-  margin-right: 5%em;
+  margin-right: 5%;
   max-width: 100%;
 }
 .text-block {
