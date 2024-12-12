@@ -63,7 +63,7 @@ function loadPdfPage(pdfUrl) {
 
 <div id="toc-container">
   <details>
-    <summary>Book 1: Introduction to Vectors</a>
+    <summary>Book 1: Introduction to Vectors
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1: Introduction to Vectors</a></li>
       <li>
