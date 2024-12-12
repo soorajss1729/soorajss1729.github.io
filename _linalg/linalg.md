@@ -31,7 +31,7 @@ classes: wide
   cursor: pointer;
 }
 #toc-container ul {
-  margin-left: 20px; /* Indent nested lists */
+  margin-left: 10px; /* Indent nested lists */
   list-style-type: square;
 }
 </style>
