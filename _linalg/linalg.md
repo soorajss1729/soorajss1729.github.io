@@ -32,7 +32,7 @@ classes: wide
 }
 /* General styles for TOC */
 #toc-container ul {
-  margin-left: 2px; /* Indent nested lists */
+  margin-left: 10px; /* Indent nested lists */
   padding-left: 0;   /* Remove any default browser padding */
   list-style-type: square;
 }
