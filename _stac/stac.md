@@ -19,9 +19,11 @@ classes: wide
   max-width: 35cm;
 }
 .text-block {
-    text-align: justify;
-    text-indent: 50px;
-    max-width: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+  text-indent: 50px;
+  max-width: 100%;
 }
 </style>
 
