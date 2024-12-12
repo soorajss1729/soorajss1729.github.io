@@ -8,8 +8,8 @@ classes: wide
 ---
 
 <div class="learning-topnav">
-  <a href="/linalg/">Mathematics Stack Exchange</a>
-  <a href="/qc#">Quantum Computing Stack Exchange</a>
+  <a href="lin-stac">Mathematics Stack Exchange</a>
+  <a href="/qc-stac">Quantum Computing Stack Exchange</a>
 </div>
 
 <style>
