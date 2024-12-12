@@ -20,7 +20,8 @@ classes: wide
   padding-right: 5%;
   max-width: 35cm; /* Ensure the content doesn't stretch too wide */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
-}ol {
+}
+ol {
     list-style-type: decimal;
     padding-left: 20px; /* Adjust this to control overall indentation */
     margin-left: 0;     /* Remove browser's default margins */
