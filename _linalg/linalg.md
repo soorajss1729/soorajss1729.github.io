@@ -30,9 +30,17 @@ classes: wide
   font-weight: bold;
   cursor: pointer;
 }
+/* General styles for TOC */
 #toc-container ul {
-  margin-left: 2px; /* Indent nested lists */
+  margin-left: 20px; /* Indent nested lists */
   list-style-type: square;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  #toc-container ul {
+    margin-left: 10px; /* Reduce indentation for smaller screens */
+  }
 }
 </style>
 
