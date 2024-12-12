@@ -16,15 +16,13 @@ classes: wide
 /* Add left and right margins for the entire page */
 .page-container {
   margin: 0 auto; /* Center the content horizontally */
-  padding-left: 5%; /* Adjust as necessary */
-  padding-right: 5%;
+  padding: 0 5%; /* Adjust as necessary */
   max-width: 35cm; /* Ensure the content doesn't stretch too wide */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 ol {
     list-style-type: decimal;
     padding-left: 20px; /* Adjust this to control overall indentation */
-    margin-left: 0;     /* Remove browser's default margins */
 }
 
 li {
