@@ -13,6 +13,12 @@ classes: wide
 </div>
 
 <style>
+/* Add left and right margins for the entire page */
+.page-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%; /* Optional: Limit maximum width for better readability */
+}
 ol {
     list-style-type: decimal;
     padding-left: 20px; /* Adjust this to control overall indentation */
@@ -25,7 +31,7 @@ li {
 }
 </style>
 
-<div class="text-block">
+<div class="page-container">
   <h2>Mathematics Stack Exchange</h2>
   <ol>
     <li>
@@ -49,8 +55,6 @@ li {
       </a>: Provided a detailed explanation of a standard proof with an original example.
     </li>
   </ol>
-</div>
-
 
 ## Quantum Computing Stack Exchange
 
@@ -62,3 +66,4 @@ li {
   [1]: https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm
   [2]: https://quantumcomputing.stackexchange.com/questions/28924/why-does-the-chi-matrix-have-d4-d2-independent-parameters
 
+</div>
