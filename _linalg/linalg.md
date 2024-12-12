@@ -17,12 +17,12 @@ classes: wide
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 100%;
+  max-width: 35cm;
 }
 .text-block {
     text-align: justify;
     text-indent: 50px;
-    max-width: 100%;
+    max-width: 35cm;
 }
 </style>
 
