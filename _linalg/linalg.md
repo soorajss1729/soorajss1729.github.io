@@ -107,14 +107,6 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?    </ul>
   </details>
-
-
-
-
-
-
-
-  
 </div>
 
 <div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
