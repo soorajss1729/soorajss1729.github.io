@@ -33,7 +33,7 @@ classes: wide
 /* General styles for TOC */
 #toc-container ul {
   margin-left: 2px; /* Indent nested lists */
-  padding-left: 0;   /* Remove any default browser padding */
+  padding-left: 2px;   /* Remove any default browser padding */
   list-style-type: square;
 }
 
