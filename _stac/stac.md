@@ -71,14 +71,4 @@ li {
     </li>
   </ol>
 
-## Quantum Computing Stack Exchange
-
-<a name="qc-stac"></a>
- 1. [Derivation of Efficiency of Phase Estimation Algorithm][1]: Explored and engaged deeply with the derivation of efficiency bounds for the phase estimation algorithm.
- 2. [Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?][2]: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
-
-
-  [1]: https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm
-  [2]: https://quantumcomputing.stackexchange.com/questions/28924/why-does-the-chi-matrix-have-d4-d2-independent-parameters
-
 </div>
