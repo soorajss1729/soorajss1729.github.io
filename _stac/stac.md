@@ -35,6 +35,8 @@ classes: wide
   max-width: 100%;
 }
 </style>
+<div class="text-block">
+<h2 id="toc">Mathematics Stack Exchange</h2>
 
 <style>
 /* Add vertical spacing below the Table of Contents */
@@ -68,8 +70,6 @@ function loadPdfPage(pdfUrl) {
 }
 </script>
 
-<h2 id="toc">Mathematics Stack Exchange</h2>
-
 <ol>
   <li>
     <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">$f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$</a>, Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
@@ -79,7 +79,7 @@ function loadPdfPage(pdfUrl) {
   </li>
 ## Mathematics Stack Exchange
 </a>
-<div class="text-block">
+
 <a name="mat-stac"></a>
 1. <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">$f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$</a>, Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
   
