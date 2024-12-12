@@ -41,6 +41,16 @@ classes: wide
 #toc-container ul ul {
   margin-left: 10px; /* Additional indentation for nested lists */
 }
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  #toc-container ul {
+    margin-left: 2px; /* Reduced indentation on mobile */
+  }
+  #toc-container ul ul {
+    margin-left: 2px; /* Further reduced for nested lists */
+  }
+}
 </style>
 
 <div class="learning-content">
@@ -63,7 +73,7 @@ function loadPdfPage(pdfUrl) {
 
 <div id="toc-container">
   <details>
-    <summary>Book 1: Introduction to Vectors
+    <summary>Book 1: Introduction to Vectors</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1: Introduction to Vectors</a></li>
       <li>
