@@ -9,7 +9,7 @@ redirect_from:
 
 <style>
 .text-block {
-    text-indent: 50px;
+    text-indent: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: justify; /* Moved this from inline style */
