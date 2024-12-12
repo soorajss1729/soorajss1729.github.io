@@ -15,9 +15,9 @@ classes: wide
 <style>
 /* Add left and right margins for the entire page */
 .page-container {
-  margin-left: 10%;
-  margin-right: 10%;
-  max-width: 80%; /* Optional: Limit maximum width for better readability */
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 35cm; /* Optional: Limit maximum width for better readability */
 }
 ol {
     list-style-type: decimal;
