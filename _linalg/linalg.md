@@ -31,13 +31,12 @@ classes: wide
   margin-bottom: 15px;
 }
 
-/* Trigger for dropdown (book titles) */
 .dropdown span {
   cursor: pointer;
   font-weight: bold;
   padding: 5px 0;
-  color: #007bff;
-  text-decoration: none;
+  color: inherit; /* Retains original link color */
+  text-decoration: underline; /* Matches the hyperlink style */
 }
 
 /* Subsections (hidden by default) */
@@ -46,7 +45,6 @@ classes: wide
   margin-left: 15px;
 }
 
-/* Style for subsections */
 .dropdown-content ul {
   list-style-type: square; /* Keep the bullet points */
   padding-left: 0;
@@ -57,12 +55,8 @@ classes: wide
 }
 
 .dropdown-content ul li a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-}
-
-.dropdown-content ul li a:hover {
-  text-decoration: underline; /* Hover effect for links */
+  text-decoration: underline; /* Matches link styling */
+  color: inherit; /* Use the same color as other links */
 }
 
 /* Show content on hover (PC) */
