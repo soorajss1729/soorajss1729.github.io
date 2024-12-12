@@ -41,16 +41,6 @@ classes: wide
 #toc-container ul ul {
   margin-left: 10px; /* Additional indentation for nested lists */
 }
-
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-  #toc-container ul {
-    margin-left: 2px; /* Reduced indentation on mobile */
-  }
-  #toc-container ul ul {
-    margin-left: 2px; /* Further reduced for nested lists */
-  }
-}
 </style>
 
 <div class="learning-content">
