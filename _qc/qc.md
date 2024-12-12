@@ -55,7 +55,7 @@ classes: wide
 </style>
 
 <div class="learning-content">
-  <h1>Linear Algebra</h1>
+  <h1>Quantum Computing</h1>
 
 <a name="qc"></a>
 <div class="text-block">
