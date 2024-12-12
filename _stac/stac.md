@@ -1,17 +1,37 @@
 ---
 title: ""
 permalink: /stac/
-layout: archive
+layout: default
 collection: stac
 entries_layout: grid
 classes: wide
 ---
 
+<div class="learning-topnav">
+  <a href="/linalg/">Linear Algebra</a>
+  <a href="/qc#">Quantum Computing</a>
+  <a href="/quantum-computing/">Special Functions</a>
+  <a href="/quantum-computing/">Group Theory</a>
+</div>
+
+<style>
+.learning-content {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 35cm;
+}
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+    max-width: 100%;
+}
+</style>
+
 
 
 ## Mathematics Stack Exchange
 
-
+<div class="text-block">
 1. [ $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
 ][1]: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
 
