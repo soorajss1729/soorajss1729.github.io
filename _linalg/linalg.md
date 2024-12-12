@@ -31,7 +31,7 @@ classes: wide
   margin-bottom: 15px;
 }
 
-.dropdown span {
+.dropdown-trigger {
   cursor: pointer;
   font-weight: bold;
   padding: 5px 0;
@@ -59,38 +59,30 @@ classes: wide
   color: inherit; /* Use the same color as other links */
 }
 
-/* Show content on hover (PC) */
-@media (min-width: 768px) {
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-}
-
-/* Show content on click (Mobile and PC) */
+/* Dropdown content visible when "open" class is applied */
 .dropdown.open .dropdown-content {
   display: block;
 }
 </style>
 
 <script>
-/* Function to toggle dropdown visibility */
-function toggleDropdown(element) {
-  const parent = element.parentElement;
+document.addEventListener("DOMContentLoaded", function () {
+  // Attach event listeners to all dropdown triggers
+  const dropdowns = document.querySelectorAll(".dropdown");
 
-  // Close other dropdowns
-  document.querySelectorAll('.dropdown.open').forEach(dropdown => {
-    if (dropdown !== parent) dropdown.classList.remove('open');
-  });
+  dropdowns.forEach((dropdown) => {
+    const trigger = dropdown.querySelector(".dropdown-trigger");
+    trigger.addEventListener("click", function () {
+      // Toggle the "open" class for this dropdown
+      dropdown.classList.toggle("open");
 
-  // Toggle the clicked dropdown
-  parent.classList.toggle("open");
-}
-
-// Ensure mobile taps are properly recognized
-document.querySelectorAll('.dropdown span').forEach(item => {
-  item.addEventListener('click', function (e) {
-    e.preventDefault(); // Prevent any default behavior
-    toggleDropdown(this);
+      // Close all other dropdowns
+      dropdowns.forEach((otherDropdown) => {
+        if (otherDropdown !== dropdown) {
+          otherDropdown.classList.remove("open");
+        }
+      });
+    });
   });
 });
 </script>
@@ -107,7 +99,7 @@ document.querySelectorAll('.dropdown span').forEach(item => {
 
   <!-- Book 1 Dropdown -->
   <div class="dropdown">
-    <span>Book 1: Chapter 1 Introduction to Vectors</span>
+    <span class="dropdown-trigger">Book 1: Chapter 1 Introduction to Vectors</span>
     <div class="dropdown-content">
       <ul>
         <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">n Dimensional Cube (Page 22)</a></li>
@@ -119,7 +111,7 @@ document.querySelectorAll('.dropdown span').forEach(item => {
 
   <!-- Book 2 Dropdown -->
   <div class="dropdown">
-    <span>Book 2: Markov Matrices</span>
+    <span class="dropdown-trigger">Book 2: Markov Matrices</span>
     <div class="dropdown-content">
       <ul>
         <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
