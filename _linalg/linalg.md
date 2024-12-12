@@ -101,8 +101,6 @@ function loadPdfPage(pdfUrl) {
     </ul>
   </details>
 
-/* Book 3 */
-
  <details>
     <summary>Book 3: Advanced Topics</summary>
     <ul>
