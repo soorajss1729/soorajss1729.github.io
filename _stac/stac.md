@@ -28,11 +28,10 @@ classes: wide
 </style>
 
 
-<a class="mathstac">
 ## Mathematics Stack Exchange
 </a>
 <div class="text-block">
-
+<a name="lin-stac"></a>
 1. <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">$f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$</a>, Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
   
   [ $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
@@ -53,6 +52,7 @@ classes: wide
 
 ## Quantum Computing Stack Exchange
 
+<a name="qc-stac"></a>
  1. [Derivation of Efficiency of Phase Estimation Algorithm][1]: Explored and engaged deeply with the derivation of efficiency bounds for the phase estimation algorithm.
  2. [Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?][2]: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
 
