@@ -18,12 +18,12 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-
 /* Add left and right margins for the entire page */
 .page-container {
   margin: 0 auto; /* Center the content horizontally */
   padding: 0 5%; /* Adjust as necessary */
-  max-width: 35cm; /* Ensure the content doesn't stretch too wide */
+  max-width: 40cm; /* Ensure the content doesn't stretch too wide */
+  overflow: hidden; /* Prevents overflow */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
 }
 ol {
