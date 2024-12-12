@@ -25,108 +25,121 @@ classes: wide
 }
 
 /* Add vertical spacing below the Table of Contents */
-ul.toc-sublist {
+ul {
   margin-bottom: 1.5em; /* Adjust this value for more or less vertical space */
 }
-
 /* Remove default numbering and padding from the main ordered list */
-ol.collapsible-toc {
+ol {
   list-style-type: decimal;
   padding-left: 0;
   margin-left: 0;
 }
 
-/* Remove bullets from main ordered list items */
-ol.collapsible-toc > li {
+/* Style the TOC container */
+ol.toc {
+  list-style-type: decimal;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+/* Style for main TOC items */
+li.toc-item {
   list-style-type: none;
-  margin-bottom: 0.5em;
   position: relative;
-}
-
-/* Style for the toggle button */
-.toggle-button {
-  background: none;
-  border: none;
+  padding-left: 25px; /* Space for the toggle button */
   cursor: pointer;
-  font-size: 1em;
-  margin-right: 0.5em;
+}
+
+/* Style the toggle buttons */
+.toggle-button {
   position: absolute;
-  left: -1.5em;
+  left: 0;
   top: 0;
-  padding: 0;
-  line-height: 1;
-}
-
-/* Initial state: show '+' */
-.toggle-button::before {
-  content: '+';
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  width: 20px;
   display: inline-block;
-  transition: transform 0.3s;
+  text-align: center;
 }
 
-/* When expanded: show '−' */
-.collapsible-toc .expanded > .toc-header > .toggle-button::before {
-  content: '−';
-  transform: rotate(180deg);
-}
-
-/* Style the main TOC header */
-.toc-header {
-  display: inline-block;
-}
-
-/* Style the nested sublists */
-.toc-sublist {
-  list-style-type: square; /* Options: disc, circle, square */
-  padding-left: 1.5em;
+/* Style for nested TOC items */
+ul.subtoc {
+  list-style-type: square;
+  padding-left: 20px;
   display: none; /* Hidden by default */
+  margin-top: 5px;
 }
 
-/* Show sublist when expanded */
-.collapsible-toc .expanded > .toc-sublist {
+/* Optional: Add transition for smooth toggling */
+ul.subtoc {
+  transition: max-height 0.3s ease-out;
+  overflow: hidden;
+}
+
+/* When the sublist is active */
+ul.subtoc.active {
   display: block;
 }
 
-/* Remove hover-based functionality */
-@media (min-width: 0px) {
-  /* No hover styles */
+/* Change toggle button symbol when active */
+.toggle-button.active::after {
+  content: "−";
 }
 
-/* Indicate clickable headers with focus styles */
-.collapsible-toc .toc-header:focus-within {
-  outline: 2px solid #000;
+.toggle-button::after {
+  content: "+";
 }
 
-/* Improve arrow visibility */
-.toggle-button::before {
-  font-size: 0.8em;
-  color: #555;
+/* Remove bullets from main ordered list items */
+ol > li {
+  list-style-type: none;
+}
+
+/* Add bullets to nested unordered lists (subsections) */
+ol > li > ul {
+  list-style-type: square; /* Options: disc, circle, square */
+  padding-left: 0px;    /* Adjust to control indentation */
+  margin-left: 30px;
 }
 </style>
 
 <script>
-// Function to load PDF page
+// Function to load PDF pages as you already have
 function loadPdfPage(pdfUrl) {
   document.getElementById('pdf-viewer').src = pdfUrl;
   document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
 }
 
+// Wait until the DOM is fully loaded
 document.addEventListener('DOMContentLoaded', function() {
+  // Select all toggle buttons
   const toggleButtons = document.querySelectorAll('.toggle-button');
 
-  toggleButtons.forEach(button => {
+  toggleButtons.forEach(function(button) {
     button.addEventListener('click', function(event) {
-      event.stopPropagation(); // Prevent the click from triggering parent elements
-      const tocItem = this.closest('li');
-      const isExpanded = tocItem.classList.toggle('expanded');
-      this.setAttribute('aria-expanded', isExpanded);
-    });
+      event.stopPropagation(); // Prevent triggering the parent click event
 
-    // Allow toggling with Enter and Space keys for accessibility
-    button.addEventListener('keydown', function(event) {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        this.click();
+      // Toggle the active class on the button
+      button.classList.toggle('active');
+
+      // Find the next sibling ul and toggle its visibility
+      const subList = button.parentElement.querySelector('ul.subtoc');
+      if (subList) {
+        subList.classList.toggle('active');
+      }
+    });
+  });
+
+  // Optionally, allow clicking on the main item text to toggle the submenu
+  const tocItems = document.querySelectorAll('li.toc-item');
+
+  tocItems.forEach(function(item) {
+    item.addEventListener('click', function(event) {
+      // Check if the click is not on a link
+      if (event.target.tagName.toLowerCase() !== 'a') {
+        const button = item.querySelector('.toggle-button');
+        button.click(); // Trigger the toggle button click
       }
     });
   });
@@ -136,51 +149,45 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="learning-content">
   <h1>Linear Algebra</h1>
 
-  <a name="linear-algebra"></a>
-  <div class="text-block">
-    <p>Linear algebra has been a crucial part of my learning journey, especially as I ventured into quantum computing. I started with <a href="https://archive.org/details/gilbert-strang-introduction-to-linear-algebra-fifth-edition/page/504/mode/2up">Gilbert Strang's Introduction to Linear Algebra</a> to build a strong foundation, but I often found myself exploring much deeper concepts and proofs beyond what the book covered. Throughout this process, <a href="https://math.stackexchange.com/users/223599/sooraj-soman">Mathematics Stack Exchange</a> became an invaluable resource for clarifying doubts, solving challenging problems, and learning through engaging discussions with the community.</p>
-    <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
-  </div>
+<a name="linear-algebra"></a>
+<div class="text-block">
+ <p>Linear algebra has been a crucial part of my learning journey, especially as I ventured into quantum computing. I started with <a href="https://archive.org/details/gilbert-strang-introduction-to-linear-algebra-fifth-edition/page/504/mode/2up">Gilbert Strang's Introduction to Linear Algebra</a> to build a strong foundation, but I often found myself exploring much deeper concepts and proofs beyond what the book covered. Throughout this process, <a href="https://math.stackexchange.com/users/223599/sooraj-soman">Mathematics Stack Exchange</a> became an invaluable resource for clarifying doubts, solving challenging problems, and learning through engaging discussions with the community.</p>
+ <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
+</div>
+</div>
 
-  <h2 id="toc">Table of Contents</h2>
+<h2 id="toc">Table of Contents</h2>
 
-  <ol class="collapsible-toc">
-    <li>
-      <div class="toc-header">
-        <button class="toggle-button" aria-expanded="false" aria-label="Expand Book 1">+</button>
-        Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
-      </div>
-      <ul class="toc-sublist">
-        <li>n Dimensional Cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')">(Page 36)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=17')">Matrix Multiplication Methods (Page 71)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=76')">Block Matrix (Page 76)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=92')">Gershgorin Circle Theorem (Page 92)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=97')">LU Factorization (Page 97)</a></li>
-      </ul>
-    </li>
-    
-    <li>
-      <div class="toc-header">
-        <button class="toggle-button" aria-expanded="false" aria-label="Expand Book 2">+</button>
-        Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
-      </div>
-      <ul class="toc-sublist">
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=36')">Page Rank Algorithm (Page 36)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=62')">Neumann Series (Page 62)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=88')">Vandermonde Matrix (Page 88)</a></li>
-        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
-      </ul>
-    </li>
+<ol class="toc">
+  <li class="toc-item">
+    <span class="toggle-button">+</span>
+    Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
+    <ul class="subtoc">
+      <li>n Dimensional Cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')">(Page 36)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=17')">Matrix Multiplication Methods (Page 71)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=76')">Block Matrix (Page 76)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=92')">Gershgorin Circle Theorem (Page 92)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=97')">LU Factorization (Page 97)</a></li>
+    </ul>
+  </li>
+  
+  <li class="toc-item">
+    <span class="toggle-button">+</span>
+    Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
+    <ul class="subtoc">
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=36')">Page Rank Algorithm (Page 36)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=62')">Neumann Series (Page 62)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=88')">Vandermonde Matrix (Page 88)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
+    </ul>
+  </li>
+</ol>
 
-    <!-- Add more toc-item blocks for additional books -->
-  </ol>
-
-  <div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-    <iframe id="pdf-viewer"
-      src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110"
-      style="width: 210mm; height: 297mm; border: none;">
-    </iframe>
-  </div>
+<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
+  <iframe id="pdf-viewer"
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110"
+    style="width: 210mm; height: 297mm; border: none;">
+  </iframe>
 </div>
