@@ -12,6 +12,7 @@ classes: wide
   <a href="/grp/">Group Theory</a>  
 </div>
 
+
 <style>
 .learning-content {
   margin-left: 5%;
@@ -35,62 +36,6 @@ ol {
   margin-left: 0;
 }
 
-/* Style the TOC container */
-ol.toc {
-  list-style-type: decimal;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-/* Style for main TOC items */
-li.toc-item {
-  list-style-type: none;
-  position: relative;
-  padding-left: 25px; /* Space for the toggle button */
-  cursor: pointer;
-}
-
-/* Style the toggle buttons */
-.toggle-button {
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: bold;
-  cursor: pointer;
-  user-select: none;
-  width: 20px;
-  display: inline-block;
-  text-align: center;
-}
-
-/* Style for nested TOC items */
-ul.subtoc {
-  list-style-type: square;
-  padding-left: 20px;
-  display: none; /* Hidden by default */
-  margin-top: 5px;
-}
-
-/* Optional: Add transition for smooth toggling */
-ul.subtoc {
-  transition: max-height 0.3s ease-out;
-  overflow: hidden;
-}
-
-/* When the sublist is active */
-ul.subtoc.active {
-  display: block;
-}
-
-/* Change toggle button symbol when active */
-.toggle-button.active::after {
-  content: "−";
-}
-
-.toggle-button::after {
-  content: "+";
-}
-
 /* Remove bullets from main ordered list items */
 ol > li {
   list-style-type: none;
@@ -101,6 +46,27 @@ ol > li > ul {
   list-style-type: square; /* Options: disc, circle, square */
   padding-left: 0px;    /* Adjust to control indentation */
   margin-left: 30px;
+  
+  /* Hide subsections by default */
+  display: none;
+}
+
+/* Style for the toggle buttons */
+.toggle-button {
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: bold;
+  user-select: none;
+}
+
+/* Optional: Style the toggle buttons to align properly */
+.toggle-button::before {
+  content: "+ ";
+}
+
+/* Change the toggle symbol when active */
+.toggle-button.active::before {
+  content: "− ";
 }
 </style>
 
@@ -111,38 +77,35 @@ function loadPdfPage(pdfUrl) {
   document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
 }
 
-// Wait until the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  // Select all toggle buttons
-  const toggleButtons = document.querySelectorAll('.toggle-button');
-
-  toggleButtons.forEach(function(button) {
-    button.addEventListener('click', function(event) {
-      event.stopPropagation(); // Prevent triggering the parent click event
-
-      // Toggle the active class on the button
-      button.classList.toggle('active');
-
-      // Find the next sibling ul and toggle its visibility
-      const subList = button.parentElement.querySelector('ul.subtoc');
-      if (subList) {
-        subList.classList.toggle('active');
-      }
-    });
-  });
-
-  // Optionally, allow clicking on the main item text to toggle the submenu
-  const tocItems = document.querySelectorAll('li.toc-item');
+// Function to initialize collapsible TOC
+function initializeCollapsibleTOC() {
+  // Select all main TOC list items that have a nested ul
+  const tocItems = document.querySelectorAll('ol.toc > li');
 
   tocItems.forEach(function(item) {
-    item.addEventListener('click', function(event) {
-      // Check if the click is not on a link
-      if (event.target.tagName.toLowerCase() !== 'a') {
-        const button = item.querySelector('.toggle-button');
-        button.click(); // Trigger the toggle button click
-      }
-    });
+    const subList = item.querySelector('ul');
+    if (subList) {
+      // Create a span element to act as the toggle button
+      const toggleButton = document.createElement('span');
+      toggleButton.classList.add('toggle-button');
+      toggleButton.textContent = '+ ';
+      
+      // Insert the toggle button at the beginning of the list item
+      item.insertBefore(toggleButton, item.firstChild);
+      
+      // Add click event listener to the toggle button
+      toggleButton.addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevent event bubbling
+        subList.style.display = subList.style.display === 'none' || subList.style.display === '' ? 'block' : 'none';
+        toggleButton.classList.toggle('active');
+      });
+    }
   });
+}
+
+// Initialize the collapsible TOC after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+  initializeCollapsibleTOC();
 });
 </script>
 
@@ -159,10 +122,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2 id="toc">Table of Contents</h2>
 
 <ol class="toc">
-  <li class="toc-item">
-    <span class="toggle-button">+</span>
+  <li>
     Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
-    <ul class="subtoc">
+    <ul>
       <li>n Dimensional Cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')">(Page 36)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=17')">Matrix Multiplication Methods (Page 71)</a></li>
@@ -172,10 +134,9 @@ document.addEventListener('DOMContentLoaded', function() {
     </ul>
   </li>
   
-  <li class="toc-item">
-    <span class="toggle-button">+</span>
+  <li>
     Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
-    <ul class="subtoc">
+    <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=36')">Page Rank Algorithm (Page 36)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=62')">Neumann Series (Page 62)</a></li>
