@@ -30,43 +30,54 @@ ul {
   margin-bottom: 1.5em; /* Adjust this value for more or less vertical space */
 }
 /* Remove default numbering and padding from the main ordered list */
-ol {
+ol.toc {
   list-style-type: decimal;
   padding-left: 0;
   margin-left: 0;
 }
 
 /* Remove bullets from main ordered list items */
-ol > li {
+ol.toc > li {
   list-style-type: none;
 }
 
 /* Add bullets to nested unordered lists (subsections) */
-ol > li > ul {
+ol.toc > li > ul {
   list-style-type: square; /* Options: disc, circle, square */
   padding-left: 0px;    /* Adjust to control indentation */
   margin-left: 30px;
   
-  /* Hide subsections by default */
+  /* Initially hide the subsections */
   display: none;
 }
 
-/* Style for the toggle buttons */
-.toggle-button {
+/* Style the summary to match your TOC items */
+.toc summary {
   cursor: pointer;
-  margin-right: 8px;
   font-weight: bold;
-  user-select: none;
+  /* Add any additional styles as needed */
 }
 
-/* Optional: Style the toggle buttons to align properly */
-.toggle-button::before {
-  content: "+ ";
+/* Remove the default disclosure triangle */
+.toc summary::-webkit-details-marker {
+  display: none;
 }
 
-/* Change the toggle symbol when active */
-.toggle-button.active::before {
-  content: "− ";
+/* Optional: Add a custom indicator */
+.toc summary::before {
+  content: "➤ ";
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+/* Rotate the indicator when open */
+.toc details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+/* Style the nested lists */
+.toc ul {
+  margin-left: 20px; /* Adjust indentation as needed */
 }
 </style>
 
@@ -76,37 +87,6 @@ function loadPdfPage(pdfUrl) {
   document.getElementById('pdf-viewer').src = pdfUrl;
   document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
 }
-
-// Function to initialize collapsible TOC
-function initializeCollapsibleTOC() {
-  // Select all main TOC list items that have a nested ul
-  const tocItems = document.querySelectorAll('ol.toc > li');
-
-  tocItems.forEach(function(item) {
-    const subList = item.querySelector('ul');
-    if (subList) {
-      // Create a span element to act as the toggle button
-      const toggleButton = document.createElement('span');
-      toggleButton.classList.add('toggle-button');
-      toggleButton.textContent = '+ ';
-      
-      // Insert the toggle button at the beginning of the list item
-      item.insertBefore(toggleButton, item.firstChild);
-      
-      // Add click event listener to the toggle button
-      toggleButton.addEventListener('click', function(event) {
-        event.stopPropagation(); // Prevent event bubbling
-        subList.style.display = subList.style.display === 'none' || subList.style.display === '' ? 'block' : 'none';
-        toggleButton.classList.toggle('active');
-      });
-    }
-  });
-}
-
-// Initialize the collapsible TOC after the DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-  initializeCollapsibleTOC();
-});
 </script>
 
 <div class="learning-content">
@@ -123,26 +103,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <ol class="toc">
   <li>
-    Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
-    <ul>
-      <li>n Dimensional Cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')">(Page 36)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=17')">Matrix Multiplication Methods (Page 71)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=76')">Block Matrix (Page 76)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=92')">Gershgorin Circle Theorem (Page 92)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=97')">LU Factorization (Page 97)</a></li>
-    </ul>
+    <details>
+      <summary>
+        Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
+      </summary>
+      <ul>
+        <li>n Dimensional Cube <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">(Page 22)</a>, <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=36')">(Page 36)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=57')">Chapter 2 Solving Linear Equations</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=17')">Matrix Multiplication Methods (Page 71)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=76')">Block Matrix (Page 76)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=92')">Gershgorin Circle Theorem (Page 92)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=97')">LU Factorization (Page 97)</a></li>
+      </ul>
+    </details>
   </li>
   
   <li>
-    Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=36')">Page Rank Algorithm (Page 36)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=62')">Neumann Series (Page 62)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=88')">Vandermonde Matrix (Page 88)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
-    </ul>
+    <details>
+      <summary>
+        Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
+      </summary>
+      <ul>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=36')">Page Rank Algorithm (Page 36)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=62')">Neumann Series (Page 62)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=88')">Vandermonde Matrix (Page 88)</a></li>
+        <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=168')">Chapter 3 Vector Spaces and Subspaces</a></li>
+      </ul>
+    </details>
   </li>
 </ol>
 
