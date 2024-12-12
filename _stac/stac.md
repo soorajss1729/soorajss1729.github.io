@@ -17,7 +17,7 @@ classes: wide
 .page-container {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 35cm; /* Optional: Limit maximum width for better readability */
+  max-width: 40cm; /* Optional: Limit maximum width for better readability */
 }
 ol {
     list-style-type: decimal;
