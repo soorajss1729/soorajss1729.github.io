@@ -32,14 +32,23 @@ classes: wide
 }
 /* General styles for TOC */
 #toc-container ul {
-  margin-left: 2px; /* Indent nested lists */
+  margin-left: 20px; /* Indent nested lists */
+  padding-left: 0;   /* Remove any default browser padding */
   list-style-type: square;
+}
+
+/* Nested lists inside TOC */
+#toc-container ul ul {
+  margin-left: 20px; /* Additional indentation for nested lists */
 }
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   #toc-container ul {
-    margin-left: 2px; /* Reduce indentation for smaller screens */
+    margin-left: 10px; /* Reduced indentation on mobile */
+  }
+  #toc-container ul ul {
+    margin-left: 15px; /* Further reduced for nested lists */
   }
 }
 </style>
