@@ -13,36 +13,20 @@ classes: wide
 </div>
 
 <style>
-.text-block {
-  margin-left: 5%;
-  margin-right: 5%;
-  text-align: justify;
-  text-indent: 50px;
-  max-width: 100%;
-}
-
-ul {
-  margin-bottom: 1.5em; /* Vertical spacing below lists */
-}
-
 ol {
-  list-style-type: decimal; /* Default ordered list numbering */
-  padding-left: 20px; /* Consistent indentation */
+    list-style-type: decimal;
+    padding-left: 20px; /* Adjust this to control overall indentation */
+    margin-left: 0;     /* Remove browser's default margins */
 }
 
 li {
-  margin-bottom: 10px; /* Spacing between list items */
-}
-
-ol > li > ul {
-  list-style-type: square; /* Bulleted nested list */
-  margin-left: 20px; /* Indent nested list */
+    margin-bottom: 10px;
+    padding-left: 0;
 }
 </style>
 
-<a name="mat-stac"></a>
 <div class="text-block">
-  <h2 id="toc">Mathematics Stack Exchange</h2>
+  <h2>Mathematics Stack Exchange</h2>
   <ol>
     <li>
       <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">
@@ -66,6 +50,7 @@ ol > li > ul {
     </li>
   </ol>
 </div>
+
 
 ## Quantum Computing Stack Exchange
 
