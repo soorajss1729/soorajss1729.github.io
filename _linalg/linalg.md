@@ -31,21 +31,9 @@ ul {
 }
 /* Remove default numbering and padding from the main ordered list */
 ol {
-  list-style-type: decimal;
+  list-style-type: none; /* Changed to none to manage custom numbering if needed */
   padding-left: 0;
   margin-left: 0;
-}
-
-/* Remove bullets from main ordered list items */
-ol > li {
-  list-style-type: none;
-}
-
-/* Add bullets to nested unordered lists (subsections) */
-ol > li > ul {
-  list-style-type: square; /* Options: disc, circle, square */
-  padding-left: 0px;    /* Adjust to control indentation */
-  margin-left: 30px;
 }
 
 /* TOC Styles */
@@ -59,36 +47,39 @@ ol > li > ul {
 }
 
 .toc-header {
-  cursor: pointer;
   display: flex;
   align-items: center;
-  outline: none; /* Remove default focus outline */
+  cursor: pointer;
 }
 
-.toc-header a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.toc-sublist {
-  list-style-type: square;
-  padding-left: 20px;
-  display: none; /* Hidden by default */
-}
-
-.toc-item.active .toc-sublist {
-  display: block;
-}
-
-/* Arrow Indicators */
-.toc-header::after {
-  content: '▼'; /* Down arrow */
-  margin-left: auto;
+.toggle-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5em;
+  font-size: 1em;
   transition: transform 0.3s;
 }
 
-.toc-item.active .toc-header::after {
+.toggle-button::before {
+  content: '▼'; /* Down arrow */
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.toc-item.expanded .toggle-button::before {
   transform: rotate(-180deg); /* Up arrow */
+}
+
+/* Sublist Styles */
+.toc-sublist {
+  list-style-type: square;
+  padding-left: 1.5em;
+  display: none; /* Hidden by default */
+}
+
+.toc-item.expanded .toc-sublist {
+  display: block;
 }
 
 /* Hover Behavior for Desktop */
@@ -97,15 +88,15 @@ ol > li > ul {
     display: block;
   }
   
-  .toc-header::after {
-    display: none; /* Hide arrows on desktop hover */
+  .toggle-button {
+    display: none; /* Hide toggle buttons on desktop */
   }
 }
 
 /* Click Behavior for Mobile */
 @media (max-width: 767px) {
-  .toc-header::after {
-    display: inline; /* Show arrows on mobile */
+  .toggle-button {
+    display: inline; /* Show toggle buttons on mobile */
   }
 }
 
@@ -115,7 +106,7 @@ ol > li > ul {
 }
 
 /* Improve arrow visibility */
-.toc-header::after {
+.toggle-button::before {
   font-size: 0.8em;
   color: #555;
 }
@@ -128,40 +119,41 @@ function loadPdfPage(pdfUrl) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  const tocHeaders = document.querySelectorAll('.toc-header');
+  const toggleButtons = document.querySelectorAll('.toggle-button');
 
-  tocHeaders.forEach(header => {
-    header.addEventListener('click', function(event) {
-      if (window.innerWidth < 768) {
-        const parentItem = this.parentElement;
-        const isActive = parentItem.classList.toggle('active');
-        this.setAttribute('aria-expanded', isActive);
-        
-        // Close other items
-        document.querySelectorAll('.toc-item').forEach(item => {
-          if (item !== parentItem) {
-            item.classList.remove('active');
-            item.querySelector('.toc-header').setAttribute('aria-expanded', false);
-          }
-        });
-      }
+  toggleButtons.forEach(button => {
+    button.addEventListener('click', function(event) {
+      event.stopPropagation(); // Prevent the click from triggering parent elements
+      const tocItem = this.closest('.toc-item');
+      const isExpanded = tocItem.classList.toggle('expanded');
+      this.setAttribute('aria-expanded', isExpanded);
     });
 
-    // Allow toggling with Enter key
-    header.addEventListener('keypress', function(event) {
-      if (event.key === 'Enter') {
-        header.click();
+    // Allow toggling with Enter and Space keys
+    button.addEventListener('keydown', function(event) {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        this.click();
       }
     });
   });
 });
 </script>
 
+<h1>Linear Algebra</h1>
+
+<a name="linear-algebra"></a>
+<div class="text-block">
+ <p>Linear algebra has been a crucial part of my learning journey, especially as I ventured into quantum computing. I started with <a href="https://archive.org/details/gilbert-strang-introduction-to-linear-algebra-fifth-edition/page/504/mode/2up">Gilbert Strang's Introduction to Linear Algebra</a> to build a strong foundation, but I often found myself exploring much deeper concepts and proofs beyond what the book covered. Throughout this process, <a href="https://math.stackexchange.com/users/223599/sooraj-soman">Mathematics Stack Exchange</a> became an invaluable resource for clarifying doubts, solving challenging problems, and learning through engaging discussions with the community.</p>
+ <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S & T, my notes go well beyond the scope of a 6000-level advanced graduate course.</p>
+</div>
+
 <h2 id="toc">Table of Contents</h2>
 
 <ol class="collapsible-toc">
   <li class="toc-item">
-    <div class="toc-header" tabindex="0" aria-expanded="false">
+    <div class="toc-header">
+      <button class="toggle-button" aria-expanded="false" aria-label="Expand Book 1"></button>
       Book 1: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=3')">Chapter 1 Introduction to Vectors</a>
     </div>
     <ul class="toc-sublist">
@@ -175,7 +167,8 @@ document.addEventListener('DOMContentLoaded', function() {
   </li>
   
   <li class="toc-item">
-    <div class="toc-header" tabindex="0" aria-expanded="false">
+    <div class="toc-header">
+      <button class="toggle-button" aria-expanded="false" aria-label="Expand Book 2"></button>
       Book 2: <a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a>
     </div>
     <ul class="toc-sublist">
