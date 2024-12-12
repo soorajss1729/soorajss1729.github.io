@@ -36,7 +36,7 @@ classes: wide
   font-weight: bold;
   padding: 5px 0;
   color: inherit; /* Retains original link color */
-  text-decoration: underline; /* Matches the hyperlink style */
+  text-decoration: underline; /* Matches hyperlink style */
 }
 
 /* Subsections (hidden by default) */
@@ -85,6 +85,14 @@ function toggleDropdown(element) {
   // Toggle the clicked dropdown
   parent.classList.toggle("open");
 }
+
+// Ensure mobile taps are properly recognized
+document.querySelectorAll('.dropdown span').forEach(item => {
+  item.addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent any default behavior
+    toggleDropdown(this);
+  });
+});
 </script>
 
 <div class="learning-content">
@@ -99,7 +107,7 @@ function toggleDropdown(element) {
 
   <!-- Book 1 Dropdown -->
   <div class="dropdown">
-    <span onclick="toggleDropdown(this)">Book 1: Chapter 1 Introduction to Vectors</span>
+    <span>Book 1: Chapter 1 Introduction to Vectors</span>
     <div class="dropdown-content">
       <ul>
         <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=22')">n Dimensional Cube (Page 22)</a></li>
@@ -111,7 +119,7 @@ function toggleDropdown(element) {
 
   <!-- Book 2 Dropdown -->
   <div class="dropdown">
-    <span onclick="toggleDropdown(this)">Book 2: Markov Matrices</span>
+    <span>Book 2: Markov Matrices</span>
     <div class="dropdown-content">
       <ul>
         <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
