@@ -13,6 +13,12 @@ classes: wide
 </div>
 
 <style>
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Add left and right margins for the entire page */
 .page-container {
   margin: 0 auto; /* Center the content horizontally */
