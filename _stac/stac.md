@@ -35,6 +35,7 @@ classes: wide
   max-width: 100%;
 }
 </style>
+<a name="mat-stac"></a>
 <div class="text-block">
 <h2 id="toc">Mathematics Stack Exchange</h2>
 
@@ -80,8 +81,6 @@ function loadPdfPage(pdfUrl) {
   </li>
 ## Mathematics Stack Exchange
 </a>
-
-<a name="mat-stac"></a>
 
 
 ## Quantum Computing Stack Exchange
