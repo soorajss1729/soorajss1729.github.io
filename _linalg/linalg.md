@@ -39,7 +39,7 @@ classes: wide
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   #toc-container ul {
-    margin-left: 10px; /* Reduce indentation for smaller screens */
+    margin-left: 2px; /* Reduce indentation for smaller screens */
   }
 }
 </style>
