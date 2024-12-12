@@ -16,7 +16,7 @@ classes: wide
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 30cm;
+  max-width: 35cm;
 }
 .text-block {
     text-align: justify;
