@@ -9,9 +9,7 @@ classes: wide
 <div class="learning-topnav">
   <a href="/learning/">Back</a>
   <a href="/linalg/">Linear Algebra</a>
-  <a href="/qc/">Special Functions</a>
   <a href="/qc#">Quantum Computing</a>
-
 </div>
 
 
