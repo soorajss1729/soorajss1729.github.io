@@ -124,7 +124,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 5: Advanced Topics</summary>
+    <summary>Book 5: Orthogonality</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la5.pdf#page=39')">Chapter 4: Orthogonality</a></li>
@@ -136,7 +136,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 6: Chapter 4 Continue</summary>
+    <summary>Book 6: Orthogonality Continue</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la6.pdf#page=3')">Chapter 4 Continue...</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la6.pdf#page=6')">Householder Reflection</a></li>
