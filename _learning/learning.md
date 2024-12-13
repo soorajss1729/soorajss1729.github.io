@@ -8,7 +8,7 @@ classes: wide
 <div class="learning-topnav">
   <a href="/linalg/">Linear Algebra</a>
   <a href="/qc#">Quantum Computing</a>
-  <a href="/quantum-computing/">Group Theory</a>
+  <a href="/grp/">Group Theory</a>
 </div>
 
 <style>
