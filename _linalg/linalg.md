@@ -89,7 +89,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 2: Advanced Topics</summary>
+    <summary>Book 2: Markov Process</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
@@ -101,7 +101,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 3: Advanced Topics</summary>
+    <summary>Book 3: Subspaces Continue</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
@@ -111,8 +111,15 @@ function loadPdfPage(pdfUrl) {
   <details>
     <summary>Book 4: Advanced Topics</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=3')">N(A)=N(rref(A))</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=5')">Fundamental Theorem: Part 1</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=15')">Rank 2=Rank 1+Rank 1</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=62')">Rank($A^TA$)=Rank(A)=Rank($A^T$)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=105')">$W_1\cap W_2$ and $W_1+W_2$</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=108')">$dim(W_1\cap W_2)=dim(W_1)+dim(W_2)-dim(W_1\cap W_2)$ </a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=113')">$W_1\oplus W_2$</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=118')">$W_1+W_2=span(W_1\cap W_2)$ and $W_1+W_2$</a></li>
+
     </ul>
   </details>
 
