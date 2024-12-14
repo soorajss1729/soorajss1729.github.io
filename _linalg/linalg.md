@@ -163,7 +163,7 @@ function loadPdfPage(pdfUrl) {
     <summary>Book 8: Differential Equations Continue</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=3')">Difference Equations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=24')">Leapfrong Method</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=24')">Leapfrog Method</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=37')">Symmetric Matrices</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=45')">Schur's Theorem</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la8.pdf#page=53')">Positive Definite Matrix</a></li>
@@ -172,10 +172,11 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 9: Advanced Topics</summary>
+    <summary>Book 9: Singular Value Decomposition</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la9.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la9.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la9.pdf#page=3')">Chapter 6 Exercise</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la9.pdf#page=85')">Singular Value Decomposition (Page 85)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la9.pdf#page=114')">Spectral Norm</a></li>
     </ul>
   </details>
 
