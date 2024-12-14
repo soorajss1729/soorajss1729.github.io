@@ -244,7 +244,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 14: Laguerre and Bessel Functions</summary>
+    <summary>Book 14: Laguerre, Bessel and Chebyshev</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la14.pdf#page=3')">Laguere's Polynomials</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la14.pdf#page=9')">Generating Function</a></li>
