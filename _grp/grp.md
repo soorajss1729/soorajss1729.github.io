@@ -160,7 +160,7 @@ function loadPdfPage(pdfUrl) {
     <summary>Book 9: Coursework Project</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-proj-report.pdf#page=3')">$A_n$ is Simple for $n\ge 5$</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-proj-ppt.pdf#page=10')">My Contribution to the Project Presentation</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-proj-ppt.pdf#page=10')">Project Presentation</a></li>
     </ul>
   </details>
 </div>
