@@ -90,7 +90,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Section 2: </summary>
+    <summary>Section 2: Factor Groups and Homomorphisms</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-2.pdf#page=1')">Finitely Generated Abelian Groups</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-2.pdf#page=4')">Homomorphisms</a></li>
