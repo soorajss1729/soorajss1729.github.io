@@ -284,23 +284,15 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 17: Advanced Topics</summary>
+    <summary>Book 17: Probability and Statistics Continue</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf#page=3')">Covariance and Joint Probability</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf#page=37')">Correlation Matrix</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf#page=46')">Multivariate Gaussian</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la17.pdf#page=55')">Weighted Least Squares</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la18.pdf#page=3')">Probability and Statistics Exercise</a></li>
     </ul>
   </details>
-
-  <details>
-    <summary>Book 18: Advanced Topics</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
-    </ul>
-  </details>
-
 </div>
 
 
