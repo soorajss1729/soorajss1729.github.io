@@ -105,10 +105,16 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 3: Advanced Topics</summary>
+    <summary>Book 3: Quantum Computation</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=3')">Single Qubit Gates</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=22')">Rotation</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=33')">Single Qubit Unitary as Rotation</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=51')">Rotations About Arbitrary Axis</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=57')">Controlled Operations</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=72')">No-Cloning Theorem</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=80')">Bell States</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=90')">Conditioning on Multiple Qubits</a></li>
     </ul>
   </details>
 
