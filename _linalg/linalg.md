@@ -149,7 +149,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 7: Chapter 6 Eigenvalues and Eigenvectors</summary>
+    <summary>Book 7: Eigenvalues and Eigenvectors</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la7.pdf#page=10')">Chapter 6 Eigenvalues and Eigenvectors</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la7.pdf#page=3')">Diagonalizing a Matrix</a></li>
@@ -197,7 +197,7 @@ function loadPdfPage(pdfUrl) {
   <details>
     <summary>Book 11: Linear Transformation</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la11.pdf#page=3')">Chapter 8L Linear Transformations</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la11.pdf#page=3')">Chapter 8: Linear Transformations</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la11.pdf#page=26')">Change of Basis</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la11.pdf#page=71')">Jordan Canonical Form</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la11.pdf#page=79')">Fillipov's Inductive Proof</a></li>
@@ -263,15 +263,16 @@ function loadPdfPage(pdfUrl) {
   <details>
     <summary>Book 15: Complex Vectors - Cryptography</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la15.pdf#page=3')">Linear Transformations Exercise</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la15.pdf#page=57')">Complex Vectors and Matrices</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la15.pdf#page=92')">Linear Algebra for Cryptography</a></li>
     </ul>
   </details>
 
   <details>
     <summary>Book 16: Encryption - Probability</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la16.pdf#page=17')">Linear Transformations Exercise</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
     </ul>
   </details>
