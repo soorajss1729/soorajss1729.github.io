@@ -41,13 +41,32 @@
 @import "print";
 
 
-.author-icon {
-  width: 20px;           /* Maintain original aspect ratio */
-  height: 20px;          /* Adjust height for clarity */
-  vertical-align: middle; /* Align with text */
-  margin-right: 8px;      /* Add space between icon and text */
-  display: inline-block; /* Ensure icons align inline properly */
+/* Ensure consistent icon/image alignment and spacing */
+.author__urls li {
+  display: flex;          /* Align items horizontally */
+  align-items: center;    /* Vertically align items */
+  margin-bottom: 8px;     /* Space between list items */
 }
+
+.author__urls a {
+  display: flex;          /* Align link content horizontally */
+  align-items: center;    /* Align content vertically */
+  color: inherit;         /* Inherit link color */
+  text-decoration: none;  /* Remove underline */
+}
+
+.author-icon, .author__urls i {
+  height: 20px;           /* Standardize icon/image size */
+  width: 20px;            /* Maintain consistency */
+  margin-right: 8px;      /* Space between icon/image and text */
+  display: inline-block;  /* Ensure proper inline alignment */
+  vertical-align: middle; /* Align with text */
+}
+
+.author__urls i {
+  font-size: 20px;        /* FontAwesome icon size */
+}
+
 
 
 .learning-topnav {
