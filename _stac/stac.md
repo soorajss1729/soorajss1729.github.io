@@ -13,9 +13,9 @@ classes: wide
 
 <style>
 .text-block {
-    text-align: justify;
-    text-indent: 50px;
-    max-width: 35cm;
+  text-align: justify;
+  text-indent: 50px;
+  max-width: 35cm;
 }
 /* Reset padding and margin for the list */
 #toc-container ul {
@@ -47,7 +47,6 @@ classes: wide
     padding-left: 0.8em;
   }
 }
-
 </style>
 
 <div class="learning-content">
