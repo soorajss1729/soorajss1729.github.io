@@ -54,20 +54,21 @@
   text-decoration: none;
 }
 
-.author__urls i {
-  font-size: 20px; /* Font Awesome icon size */
-  line-height: 1;  /* Fix vertical alignment */
-  margin-right: 8px; /* Spacing */
+.author__urls img.se-logo {
+  width: 20px; /* Consistent size for SE logos */
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.se-logo {
-  width: 20px; /* Consistent width */
-  height: 20px; /* Consistent height */
-  margin-right: 8px; /* Space between icon and text */
-  line-height: 1; /* Align to center */
-  vertical-align: middle; /* Align with Font Awesome icons */
-  display: inline-block;
+.author__urls i {
+  font-size: inherit; /* Reset the font size for Font Awesome icons */
+  margin-right: 8px;
+  line-height: 1;
+  vertical-align: middle; /* Keep alignment consistent */
 }
+
 
 
 
