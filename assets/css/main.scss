@@ -41,6 +41,15 @@
 @import "print";
 
 
+.author-icon {
+  width: auto;           /* Maintain original aspect ratio */
+  height: 20px;          /* Adjust height for clarity */
+  vertical-align: middle; /* Align with text */
+  margin-right: 8px;      /* Add space between icon and text */
+  display: inline-block; /* Ensure icons align inline properly */
+}
+
+
 .learning-topnav {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping to the next line when needed */
@@ -55,14 +64,6 @@
   top: 65px; /* Adjust based on the height of the main navigation bar */
   z-index: 1000; /* Ensure it stays on top of other content */
 }
-
-.author-icon {
-  width: 16px;
-  height: 16px;
-  vertical-align: middle; /* Aligns icon vertically with text */
-  margin-right: 5px;      /* Adds space between the icon and text */
-}
-
 
 .learning-topnav a {
   color: #ffffff; /* White text */
