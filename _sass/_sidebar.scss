@@ -108,7 +108,12 @@
 }
 
 .author__name {
-  margin: 0;
+  display: block; /* Ensure it behaves like a block element */
+  text-align: center; /* Horizontally center the text */
+  margin-top: 10px; /* Add a little spacing from the image */
+  font-family: $sans-serif; /* Keep the existing font */
+  font-size: $type-size-5;
+}
 
   @include breakpoint($large) {
     margin-top: 10px;
