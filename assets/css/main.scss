@@ -43,8 +43,8 @@
 
 .author__urls li {
   display: flex;
-  align-items: center;   /* Align items vertically */
-  margin-bottom: 8px;    /* Space between list items */
+  align-items: center; /* Vertically align items */
+  margin-bottom: 8px;  /* Space between items */
 }
 
 .author__urls a {
@@ -55,21 +55,19 @@
 }
 
 .author__urls img, .author__urls i {
-  width: 18px;           /* Set consistent width */
-  height: 18px;          /* Set consistent height */
-  margin-right: 8px;     /* Space between icon and text */
+  width: 20px;          /* Set fixed width */
+  height: 20px;         /* Set fixed height */
+  margin-right: 8px;    /* Space between icon and text */
   display: inline-block;
 }
 
 .author__urls i {
-  font-size: 18px;       /* Force Font Awesome icons to match image size */
-  line-height: 1;        /* Remove extra space */
-  vertical-align: middle; /* Align with text */
+  font-size: 20px;      /* Match Font Awesome icons to image size */
+  line-height: 20px;    /* Prevent extra space */
 }
 
 .author__urls span {
-  display: inline-block; /* Ensure text aligns properly */
-  line-height: 1.2;
+  line-height: 20px;    /* Align text properly */
   vertical-align: middle;
 }
 
