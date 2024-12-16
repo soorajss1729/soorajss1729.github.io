@@ -294,7 +294,15 @@ function loadPdfPage(pdfUrl) {
 
 <div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
   <iframe id="pdf-viewer"
-    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110"
+    src="{% if page.permalink == '/grp/' %}
+            https://soorajss1729.github.io/pdfjs/viewer.html?file=group_theory.pdf&zoom=110
+         {% elsif page.permalink == '/linalg/' %}
+            https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
+         {% elsif page.permalink == '/qc/' %}
+            https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110
+         {% else %}
+            https://soorajss1729.github.io/pdfjs/viewer.html?file=default.pdf&zoom=110
+         {% endif %}"
     style="width: 210mm; height: 297mm; border: none;">
   </iframe>
 </div>
