@@ -109,11 +109,8 @@
 }
 
 .author__name {
-  display: block; /* Ensure it behaves like a block element */
-  text-align: center; /* Horizontally center the text */
-  margin-top: 10px; /* Add a little spacing from the image */
-  font-family: $sans-serif; /* Keep the existing font */
-  font-size: $type-size-5;
+  text-align: center; /* Center text horizontally */
+  margin: 10px 0;     /* Add some margin for spacing */
 }
 
   @include breakpoint($large) {
