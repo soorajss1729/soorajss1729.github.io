@@ -190,20 +190,14 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 10: Quantum Error Correction</summary>
+    <summary>Book 10: Quantum Search</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=9')">Three Qubit Bit Flip Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=34')">Three Qubit Phase Flip Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=42')">The Shor Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=57')">Stabilizer Formalism</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 11: Advanced Topics</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=4')">Grover's Search Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=11')">Grover Iteration</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=24')">Complexity of Grover's Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=37')">Performance of Grover's Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=46')">Procedure of Grover's Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=72')">Quantum Counting</a></li>
     </ul>
   </details>
 
@@ -239,6 +233,16 @@ function loadPdfPage(pdfUrl) {
     </ul>
   </details>
 
+  <details>
+    <summary>Book 10: Quantum Error Correction</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=9')">Three Qubit Bit Flip Code</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=34')">Three Qubit Phase Flip Code</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=42')">The Shor Code</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=57')">Stabilizer Formalism</a></li>
+    </ul>
+  </details>
+  
   <details>
     <summary>Book 16: Advanced Topics</summary>
     <ul>
