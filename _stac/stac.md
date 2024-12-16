@@ -7,8 +7,8 @@ classes: wide
 ---
 
 <div class="learning-topnav">
-  <a href="lin-stac">Mathematics Stack Exchange</a>
-  <a href="/qc-stac">Quantum Computing Stack Exchange</a>
+  <a href="#math-stac">Mathematics Stack Exchange</a>
+  <a href="#qc-stac">Quantum Computing Stack Exchange</a>
 </div>
 
 <style>
@@ -57,7 +57,7 @@ classes: wide
  <p>Engaging with platforms like Mathematics Stack Exchange and Quantum Computing Stack Exchange has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the Learning Journey section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
  </div>
 
-<h2 id="toc">Mathematics Stack Exchange</h2>
+<h2 id="math-stac">Mathematics Stack Exchange</h2>
 
 <div id="toc-container">
   <ul>
@@ -84,7 +84,7 @@ classes: wide
   </ul>
 </div>
 
-<h2 id="toc">Quantum Computing Stack Exchange</h2>
+<h2 id="qc-stac">Quantum Computing Stack Exchange</h2>
 
 <div id="toc-container">
   <ul>
