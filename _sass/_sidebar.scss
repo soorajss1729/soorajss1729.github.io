@@ -75,9 +75,6 @@
 /*
    Author profile and links
    ========================================================================== */
-.sidebar {
-  padding: 20px; /* Add consistent padding for the sidebar */
-}
 
 .author__avatar {
   display: block; /* Ensures the avatar behaves like a block element */
@@ -101,8 +98,8 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
