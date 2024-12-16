@@ -77,28 +77,20 @@
    ========================================================================== */
 
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
+  display: block; /* Ensures the avatar behaves like a block element */
+  width: 150px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  margin: 0 auto; /* Center the avatar horizontally */
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
-    }
+    width: 100%; /* Ensure image fills the container */
+    height: 100%; /* Force the height */
+    object-fit: cover; /* Maintain aspect ratio and crop overflow */
+    border-radius: 10px; /* Slightly rounded corners for a professional look */
+    border: 1px solid $border-color; /* Optional: Add a subtle border */
   }
 }
+
 
 .author__content {
   display: table-cell;
