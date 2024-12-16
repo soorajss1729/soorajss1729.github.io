@@ -41,6 +41,7 @@ classes: wide
 /* Nested lists inside TOC */
 #toc-container ul ul {
   margin-left: 10px; /* Additional indentation for nested lists */
+  margin-right: 10px;
 }
 
 /* Mobile-specific adjustments */
