@@ -33,8 +33,8 @@ classes: wide
 }
 
 .learning-content {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
   max-width: 35cm; /* Avoid excessive width */
   box-sizing: border-box; /* Consistent padding and border behavior */
 }
