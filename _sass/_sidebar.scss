@@ -87,7 +87,7 @@
     height: 100%; /* Force the height */
     object-fit: cover; /* Maintain aspect ratio and crop overflow */
     border-radius: 2px; /* Slightly rounded corners for a professional look */
-    border: 2px solid $border-color; /* Optional: Add a subtle border */
+    border: 8px solid $border-color; /* Optional: Add a subtle border */
   }
 }
 
