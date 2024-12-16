@@ -55,8 +55,8 @@
 }
 
 .author__urls img, .author__urls i {
-  width: 18px;            /* Same size for all icons */
-  height: 18px;           /* Fixed height */
+  width: 16px;            /* Same size for all icons */
+  height: 16px;           /* Fixed height */
   margin-right: 8px;      /* Space between icon and text */
   display: inline-block;
 }
@@ -66,7 +66,7 @@
 }
 
 .author__urls i {
-  font-size: 20px;        /* Set Font Awesome icon size */
+  font-size: 16px;        /* Set Font Awesome icon size */
   line-height: 1;         /* Fix vertical alignment */
 }
 
