@@ -15,29 +15,35 @@ classes: wide
 .text-block {
   text-align: justify;
   text-indent: 50px;
-  max-width: 100%;
+  max-width: 35cm;
 }
-/* Reset padding and margin for the list */
 #toc-container ul {
-  margin: 0; /* Remove extra margins */
-  padding-left: 1.2em; /* Controlled space for bullet points */
-  list-style-type: square;
+    margin: 0; /* Reset margins */
+    padding: 0 0 0 1.2em; /* Left padding only for bullets */
+    list-style-type: square;
 }
 
 #toc-container li {
-  margin: 0;
-  padding: 0; 
-  line-height: 1.5; /* Improve readability */
-  text-align: left; /* Ensures no extra space on the right */
-  white-space: normal; /* Prevent text from overflowing */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: left; /* Prevent unintended center alignment */
+}
+
+#toc-container li a {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Ensures links don’t stretch horizontally */
+    text-decoration: none; /* Optional: clean styling */
 }
 
 .learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 100%; /* Avoid excessive width */
-  box-sizing: border-box; /* Consistent padding and border behavior */
+    margin: 0 auto;
+    padding: 0 5%;
+    max-width: 35cm;
+    box-sizing: border-box; /* Consistent padding and sizing */
 }
+
 
 @media (max-width: 768px) {
   #toc-container ul {
