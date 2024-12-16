@@ -295,7 +295,7 @@ function loadPdfPage(pdfUrl) {
 <div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
   <iframe id="pdf-viewer"
     src="{% if page.permalink == '/grp/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=group_theory.pdf&zoom=110
+            https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110
          {% elsif page.permalink == '/linalg/' %}
             https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
          {% elsif page.permalink == '/qc/' %}
