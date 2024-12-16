@@ -77,25 +77,26 @@
    ========================================================================== */
 
 .author__avatar {
-  display: flex; /* Flexbox for easy centering */
+  display: flex; /* Flexbox for centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
-  width: 100%; /* Take full container width */
-  width: 260px; /* Set the desired width */
-  height: 300px; /* Set the desired height */
+  width: 90%; /* Make the width relative to its parent */
+  max-width: 260px; /* Prevent it from becoming too large on wide screens */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 8px;
-  margin: 0 auto; /* Adds top and horizontal spacing */
+  margin: 0 auto; /* Center the box horizontally */
 
   img {
-    width: 100%; /* Ensure image fills the container */
-    height: 100%; /* Force the height */
-    object-fit: cover; /* Maintain aspect ratio and crop overflow */
-    object-position: center; /* Center the image content */
-    border-radius: 2px; /* Slightly rounded corners for a professional look */
-    border: 2px solid #ccc; /* Light gray border */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    width: 100%; /* Fill the container */
+    height: 100%; /* Maintain aspect ratio */
+    object-fit: cover; /* Crop and fit the image */
+    object-position: center; /* Center the visible image */
+    border-radius: 2px;
+    border: 2px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 }
+
 
 
 
