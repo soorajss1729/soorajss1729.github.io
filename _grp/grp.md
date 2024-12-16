@@ -171,7 +171,7 @@ function loadPdfPage(pdfUrl) {
 
 <div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
   <iframe id="pdf-viewer"
-    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110"
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110"
     style="width: 210mm; height: 297mm; border: none;">
   </iframe>
 </div>
