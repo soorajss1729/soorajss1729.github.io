@@ -80,6 +80,7 @@
   display: flex; /* Flexbox for easy centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
+  width: 100%; /* Take full container width */
   width: 260px; /* Set the desired width */
   height: 300px; /* Set the desired height */
   margin: 0 auto; /* Adds top and horizontal spacing */
