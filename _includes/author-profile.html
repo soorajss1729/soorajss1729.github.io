@@ -24,14 +24,24 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
+
       
-      {% if author.stackexchange %}
+      {% if author.stackexchange_math %}
         <li>
-          <a href="{{ author.stackexchange }}" target="_blank">
-            <i class="fab fa-stack-exchange icon-pad-right" aria-hidden="true"></i>Stack Exchange
+          <a href="{{ author.stackexchange_math }}" target="_blank">
+            <i class="fab fa-stack-exchange icon-pad-right" aria-hidden="true"></i>Math Stack Exchange
           </a>
         </li>
       {% endif %}
+
+      {% if author.stackexchange_qc %}
+        <li>
+          <a href="{{ author.stackexchange_qc }}" target="_blank">
+            <i class="fab fa-stack-exchange icon-pad-right" aria-hidden="true"></i>QC Stack Exchange
+          </a>
+        </li>
+      {% endif %}
+      
  
 
       
