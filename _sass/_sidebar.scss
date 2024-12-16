@@ -87,7 +87,8 @@
     height: 100%; /* Force the height */
     object-fit: cover; /* Maintain aspect ratio and crop overflow */
     border-radius: 2px; /* Slightly rounded corners for a professional look */
-    border: 2px solid $border-color; /* Optional: Add a subtle border */
+    border: 2px solid #ccc; /* Light gray border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Optional shadow */
   }
 }
 
