@@ -202,7 +202,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 12: Quantum Noice and Quantum Operations</summary>
+    <summary>Book 12: Quantum Operations</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=5')">Classical Noice</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=17')">Quantum Operations</a></li>
@@ -216,7 +216,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 13: Advanced Topics</summary>
+    <summary>Book 13: Quantum Noice</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=3')">Axiomatic Approach to Quantum Operations</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=20')">Choi Matrix</a></li>
