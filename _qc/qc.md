@@ -173,7 +173,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 8: Advanced Topics</summary>
+    <summary>Book 8: More Quantum Algorithms</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=3')">Order Finding Algorithm</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=39')">Performance of Order Finding</a></li>
