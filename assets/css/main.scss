@@ -42,28 +42,32 @@
 
 
 .author__urls li {
-  display: flex;          /* Align items horizontally */
-  align-items: center;    /* Ensure vertical alignment */
-  margin-bottom: 8px;     /* Consistent spacing */
-}
-
-.author-icon, .author__urls i {
-  width: 20px;            /* Set consistent icon size */
-  height: 20px;           
-  margin-right: 8px;      /* Space between icon and text */
-  display: inline-block;  
-  vertical-align: middle; /* Align images/icons vertically with text */
-}
-
-.author__urls img {
-  vertical-align: middle; /* Align SE images properly with text */
+  display: flex;          /* Align icon and text horizontally */
+  align-items: center;    /* Center both vertically */
+  margin-bottom: 8px;     /* Space between list items */
 }
 
 .author__urls a {
-  display: flex;          /* Align text and icons together */
-  align-items: center;    /* Ensure text aligns vertically with icons */
-  color: inherit;         
-  text-decoration: none;  
+  display: flex;
+  align-items: center;
+  color: inherit;         /* Use default text color */
+  text-decoration: none;  /* Remove link underline */
+}
+
+.author__urls img, .author__urls i {
+  width: 20px;            /* Same size for all icons */
+  height: 20px;           /* Fixed height */
+  margin-right: 8px;      /* Space between icon and text */
+  display: inline-block;
+}
+
+.author__urls img {
+  object-fit: contain;    /* Maintain proportions for uploaded images */
+}
+
+.author__urls i {
+  font-size: 20px;        /* Set Font Awesome icon size */
+  line-height: 1;         /* Fix vertical alignment */
 }
 
 
