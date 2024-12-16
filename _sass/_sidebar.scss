@@ -110,6 +110,7 @@
 
 .author__name {
   margin: 0;
+  margin-top: 10px; /* Adjust as needed */
   text-align: center; /* Center the text horizontally */
 
   @include breakpoint($large) {
