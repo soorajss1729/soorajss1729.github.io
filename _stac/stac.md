@@ -64,7 +64,7 @@ classes: wide
 
 <div id="toc-container">
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=3')">Postulates of Quantum Mechanics</a></li>
+      <li><a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">$f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$</a>: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.</li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=46')">Distinguishing Quantum States</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=56')">Projective Measurement</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=73')">POVM Measurement</a></li>
