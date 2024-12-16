@@ -42,38 +42,35 @@
 
 
 .author__urls li {
-  display: flex;           /* Align items horizontally */
-  align-items: center;     /* Align vertically */
-  margin-bottom: 8px;      /* Space between list items */
+  display: flex;
+  align-items: center;   /* Align items vertically */
+  margin-bottom: 8px;    /* Space between list items */
 }
 
 .author__urls a {
-  display: flex;           /* Align link content horizontally */
-  align-items: center;     /* Align content vertically */
-  color: inherit;          /* Inherit text color */
-  text-decoration: none;   /* Remove underline */
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
 }
 
-.author__urls img.se-logo {
-  width: 20px;             /* Size for SE logos */
-  height: 20px;
-  margin-right: 8px;       /* Space between icon and text */
+.author__urls img, .author__urls i {
+  width: 18px;           /* Set consistent width */
+  height: 18px;          /* Set consistent height */
+  margin-right: 8px;     /* Space between icon and text */
   display: inline-block;
-  vertical-align: middle;
 }
 
 .author__urls i {
-  font-size: 20px;         /* Font Awesome icon size */
-  line-height: 1;          /* Avoid extra spacing */
-  margin-right: 8px;       /* Space between icon and text */
-  display: flex;
-  align-items: center;
+  font-size: 18px;       /* Force Font Awesome icons to match image size */
+  line-height: 1;        /* Remove extra space */
+  vertical-align: middle; /* Align with text */
 }
 
 .author__urls span {
-  display: inline-block;   /* Align text */
-  vertical-align: middle;  /* Ensure proper alignment with icons */
-  line-height: 1.2;        /* Text height alignment */
+  display: inline-block; /* Ensure text aligns properly */
+  line-height: 1.2;
+  vertical-align: middle;
 }
 
 
