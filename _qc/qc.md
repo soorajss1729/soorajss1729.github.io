@@ -182,10 +182,10 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 9: Advanced Topics</summary>
+    <summary>Book 9: Hidden Subgroup Problem</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=3')">Discrete Logarithm Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=16')">The Hidden Subgroup Problem</a></li>
     </ul>
   </details>
 
