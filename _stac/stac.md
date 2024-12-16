@@ -33,15 +33,15 @@ classes: wide
 #toc-container ul {
   margin-left: 10px; /* Indent nested lists */
   padding-left: 10px;   /* Remove any default browser padding */
-  margin-right: 10px;
-  padding-right: 10px;
+  margin-right: 2px;
+  padding-right: 2px;
   list-style-type: square;
 }
 
 /* Nested lists inside TOC */
 #toc-container ul ul {
   margin-left: 10px; /* Additional indentation for nested lists */
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 /* Mobile-specific adjustments */
