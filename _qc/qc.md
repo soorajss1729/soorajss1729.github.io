@@ -231,10 +231,13 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 14: Advanced Topics</summary>
+    <summary>Book 14: Quantum Tomography</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=4')">Quantum State Tomography</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=19')">Quantum Process Tomography</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=23')">Chi Matrix Representation of Quantum Operation</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=26')">Alternative Method: Choi Matrix</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=45')">Quantum Process Tomography for Single Qubit</a></li>
     </ul>
   </details>
 
