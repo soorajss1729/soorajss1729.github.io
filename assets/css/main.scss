@@ -50,6 +50,12 @@
   background-color: #696969; /* Background color */
   padding: 10px 0; /* Top and bottom padding */
   margin-bottom: 20px; /* Space below the bar */
+
+  position: fixed; /* Fix the navigation bar at the top */
+  top: 0; /* Stick to the top of the viewport */
+  left: 0; /* Align to the left edge */
+  width: 100%; /* Full width */
+  z-index: 1000; /* Ensure it stays on top of other elements */
 }
 
 .learning-topnav a {
