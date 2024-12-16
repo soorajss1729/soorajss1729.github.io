@@ -226,6 +226,7 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=68')">Bit Flip and Phase Flip Channels</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=83')">Depolarizing Channel</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=94')">Amplitude Damping</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc14.pdf#page=3')">Exercises</a></li>
     </ul>
   </details>
 
