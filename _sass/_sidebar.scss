@@ -75,11 +75,14 @@
 /*
    Author profile and links
    ========================================================================== */
+.sidebar {
+  padding: 20px; /* Add consistent padding for the sidebar */
+}
 
 .author__avatar {
   display: block; /* Ensures the avatar behaves like a block element */
   width: 240px; /* Set the desired width */
-  height: 290px; /* Set the desired height */
+  height: 300px; /* Set the desired height */
   border-radius: 8px; /* Subtle rounded edges */
   margin: 20px auto 0 auto; /* Adds top and horizontal spacing */
 
