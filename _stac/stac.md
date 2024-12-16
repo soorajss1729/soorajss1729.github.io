@@ -12,51 +12,42 @@ classes: wide
 </div>
 
 <style>
-.learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 40cm;
-}
 .text-block {
     text-align: justify;
     text-indent: 50px;
     max-width: 35cm;
 }
-#toc-container details {
-  margin-bottom: 1em; /* Add spacing between collapsible sections */
-}
-#toc-container summary {
-  font-weight: bold;
-  cursor: pointer;
-}
-/* Reset padding and margin for TOC container */
+/* Reset padding and margin for the list */
 #toc-container ul {
-  margin: 0; /* Remove all margins */
-  padding: 0; /* Remove all padding */
-  list-style-type: square; /* Retain square bullets */
+  margin: 0; /* Remove extra margins */
+  padding-left: 1.2em; /* Controlled space for bullet points */
+  list-style-type: square;
 }
 
 #toc-container li {
-  margin: 0; /* Ensure no extra margin */
-  padding: 0 0 5px 20px; /* Add spacing only on the left for bullets */
-  text-align: left; /* Ensure proper text alignment */
+  margin: 0;
+  padding: 0; 
   line-height: 1.5; /* Improve readability */
-}
-/* Nested lists inside TOC */
-#toc-container ul ul {
-  margin-left: 0px; /* Additional indentation for nested lists */
-  margin-right: 0px;
+  text-align: left; /* Ensures no extra space on the right */
+  white-space: normal; /* Prevent text from overflowing */
 }
 
-/* Mobile-specific adjustments */
+.learning-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%; /* Avoid excessive width */
+  box-sizing: border-box; /* Consistent padding and border behavior */
+}
+
 @media (max-width: 768px) {
   #toc-container ul {
-    margin-left: 2px; /* Reduced indentation on mobile */
+    padding-left: 1em; /* Adjust indentation for mobile */
   }
-  #toc-container ul ul {
-    margin-left: 2px; /* Further reduced for nested lists */
+  #toc-container li {
+    padding-left: 0.8em;
   }
 }
+
 </style>
 
 <div class="learning-content">
