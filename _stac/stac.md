@@ -31,17 +31,21 @@ classes: wide
 }
 /* General styles for TOC */
 #toc-container ul {
-  margin-left: 10px; /* Indent nested lists */
+  margin-left: 0px; /* Indent nested lists */
+  margin-right: 0px; /* Remove unnecessary right margin */
   padding-left: 10px;   /* Remove any default browser padding */
-  margin-right: 2px;
-  padding-right: 2px;
+  padding-right: 0; /* Ensure no right padding */
   list-style-type: square;
 }
-
+/* Fix list item spacing */
+#toc-container li {
+  margin-right: 0; /* Remove extra margin on the right */
+  padding-right: 0; /* Remove extra padding on the right */
+}
 /* Nested lists inside TOC */
 #toc-container ul ul {
-  margin-left: 10px; /* Additional indentation for nested lists */
-  margin-right: 2px;
+  margin-left: 0px; /* Additional indentation for nested lists */
+  margin-right: 0px;
 }
 
 /* Mobile-specific adjustments */
