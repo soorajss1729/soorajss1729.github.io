@@ -42,34 +42,30 @@
 
 
 .author__urls li {
-  display: flex;
-  align-items: center; /* Vertically align items */
-  margin-bottom: 8px;  /* Space between items */
+  display: flex;          /* Align items horizontally */
+  align-items: center;    /* Ensure vertical alignment */
+  margin-bottom: 8px;     /* Consistent spacing */
+}
+
+.author-icon, .author__urls i {
+  width: 20px;            /* Set consistent icon size */
+  height: 20px;           
+  margin-right: 8px;      /* Space between icon and text */
+  display: inline-block;  
+  vertical-align: middle; /* Align images/icons vertically with text */
+}
+
+.author__urls img {
+  vertical-align: middle; /* Align SE images properly with text */
 }
 
 .author__urls a {
-  display: flex;
-  align-items: center;
-  color: inherit;
-  text-decoration: none;
+  display: flex;          /* Align text and icons together */
+  align-items: center;    /* Ensure text aligns vertically with icons */
+  color: inherit;         
+  text-decoration: none;  
 }
 
-.author__urls img, .author__urls i {
-  width: 20px;          /* Set fixed width */
-  height: 20px;         /* Set fixed height */
-  margin-right: 8px;    /* Space between icon and text */
-  display: inline-block;
-}
-
-.author__urls i {
-  font-size: 20px;      /* Match Font Awesome icons to image size */
-  line-height: 20px;    /* Prevent extra space */
-}
-
-.author__urls span {
-  line-height: 20px;    /* Align text properly */
-  vertical-align: middle;
-}
 
 
 
