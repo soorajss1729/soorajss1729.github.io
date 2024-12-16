@@ -35,7 +35,7 @@ classes: wide
 .learning-content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 100%; /* Avoid excessive width */
+  max-width: 35cm; /* Avoid excessive width */
   box-sizing: border-box; /* Consistent padding and border behavior */
 }
 
