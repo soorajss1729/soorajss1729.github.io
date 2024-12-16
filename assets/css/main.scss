@@ -41,12 +41,32 @@
 @import "print";
 
 
+.author__urls li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; /* Space between items */
+}
+
+.author__urls a {
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.author__urls i {
+  font-size: 20px; /* Font Awesome icon size */
+  line-height: 1;  /* Fix vertical alignment */
+  margin-right: 8px; /* Spacing */
+}
+
 .se-logo {
-  width: 20px !important;        /* Ensure size is strictly 16px */
-  height: 20px !important;
-  margin-right: 8px;             /* Space between icon and text */
-  display: inline-block;         /* Proper inline alignment */
-  vertical-align: middle;        /* Align icon with text */
+  width: 20px; /* Consistent width */
+  height: 20px; /* Consistent height */
+  margin-right: 8px; /* Space between icon and text */
+  line-height: 1; /* Align to center */
+  vertical-align: middle; /* Align with Font Awesome icons */
+  display: inline-block;
 }
 
 
