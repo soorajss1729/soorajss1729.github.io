@@ -78,6 +78,8 @@
 
 .author__avatar {
   display: block; /* Ensures the avatar behaves like a block element */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   width: 260px; /* Set the desired width */
   height: 300px; /* Set the desired height */
   margin: 0 auto; /* Adds top and horizontal spacing */
