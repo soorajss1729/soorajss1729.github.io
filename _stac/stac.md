@@ -29,18 +29,18 @@ classes: wide
   font-weight: bold;
   cursor: pointer;
 }
-/* General styles for TOC */
+/* Reset padding and margin for TOC container */
 #toc-container ul {
-  margin-left: 0px; /* Indent nested lists */
-  margin-right: 0px; /* Remove unnecessary right margin */
-  padding-left: 10px;   /* Remove any default browser padding */
-  padding-right: 0; /* Ensure no right padding */
-  list-style-type: square;
+  margin: 0; /* Remove all margins */
+  padding: 0; /* Remove all padding */
+  list-style-type: square; /* Retain square bullets */
 }
-/* Fix list item spacing */
+
 #toc-container li {
-  margin-right: 0; /* Remove extra margin on the right */
-  padding-right: 0; /* Remove extra padding on the right */
+  margin: 0; /* Ensure no extra margin */
+  padding: 0 0 5px 20px; /* Add spacing only on the left for bullets */
+  text-align: left; /* Ensure proper text alignment */
+  line-height: 1.5; /* Improve readability */
 }
 /* Nested lists inside TOC */
 #toc-container ul ul {
