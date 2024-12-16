@@ -10,8 +10,8 @@ redirect_from:
 <style>
 .text-block {
     text-indent: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     text-align: justify; /* Moved this from inline style */
 }
 </style>
