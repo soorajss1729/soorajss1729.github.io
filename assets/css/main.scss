@@ -56,6 +56,14 @@
   z-index: 1000; /* Ensure it stays on top of other content */
 }
 
+.author-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; /* Aligns icon vertically with text */
+  margin-right: 5px;      /* Adds space between the icon and text */
+}
+
+
 .learning-topnav a {
   color: #ffffff; /* White text */
   text-decoration: none;
