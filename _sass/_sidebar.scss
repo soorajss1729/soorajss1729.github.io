@@ -77,7 +77,7 @@
    ========================================================================== */
 
 .author__avatar {
-  display: block; /* Ensures the avatar behaves like a block element */
+  display: flex; /* Flexbox for easy centering */
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   width: 260px; /* Set the desired width */
