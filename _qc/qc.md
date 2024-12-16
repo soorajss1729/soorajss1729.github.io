@@ -242,15 +242,17 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 15: Advanced Topics</summary>
+    <summary>Chapter 9: Distance Measures</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=4')">Classical Distance Measures</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=26')">Quantum Trace Distance</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=34')">Quantum Fidelity</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=41')">Relationship between Distance Measures</a></li>
     </ul>
   </details>
 
   <details>
-    <summary>Book 10: Quantum Error Correction</summary>
+    <summary>Chapter 10: Quantum Error Correction</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=9')">Three Qubit Bit Flip Code</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=34')">Three Qubit Phase Flip Code</a></li>
