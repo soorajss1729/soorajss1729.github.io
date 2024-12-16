@@ -94,14 +94,19 @@ classes: wide
   </ul>
 </div>
 
+<h2 id="toc">Quantum Computing Stack Exchange</h2>
 
-
-
-
-<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-  <iframe id="pdf-viewer"
-    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110"
-    style="width: 210mm; height: 297mm; border: none;">
-  </iframe>
+<div id="toc-container">
+  <ul>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm">
+        Derivation of Efficiency of Phase Estimation Algorithm
+      </a>: Explored and engaged deeply with the derivation of efficiency bounds for the phase estimation algorithm.
+    </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28924/why-does-the-chi-matrix-have-d4-d2-independent-parameters">
+        Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?
+      </a>: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
+    </li>
+  </ul>
 </div>
-
