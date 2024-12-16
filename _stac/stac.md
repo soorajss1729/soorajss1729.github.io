@@ -33,6 +33,8 @@ classes: wide
 #toc-container ul {
   margin-left: 10px; /* Indent nested lists */
   padding-left: 10px;   /* Remove any default browser padding */
+  margin-right: 10px;
+  padding-right: 10px;
   list-style-type: square;
 }
 
