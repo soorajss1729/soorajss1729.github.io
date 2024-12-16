@@ -41,30 +41,30 @@
 @import "print";
 
 
-/* Ensure consistent icon/image alignment and spacing */
 .author__urls li {
-  display: flex;          /* Align items horizontally */
-  align-items: center;    /* Vertically align items */
-  margin-bottom: 8px;     /* Space between list items */
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px; /* Space between items */
 }
 
 .author__urls a {
-  display: flex;          /* Align link content horizontally */
-  align-items: center;    /* Align content vertically */
-  color: inherit;         /* Inherit link color */
-  text-decoration: none;  /* Remove underline */
+  display: flex;
+  align-items: center;
+  color: inherit;
+  text-decoration: none;
 }
 
 .author-icon, .author__urls i {
-  height: 20px;           /* Standardize icon/image size */
-  width: 20px;            /* Maintain consistency */
-  margin-right: 8px;      /* Space between icon/image and text */
-  display: inline-block;  /* Ensure proper inline alignment */
-  vertical-align: middle; /* Align with text */
+  width: 20px; /* Set consistent width */
+  height: 20px; /* Set consistent height */
+  margin-right: 8px; /* Space between icon and text */
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .author__urls i {
-  font-size: 20px;        /* FontAwesome icon size */
+  font-size: 20px; /* Font Awesome icon size */
+  line-height: 1;  /* Avoid extra vertical space */
 }
 
 .se-logo {
