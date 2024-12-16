@@ -15,7 +15,7 @@ classes: wide
 .text-block {
   text-align: justify;
   text-indent: 50px;
-  max-width: 35cm;
+  max-width: 50cm;
 }
 /* Reset padding and margin for the list */
 #toc-container ul {
@@ -35,7 +35,7 @@ classes: wide
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 35cm; /* Avoid excessive width */
+  max-width: 50cm; /* Avoid excessive width */
   box-sizing: border-box; /* Consistent padding and border behavior */
 }
 
