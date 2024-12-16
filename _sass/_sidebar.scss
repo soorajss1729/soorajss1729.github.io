@@ -80,7 +80,9 @@
   display: block; /* Ensures the avatar behaves like a block element */
   width: 240px; /* Set the desired width */
   height: 290px; /* Set the desired height */
+  border-radius: 8px; /* Subtle rounded edges */
   margin: 0 auto; /* Center the avatar horizontally */
+  display: block; /* Ensure centering works */
 
   img {
     width: 100%; /* Ensure image fills the container */
