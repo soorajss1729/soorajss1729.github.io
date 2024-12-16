@@ -276,7 +276,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Chapter 11 (Part 2): Entropy and Information</summary>
+    <summary>Chapter 11 (Part 3): Entropy and Information</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=4')">Lieb's Theorem</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=24')">Relative Entropy is Jointly Convex</a></li>
@@ -286,15 +286,6 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=49')">Subadditivity of Conditional Entropy</a></li>
     </ul>
   </details>
-
-  <details>
-    <summary>Book 18: Advanced Topics</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=17')">Markov Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la2.pdf#page=22')">Perron Frobenius Theorem (Page 22)</a></li>
-    </ul>
-  </details>
-
 </div>
 
 
