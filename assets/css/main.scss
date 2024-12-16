@@ -68,11 +68,13 @@
 }
 
 .se-logo {
-  width: 16px;            /* Custom size for Math SE and QC SE logos */
-  height: 16px;
-  margin-right: 8px;      /* Ensure spacing matches other icons */
-  vertical-align: middle; /* Align properly with text */
+  width: 16px !important;        /* Ensure size is strictly 16px */
+  height: 16px !important;
+  margin-right: 8px;             /* Space between icon and text */
+  display: inline-block;         /* Proper inline alignment */
+  vertical-align: middle;        /* Align icon with text */
 }
+
 
 
 
