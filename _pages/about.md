@@ -82,7 +82,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   <div style="margin-top: 15px;">
     <p style="font-weight: bold; margin-bottom: 5px;">Example Contribution:</p>
     <p style="font-style: italic; color: #555;">
-      <a href="#" style="color: #0073e6; text-decoration: none;">
+      <a href="#">
         Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| \leq \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
       </a>
       – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
@@ -111,7 +111,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   <div style="margin-top: 15px;">
     <p style="font-weight: bold; margin-bottom: 5px;">Example Contribution:</p>
     <p style="font-style: italic; color: #555;">
-      <a href="#" style="color: #0073e6; text-decoration: none;">
+      <a href="#">
         Derivation of Efficiency of Phase Estimation Algorithm
       </a>
       – Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
@@ -119,7 +119,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   </div>
   <!-- View Full Link -->
   <div style="margin-top: 15px;">
-    <a href="#" style="font-weight: bold; color: #0073e6;">View Full Quantum Computing Contributions</a>
+    <a href="#">View Full Quantum Computing Contributions</a>
   </div>
 </div>
 
