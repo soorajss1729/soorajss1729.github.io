@@ -81,9 +81,9 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   width: 90%; /* Make the width relative to its parent */
-  max-width: 260px; /* Prevent it from becoming too large on wide screens */
+  max-width: 280px; /* Prevent it from becoming too large on wide screens */
   height: auto; /* Maintain aspect ratio */
-  aspect-ratio: 26 / 30; /* Explicit aspect ratio for rectangle (260x300) */
+  aspect-ratio: 4 / 5; /* Explicit aspect ratio for rectangle (260x300) */
   border-radius: 8px;
   margin: 0 auto; /* Center the box horizontally */
 
