@@ -104,15 +104,15 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 5%;
+  padding-right: 5%;
   line-height: 0.5;
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
