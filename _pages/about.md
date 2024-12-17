@@ -63,6 +63,33 @@ Cochin University of Science and Technology, 2017
 
 ## Stack Exchange Highlights
 
+I have actively contributed to **Mathematics Stack Exchange** and **Quantum Computing Stack Exchange**, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
+
+---
+
+### Key Achievements:
+
+- **Mathematics Stack Exchange**  
+   - **Reputation**: 7,920 | **393 Questions** | **57 Answers**  
+   - **Example Contribution**:  
+     [Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| ≤ \frac{1}{2} \) given \( f(x) = -x\log_2 x \)](#)  
+     – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.  
+   - [View Full Mathematics Contributions](#)
+
+- **Quantum Computing Stack Exchange**  
+   - **Reputation**: 851 | **35 Posts** | **Ranked #169 Overall**  
+   - **Example Contribution**:  
+     [Derivation of Efficiency of Phase Estimation Algorithm](#)  
+     – Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.  
+   - [View Full Quantum Computing Contributions](#)
+
+---
+
+### Explore More  
+Discover my complete contributions and insights:  
+[Mathematics Stack Exchange Highlights](#) | [Quantum Computing Highlights](#)
+
+
 <style>
 .cors ul {
     list-style-type: square; /* Black square bullets */
