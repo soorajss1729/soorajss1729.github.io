@@ -90,7 +90,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   </div>
   <!-- View Full Link -->
   <div style="margin-top: 15px;">
-    <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile" style="font-weight: bold;>View Full Mathematics Contributions</a>
+    <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile" style="font-weight: bold;">View Full Mathematics Contributions</a>
   </div>
 </div>
 
@@ -119,7 +119,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   </div>
   <!-- View Full Link -->
   <div style="margin-top: 15px;">
-    <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile" style="font-weight: bold;>View Full Quantum Computing Contributions</a>
+    <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile" style="font-weight: bold;">View Full Quantum Computing Contributions</a>
   </div>
 </div>
 
