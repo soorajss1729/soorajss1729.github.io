@@ -24,7 +24,7 @@ redirect_from:
 
 <p>Over the years, I have dedicated myself to building a strong foundation in mathematics and quantum computing through self-learning and independent study. Platforms like <a href="[ss4kx@mst.edu](https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile)">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile">Quantum Computing Stack Exchange</a> have been invaluable in this process, allowing me to engage with global communities, tackle challenging problems, and develop a structured understanding of complex concepts. Navigating this unconventional path has required resilience and perseverance to overcome both uncertainty and criticism, making the journey profoundly rewarding and fulfilling.</p>
 
-<p>Feel free to navigate through the <a href="">Learning Journey</a> section to explore my notes, insights, and resources that have fueled my learning journey.</p>
+<p>Feel free to navigate through the <a href="/learning/">Learning Journey</a> section to explore my notes, insights, and resources that have fueled my learning journey.</p>
 </div>
 
 
