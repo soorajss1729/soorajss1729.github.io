@@ -63,18 +63,43 @@ Cochin University of Science and Technology, 2017
 
 ## Stack Exchange Highlights
 
-
-## Relevant Coursework
-
-
 <style>
-.stac-list ul {
+.cors ul {
     list-style-type: square; /* Black square bullets */
     padding-left: 20px; /* Add spacing for bullets */
     margin: 0; /* Remove default margins */
 }
 
-.stac-list li {
+.cors li {
+    color: inherit; /* Inherit the text color from the page */
+    font-family: inherit; /* Inherit the font family */
+    font-size: inherit; /* Inherit the font size */
+    line-height: inherit; /* Maintain the global line height */
+    margin-bottom: 5px; /* Space between list items */}
+</style>
+## Relevant Coursework
+
+<div class="cors">
+<ul>
+    <li>MATH 6108 Applied Matrix Theory</li>
+    <li>MATH 5105 Modern Algebra</li>
+    <li>CS 5200 Analysis of Algorithms</li>
+    <li>CS 5001 Introduction to Quantum Computing</li>
+    <li>CS 5001 Probability and Its Applications to Computing</li>
+    <li>Graph Theory (Planned 6000-Level Course)</li>
+    <li>Quantum Optics</li>
+</ul>
+</div>
+
+
+<style>
+.onln ul {
+    list-style-type: square; /* Black square bullets */
+    padding-left: 20px; /* Add spacing for bullets */
+    margin: 0; /* Remove default margins */
+}
+
+.onln li {
     color: inherit; /* Inherit the text color from the page */
     font-family: inherit; /* Inherit the font family */
     font-size: inherit; /* Inherit the font size */
@@ -83,7 +108,7 @@ Cochin University of Science and Technology, 2017
 </style>
 ## Online Certifications
 
-<div class="stac-list">
+<div class="onln">
 <ul>
     <li>Introduction to Quantum Information | KAIST</li>
     <li>QTM4x: Fundamentals of Quantum Information | TU Delft</li>
