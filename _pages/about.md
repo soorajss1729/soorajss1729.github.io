@@ -71,6 +71,10 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
     <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
       <i class="fas fa-calculator" style="color: #555;"></i> Mathematics Stack Exchange
     </h3>
+  <a href="https://math.stackexchange.com/users/223599/sooraj-soman">
+  <img src="https://math.stackexchange.com/users/flair/223599.png" width="208" height="58" alt="profile for Sooraj Soman at Mathematics Stack Exchange">
+</a>
+
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
