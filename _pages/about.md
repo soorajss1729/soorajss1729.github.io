@@ -61,6 +61,40 @@ Missouri University of Science and Technology, 2023 Fall - Present
 🎓 **Integrated MSc in Photonics**  
 Cochin University of Science and Technology, 2017
 
+## Stack Exchange Highlights
+
+<style>
+.stac-list ul {
+    list-style-type: square; /* Black square bullets */
+    padding-left: 20px; /* Add spacing for bullets */
+    margin: 0; /* Remove default margins */
+}
+
+.stac-list li {
+    color: inherit; /* Inherit the text color from the page */
+    font-family: inherit; /* Inherit the font family */
+    font-size: inherit; /* Inherit the font size */
+    line-height: inherit; /* Maintain the global line height */
+    margin-bottom: 5px; /* Space between list items */}
+</style>
+## Online Certifications
+
+<div class="stac-list">
+<ul>
+    <li>QTM4x: Fundamentals of Quantum Information | TU Delft</li>
+    <li>Introduction to Quantum Information | KAIST</li>
+    <li>Cryptography and Information Theory | University of Colorado</li>
+    <li>Python Basics | Python Functions, Files, and Dictionaries | Python Classes and Inheritance | University of Michigan</li>
+</ul>
+</div>
+
+
+## Projects and Publications
+
+
+## Teaching Assistant Experience
+
+
 ## Contact {#contact}
 
 <div style="font-size: 14px;">
