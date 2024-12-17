@@ -90,7 +90,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
   </div>
   <!-- View Full Link -->
   <div style="margin-top: 15px;">
-    <a href="#" style="font-weight: bold; color: #0073e6;">View Full Mathematics Contributions</a>
+    <a href="#" style="font-weight: bold>View Full Mathematics Contributions</a>
   </div>
 </div>
 
