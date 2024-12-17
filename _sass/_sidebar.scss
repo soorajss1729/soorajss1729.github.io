@@ -217,7 +217,7 @@
     align-items: center;
     margin-top: 1em;
     text-align: center;
-    position: relative; /* Positioning context for popup */
+    position: relative; /* Positioning context for child elements */
   }
 
   .author__urls-wrapper button {
@@ -227,30 +227,26 @@
   }
 
   .author__urls {
-    position: relative;
-    display: block;
-    text-align: center;
-    margin-top: 0.5em;
-    z-index: 1; /* Above the button */
-  }
-
-  /* Popup styling */
-  .author__urls-wrapper .popup {
     position: absolute;
-    bottom: 100%; /* Position above the button */
+    top: 100%; /* Place popup directly below the button */
     left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to perfectly center */
-    z-index: 10; /* Ensure popup is on top */
+    transform: translateX(-50%); /* Perfect horizontal centering */
+    z-index: 10; /* Place popup on top */
     background-color: white; /* Clean background */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    padding: 0.5em 1em; /* Padding for better appearance */
-    border-radius: 8px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for clarity */
+    padding: 0.5em 1em; /* Padding for better spacing */
+    border-radius: 8px; /* Rounded corners */
     width: max-content; /* Adjust width based on content */
-    text-align: center; /* Ensure text inside is centered */
+    text-align: center;
   }
 
-  /* Ensure popup shows on hover */
-  .author__urls-wrapper:hover .popup {
+  /* Hide the popup initially */
+  .author__urls {
+    display: none;
+  }
+
+  /* Show popup on hover */
+  .author__urls-wrapper:hover .author__urls {
     display: block;
   }
 }
