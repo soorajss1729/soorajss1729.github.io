@@ -207,8 +207,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
 <ul>
     <li>Analytically Solvable Models of Bosons in a Double Well Potential, Project Student (Jan-May 2016), Dr. C. M. Chandrashekar, The Institute of Mathematical Sciences (IMSc), India</li>
     <li>Bosons in a triple-well potential: Exact results via Multi-configurational Time-dependent Hartree for Bosons, Project Student (Dec 2014-June 2015), Prof. Saurabh Basu, IIT Guwahati, India</li>
-    <li>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids, Summer Student (May-July 2012), Dr. Moloy Sarkar, National Institute of Science Education and Re-
-search (NISER), India</li>
+    <li>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids, Summer Student (May-July 2012), Dr. Moloy Sarkar, NISER, India</li>
     <li>Fluorescent quenching of Rhodamine 6G in Methyl Methacrylate by laser ablated gold nanoparticles, Project Student (Dec 2011-May 2012), Dr. M. Kailasnath, CUSAT, India</li>
 </ul>
 </div>
