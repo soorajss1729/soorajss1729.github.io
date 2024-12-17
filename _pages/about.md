@@ -116,12 +116,12 @@ Cochin University of Science and Technology, 2017
 </div>
 
 <style>
-.c-proj,intern,publ ul {
+.c-proj,.intern,.publ ul {
     list-style-type: square; /* Black square bullets */
     padding-left: 20px; /* Add spacing for bullets */
     margin: 0; /* Remove default margins */
 }
-.c-proj,intern,publ li {
+.c-proj,.intern,.publ li {
     color: inherit; /* Inherit the text color from the page */
     font-family: inherit; /* Inherit the font family */
     font-size: inherit; /* Inherit the font size */
