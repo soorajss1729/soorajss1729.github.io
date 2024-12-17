@@ -81,7 +81,7 @@
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   width: 90%; /* Make the width relative to its parent */
-  max-width: 280px; /* Prevent it from becoming too large on wide screens */
+  max-width: 300px; /* Prevent it from becoming too large on wide screens */
   height: auto; /* Maintain aspect ratio */
   aspect-ratio: 4 / 5; /* Explicit aspect ratio for rectangle (260x300) */
   border-radius: 8px;
@@ -118,7 +118,7 @@
 
 .author__name {
   margin: 0;
-  margin-top: 10px; /* Adjust as needed */
+  margin-top: 5px; /* Adjust as needed */
   text-align: center; /* Center the text horizontally */
 
   @include breakpoint($large) {
