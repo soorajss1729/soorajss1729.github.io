@@ -63,7 +63,7 @@ Cochin University of Science and Technology, 2017
 
 ## Stack Exchange Highlights
 
-I have actively contributed to Mathematics Stack Exchange and Quantum Computing Stack Exchange, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
+<p style="text-align: justify;">I have actively contributed to Mathematics Stack Exchange and Quantum Computing Stack Exchange, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.</p>
 
 <!-- Mathematics Stack Exchange Card -->
 <div style="background: linear-gradient(to bottom right, #ffffff, #f3f3f3); 
