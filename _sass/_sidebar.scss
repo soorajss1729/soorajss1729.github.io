@@ -207,32 +207,42 @@
 }
 
 /*
-   Follow button on phone
+   Follow button on phone - sooraj
    ========================================================================== */
 @media screen and (max-width: 768px) {
   .author__urls-wrapper {
-    display: flex; /* Flexbox for centering */
-    flex-direction: column; /* Stack content vertically */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Align vertically */
-    margin-top: 1em; /* Add spacing above the button */
-    text-align: center; /* Center text properly */
-    position: relative; /* Ensure proper layering */
-    z-index: 1; /* Base layer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    text-align: center;
+    position: relative; /* Ensure positioning context */
+    z-index: 0; /* Base layer */
   }
 
   .author__urls-wrapper button {
-    margin-bottom: 0.5em; /* Space below the button */
-    position: relative; /* Relative positioning for z-index */
-    z-index: 0; /* Lower layer to prevent overlap */
+    margin-bottom: 0.5em;
+    position: relative;
+    z-index: 0; /* Button stays below the popup */
   }
 
   .author__urls {
-    position: relative; /* Remove absolute positioning */
-    display: block; /* Normal block display for links */
-    margin-top: 0.5em; /* Add spacing below the button */
-    text-align: center; /* Center the links under the button */
-    z-index: 2; /* Higher layer for links/popups */
+    position: relative;
+    display: block;
+    margin-top: 0.5em;
+    text-align: center;
+    z-index: 2; /* Ensures it appears above the button */
+  }
+
+  /* Fix for popup */
+  .author__urls-wrapper .popup {
+    position: absolute; /* Allows floating above the button */
+    z-index: 9999; /* Highest priority for visibility */
+    background-color: white; /* Add a background to ensure clarity */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
+    padding: 0.5em; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
   }
 }
 
