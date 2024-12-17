@@ -77,6 +77,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
     <div><strong>Reputation:</strong> 7,920</div>
     <div><strong>Questions:</strong> 393</div>
     <div><strong>Answers:</strong> 57</div>
+    <div><strong>Reached:</strong> 846k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -106,6 +107,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
     <div><strong>Reputation:</strong> 851</div>
     <div><strong>Posts:</strong> 35</div>
     <div><strong>Overall Rank:</strong> #169</div>
+    <div><strong>Reached:</strong> 11k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
