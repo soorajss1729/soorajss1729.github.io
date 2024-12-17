@@ -27,12 +27,30 @@ redirect_from:
 <p>Feel free to navigate through the sections to explore my notes, insights, and resources that have fueled my learning journey.</p>
 </div>
 
+
+<style>
+.interests-list ul {
+    list-style-type: square; /* Black square bullets */
+    padding-left: 20px; /* Add spacing for bullets */
+    margin: 0; /* Remove default margins */
+}
+
+.interests-list li {
+    color: #000; /* Black text color */
+    margin-bottom: 5px; /* Space between list items */
+    font-size: 1rem; /* Consistent font size */
+}
+</style>
 ## Interests
 
-- Mathematical Constructs of Quantum Computing
-- Classical and Quantum Algorithms
-- Advanced Linear Algebra
-- Group Theory
+<div class="interests-list">
+<ul>
+    <li>Mathematical Constructs of Quantum Computing</li>
+    <li>Classical and Quantum Algorithms</li>
+    <li>Advanced Linear Algebra</li>
+    <li>Group Theory</li>
+</ul>
+</div>
 
 ## Education
 
