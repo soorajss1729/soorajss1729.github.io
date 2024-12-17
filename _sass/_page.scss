@@ -6,22 +6,20 @@
   @include container;
   @include clearfix;
   margin-top: 0;
-  padding-top: 0em;
-  padding-left: 1em; /* Add padding for small screens */
-  padding-right: 1em;
-  max-width: 100%; /* Ensure content fits within the screen */
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+  max-width: 100%;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
+   
   @include breakpoint($x-large) {
     max-width: 100%;
-    padding-left: 2em; /* Slightly increase padding on larger screens */
-    padding-right: 2em;
   }
-
+}
   @media screen and (max-width: 600px) {
-    padding-left: 0.8em; /* Smaller padding for phone screens */
-    padding-right: 0.8em;
+    padding-left: 1em; /* Add space only on mobile screens */
+    padding-right: 1em;
   }
 }
 
