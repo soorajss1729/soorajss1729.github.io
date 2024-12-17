@@ -179,12 +179,12 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
 </div>
 
 <style>
-.c-proj ul,intern ul,publ ul {
+.c-proj ul,.intern ul,.publ ul {
     list-style-type: square; /* Black square bullets */
     padding-left: 20px; /* Add spacing for bullets */
     margin: 0; /* Remove default margins */
 }
-.c-proj li,intern li,publ li {
+.c-proj li,.intern li,.publ li {
     color: inherit; /* Inherit the text color from the page */
     font-family: inherit; /* Inherit the font family */
     font-size: inherit; /* Inherit the font size */
