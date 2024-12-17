@@ -66,31 +66,38 @@ Cochin University of Science and Technology, 2017
 I have actively contributed to Mathematics Stack Exchange and Quantum Computing Stack Exchange, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
 
 <!-- Mathematics Stack Exchange Card -->
-<div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
-  <div style="margin-bottom: 15px;">
-    <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
-      Mathematics Stack Exchange
-    </h3>
-  </div>
+<!-- Updated Card Design -->
+<div style="
+    background: linear-gradient(to bottom right, #ffffff, #f9f9f9);
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease-in-out;
+">
+  <h3 style="margin: 0; font-size: 1.2rem; font-weight: bold; color: #333;">
+    Mathematics Stack Exchange
+  </h3>
+
   <!-- Stats at the Top -->
-  <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 7,920</div>
-    <div><strong>Questions:</strong> 393</div>
-    <div><strong>Answers:</strong> 57</div>
-    <div><strong>Reached:</strong> 846k</div>
+  <div style="display: flex; justify-content: space-between; margin: 15px 0;">
+    <div><strong style="color: #555;">Reputation:</strong> 7,920</div>
+    <div><strong style="color: #555;">Questions:</strong> 393</div>
+    <div><strong style="color: #555;">Answers:</strong> 57</div>
+    <div><strong style="color: #555;">Reached:</strong> 846k</div>
   </div>
+
   <!-- Example Contribution -->
-  <div style="margin-top: 15px;">
-    <p style="font-weight: bold; margin-bottom: 5px;">Example Contribution:</p>
+  <div style="margin-top: 10px;">
+    <p style="font-weight: bold; margin-bottom: 5px; color: #444;">Example Contribution:</p>
     <p style="font-style: italic; color: #555;">
-      <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">
+      <a href="#" style="color: #0073e6; text-decoration: none;">
         Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| \leq \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
-      </a>
-      – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
+      </a> – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
     </p>
   </div>
-  <!-- View Full Link -->
 </div>
+
 
 <!-- Quantum Computing Stack Exchange Card -->
 <div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
