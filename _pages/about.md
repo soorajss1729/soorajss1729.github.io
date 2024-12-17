@@ -63,6 +63,10 @@ Cochin University of Science and Technology, 2017
 
 ## Stack Exchange Highlights
 
+
+## Relevant Coursework
+
+
 <style>
 .stac-list ul {
     list-style-type: square; /* Black square bullets */
@@ -81,8 +85,8 @@ Cochin University of Science and Technology, 2017
 
 <div class="stac-list">
 <ul>
-    <li>QTM4x: Fundamentals of Quantum Information | TU Delft</li>
     <li>Introduction to Quantum Information | KAIST</li>
+    <li>QTM4x: Fundamentals of Quantum Information | TU Delft</li>
     <li>Cryptography and Information Theory | University of Colorado</li>
     <li>Python Basics | Python Functions, Files, and Dictionaries | Python Classes and Inheritance | University of Michigan</li>
 </ul>
