@@ -98,9 +98,6 @@
   }
 }
 
-
-
-
 .author__content {
   display: table-cell;
   vertical-align: top;
@@ -110,7 +107,7 @@
 
   @include breakpoint($large) {
     display: block;
-    width: 100%;
+    width: 95%;
     padding-left: 5%;
     padding-right: 5%;
   }
