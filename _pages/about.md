@@ -70,13 +70,15 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
 Reputation: 7,920 | 393 Questions | 57 Answers  
 
 <u>Example Contribution</u>:
+
 [Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| ≤ \frac{1}{2} \) given \( f(x) = -x\log_2 x \)](#)  
      – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.  
 [View Full Mathematics Contributions](#)
 
 **Quantum Computing Stack Exchange**  
 
-Reputation: 851 | 35 Posts | Ranked #169 Overall
+Reputation: 851 | 35 Posts | #169 Overall
+
 <u>Example Contribution</u>: 
 
 [Derivation of Efficiency of Phase Estimation Algorithm](#)  
