@@ -9,10 +9,6 @@
 .sidebar {
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
-  margin-top: 0;       /* Remove top margin */
-  padding-top: 1em;    /* Uniform padding for alignment */
-  padding-left: 1em;   /* Match left space */
-}
 
   @include clearfix();
   margin-bottom: 1em;
@@ -79,6 +75,12 @@
 /*
    Author profile and links
    ========================================================================== */
+.sidebar {
+  margin-top: 0;       /* Remove top margin */
+  padding-top: 1em;    /* Uniform padding for alignment */
+  padding-left: 1em;   /* Match left space */
+}
+
 
 .author__avatar {
   display: flex; /* Flexbox for centering */
