@@ -65,49 +65,59 @@ Cochin University of Science and Technology, 2017
 
 I have actively contributed to **Mathematics Stack Exchange** and **Quantum Computing Stack Exchange**, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
 
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
-  <h3 style="color: #333; margin-bottom: 10px;">Mathematics Stack Exchange</h3>
-  <div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px;">
-    <span>Reputation: 7,920</span> 
-    <span>393 Questions</span>
-    <span>57 Answers</span>
+<!-- Mathematics Stack Exchange Card -->
+<div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
+        <i class="fas fa-calculator" style="color: #555;"></i> Mathematics Stack Exchange
+      </h3>
+      <p><strong>Example Contribution:</strong></p>
+      <p style="font-style: italic; color: #555;">
+        <a href="#" style="color: #0073e6; text-decoration: none;">
+          Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| \leq \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
+        </a>
+        – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
+      </p>
+      <a href="#" style="font-weight: bold; color: #0073e6; display: inline-block; margin-top: 10px;">View Full Mathematics Contributions</a>
+    </div>
+    <div style="text-align: right; font-size: 0.9rem; color: #555;">
+      <p><strong>Reputation:</strong> 7,920</p>
+      <p><strong>Questions:</strong> 393</p>
+      <p><strong>Answers:</strong> 57</p>
+    </div>
   </div>
-  <p style="margin: 10px 0; font-weight: bold;">Example Contribution:</p>
-  <blockquote style="margin-left: 20px; font-style: italic; color: #555;">
-    <a href="#" style="text-decoration: none; color: #007acc;">
-      Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| ≤ \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
-    </a><br>
-    Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
-  </blockquote>
-  <p style="margin: 0;">
-    <a href="#" style="color: #007acc; font-weight: bold;">View Full Mathematics Contributions</a>
-  </p>
 </div>
 
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
-  <h3 style="color: #333; margin-bottom: 10px;">Quantum Computing Stack Exchange</h3>
-  <div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px;">
-    <span>Reputation: 851</span>
-    <span>35 Posts</span>
-    <span>#169 Overall</span>
+<!-- Quantum Computing Stack Exchange Card -->
+<div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
+  <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+    <div>
+      <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
+        <i class="fas fa-bolt" style="color: #555;"></i> Quantum Computing Stack Exchange
+      </h3>
+      <p><strong>Example Contribution:</strong></p>
+      <p style="font-style: italic; color: #555;">
+        <a href="#" style="color: #0073e6; text-decoration: none;">
+          Derivation of Efficiency of Phase Estimation Algorithm
+        </a>
+        – Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
+      </p>
+      <a href="#" style="font-weight: bold; color: #0073e6; display: inline-block; margin-top: 10px;">View Full Quantum Computing Contributions</a>
+    </div>
+    <div style="text-align: right; font-size: 0.9rem; color: #555;">
+      <p><strong>Reputation:</strong> 851</p>
+      <p><strong>Posts:</strong> 35</p>
+      <p><strong>Overall Rank:</strong> #169</p>
+    </div>
   </div>
-  <p style="margin: 10px 0; font-weight: bold;">Example Contribution:</p>
-  <blockquote style="margin-left: 20px; font-style: italic; color: #555;">
-    <a href="#" style="text-decoration: none; color: #007acc;">
-      Derivation of Efficiency of Phase Estimation Algorithm
-    </a><br>
-    Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
-  </blockquote>
-  <p style="margin: 0;">
-    <a href="#" style="color: #007acc; font-weight: bold;">View Full Quantum Computing Contributions</a>
-  </p>
 </div>
 
-<h4 style="margin-top: 20px; font-weight: bold;">Explore More</h4>
-<p>
-  <a href="#" style="color: #007acc; font-weight: bold;">Mathematics Stack Exchange Highlights</a> | 
-  <a href="#" style="color: #007acc; font-weight: bold;">Quantum Computing Highlights</a>
-</p>
+---
+
+### **Explore More**
+Discover my complete contributions and insights:  
+[Mathematics Stack Exchange Highlights](#) | [Quantum Computing Highlights](#)
 
 
 <style>
