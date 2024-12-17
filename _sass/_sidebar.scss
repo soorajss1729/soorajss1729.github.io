@@ -110,14 +110,16 @@
     border: 2px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
- 
-  @media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 600px) {
   .author__avatar {
-    max-width: 90%; /* Prevent full width to allow space on the right */
+    max-width: 90%; /* Prevent full width to allow space on the sides */
     margin: 0 auto; /* Center horizontally */
   }
 }
-}   
+
+   
 .author__content {
   display: table-cell;
   vertical-align: top;
