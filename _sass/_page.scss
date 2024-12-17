@@ -16,7 +16,7 @@
   @include breakpoint($x-large) {
     max-width: 100%;
   }
-}
+   
   @media screen and (max-width: 600px) {
     padding-left: 1em; /* Add space only on mobile screens */
     padding-right: 1em;
