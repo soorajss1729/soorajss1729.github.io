@@ -106,7 +106,6 @@ Cochin University of Science and Technology, 2017
     margin-bottom: 5px; /* Space between list items */}
 </style>
 ## Online Certifications
-
 <div class="onln">
 <ul>
     <li>Introduction to Quantum Information | KAIST</li>
@@ -129,7 +128,9 @@ Cochin University of Science and Technology, 2017
     line-height: inherit; /* Maintain the global line height */
     margin-bottom: 5px; /* Space between list items */}
 </style>
+
 ## Projects and Publications
+
 ### Coursework Projects
 <div class="c-proj">
 <ul>
@@ -137,6 +138,7 @@ Cochin University of Science and Technology, 2017
     <li>Analyzed the paper “A Simple Method for Sampling Random Clifford Operators,” a focus on sampling techniques and their relevance to quantum algorithms.</li>
 </ul>
 </div>
+
 ### Internships
 <div class="intern">
 <ul>
