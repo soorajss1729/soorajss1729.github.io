@@ -63,7 +63,7 @@ Cochin University of Science and Technology, 2017
 
 ## Stack Exchange Highlights
 
-I have actively contributed to **Mathematics Stack Exchange** and **Quantum Computing Stack Exchange**, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
+I have actively contributed to Mathematics Stack Exchange and Quantum Computing Stack Exchange, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
 
 <!-- Mathematics Stack Exchange Card -->
 <div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
@@ -90,9 +90,6 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
     </p>
   </div>
   <!-- View Full Link -->
-  <div style="margin-top: 15px;">
-    <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile" style="font-weight: bold;">View Full Mathematics Contributions</a>
-  </div>
 </div>
 
 <!-- Quantum Computing Stack Exchange Card -->
@@ -118,10 +115,6 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
       </a>
       – Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
     </p>
-  </div>
-  <!-- View Full Link -->
-  <div style="margin-top: 15px;">
-    <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile" style="font-weight: bold;">View Full Quantum Computing Contributions</a>
   </div>
 </div>
 
