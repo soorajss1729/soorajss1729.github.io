@@ -120,9 +120,27 @@ Cochin University of Science and Technology, 2017
 
 ## Projects and Publications
 
+<style>
+.teach ul {
+    list-style-type: square; /* Black square bullets */
+    padding-left: 20px; /* Add spacing for bullets */
+    margin: 0; /* Remove default margins */
+}
 
+.teach li {
+    color: inherit; /* Inherit the text color from the page */
+    font-family: inherit; /* Inherit the font family */
+    font-size: inherit; /* Inherit the font size */
+    line-height: inherit; /* Maintain the global line height */
+    margin-bottom: 5px; /* Space between list items */}
+</style>
 ## Teaching Assistant Experience
-
+<div class="teach">
+<ul>
+    <li>CS1500 Computational Problem Solving, Fall 2024</li>
+    <li>CS1200 Discrete Mathematics for Computer Science, Spring 2024</li>
+</ul>
+</div>
 
 ## Contact {#contact}
 
