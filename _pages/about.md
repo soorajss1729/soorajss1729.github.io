@@ -69,7 +69,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
 <div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
   <div style="margin-bottom: 15px;">
     <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
-      <i class="fas fa-calculator" style="color: #555;"></i> Mathematics Stack Exchange
+      Mathematics Stack Exchange
     </h3>
   </div>
   <!-- Stats at the Top -->
@@ -98,7 +98,7 @@ I have actively contributed to **Mathematics Stack Exchange** and **Quantum Comp
 <div style="background: linear-gradient(to bottom right, #ffffff, #f9f9f9); border-radius: 8px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 20px; margin: 20px 0; transition: box-shadow 0.3s ease-in-out;">
   <div style="margin-bottom: 15px;">
     <h3 style="margin: 0; font-size: 1.2rem; display: flex; align-items: center; gap: 8px;">
-      <i class="fas fa-bolt" style="color: #555;"></i> Quantum Computing Stack Exchange
+      Quantum Computing Stack Exchange
     </h3>
   </div>
   <!-- Stats at the Top -->
