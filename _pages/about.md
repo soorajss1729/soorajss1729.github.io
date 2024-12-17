@@ -65,29 +65,49 @@ Cochin University of Science and Technology, 2017
 
 I have actively contributed to **Mathematics Stack Exchange** and **Quantum Computing Stack Exchange**, solving challenging problems, engaging in insightful discussions, and deepening my understanding of advanced mathematical and quantum computing concepts.
 
-**Mathematics Stack Exchange**
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+  <h3 style="color: #333; margin-bottom: 10px;">Mathematics Stack Exchange</h3>
+  <div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px;">
+    <span>Reputation: 7,920</span> 
+    <span>393 Questions</span>
+    <span>57 Answers</span>
+  </div>
+  <p style="margin: 10px 0; font-weight: bold;">Example Contribution:</p>
+  <blockquote style="margin-left: 20px; font-style: italic; color: #555;">
+    <a href="#" style="text-decoration: none; color: #007acc;">
+      Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| ≤ \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
+    </a><br>
+    Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
+  </blockquote>
+  <p style="margin: 0;">
+    <a href="#" style="color: #007acc; font-weight: bold;">View Full Mathematics Contributions</a>
+  </p>
+</div>
 
-Reputation: 7,920 | 393 Questions | 57 Answers  
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px;">
+  <h3 style="color: #333; margin-bottom: 10px;">Quantum Computing Stack Exchange</h3>
+  <div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 8px;">
+    <span>Reputation: 851</span>
+    <span>35 Posts</span>
+    <span>#169 Overall</span>
+  </div>
+  <p style="margin: 10px 0; font-weight: bold;">Example Contribution:</p>
+  <blockquote style="margin-left: 20px; font-style: italic; color: #555;">
+    <a href="#" style="text-decoration: none; color: #007acc;">
+      Derivation of Efficiency of Phase Estimation Algorithm
+    </a><br>
+    Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
+  </blockquote>
+  <p style="margin: 0;">
+    <a href="#" style="color: #007acc; font-weight: bold;">View Full Quantum Computing Contributions</a>
+  </p>
+</div>
 
-<u>Example Contribution</u>:
-
-[Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| ≤ \frac{1}{2} \) given \( f(x) = -x\log_2 x \)](#)  
-     – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.  
-[View Full Mathematics Contributions](#)
-
-**Quantum Computing Stack Exchange**  
-
-Reputation: 851 | 35 Posts | #169 Overall
-
-<u>Example Contribution</u>: 
-
-[Derivation of Efficiency of Phase Estimation Algorithm](#)  
-– Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.  
-[View Full Quantum Computing Contributions](#)
-
-### Explore More  
-Discover my complete contributions and insights:  
-[Mathematics Stack Exchange Highlights](#) | [Quantum Computing Highlights](#)
+<h4 style="margin-top: 20px; font-weight: bold;">Explore More</h4>
+<p>
+  <a href="#" style="color: #007acc; font-weight: bold;">Mathematics Stack Exchange Highlights</a> | 
+  <a href="#" style="color: #007acc; font-weight: bold;">Quantum Computing Highlights</a>
+</p>
 
 
 <style>
