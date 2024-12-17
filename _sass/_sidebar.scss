@@ -82,9 +82,11 @@
   padding-top: 0em;    /* Uniform padding for alignment */
   padding-left: 0em;   /* Match left space */
   
-  @media screen and (max-width: 600px) {
-    margin-left: 1em; /* Reduce left margin */
-    margin-right: 1em; /* Add right margin for small screens */
+@media screen and (max-width: 600px) {
+  .sidebar {
+    padding-left: 1em; /* Add padding on both sides */
+    padding-right: 1em;
+    margin: 0; /* Remove margin */
   }
 }
 
