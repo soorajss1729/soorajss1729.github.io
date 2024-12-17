@@ -206,6 +206,31 @@
   }
 }
 
+
+@media screen and (max-width: 768px) {
+  .author__urls-wrapper {
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    margin-top: 1em; /* Add spacing above the button */
+    text-align: center; /* Ensure the text aligns properly */
+  }
+
+  .author__urls-wrapper button {
+    margin-bottom: 0.5em; /* Space below the button */
+  }
+
+  .author__urls {
+    position: relative; /* Remove absolute positioning for mobile */
+    display: block; /* Display links normally */
+    margin-top: 0.5em; /* Add spacing below the button */
+    text-align: center; /* Center the links under the button */
+  }
+}
+
+
+
 .author__urls {
   display: none;
   position: absolute;
