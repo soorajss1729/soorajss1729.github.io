@@ -36,10 +36,11 @@ redirect_from:
 }
 
 .interests-list li {
-    color: #000; /* Black text color */
-    margin-bottom: 5px; /* Space between list items */
-    font-size: 1rem; /* Consistent font size */
-}
+    color: inherit; /* Inherit the text color from the page */
+    font-family: inherit; /* Inherit the font family */
+    font-size: inherit; /* Inherit the font size */
+    line-height: inherit; /* Maintain the global line height */
+    margin-bottom: 5px; /* Space between list items */}
 </style>
 ## Interests
 
