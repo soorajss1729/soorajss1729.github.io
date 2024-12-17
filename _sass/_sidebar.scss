@@ -222,8 +222,8 @@
   }
 
   .author__urls-wrapper button {
-    margin-bottom: 0.5em;
-    position: relative;
+    margin-bottom: 1.5em; /* Increased spacing to avoid blocking popup */
+    position: relative; /* Keeps button in flow */
     z-index: 0; /* Button stays below the popup */
   }
 
@@ -232,19 +232,29 @@
     display: block;
     margin-top: 0.5em;
     text-align: center;
-    z-index: 2; /* Ensures it appears above the button */
+    z-index: 2; /* Ensures popup and URLs appear above the button */
   }
 
   /* Fix for popup */
   .author__urls-wrapper .popup {
-    position: absolute; /* Allows floating above the button */
+    position: absolute; /* Allows floating above other elements */
     z-index: 9999; /* Highest priority for visibility */
-    background-color: white; /* Add a background to ensure clarity */
+    background-color: white; /* Clear background for clarity */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for style */
     padding: 0.5em; /* Add padding for spacing */
-    border-radius: 8px; /* Rounded corners */
+    border-radius: 8px; /* Rounded corners for style */
+    bottom: 100%; /* Position popup above the button */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    width: max-content; /* Allow popup to fit content size */
+  }
+
+  /* Ensure proper spacing for the popup and follow button */
+  .author__urls-wrapper:hover .popup {
+    display: block; /* Show popup on hover */
   }
 }
+
 
 
 
