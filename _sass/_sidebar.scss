@@ -89,29 +89,33 @@
 }
 
 .author__avatar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 100%; /* Limit to full container width */
-  aspect-ratio: 4 / 5;
-  margin: 0 auto;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100%; 
+  aspect-ratio: 4 / 5; 
   border-radius: 8px;
+  margin: 0 auto;
 
   img {
-    width: 100%;
+    width: 100%; 
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border: 2px solid #ccc;
     border-radius: 2px;
+    border: 2px solid #ccc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
 
   @media screen and (max-width: 600px) {
-    max-width: 90%; /* Prevent full-width stretching */
+    max-width: 90%; /* Mobile fix */
     margin-left: auto;
-    margin-right: auto; /* Center image */
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 601px) { 
+    max-width: 100%; /* Reset for larger screens */
+    margin: 0; /* Remove margin overrides */
   }
 }
 
