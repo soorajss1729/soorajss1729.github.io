@@ -107,9 +107,9 @@
 
   @include breakpoint($large) {
     display: block;
-    width: 95%;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
 
