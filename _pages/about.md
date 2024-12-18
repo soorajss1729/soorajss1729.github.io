@@ -151,7 +151,7 @@ Cochin University of Science and Technology, 2017
     <li>CS 5200 Analysis of Algorithms</li>
     <li>CS 5001 Introduction to Quantum Computing</li>
     <li>CS 5001 Probability and Its Applications to Computing</li>
-    <li>Graph Theory (Planned 6000-Level Course)</li>
+    <li>CS 6204 Applied Graph Theory for Computer Science (Planned 6000-Level Course)</li>
     <li>Quantum Optics</li>
 </ul>
 </div>
