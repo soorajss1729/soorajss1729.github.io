@@ -163,6 +163,17 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-proj-ppt.pdf#page=10')">Project Presentation</a></li>
     </ul>
   </details>
+
+  <details>
+    <summary>Number Theory: Book 2</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=3')">Euler's Theorem</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=27')">Reduction of Factoring to Order Finding</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=52')">Continued Fractions</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=65')">Convergents and Their Properties</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=78')">Dirichlet's Approximation Theorem</a></li>
+    </ul>
+  </details>
 </div>
 
 
