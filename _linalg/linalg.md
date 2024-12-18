@@ -229,7 +229,7 @@ function loadPdfPage(pdfUrl) {
   <details>
     <summary>Book 13: Legendre and Hermite</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la13.pdf#page=1')">Legendre Polynomials</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la13.pdf#page=3')">Legendre Polynomials</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la13.pdf#page=9')">Legendre Differential Equation</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la13.pdf#page=22')">Generating Function</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la13.pdf#page=27')">Recurrence Relations</a></li>
