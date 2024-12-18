@@ -216,8 +216,8 @@ Cochin University of Science and Technology, 2017
 ### Publications
 <div class="publ">
 <ul>
-    <li>S. Sebastian et al., “Impact of laser ablated gold nanoparticles on absorption and fluorescence of Rhodamine 6G in Methyl Methacrylate,” 2012 International Conference on Optical Engineering (ICOE), Belgaum, India, 2012, pp. 1-5, doi: 10.1109/ICOE.2012.6409575.</li>
-    <li>S. Sebastian, A. Aaryan, S. S. V. P. N. Namboori and M. Kailasnath, “Pulsed laser ablation in Methyl Methacrylate to produce spherical gold nanoparticles and fluorescent nanodots,” 2012 International Conference on Fiber Optics and Photonics (PHOTONICS), Chennai, India, 2012, pp. 1-3, doi: 10.1364/PHOTONICS.2012.MPo.39.</li>
+    <li>S. Sebastian, S. Sooraj, A. Aaryan, J. Peter, V. P. Namboori, and C. P. G. Vallaban, "Impact of laser ablated gold nanoparticles on absorption and fluorescence of Rhodamine 6G in Methyl Methacrylate," in 2012 International Conference on Optical Engineering (ICOE), Belgaum, India, 2012, pp. 1-5. doi: 10.1109/ICOE.2012.6409575.</li>
+    <li>S. Sebastian, A. Aaryan, S. Sooraj, V. P. N. Namboori and M. Kailasnath, “Pulsed laser ablation in Methyl Methacrylate to produce spherical gold nanoparticles and fluorescent nanodots,” 2012 International Conference on Fiber Optics and Photonics (PHOTONICS), Chennai, India, 2012, pp. 1-3, doi: 10.1364/PHOTONICS.2012.MPo.39.</li>
 </ul>
 </div>
 
