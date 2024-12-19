@@ -199,25 +199,25 @@ Cochin University of Science and Technology, 2017
 ### Coursework Projects
 <div class="c-proj">
 <ul>
-    <li>Enhanced the proof for the Simplicity of the Alternating Group An by developing intermediate mathematical steps and bridging reasoning gaps.</li>
-    <li>Analyzed the paper “A Simple Method for Sampling Random Clifford Operators,” a focus on sampling techniques and their relevance to quantum algorithms.</li>
+    <li>Enhanced the proof for the <i>Simplicity of the Alternating Group $A_n$</i>i> by developing intermediate mathematical steps and bridging reasoning gaps.</li>
+    <li>Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>i>,” a focus on sampling techniques and their relevance to quantum algorithms.</li>
 </ul>
 </div>
 
 ### Internships
 <div class="intern">
 <ul>
-    <li>Analytically Solvable Models of Bosons in a Double Well Potential, Project Student (Jan-May 2016), Dr. C. M. Chandrashekar, The Institute of Mathematical Sciences (IMSc), India</li>
-    <li>Bosons in a triple-well potential: Exact results via Multi-configurational Time-dependent Hartree for Bosons, Project Student (Dec 2014-June 2015), Prof. Saurabh Basu, IIT Guwahati, India</li>
-    <li>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids, Summer Student (May-July 2012), Dr. Moloy Sarkar, NISER, India</li>
-    <li>Fluorescent quenching of Rhodamine 6G in Methyl Methacrylate by laser ablated gold nanoparticles, Project Student (Dec 2011-May 2012), Dr. M. Kailasnath, CUSAT, India</li>
+    <li><i>Analytically Solvable Models of Bosons in a Double Well Potential</i>, Project Student (Jan-May 2016), Dr. C. M. Chandrashekar, The Institute of Mathematical Sciences (IMSc), India</li>
+    <li><i>Bosons in a triple-well potential: Exact results via Multi-configurational Time-dependent Hartree for Bosons</i>, Project Student (Dec 2014-June 2015), Prof. Saurabh Basu, IIT Guwahati, India</li>
+    <li><i>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids</i>, Summer Student (May-July 2012), Dr. Moloy Sarkar, NISER, India</li>
+    <li><i>Fluorescent quenching of Rhodamine 6G in Methyl Methacrylate by laser ablated gold nanoparticles</i>, Project Student (Dec 2011-May 2012), Dr. M. Kailasnath, CUSAT, India</li>
 </ul>
 </div>
 ### Publications
 <div class="publ">
 <ul>
-    <li>S. Sebastian, S. Sooraj, A. Aaryan, J. Peter, V. P. Namboori, and C. P. G. Vallaban, "Impact of laser ablated gold nanoparticles on absorption and fluorescence of Rhodamine 6G in Methyl Methacrylate," in 2012 International Conference on Optical Engineering (ICOE), Belgaum, India, 2012, pp. 1-5. doi: 10.1109/ICOE.2012.6409575.</li>
-    <li>S. Sebastian, A. Aaryan, S. Sooraj, V. P. N. Namboori and M. Kailasnath, “Pulsed laser ablation in Methyl Methacrylate to produce spherical gold nanoparticles and fluorescent nanodots,” 2012 International Conference on Fiber Optics and Photonics (PHOTONICS), Chennai, India, 2012, pp. 1-3, doi: 10.1364/PHOTONICS.2012.MPo.39.</li>
+    <li>S. Sebastian, S. Sooraj, A. Aaryan, J. Peter, V. P. Namboori, and C. P. G. Vallaban, "<i>Impact of laser ablated gold nanoparticles on absorption and fluorescence of Rhodamine 6G in Methyl Methacrylate</i>i>," in 2012 International Conference on Optical Engineering (ICOE), Belgaum, India, 2012, pp. 1-5. doi: 10.1109/ICOE.2012.6409575.</li>
+    <li>S. Sebastian, A. Aaryan, S. Sooraj, V. P. N. Namboori and M. Kailasnath, “<i>Pulsed laser ablation in Methyl Methacrylate to produce spherical gold nanoparticles and fluorescent nanodots</i>i>,” 2012 International Conference on Fiber Optics and Photonics (PHOTONICS), Chennai, India, 2012, pp. 1-3, doi: 10.1364/PHOTONICS.2012.MPo.39.</li>
 </ul>
 </div>
 
