@@ -103,5 +103,10 @@ classes: wide
         Derive the Concavity of Quantum Conditional Entropy from Strong Subadditivity
       </a>: Initiated a detailed inquiry and contributed to a collaborative understanding of the derivation using strong subadditivity.
     </li>    
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28290/show-that-e-k-i-otimes-langle-e-kui-otimese-0-rangle-implies-u-beginb">
+        Show that $E_k=(I\otimes\langle e_k|)U(I\otimes|e_0\rangle)$ implies $U=\begin{bmatrix}[E_1]&\cdots\\ [E_2]&\cdots\\\vdots&\ddots\end{bmatrix}$
+      </a>: Initiated a detailed inquiry and contributed partial analysis, fostering a collaborative discussion on the block matrix form of unitary operators.
+    </li>    
   </ul>
 </div>
