@@ -54,7 +54,7 @@ classes: wide
 
 <a name="qc"></a>
 <div class="text-block">
- <p>Engaging with platforms like Mathematics Stack Exchange and Quantum Computing Stack Exchange has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the Learning Journey section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
+ <p>Engaging with platforms like Mathematics Stack Exchange and Quantum Computing Stack Exchange has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the <a href="/learning/">Learning Journey</a> section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
  </div>
 
 <h2 id="math-stac">Mathematics Stack Exchange</h2>
