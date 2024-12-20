@@ -16,7 +16,6 @@ classes: wide
     padding-top: 80px; /* Matches sticky nav bar height */
     margin-top: -80px; /* Pulls the section back visually */
 }
-</style>
 .text-block {
   text-align: justify;
   text-indent: 50px;
@@ -36,7 +35,6 @@ classes: wide
   text-align: left; /* Ensures no extra space on the right */
   white-space: normal; /* Prevent text from overflowing */
 }
-
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
