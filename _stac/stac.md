@@ -69,12 +69,12 @@ classes: wide
     <li>
       <a href="https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296">
         Understanding Filippov’s Inductive Proof for Jordan Canonical Form
-      </a>: Provided a step-by-step breakdown and analysis.
+      </a>: Provided a detailed explanation and visual aid for the proof after extended discussions.
     </li>
     <li>
       <a href="https://math.stackexchange.com/questions/4250990/understanding-the-expression-tr-big-rhox-otimes-i-big-sum-a-b-a-b-rho">
         Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$
-      </a>: Contributed to a detailed discussion on the trace properties of tensor products.
+      </a>: Initiated and contributed to a detailed discussion on the trace properties of tensor products.
     </li>
     <li>
       <a href="https://math.stackexchange.com/questions/113270/the-median-minimizes-the-sum-of-absolute-deviations-the-ell-1-norm/2364943#2364943">
