@@ -9,8 +9,12 @@ redirect_from:
 
 <style>
 h2 {
-    margin-top: 10px; /* Space above section title */
+    margin-top: 15px; /* Space above section title */
     margin-bottom: 5px; /* Space below section title */
+}
+h3 {
+    margin-top: 15px; /* Space above subsection title */
+    margin-bottom: 5px; /* Space below subsection title */
 }
 .text-block {
     text-indent: 0px;
