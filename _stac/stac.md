@@ -86,6 +86,11 @@ classes: wide
 Real roots of the equation $\log_{(5x+4)}(2x+3)^3-\log_{(2x+3)}(10x^2+23x+12)=1$
       </a>: Investigated the real roots of a logarithmic equation, providing cases and constraints, and collaborated on refining the solution for accuracy and completeness.
     </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/2660747/determinant-using-factor-theorem">
+Determinant using factor theorem
+      </a>: Explored the factor theorem's application to determinants, collaboratively analyzing symmetric polynomial factors and their implications.
+    </li>
   </ul>
 </div>
 
