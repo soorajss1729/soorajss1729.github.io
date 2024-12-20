@@ -8,6 +8,10 @@ redirect_from:
 ---
 
 <style>
+h2 {
+    margin-top: 10px; /* Space above section title */
+    margin-bottom: 5px; /* Space below section title */
+}
 .text-block {
     text-indent: 0px;
     padding-top:0px;
