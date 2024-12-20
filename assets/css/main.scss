@@ -85,6 +85,7 @@
   background-color: #696969; /* Background color */
   padding: 10px 0; /* Top and bottom padding */
   margin-bottom: 20px; /* Space below the bar */
+  border-radius: 4px;
 
   position: sticky; /* Sticks when you scroll down */
   top: 65px; /* Adjust based on the height of the main navigation bar */
@@ -101,8 +102,11 @@
 }
 
 .learning-topnav a:hover {
-  text-decoration: underline; /* Underline effect on hover */
-  color: #ddd; /* Slightly lighter text on hover */
+  text-decoration: none;
+  background-color: #505050; /* Highlight background on hover */
+  color: #ffffff;
+  transition: all 0.3s ease; /* Smooth hover effect */
+  border-radius: 5px; /* Rounded corners for links */
 }
 
 @media (max-width: 768px) {
