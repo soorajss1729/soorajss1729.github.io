@@ -87,6 +87,8 @@
   padding: 10px 0; /* Top and bottom padding */
   margin-bottom: 20px; /* Space below the bar */
   border-radius: 4px;
+  border: 1px solid #555555;
+  font-weight: 500;
 
   position: sticky; /* Sticks when you scroll down */
   top: 65px; /* Adjust based on the height of the main navigation bar */
