@@ -107,8 +107,6 @@
 .learning-topnav a:hover {
   text-decoration: underline;
   color: #ffffff; /* #ddd Slightly lighter text on hover */
-  transform: scale(1.01); /* Increase size by 10% */
-  transition: transform 0.2s ease;
 }
 
 @media (max-width: 768px) {
