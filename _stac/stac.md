@@ -12,6 +12,11 @@ classes: wide
 </div>
 
 <style>
+.adjusted-section {
+    padding-top: 80px; /* Matches sticky nav bar height */
+    margin-top: -80px; /* Pulls the section back visually */
+}
+</style>
 .text-block {
   text-align: justify;
   text-indent: 50px;
