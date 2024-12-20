@@ -81,6 +81,11 @@ classes: wide
         The median minimizes the sum of absolute deviations (the $\ell_1$ norm)
       </a>: Provided a detailed explanation of a standard proof with an original example.
     </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/3204168/real-roots-of-the-equation-log-5x42x33-log-2x310x223x12-1">
+Real roots of the equation $\log_{(5x+4)}(2x+3)^3-\log_{(2x+3)}(10x^2+23x+12)=1$
+      </a>: Investigated the real roots of a logarithmic equation, providing cases and constraints, and collaborated on refining the solution for accuracy and completeness.
+    </li>
   </ul>
 </div>
 
