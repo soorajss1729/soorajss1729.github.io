@@ -98,5 +98,10 @@ classes: wide
         Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?
       </a>: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
     </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/32094/derive-the-concavity-of-quantum-conditional-entropy-from-strong-subadditivity">
+        Derive the Concavity of Quantum Conditional Entropy from Strong Subadditivity
+      </a>: Initiated a detailed inquiry and contributed to a collaborative understanding of the derivation using strong subadditivity.
+    </li>    
   </ul>
 </div>
