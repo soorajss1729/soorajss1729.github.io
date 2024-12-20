@@ -173,10 +173,10 @@ Cochin University of Science and Technology, 2017
 ## Online Certifications
 <div class="onln">
 <ul>
-    <li><a href="https://coursera.org/verify/PMB7ZTCZMX3D">Introduction to Quantum Information</a> | KAIST</li>
-    <li><a href="https://courses.edx.org/certificates/abb8551f8f65473cae0c5b8c076a8df4">QTM4x: Fundamentals of Quantum Information</a> | TU Delft</li>
-    <li><a href="https://coursera.org/verify/CZQLXDV8PUCX">Cryptography and Information Theory</a> | University of Colorado</li>
-    <li><a href="https://coursera.org/verify/47ZU4EQLWWXT">Python Basics</a> | <a href="https://coursera.org/verify/C7KZRJFGRHEY">Python Functions, Files, and Dictionaries</a> | <a href="https://coursera.org/verify/YHGHGH8WU6SR">Python Classes and Inheritance</a> | University of Michigan</li>
+    <li><a href="https://coursera.org/verify/PMB7ZTCZMX3D">Introduction to Quantum Information</a></li>
+    <li><a href="https://courses.edx.org/certificates/abb8551f8f65473cae0c5b8c076a8df4">QTM4x: Fundamentals of Quantum Information</a></li>
+    <li><a href="https://coursera.org/verify/CZQLXDV8PUCX">Cryptography and Information Theory</a></li>
+    <li><a href="https://coursera.org/verify/47ZU4EQLWWXT">Python Basics</a> | <a href="https://coursera.org/verify/C7KZRJFGRHEY">Python Functions, Files, and Dictionaries</a> | <a href="https://coursera.org/verify/YHGHGH8WU6SR">Python Classes and Inheritance</a></li>
 </ul>
 </div>
 
