@@ -77,7 +77,8 @@
    ========================================================================== */
 .sidebar {
   width: 800px;
-  background-color: #f4f4f4; /* Light background for the sidebar */
+  background: linear-gradient(180deg, #ffffff, #f4f4f4); /* Subtle gradient for modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
   padding-top: 0em; /*2.3em;*/
   margin-top:4.2em;
   margin-left: 0;
