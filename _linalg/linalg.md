@@ -12,6 +12,11 @@ classes: wide
 </div>
 
 <style>
+h2 {
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd; /* Add a subtle underline */
+  padding-bottom: 0.5rem; /* Add space between text and underline */
+}
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
