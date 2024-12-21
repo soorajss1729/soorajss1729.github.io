@@ -281,6 +281,13 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
+    <summary>Chapter 11 (Part 2): Entropy and Information</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=1')">Will Upload Soon !</a></li>
+    </ul>
+  </details>
+
+  <details>
     <summary>Chapter 11 (Part 3): Entropy and Information</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=4')">Lieb's Theorem</a></li>
