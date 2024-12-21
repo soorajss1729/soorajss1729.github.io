@@ -184,6 +184,7 @@
 }
 
 .author__urls-wrapper {
+  display: flex;
   justify-content: center; /* Centers the container horizontally inside the sidebar */
   padding-left: 0px; /* Add left padding */
   position: relative;
