@@ -170,6 +170,13 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
+    <summary>Number Theory: Book 1</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=1')">Will upload soon !</a></li>
+    </ul>
+  </details>
+  
+  <details>
     <summary>Number Theory: Book 2</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=3')">Euler's Theorem</a></li>
