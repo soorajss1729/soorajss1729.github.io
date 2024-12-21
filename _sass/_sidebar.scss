@@ -186,6 +186,8 @@
 .author__urls-wrapper {
   display: flex;
   justify-content: center; /* Centers the container horizontally inside the sidebar */
+  align-items: flex-start; /* Aligns the container content at the top */
+  width: 100%; /* Ensure the container spans the full width */
   padding-left: 0px; /* Add left padding */
   position: relative;
   display: table-cell;
