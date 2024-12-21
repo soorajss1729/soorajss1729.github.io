@@ -76,7 +76,7 @@
    Author profile and links
    ========================================================================== */
 .sidebar {
-  width: 200px;
+  width: 800px;
   background-color: #f4f4f4; /* Light background for the sidebar */
   padding-top: 2.3em; /*2.3em;*/
   margin-top:2em;
@@ -85,7 +85,7 @@
   padding-right: 0;
 
   @media screen and (max-width: 600px) {
-    width: $right-sidebar-width-narrow;
+    width: 200px;
     margin: 0; /* Remove all margins on small screens */
     padding-left: 1em; /* Add padding for both sides */
     padding-right: 1em;
