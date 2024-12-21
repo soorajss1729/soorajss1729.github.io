@@ -12,7 +12,7 @@ classes: wide
 </div>
 
 <style>
-.adjusted-section {
+.learning-content {
     padding-top: 80px; /* Matches sticky nav bar height */
 }
 .text-block {
