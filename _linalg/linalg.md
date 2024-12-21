@@ -118,7 +118,7 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
-    <summary>Book 4: Advanced Topics</summary>
+    <summary>Book 4: Intersection, Union, and Sum</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=3')">N(A)=N(rref(A))</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la4.pdf#page=5')">Fundamental Theorem: Part 1</a></li>
