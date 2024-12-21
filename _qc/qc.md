@@ -207,6 +207,13 @@ function loadPdfPage(pdfUrl) {
   </details>
 
   <details>
+    <summary>Book 11: </summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=1')">Will Upload Soon !</a></li>
+    </ul>
+  </details>
+  
+  <details>
     <summary>Book 12: Quantum Operations</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=5')">Classical Noice</a></li>
