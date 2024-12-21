@@ -76,6 +76,10 @@
    Author profile and links
    ========================================================================== */
 .sidebar {
+  display: flex; /* Ensure the sidebar uses flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center all child elements horizontally */
+   
   width: 800px;
   background-color: #f4f4f4; /* Light background for the sidebar */
   padding-top: 0em; /*2.3em;*/
