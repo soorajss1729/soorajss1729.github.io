@@ -76,10 +76,6 @@
    Author profile and links
    ========================================================================== */
 .sidebar {
-  display: flex; /* Ensure the sidebar uses flexbox */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Center all child elements horizontally */
-   
   width: 800px;
   background-color: #f4f4f4; /* Light background for the sidebar */
   padding-top: 0em; /*2.3em;*/
@@ -187,13 +183,15 @@
   }
 }
 
-.author__urls-wrapper {  display: flex; /* Flexbox for children */
-  flex-direction: column; /* Stack links vertically */
-  align-items: flex-start; /* Left-align links within the wrapper */
-  width: fit-content; /* Adjust the width of the wrapper */
-  max-width: 250px; /* Ensure it doesn't become too wide */
-  margin: 0 auto; /* Center the block horizontally within the sidebar */
-   
+.author__urls-wrapper {
+  padding-left: 20px; /* Add left padding */
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: $sans-serif;
+  z-index: 10;
+  position: relative;
+  cursor: pointer;
 
   li:last-child {
     a {
