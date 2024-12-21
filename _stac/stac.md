@@ -12,9 +12,6 @@ classes: wide
 </div>
 
 <style>
-.learning-content {
-    padding-top: 80px; /* Matches sticky nav bar height */
-}
 .text-block {
   text-align: justify;
   text-indent: 50px;
