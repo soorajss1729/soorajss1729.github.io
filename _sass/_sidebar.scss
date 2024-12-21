@@ -184,20 +184,13 @@
 }
 
 .author__urls-wrapper {
-  display: flex;
-  flex-direction: column; /* Stack links vertically */
-  align-items: flex-start; /* Align content to the left */
-  width: 90%; /* Optional: Adjust width of the container */
-  max-width: 250px; /* Prevent it from being too wide */
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  width: 90% !important;
+  max-width: 250px !important;
+  margin: 0 auto !important; /* Centers the container */
    
-  padding-left: 0px; /* Add left padding */
-  position: relative;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
-  cursor: pointer;
 
   li:last-child {
     a {
