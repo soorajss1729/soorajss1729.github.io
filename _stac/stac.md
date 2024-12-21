@@ -12,6 +12,10 @@ classes: wide
 </div>
 
 <style>
+h2 {
+  scroll-margin-top: 80px; /* Adjust this value based on the height of your sticky navbar */
+}
+
 .text-block {
   text-align: justify;
   text-indent: 50px;
