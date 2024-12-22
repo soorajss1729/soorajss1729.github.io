@@ -37,6 +37,9 @@
 }
 
 .masthead__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   ul {
     margin: 0;
