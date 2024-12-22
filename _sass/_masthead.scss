@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: white;
+  background: linear-gradient(to right, #4facfe, #00f2fe); // Light-to-dark gradient /*white;*/
   border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;
