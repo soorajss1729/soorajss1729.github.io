@@ -48,10 +48,13 @@
 }
 
 .masthead__menu-item {
-  display: block;
+  display: inline-block; /* Ensure they are inline  block;*/
+  background: transparent; /* Remove white background */
   list-style-type: none;
   white-space: nowrap;
-
+  border: none; /* Remove borders if any */
+  box-shadow: none; /* Remove shadow effects if any */
+   
   &--lg {
     padding-right: 2em;
     font-weight: 700;
