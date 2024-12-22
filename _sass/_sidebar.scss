@@ -132,8 +132,8 @@
   vertical-align: top;
   padding-top:0;
   margin-top:0;
-  padding-left: 0em;
-  padding-right: 0em;
+  padding-left: 10em;
+  padding-right: 10em;
   line-height: 0.5;
 
   @include breakpoint($large) {
