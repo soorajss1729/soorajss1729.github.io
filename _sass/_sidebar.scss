@@ -86,7 +86,7 @@
   padding-right: 0;
 
   @media screen and (max-width: 600px) {
-    width: 400px;
+    width: 300px;
     margin: 0; /* Remove all margins on small screens */
     padding-left: 0.1em; /* Add padding for both sides */
     padding-right: 0.1em;
@@ -121,7 +121,7 @@
   }
 
   @media screen and (min-width: 601px) { 
-    max-width: 100%; /* Reset for larger screens */
+    max-width: 90%; /* Reset for larger screens */
     margin: 0; /* Remove margin overrides */
   }
 }
