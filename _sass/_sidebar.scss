@@ -99,6 +99,7 @@
 }
 
 .author__avatar {
+  background: transparent; /* Same as the sidebar */
   display: flex; 
   justify-content: center; 
   align-items: center; 
@@ -106,6 +107,7 @@
   aspect-ratio: 4 / 5; 
   border-radius: 1px;
   margin: 0 auto;
+ padding:0;
   margin-left: 0em;
   margin-right: 0em;
 
