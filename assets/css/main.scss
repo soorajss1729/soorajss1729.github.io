@@ -98,7 +98,7 @@
   color: #ffffff; /* White text */
   text-decoration: none;
   font-size: 1rem;
-  padding: 8px 8px;
+  padding: 6px 6px;
   white-space: nowrap; /* Prevent text wrapping inside links */
   position: relative; /* For pseudo-element positioning */
   transition: color 0.3s ease; /* Smooth transition for text color */
@@ -110,7 +110,7 @@
   left: 0;
   bottom: 0;
   width: 0%; /* Start with no underline */
-  height: 2px; /* Thickness of the underline */
+  height: 3px; /* Thickness of the underline */
   background-color: #ffffff; /* Color of the underline */
   transition: width 0.3s ease; /* Smooth width expansion */
 }
