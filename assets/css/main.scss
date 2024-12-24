@@ -107,11 +107,12 @@
 .learning-topnav a::after {
   content: ""; /* Empty content for pseudo-element */
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 50%; /* Start from the middle */
+  bottom: 0; /* Position at the bottom */
   width: 0%; /* Start with no underline */
-  height: 3px; /* Thickness of the underline */
+  height: 2.5px; /* Thickness of the underline */
   background-color: #ffffff; /* Color of the underline */
+  transform: translateX(-50%); /* Center the pseudo-element */
   transition: width 0.3s ease; /* Smooth width expansion */
 }
 
