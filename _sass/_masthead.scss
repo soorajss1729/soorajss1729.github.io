@@ -40,7 +40,7 @@
 
   ul {
     margin: 0;
-    padding: 2em;
+    padding: 0;
     clear: both;
     list-style-type: none;
   }
@@ -48,6 +48,7 @@
 
 .masthead__menu-item {
   display: block;
+  padding-left:2em;
   list-style-type: none;
   white-space: nowrap;
 
