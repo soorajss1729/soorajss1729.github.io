@@ -75,12 +75,30 @@
 
 
 
+.learning-topnav {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line when needed */
+  justify-content: center; /* Center the links horizontally */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Add space between links */
+  background: linear-gradient(to right, #4b4b4b, #696969); /* Gradient from darker to lighter gray */
+  padding: 10px 20px; /* Top and bottom padding */
+  margin-bottom: 20px; /* Space below the bar */
+  border-radius: 4px;
+  border: 1px solid #555555;
+  font-weight: 500;
+
+  position: sticky; /* Sticks when you scroll down */
+  top: 65px; /* Adjust based on the height of the main navigation bar */
+  z-index: 1000; /* Ensure it stays on top of other content */
+}
+
 .learning-topnav a {
   color: #ffffff; /* White text */
   text-decoration: none;
   font-size: 1rem;
-  font-weight: normal;
-  padding: 5px 10px;
+  padding: 10px 15px;
   white-space: nowrap; /* Prevent text wrapping inside links */
   position: relative; /* For pseudo-element positioning */
   transition: color 0.3s ease; /* Smooth transition for text color */
@@ -116,3 +134,4 @@
     padding: 5px; /* Adjust padding */
   }
 }
+
