@@ -3,9 +3,9 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;    
+  position: fixed;
   background: white;
-  border-bottom: 2px solid $border-color;
+  border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -37,8 +37,7 @@
 }
 
 .masthead__menu {
-  padding-left:2em;
-   
+
   ul {
     margin: 0;
     padding: 0;
@@ -48,19 +47,12 @@
 }
 
 .masthead__menu-item {
-  display: flex; /* Ensure they align horizontally */
-  justify-content: center;
-  align-items: center;
-  padding: 0 0em; /* Adjust spacing */
-  background: transparent; /* Remove white background */
-  list-style-type: none; /* No list style */
-  border: none; /* Remove borders */
-  box-shadow: none; /* Remove shadow effects */
-   
-  /*white-space: nowrap;*/
-   
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
+
   &--lg {
-    padding-right: 0em;/*2em;*/
+    padding-right: 2em;
     font-weight: 700;
   }
 }
