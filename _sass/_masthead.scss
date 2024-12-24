@@ -3,8 +3,11 @@
    ========================================================================== */
 
 .masthead {
-  position: fixed;
-  background: white;
+  position: fixed;    
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  /*background: white;*/
   border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;
