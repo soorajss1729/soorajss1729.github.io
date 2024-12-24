@@ -50,12 +50,16 @@
 }
 
 .masthead__menu-item {
-  display: inline-block; /* Ensure they are inline  block;*/
+  display: flex; /* Ensure they align horizontally */
+  justify-content: center;
+  align-items: center;
+  padding: 0 1em; /* Adjust spacing */
   background: transparent; /* Remove white background */
-  list-style-type: none;
+  list-style-type: none; /* No list style */
+  border: none; /* Remove borders */
+  box-shadow: none; /* Remove shadow effects */
+   
   /*white-space: nowrap;*/
-  border: none; /* Remove borders if any */
-  box-shadow: none; /* Remove shadow effects if any */
    
   &--lg {
     padding-right: 0em;/*2em;*/
