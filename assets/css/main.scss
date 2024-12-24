@@ -114,7 +114,7 @@
   bottom: 0; /* Position at the bottom */
   width: 0%; /* Start with no underline */
   height: 3px; /* Thickness of the underline */
-  background-color: #ffffff; /* Color of the underline */
+  background-color: #f8f8f8; /* Color of the underline */
   transform: translateX(-50%); /* Center the pseudo-element */
   transition: width 0.3s ease; /* Smooth width expansion */
 }
