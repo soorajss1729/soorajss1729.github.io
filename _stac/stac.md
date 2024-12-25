@@ -62,3 +62,7 @@ h2 {
  <p>Engaging with platforms like <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile">Quantum Computing Stack Exchange</a> has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the <a href="/learning/">Learning Journey</a> section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
  </div>
 
+<h2 id="math-stac">Mathematics Stack Exchange</h2>
+
+
+
