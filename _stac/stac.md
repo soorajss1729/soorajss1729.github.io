@@ -96,23 +96,12 @@ h2 {
 <ul>
     <li><a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">$f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$</a>: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.</li>
     <li><a href="https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296">
-        Understanding Filippov’s Inductive Proof for Jordan Canonical Form
-      </a>: Provided a detailed explanation and visual aid for the proof after extended discussions.</li>
-    <li><a href="https://math.stackexchange.com/questions/4250990/understanding-the-expression-tr-big-rhox-otimes-i-big-sum-a-b-a-b-rho">
-        Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$
-      </a>: Initiated and contributed to a detailed discussion on the trace properties of tensor products.</li>
-    <li><a href="https://math.stackexchange.com/questions/113270/the-median-minimizes-the-sum-of-absolute-deviations-the-ell-1-norm/2364943#2364943">
-        The median minimizes the sum of absolute deviations (the $\ell_1$ norm)
-      </a>: Provided a detailed explanation of a standard proof with an original example.</li>
-    <li>
-      <a href="https://math.stackexchange.com/questions/3204168/real-roots-of-the-equation-log-5x42x33-log-2x310x223x12-1">
-Real roots of the equation $\log_{(5x+4)}(2x+3)^3-\log_{(2x+3)}(10x^2+23x+12)=1$
-      </a>: Investigated the real roots of a logarithmic equation, providing cases and constraints, and collaborated on refining the solution for accuracy and completeness.
-    </li>
-    <li>
-      <a href="https://math.stackexchange.com/questions/2660747/determinant-using-factor-theorem">
-Determinant using factor theorem
-      </a>: Explored the factor theorem's application to determinants, collaboratively analyzing symmetric polynomial factors and their implications.
-    </li>
+        Understanding Filippov’s Inductive Proof for Jordan Canonical Form</a>: Provided a detailed explanation and visual aid for the proof after extended discussions.</li>
+    <li><a href="https://math.stackexchange.com/questions/4250990/understanding-the-expression-tr-big-rhox-otimes-i-big-sum-a-b-a-b-rho">Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$</a>: Initiated and contributed to a detailed discussion on the trace properties of tensor products.</li>
+    <li><a href="https://math.stackexchange.com/questions/113270/the-median-minimizes-the-sum-of-absolute-deviations-the-ell-1-norm/2364943#2364943">The median minimizes the sum of absolute deviations (the $\ell_1$ norm)</a>: Provided a detailed explanation of a standard proof with an original example.</li>
+    <li><a href="https://math.stackexchange.com/questions/3204168/real-roots-of-the-equation-log-5x42x33-log-2x310x223x12-1">
+Real roots of the equation $\log_{(5x+4)}(2x+3)^3-\log_{(2x+3)}(10x^2+23x+12)=1$</a>: Investigated the real roots of a logarithmic equation, providing cases and constraints, and collaborated on refining the solution for accuracy and completeness.</li>
+    <li><a href="https://math.stackexchange.com/questions/2660747/determinant-using-factor-theorem">
+Determinant using factor theorem</a>: Explored the factor theorem's application to determinants, collaboratively analyzing symmetric polynomial factors and their implications.</li>
 </ul>
 </div>
