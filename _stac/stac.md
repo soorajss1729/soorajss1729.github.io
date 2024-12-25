@@ -21,6 +21,7 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
   max-width: 35cm;
+  position: relative;
 }
 .text-block {
     text-align: justify;
@@ -54,7 +55,7 @@ h2 {
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
-    #toc-container {
+  #toc-container {
     margin-left: 2%;
     margin-right: 2%;
     max-width: 100%; /* Use full width on smaller screens */
