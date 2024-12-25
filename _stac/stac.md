@@ -12,13 +12,6 @@ classes: wide
 </div>
 
 <style>
-h2 {
-  margin-top: 15px;
-  scroll-margin-top: 65px; /* Adjust this value based on the height of your sticky navbar */
-  border-bottom: 1px solid #ddd; /* Add a subtle underline */
-  padding-bottom: 0.5rem; /* Add space between text and underline */
-}
-
 .text-block {
   text-align: justify;
   text-indent: 50px;
@@ -34,10 +27,11 @@ h2 {
 #toc-container li {
   margin: 0;
   padding: 0; 
-  line-height: 2; /* Improve readability */
+  line-height: 1.5; /* Improve readability */
   text-align: left; /* Ensures no extra space on the right */
   white-space: normal; /* Prevent text from overflowing */
 }
+
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
