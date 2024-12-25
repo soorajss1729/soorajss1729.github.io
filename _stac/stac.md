@@ -1,15 +1,14 @@
 ---
-title: "Quantum Computing"
+title: "Stack Exchange"
 permalink: /stac/
 collection: stac
 layout: default
 classes: wide
 ---
 
-<div class="learning-topnav">
-  <a href="/learning/">Back</a>
-  <a href="/linalg/">Linear Algebra</a>
-  <a href="/grp/">Group Theory</a>
+<div class="learning-topnav">  
+  <a href="#math-stac">Mathematics Stack Exchange</a>
+  <a href="#qc-stac">Quantum Computing Stack Exchange</a>
 </div>
 
 <style>
