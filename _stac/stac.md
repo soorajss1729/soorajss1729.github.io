@@ -27,6 +27,12 @@ h2 {
     text-indent: 50px;
     max-width: 35cm;
 }
+#toc-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 35cm; /* Match the width of .learning-content */
+  box-sizing: border-box; /* Ensures padding and borders are included in the width */
+}
 #toc-container details {
   margin-bottom: 1em; /* Add spacing between collapsible sections */
 }
