@@ -14,7 +14,7 @@ classes: wide
 <style>
 h2 {
   margin-top: 15px;
-  scroll-margin-top: 80px; /* Adjust this value based on the height of your sticky navbar */
+  scroll-margin-top: 65px; /* Adjust this value based on the height of your sticky navbar */
   border-bottom: 1px solid #ddd; /* Add a subtle underline */
   padding-bottom: 0.5rem; /* Add space between text and underline */
 }
