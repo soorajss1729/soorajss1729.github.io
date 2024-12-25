@@ -48,6 +48,7 @@ h2 {
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
+  margin:0;
   #toc-container ul {
     margin-left: 2px; /* Reduced indentation on mobile */
   }
