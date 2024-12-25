@@ -78,3 +78,25 @@ h2 {
 
 <h2 id="math-stac">Mathematics Stack Exchange</h2>
 
+<style>
+.onln ul {
+    list-style-type: square; /* Black square bullets */
+    padding-left: 20px; /* Add spacing for bullets */
+    margin: 0; /* Remove default margins */
+}
+.onln li {
+    color: inherit; /* Inherit the text color from the page */
+    font-family: inherit; /* Inherit the font family */
+    font-size: inherit; /* Inherit the font size */
+    line-height: inherit; /* Maintain the global line height */
+    margin-bottom: 5px; /* Space between list items */}
+</style>
+## Online Certifications
+<div class="onln">
+<ul>
+    <li>Introduction to Quantum Information | KAIST</li>
+    <li>QTM4x: Fundamentals of Quantum Information | TU Delft</li>
+    <li>Cryptography and Information Theory | University of Colorado</li>
+    <li>Python Basics | Python Functions, Files, and Dictionaries | Python Classes and Inheritance | University of Michigan</li>
+</ul>
+</div>
