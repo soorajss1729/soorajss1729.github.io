@@ -63,261 +63,71 @@ h2 {
  <p>Engaging with platforms like <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile">Quantum Computing Stack Exchange</a> has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the <a href="/learning/">Learning Journey</a> section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
  </div>
 
-<script>
-function loadPdfPage(pdfUrl) {
-  document.getElementById('pdf-viewer').src = pdfUrl;
-  document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
-}
-</script>
-
-<h2 id="toc">Table of Contents</h2>
+<h2 id="math-stac">Mathematics Stack Exchange</h2>
 
 <div id="toc-container">
-  <details>
-    <summary>Book 1: Introduction to Quantum Computing</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=3')">Postulates of Quantum Mechanics</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=46')">Distinguishing Quantum States</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=56')">Projective Measurement</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=73')">POVM Measurement</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=93')">General Measurement=Projective+Unitary</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=106')">Superdense Coding</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=121')">Tensor Product</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=165')">Multipartite System</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=182')">Schmidt Decomposition</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf#page=191')">Quantum Measurement Revisited</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 2: Density Matrix Formalism</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=3')">Density Matrix (Page 17)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=31')">Density Matrix - Unitary Freedom</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=42')">Bloch Sphere</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=55')">Bloch Sphere - Mixed State</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=66')">Partical Trace</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=83')">Why Partical Trace ?</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=99')">Detecting Entanglement</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=111')">Purification</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc2.pdf#page=126')">EPR and Bell Inequality</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 3: Quantum Computation</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=3')">Single Qubit Gates</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=22')">Rotation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=33')">Single Qubit Unitary as Rotation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=51')">Rotations About Arbitrary Axis</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=57')">Controlled Operations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=72')">No-Cloning Theorem</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=80')">Bell States</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc3.pdf#page=90')">Conditioning on Multiple Qubits</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 4: More Quantum Computation</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=3')">Chapter 4 Exercises</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=9')">Swap and Fredkin Gates</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=22')">$C^n(U)$ Operation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=39')">Quantum Teleportation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=56')">Quantum Measurement Principles</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=66')">Measurement on Bell Basis</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=70')">Measuring an Operator</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=75')">Universal Quantum Gates</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc4.pdf#page=80')">Two-level Gates are Universal</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 5: Universal Quantum Gates</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=4')">Single Qubit and CNOT Gates are Universal</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=22')">Approximating Unitary Operators</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=33')">Discrete Sets of Universal Operation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=35')">Hadamard+$\pi/2$=Single Qubit Unitary</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=62')">Hadamard, Phase, CNOT, Toffoli are Universal</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=76')">Quantum Circuit Model of Computation</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 6: Simulating Quantum Systems</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=3')">Simulations of Quantum Systems</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=14')">Baker-Campbell-Hausderff Formula</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=34')">Trotter Formula</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=54')">Simulating $H=Z_1\otimes Z_2\otimes\cdots\otimes Z_n$</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 7: Quantum Fourier Transform</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=5')">Quantum Parallelism</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=10')">Deutsch's Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=16')">Deutsch-Jozsa Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=31')">Probabilistic Classical Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=35')">Discrete Fourier Transform</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=50')">Quantum Fourier Transform</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=58')">QFT Circuit</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=75')">Inverse QFT</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=77')">Approximating QFT</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=79')">Phase Estimation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc7.pdf#page=97')">Performance of Phase Estimation</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 8: More Quantum Algorithms</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=3')">Order Finding Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=39')">Performance of Order Finding</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=55')">Period Finding Algorithm</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 9: Hidden Subgroup Problem</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.pdf#page=3')">Discrete Logarithm Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.pdf#page=16')">The Hidden Subgroup Problem</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 10: Quantum Search</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=4')">Grover's Search Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=11')">Grover Iteration</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=24')">Complexity of Grover's Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=37')">Performance of Grover's Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=46')">Procedure of Grover's Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=72')">Quantum Counting</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 11: </summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=1')">Will Upload Soon !</a></li>
-    </ul>
-  </details>
-  
-  <details>
-    <summary>Book 12: Quantum Operations</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=5')">Classical Noice</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=17')">Quantum Operations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=23')">Environment and Quantum Operations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=37')">Operator Sum Representation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=63')">Interpretation of Operator Sum Representation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=69')">Non-trace-preserving Operations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=79')">System Environment Models</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.pdf#page=89')">Mocking up a Quantum Operation</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 13: Quantum Noice</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=3')">Axiomatic Approach to Quantum Operations</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=20')">Choi Matrix</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=35')">Unitary Freedom in Operator Sum Representation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=42')">Theorem 8.3</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=57')">Geometry of Single Qubit Operation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=68')">Bit Flip and Phase Flip Channels</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=83')">Depolarizing Channel</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc13.pdf#page=94')">Amplitude Damping</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc14.pdf#page=3')">Exercises</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Book 14: Quantum Tomography</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=4')">Quantum State Tomography</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=19')">Quantum Process Tomography</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=23')">Chi Matrix Representation of Quantum Operation</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=26')">Alternative Method: Choi Matrix</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc15.pdf#page=45')">Quantum Process Tomography for Single Qubit</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Chapter 9: Distance Measures</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=4')">Classical Distance Measures</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=26')">Quantum Trace Distance</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=34')">Quantum Fidelity</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc9.1.pdf#page=41')">Relationship between Distance Measures</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Chapter 10: Quantum Error Correction</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=9')">Three Qubit Bit Flip Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=34')">Three Qubit Phase Flip Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=42')">The Shor Code</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.1.pdf#page=57')">Stabilizer Formalism</a></li>
-    </ul>
-  </details>
-  
-  <details>
-    <summary>Chapter 11 (Part 1): Entropy and Information</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=4')">Quantifying Information</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=16')">Rational Behind Log for Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=30')">Shannon Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=40')">Binary Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=56')">Relative Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=67')">Conditional Entropy and Mutual Information</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=77')">Properties of Shannon Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=93')">Data Processing Inequality</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Chapter 11 (Part 2): Entropy and Information</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.1.pdf#page=1')">Will Upload Soon !</a></li>
-    </ul>
-  </details>
-
-  <details>
-    <summary>Chapter 11 (Part 3): Entropy and Information</summary>
-    <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=4')">Lieb's Theorem</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=24')">Relative Entropy is Jointly Convex</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=31')">Conditional Entropy is Concave</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=33')">Strong Subadditivity</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=43')">Conditioning Reduces Entropy</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=49')">Subadditivity of Conditional Entropy</a></li>
-    </ul>
-  </details>
+  <ul>
+    <li>
+      <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">
+        $f(y) - f(x) \leq f(|y - x|)$ if $|y - x| \leq \frac{1}{2}$ given $f(x) = -x \log_2 x$
+      </a>: Analyzed the behavior of the inequality and proved a bound with detailed steps and reasoning.
+    </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/3909381/filippovs-inductive-proof-for-jordan-canonical-form/3911296#3911296">
+        Understanding Filippov’s Inductive Proof for Jordan Canonical Form
+      </a>: Provided a detailed explanation and visual aid for the proof after extended discussions.
+    </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/4250990/understanding-the-expression-tr-big-rhox-otimes-i-big-sum-a-b-a-b-rho">
+        Understanding the Expression $\text{tr}(\rho(X \otimes I)) = \sum_{a,b,a',b'} \rho_{ab,a'b'} X_{a,a'} \delta_{b,b'}$
+      </a>: Initiated and contributed to a detailed discussion on the trace properties of tensor products.
+    </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/113270/the-median-minimizes-the-sum-of-absolute-deviations-the-ell-1-norm/2364943#2364943">
+        The median minimizes the sum of absolute deviations (the $\ell_1$ norm)
+      </a>: Provided a detailed explanation of a standard proof with an original example.
+    </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/3204168/real-roots-of-the-equation-log-5x42x33-log-2x310x223x12-1">
+Real roots of the equation $\log_{(5x+4)}(2x+3)^3-\log_{(2x+3)}(10x^2+23x+12)=1$
+      </a>: Investigated the real roots of a logarithmic equation, providing cases and constraints, and collaborated on refining the solution for accuracy and completeness.
+    </li>
+    <li>
+      <a href="https://math.stackexchange.com/questions/2660747/determinant-using-factor-theorem">
+Determinant using factor theorem
+      </a>: Explored the factor theorem's application to determinants, collaboratively analyzing symmetric polynomial factors and their implications.
+    </li>
+  </ul>
 </div>
 
+<h2 id="qc-stac">Quantum Computing Stack Exchange</h2>
 
-
-
-
-<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-  <iframe id="pdf-viewer"
-    src="{% if page.permalink == '/grp/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110
-         {% elsif page.permalink == '/linalg/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
-         {% elsif page.permalink == '/qc/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110
-         {% else %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=default.pdf&zoom=110
-         {% endif %}"
-    style="width: 210mm; height: 297mm; border: none;">
-  </iframe>
+<div id="toc-container">
+  <ul>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm">
+        Derivation of Efficiency of Phase Estimation Algorithm
+      </a>: Explored and engaged deeply with the derivation of efficiency bounds for the phase estimation algorithm.
+    </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28924/why-does-the-chi-matrix-have-d4-d2-independent-parameters">
+        Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?
+      </a>: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
+    </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/32094/derive-the-concavity-of-quantum-conditional-entropy-from-strong-subadditivity">
+        Derive the Concavity of Quantum Conditional Entropy from Strong Subadditivity
+      </a>: Initiated a detailed inquiry and contributed to a collaborative understanding of the derivation using strong subadditivity.
+    </li>    
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28290/show-that-e-k-i-otimes-langle-e-kui-otimese-0-rangle-implies-u-beginb">
+        Show that $E_k=(I\otimes\langle e_k|)U(I\otimes|e_0\rangle)$ implies $U=\begin{bmatrix}[E_1]&\cdots\\ [E_2]&\cdots\\\vdots&\ddots\end{bmatrix}$
+      </a>: Initiated a structured query and worked collaboratively to clarify the connection between Kraus operators and the block matrix structure of unitary transformations.
+    </li>    
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28144/show-the-linearity-of-langle-a-m-otimes-i-b-otimes-i-c-otimes-langle-d-q">
+        Show the linearity of $(\langle a_m|\otimes I_B\otimes I_C\otimes \langle d_q|) U(I_{A}\otimes I_B\otimes |0_{C}\rangle\otimes |0_{D}\rangle)$
+      </a>: Analyzed the linearity of operators in the Kraus representation, focusing on their role in mapping composite quantum states under unitary evolution.
+    </li>    
+  </ul>
 </div>
-
