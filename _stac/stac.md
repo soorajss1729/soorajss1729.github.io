@@ -1,7 +1,7 @@
 ---
 title: "Quantum Computing"
-permalink: /qc/
-collection: qc
+permalink: /stac/
+collection: stac
 layout: default
 classes: wide
 ---
