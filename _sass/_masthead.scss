@@ -14,8 +14,8 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20;
-
+  z-index: 1001; /* Ensure masthead is above learning-topnav */
+   
   &__inner-wrap {
     @include container;
     @include clearfix;
@@ -27,7 +27,8 @@
     }
 
     nav {
-      z-index: 25;/* 10;*/
+      position: relative; /* Ensure proper stacking context */
+      z-index: 1002; /* Higher than masthead itself and learning-topnav */
     }
 
     a {
@@ -45,11 +46,12 @@
     list-style-type: none;
     position: relative; /* Ensure dropdown layering works correctly */
    }
+   
   ul li ul { /* Dropdown menu styles */
     position: absolute;
     top: 100%; /* Position below the parent item */
     left: 0;
-    z-index: 30; /* Ensure it layers above other elements */
+    z-index: 1003; /* Ensure it layers above all other elements */
     background: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional dropdown shadow */
    }
