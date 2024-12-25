@@ -130,11 +130,13 @@
 
 @media (max-width: 768px) {
   .learning-topnav {
+    z-index: 1000; /* Ensure it's below masthead and dropdown menu */
     justify-content: space-around; /* Space items evenly on smaller screens */
     gap: 5px; /* Reduce the gap */
   }
 
   .learning-topnav a {
+    z-index: 1; /* Ensure it's below masthead and dropdown menu */
     font-size: 0.9rem; /* Slightly smaller text */
     padding: 5px; /* Adjust padding */
   }
