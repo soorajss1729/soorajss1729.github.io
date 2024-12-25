@@ -6,45 +6,53 @@ layout: default
 classes: wide
 ---
 
-<div class="learning-topnav">
+<div class="learning-topnav">  
   <a href="#math-stac">Mathematics Stack Exchange</a>
   <a href="#qc-stac">Quantum Computing Stack Exchange</a>
 </div>
 
 <style>
-.text-block {
-  text-align: justify;
-  text-indent: 50px;
-  max-width: 35cm;
+h2 {
+  margin-top: 15px;
+  border-bottom: 1px solid #ddd; /* Add a subtle underline */
+  padding-bottom: 0.5rem; /* Add space between text and underline */
 }
-/* Reset padding and margin for the list */
-#toc-container ul {
-  margin: 0; /* Remove extra margins */
-  padding-left: 1.2em; /* Controlled space for bullet points */
-  list-style-type: square;
-}
-
-#toc-container li {
-  margin: 0;
-  padding: 0; 
-  line-height: 1.5; /* Improve readability */
-  text-align: left; /* Ensures no extra space on the right */
-  white-space: normal; /* Prevent text from overflowing */
-}
-
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 35cm; /* Avoid excessive width */
-  box-sizing: border-box; /* Consistent padding and border behavior */
+  max-width: 35cm;
+}
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+    max-width: 35cm;
+}
+#toc-container details {
+  margin-bottom: 1em; /* Add spacing between collapsible sections */
+}
+#toc-container summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+/* General styles for TOC */
+#toc-container ul {
+  margin-left: 10px; /* Indent nested lists */
+  padding-left: 10px;   /* Remove any default browser padding */
+  list-style-type: square;
 }
 
+/* Nested lists inside TOC */
+#toc-container ul ul {
+  margin-left: 10px; /* Additional indentation for nested lists */
+}
+
+/* Mobile-specific adjustments */
 @media (max-width: 768px) {
   #toc-container ul {
-    padding-left: 1em; /* Adjust indentation for mobile */
+    margin-left: 2px; /* Reduced indentation on mobile */
   }
-  #toc-container li {
-    padding-left: 0.8em;
+  #toc-container ul ul {
+    margin-left: 2px; /* Further reduced for nested lists */
   }
 }
 </style>
