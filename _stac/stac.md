@@ -58,15 +58,10 @@ h2 {
 }
 </style>
 
-<div class="learning-content">
-  <h1>Quantum Computing</h1>
-
 <a name="qc"></a>
 <div class="text-block">
- <p>After strengthening my mathematical skills and establishing a solid foundation in linear algebra, I delved into quantum computing through <a href="https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf">Nielsen and Chuang</a>’s Quantum Computation and Quantum Information. I approached each topic in the book with a keen focus on understanding its mathematical constructs and nuances. Frequently, my curiosity led me to explore beyond the book, engaging with additional materials to broaden my perspective and deepen my understanding. The <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman">Quantum Computing Stack Exchange</a> has been an invaluable resource in navigating these challenges independently, often sparking extended discussions that enriched my understanding. <a href="https://math.stackexchange.com/users/223599/sooraj-soman">Mathematics Stack Exchange</a> has similarly played a pivotal role in helping me grasp the mathematical framework of quantum computing concepts.</p>
- 
-  <p>These notes are an attempt to organize and share what I’ve learned over the years. They encompass not only the material from Nielsen and Chuang’s book but also the extended explorations and insights I’ve gained through tackling complex questions and problems. Having enrolled in CS5001 Introduction to Quantum Computing at Missouri S&T, my notes extend well beyond the scope of a typical 5000-level graduate course.</p>
-</div>
+ <p>Engaging with platforms like <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile">Quantum Computing Stack Exchange</a> has been a vital part of my independent learning journey. By actively solving problems, participating in discussions, and sharing detailed explanations, I’ve not only deepened my understanding of complex mathematical and quantum computing concepts but also contributed to the broader academic community. These collaborative exchanges have helped me develop a structured approach to tackling challenging topics, and many of the insights and clarity reflected in the notes within the <a href="/learning/">Learning Journey</a> section of this website are a direct result of such discussions. Below, I’ve highlighted a selection of posts that represent some of my most meaningful contributions and explorations on these platforms.</p>
+ </div>
 
 <script>
 function loadPdfPage(pdfUrl) {
