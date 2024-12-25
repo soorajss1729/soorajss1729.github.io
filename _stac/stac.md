@@ -54,6 +54,11 @@ h2 {
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
+    #toc-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    max-width: 100%; /* Use full width on smaller screens */
+  }    
   #toc-container ul {
     margin-left: 2px; /* Reduced indentation on mobile */
   }
