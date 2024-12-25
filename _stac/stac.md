@@ -104,3 +104,36 @@ h2 {
 Determinant using factor theorem</a>: Explored the factor theorem's application to determinants, collaboratively analyzing symmetric polynomial factors and their implications.</li>
 </ul>
 </div>
+
+
+<h2 id="qc-stac">Quantum Computing Stack Exchange</h2>
+
+<div id="toc-container">
+  <ul>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm">
+        Derivation of Efficiency of Phase Estimation Algorithm
+      </a>: Explored and engaged deeply with the derivation of efficiency bounds for the phase estimation algorithm.
+    </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28924/why-does-the-chi-matrix-have-d4-d2-independent-parameters">
+        Why does the $\chi$ matrix have $d^4-d^2$ independent parameters?
+      </a>: Initiated and actively contributed to an in-depth discussion related to the $\chi$ matrix in quantum process tomography.
+    </li>
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/32094/derive-the-concavity-of-quantum-conditional-entropy-from-strong-subadditivity">
+        Derive the Concavity of Quantum Conditional Entropy from Strong Subadditivity
+      </a>: Initiated a detailed inquiry and contributed to a collaborative understanding of the derivation using strong subadditivity.
+    </li>    
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28290/show-that-e-k-i-otimes-langle-e-kui-otimese-0-rangle-implies-u-beginb">
+        Show that $E_k=(I\otimes\langle e_k|)U(I\otimes|e_0\rangle)$ implies $U=\begin{bmatrix}[E_1]&\cdots\\ [E_2]&\cdots\\\vdots&\ddots\end{bmatrix}$
+      </a>: Initiated a structured query and worked collaboratively to clarify the connection between Kraus operators and the block matrix structure of unitary transformations.
+    </li>    
+    <li>
+      <a href="https://quantumcomputing.stackexchange.com/questions/28144/show-the-linearity-of-langle-a-m-otimes-i-b-otimes-i-c-otimes-langle-d-q">
+        Show the linearity of $(\langle a_m|\otimes I_B\otimes I_C\otimes \langle d_q|) U(I_{A}\otimes I_B\otimes |0_{C}\rangle\otimes |0_{D}\rangle)$
+      </a>: Analyzed the linearity of operators in the Kraus representation, focusing on their role in mapping composite quantum states under unitary evolution.
+    </li>    
+  </ul>
+</div>
