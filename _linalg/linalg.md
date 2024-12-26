@@ -16,7 +16,7 @@ a {
     text-decoration: none; /* Remove underline for all hyperlinks */
 }
 body {
-    padding-bottom: 20px; /* Adds 50px of vertical space at the bottom of the page */
+    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
 }
 h2 {
   margin-top: 15px;
