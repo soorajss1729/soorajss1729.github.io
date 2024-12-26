@@ -13,6 +13,10 @@ classes: wide
 </div>
 
 <style>
+a {
+    text-decoration: none; /* Remove underline for all hyperlinks */
+}
+  
 h2 {
   margin-top: 15px;
   border-bottom: 1px solid #ddd; /* Add a subtle underline */
