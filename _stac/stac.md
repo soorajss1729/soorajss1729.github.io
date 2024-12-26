@@ -12,6 +12,10 @@ classes: wide
 </div>
 
 <style>
+body {
+    padding-bottom: 20px; /* Adds 50px of vertical space at the bottom of the page */
+}
+  
 a {
     text-decoration: none; /* Remove underline for all hyperlinks */
 }
