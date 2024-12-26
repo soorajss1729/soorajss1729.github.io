@@ -56,8 +56,7 @@ h3 {
 <ul>
     <li>Mathematical Constructs of Quantum Computing</li>
     <li>Classical and Quantum Algorithms</li>
-    <li>Advanced Linear Algebra</li>
-    <li>Group Theory</li>
+    <li>Advanced Linear Algebra and Group Theory</li>
 </ul>
 </div>
 
@@ -96,7 +95,7 @@ Cochin University of Science and Technology, 2017
   <div style="margin-top: 15px;">
     <p style="font-weight: bold; margin-bottom: 5px;">Example Contribution:</p>
     <p style="font-style: italic; color: #555;">
-      <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x">
+      <a href="https://math.stackexchange.com/questions/4614700/prove-fy-%E2%88%92-fx-leq-fy-%E2%88%92-x-if-y-%E2%88%92-x-%E2%89%A4-1-2-given-fx-x-log-2-x" style="text-decoration: none;">
         Prove \( |f(y) − f(x)| \leq f(|y − x|) \) if \( |y − x| \leq \frac{1}{2} \) given \( f(x) = -x\log_2 x \)
       </a>
       – Analyzed the behavior of the inequality and provided a bound with detailed steps and reasoning.
@@ -127,7 +126,7 @@ Cochin University of Science and Technology, 2017
   <div style="margin-top: 15px;">
     <p style="font-weight: bold; margin-bottom: 5px;">Example Contribution:</p>
     <p style="font-style: italic; color: #555;">
-      <a href="https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm">
+      <a href="https://quantumcomputing.stackexchange.com/questions/22032/derivation-of-efficiency-of-phase-estimation-algorithm" style="text-decoration: none;">
         Derivation of Efficiency of Phase Estimation Algorithm
       </a>
       – Explored and analyzed the derivation of efficiency bounds for the phase estimation algorithm.
@@ -181,10 +180,10 @@ Cochin University of Science and Technology, 2017
 ## Online Certifications
 <div class="onln">
 <ul>
-    <li><a href="https://coursera.org/verify/PMB7ZTCZMX3D">Introduction to Quantum Information</a></li>
-    <li><a href="https://courses.edx.org/certificates/abb8551f8f65473cae0c5b8c076a8df4">QTM4x: Fundamentals of Quantum Information</a></li>
-    <li><a href="https://coursera.org/verify/CZQLXDV8PUCX">Cryptography and Information Theory</a></li>
-    <li><a href="https://coursera.org/verify/47ZU4EQLWWXT">Python Basics</a> | <a href="https://coursera.org/verify/C7KZRJFGRHEY">Python Functions, Files, and Dictionaries</a> | <a href="https://coursera.org/verify/YHGHGH8WU6SR">Python Classes and Inheritance</a></li>
+    <li><a href="https://coursera.org/verify/PMB7ZTCZMX3D" style="text-decoration: none;">Introduction to Quantum Information</a></li>
+    <li><a href="https://courses.edx.org/certificates/abb8551f8f65473cae0c5b8c076a8df4" style="text-decoration: none;">QTM4x: Fundamentals of Quantum Information</a></li>
+    <li><a href="https://coursera.org/verify/CZQLXDV8PUCX" style="text-decoration: none;">Cryptography and Information Theory</a></li>
+    <li><a href="https://coursera.org/verify/47ZU4EQLWWXT" style="text-decoration: none;">Python Basics</a> | <a href="https://coursera.org/verify/C7KZRJFGRHEY" style="text-decoration: none;">Python Functions, Files, and Dictionaries</a> | <a href="https://coursera.org/verify/YHGHGH8WU6SR" style="text-decoration: none;">Python Classes and Inheritance</a></li>
 </ul>
 </div>
 
@@ -258,7 +257,7 @@ Cochin University of Science and Technology, 2017
   PhD Student, Computer Science Department<br>
   Missouri University of Science and Technology<br>  
   Rolla, MO - 65401, United States<br>  
-  Email: <a href="mailto:ss4kx@mst.edu">ss4kx@mst.edu</a>, <a href="mailto:soorajss1729@gmail.com">soorajss1729@gmail.com</a><br>
+  Email: <a href="mailto:ss4kx@mst.edu" style="text-decoration: none;">ss4kx@mst.edu</a>, <a href="mailto:soorajss1729@gmail.com" style="text-decoration: none;">soorajss1729@gmail.com</a><br>
 </div>
 
 
