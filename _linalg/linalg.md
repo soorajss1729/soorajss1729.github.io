@@ -15,6 +15,7 @@ classes: wide
 a {
     text-decoration: none; /* Remove underline for all hyperlinks */
 }
+  
 body {
     padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
 }
