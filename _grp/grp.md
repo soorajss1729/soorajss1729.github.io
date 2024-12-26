@@ -13,6 +13,12 @@ classes: wide
 </div>
 
 <style>
+body {
+    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
+}
+a {
+    text-decoration: none; /* Remove underline for all hyperlinks */
+}
 h2 {
   margin-top: 15px;
   border-bottom: 1px solid #ddd; /* Add a subtle underline */
