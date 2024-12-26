@@ -28,6 +28,7 @@ h2 {
     text-indent: 50px;
     max-width: 35cm;
 }
+  
 #toc-container details {
   margin-bottom: 1em; /* Add spacing between collapsible sections */
 }
