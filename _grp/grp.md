@@ -191,8 +191,15 @@ function loadPdfPage(pdfUrl) {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=nmbr-qca4-2.pdf#page=78')">Dirichlet's Approximation Theorem</a></li>
     </ul>
   </details>
+  <details>
+    <summary>Cryptography</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=rsa.pdf#page=3')">Public Key Cryptography</a></li>        
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=rsa.pdf#page=9')">RSA Cryptosystem</a></li>   
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=rsa.pdf#page=20')">Diffie-Hellman Key Exchange</a></li>   
+    </ul>
+  </details>  
 </div>
-
 
 
 
