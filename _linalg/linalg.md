@@ -378,14 +378,29 @@ body {
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column;
-  }
-  #toc-container, .pdf-viewer {
-    max-width: 100%;
-    height: auto; /* Allow TOC and viewer to expand naturally on smaller screens */
+    flex-direction: column; /* Stack TOC and viewer vertically */
+    height: auto; /* Allow the container height to adjust naturally */
+    margin-bottom: 50px; /* Prevent overlap with footer */
   }
   #toc-container {
-    border-right: none; /* Remove border on smaller screens */
+    max-width: 100%;
+    height: auto; /* Adjust height naturally */
+  }
+  .pdf-viewer {
+    max-width: 100%;
+    height: calc(100vh - 50px); /* Take up remaining space above footer */
+    margin-top: 1rem; /* Add spacing between TOC and PDF viewer */
+    flex-grow: 1; /* Ensure it stretches to fill available space */
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #f8f8f8;
+    border-top: 1px solid #ddd;
   }
 }
 </style>
