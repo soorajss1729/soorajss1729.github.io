@@ -318,12 +318,16 @@ document.addEventListener('DOMContentLoaded', loadFixedPageOnNavigation);
 
 // Function to load a specific page dynamically from TOC
 function loadPdfPage(url) {
-    console.log("Loading PDF:", url);
-    const pdfViewer = document.querySelector('.pdf-viewer iframe'); // Check the selector
+    console.log("loadPdfPage triggered with URL:", url);
+
+    // Locate the iframe
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        pdfViewer.src = url; // Update iframe's src
+        // Update iframe src
+        pdfViewer.src = url;
+        console.log("Iframe src updated to:", pdfViewer.src);
     } else {
-        console.error("PDF viewer iframe not found!");
+        console.error("PDF viewer iframe not found in the DOM!");
     }
 }
 
