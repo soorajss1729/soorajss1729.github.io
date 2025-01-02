@@ -13,80 +13,38 @@ classes: wide
 </div>
 
 <style>
-body {
-    padding-bottom: 10px; /* Adds 50px of vertical space at the bottom of the page */
-}
-  
-a {
-    text-decoration: none; /* Remove underline for all hyperlinks */
-}
-  
-h2 {
-  margin-top: 15px;
-  border-bottom: 1px solid #ddd; /* Add a subtle underline */
-  padding-bottom: 0.5rem; /* Add space between text and underline */
-}
-.learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 35cm;
-}
 .text-block {
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     text-indent: 50px;
     max-width: 35cm;
+    margin-bottom: 1rem; /* Add space below */
 }
-  
-#toc-container details {
-  margin-bottom: 1em; /* Add spacing between collapsible sections */
-}
-#toc-container summary {
-  font-weight: bold;
-  cursor: pointer;
-}
-/* General styles for TOC */
-#toc-container ul {
-  margin-left: 10px; /* Indent nested lists */
-  padding-left: 10px;   /* Remove any default browser padding */
-  list-style-type: square;
-}
-
-/* Nested lists inside TOC */
-#toc-container ul ul {
-  margin-left: 10px; /* Additional indentation for nested lists */
-}
-
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-  #toc-container ul {
-    margin-left: 2px; /* Reduced indentation on mobile */
-  }
-  #toc-container ul ul {
-    margin-left: 2px; /* Further reduced for nested lists */
-  }
+h1 {
+    all: unset; /* Reset all styles */
+    display: block; /* Ensure it behaves like a block element */
+    border-bottom: 1px solid #ddd; /* Add a subtle underline */
+    padding-bottom: 0.5rem; /* Add space between text and underline */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold; /* Ensure it's bold */
+    text-align: left; /* Align text to the left */
+    margin-left: 2%; /* Align with text block */
+    margin-bottom: 1rem; /* Add space below */
 }
 </style>
-
-<div class="learning-content">
   <h1>Quantum Computing</h1>
 
-<a name="qc"></a>
 <div class="text-block">
  <p>After strengthening my mathematical skills and establishing a solid foundation in linear algebra, I delved into quantum computing through <a href="https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf" style="text-decoration: none;">Nielsen and Chuang</a>’s Quantum Computation and Quantum Information. I approached each topic in the book with a keen focus on understanding its mathematical constructs and nuances. Frequently, my curiosity led me to explore beyond the book, engaging with additional materials to broaden my perspective and deepen my understanding. The <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman" style="text-decoration: none;">Quantum Computing Stack Exchange</a> has been an invaluable resource in navigating these challenges independently, often sparking extended discussions that enriched my understanding. <a href="https://math.stackexchange.com/users/223599/sooraj-soman" style="text-decoration: none;">Mathematics Stack Exchange</a> has similarly played a pivotal role in helping me grasp the mathematical framework of quantum computing concepts.</p>
  
   <p>These notes are an attempt to organize and share what I’ve learned over the years. They encompass not only the material from Nielsen and Chuang’s book but also the extended explorations and insights I’ve gained through tackling complex questions and problems. Having enrolled in CS5001 Introduction to Quantum Computing at Missouri S&T, my notes extend well beyond the scope of a typical 5000-level graduate course.</p>
 </div>
 
-<script>
-function loadPdfPage(pdfUrl) {
-  document.getElementById('pdf-viewer').src = pdfUrl;
-  document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
-}
-</script>
-
-<h2 id="toc">Table of Contents</h2>
-
-<div id="toc-container">
+<div class="content-container">
+  <!-- Table of Contents -->
+  <div id="toc-container">
+    
   <details>
     <summary>Book 1: Introduction to Quantum Computing</summary>
     <ul>
@@ -317,21 +275,102 @@ function loadPdfPage(pdfUrl) {
 </div>
 
 
+  <script>
+function loadPdfPage(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
+}
+</script>
 
-
-
-<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-  <iframe id="pdf-viewer"
-    src="{% if page.permalink == '/grp/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110
-         {% elsif page.permalink == '/linalg/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
-         {% elsif page.permalink == '/qc/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110
-         {% else %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=default.pdf&zoom=110
-         {% endif %}"
-    style="width: 210mm; height: 297mm; border: none;">
-  </iframe>
+  <!-- PDF Viewer -->
+  <div class="pdf-viewer">
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+  </div>
 </div>
 
+<style>
+/* General styling */
+a {
+    text-decoration: none; /* Remove underline for all hyperlinks */
+}
+  
+body {
+    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
+}
+
+.learning-content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Flexbox container for TOC and PDF viewer */
+.content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 700px; /* Set a height for the container */
+}
+
+/* TOC styling */
+#toc-container {
+    flex: 1 1 40%; /* TOC takes up 30% of the width */
+    max-width: 350px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-right: 0px solid #ddd; /* Optional right border for separation */
+    padding-right: 10px; /* Space for scroll bar */
+    height: 100%; /* Match the container height */
+}
+
+#toc-container details {
+  margin-bottom: 1em; /* Add spacing between collapsible sections */
+}
+
+#toc-container summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#toc-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* PDF Viewer styling */
+.pdf-viewer {
+    flex: 1 1 70%; /* PDF viewer takes up 70% of the width */
+    border: 0px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack TOC and viewer vertically */
+    height: auto; /* Allow the container height to adjust naturally */
+    margin-bottom: 50px; /* Prevent overlap with footer */
+  }
+  #toc-container {
+    max-width: 100%;
+    height: auto; /* Adjust height naturally */
+  }
+  .pdf-viewer {
+    max-width: 100%;
+    height: calc(100vh - 50px); /* Take up remaining space above footer */
+    margin-top: 1rem; /* Add spacing between TOC and PDF viewer */
+    flex-grow: 1; /* Ensure it stretches to fill available space */
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+}
+</style>
