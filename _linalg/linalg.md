@@ -12,78 +12,37 @@ classes: wide
 </div>
 
 <style>
-a {
-    text-decoration: none; /* Remove underline for all hyperlinks */
-}
-  
-body {
-    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
-}
-h2 {
-  margin-top: 15px;
-  border-bottom: 1px solid #ddd; /* Add a subtle underline */
-  padding-bottom: 0.5rem; /* Add space between text and underline */
-}
-.learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 35cm;
-}
 .text-block {
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     text-indent: 50px;
     max-width: 35cm;
 }
-  
-#toc-container details {
-  margin-bottom: 1em; /* Add spacing between collapsible sections */
-}
-#toc-container summary {
-  font-weight: bold;
-  cursor: pointer;
-}
-/* General styles for TOC */
-#toc-container ul {
-  margin-left: 10px; /* Indent nested lists */
-  padding-left: 10px;   /* Remove any default browser padding */
-  list-style-type: square;
-}
-
-/* Nested lists inside TOC */
-#toc-container ul ul {
-  margin-left: 10px; /* Additional indentation for nested lists */
-}
-
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-  #toc-container ul {
-    margin-left: 2px; /* Reduced indentation on mobile */
-  }
-  #toc-container ul ul {
-    margin-left: 2px; /* Further reduced for nested lists */
-  }
+h1 {
+    all: unset; /* Reset all styles */
+    display: block; /* Ensure it behaves like a block element */
+    border-bottom: 1px solid #ddd; /* Add a subtle underline */
+    padding-bottom: 0.5rem; /* Add space between text and underline */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold; /* Ensure it's bold */
+    text-align: left; /* Align text to the left */
+    margin-left: 2%; /* Align with text block */
+    margin-bottom: 1rem; /* Add space below */
 }
 </style>
-
-<div class="learning-content">
   <h1>Linear Algebra</h1>
 
-<a name="linear-algebra"></a>
+
 <div class="text-block">
  <p>Linear algebra has been a crucial part of my learning journey, especially as I ventured into quantum computing. I started with <a href="https://archive.org/embed/gilbert-strang-introduction-to-linear-algebra-fifth-edition" style="text-decoration: none;">Gilbert Strang's Introduction to Linear Algebra</a> to build a strong foundation, but I often found myself exploring much deeper concepts and proofs beyond what the book covered. Throughout this process, <a href="https://math.stackexchange.com/users/223599/sooraj-soman" style="text-decoration: none;">Mathematics Stack Exchange</a> became an invaluable resource for clarifying doubts, solving challenging problems, and learning through engaging discussions with the community.</p>
  <p>These notes are an attempt to organize and share what I’ve learned over the years. They reflect not only the material from Strang's book but also the extended explorations and insights I’ve gained while tackling questions and problems. Having enrolled in Math 6108 Applied Matrix Theory at Missouri S&T, my notes go well beyond the scope of a typical 6000-level advanced graduate course.</p>
 </div>
 
-<script>
-function loadPdfPage(pdfUrl) {
-  document.getElementById('pdf-viewer').src = pdfUrl;
-  document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
-}
-</script>
+<div class="content-container">
+  <!-- Table of Contents -->
+  <div id="toc-container">
 
-<h2 id="toc">Table of Contents</h2>
-
-<div id="toc-container">
   <details>
     <summary>Book 1: Introduction to Vectors</summary>
     <ul>
@@ -336,24 +295,96 @@ function loadPdfPage(pdfUrl) {
     </ul>
   </details>
 
+
+  </div>
+  
+  <script>
+function loadPdfPage(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
+}
+</script>
+
+  <!-- PDF Viewer -->
+  <div class="pdf-viewer">
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+  </div>
 </div>
 
+<style>
+/* General styling */
+a {
+    text-decoration: none; /* Remove underline for all hyperlinks */
+}
+  
+body {
+    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
+}
 
+.learning-content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+}
 
+/* Flexbox container for TOC and PDF viewer */
+.content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 700px; /* Set a height for the container */
+}
 
-<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-  <iframe id="pdf-viewer"
-    src="{% if page.permalink == '/grp/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110
-         {% elsif page.permalink == '/linalg/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
-         {% elsif page.permalink == '/qc/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110
-         {% else %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=default.pdf&zoom=110
-         {% endif %}"
-    style="width: 210mm; height: 297mm; border: none;">
-  </iframe>
-</div>
+/* TOC styling */
+#toc-container {
+    flex: 1 1 40%; /* TOC takes up 30% of the width */
+    max-width: 350px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-right: 0px solid #ddd; /* Optional right border for separation */
+    padding-right: 10px; /* Space for scroll bar */
+    height: 100%; /* Match the container height */
+}
 
+#toc-container details {
+  margin-bottom: 1em; /* Add spacing between collapsible sections */
+}
+
+#toc-container summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#toc-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* PDF Viewer styling */
+.pdf-viewer {
+    flex: 1 1 70%; /* PDF viewer takes up 70% of the width */
+    border: 0px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+  #toc-container, .pdf-viewer {
+    max-width: 100%;
+    height: auto; /* Allow TOC and viewer to expand naturally on smaller screens */
+  }
+  #toc-container {
+    border-right: none; /* Remove border on smaller screens */
+  }
+}
+</style>
