@@ -18,6 +18,7 @@ classes: wide
     text-align: justify;
     text-indent: 50px;
     max-width: 35cm;
+    margin-bottom: 1rem; /* Add space below */
 }
 h1 {
     all: unset; /* Reset all styles */
@@ -294,11 +295,28 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=185')">Matrix Exponential (Page 185)</a></li>
     </ul>
   </details>
-
-
   </div>
   
-  <script>
+<script>
+// Function to get the 'page' query parameter from the URL
+function getQueryParameter(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+// Dynamically update the PDF viewer's src attribute on page load
+function loadFixedPageOnNavigation() {
+    const page = getQueryParameter('page') || 1; // Default to page 1 if no parameter
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = `https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=${page}`;
+    }
+}
+
+// Call the function on page load
+document.addEventListener('DOMContentLoaded', loadFixedPageOnNavigation);
+
+// Function to load a specific page dynamically from TOC
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
@@ -374,17 +392,22 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Mobile adjustments */
+/* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column;
-  }
-  #toc-container, .pdf-viewer {
-    max-width: 100%;
-    height: auto; /* Allow TOC and viewer to expand naturally on smaller screens */
+    flex-direction: column; /* Stack TOC and viewer vertically */
   }
   #toc-container {
-    border-right: none; /* Remove border on smaller screens */
+    flex: none;
+    max-width: 100%;
+    height: auto; /* Allow TOC to expand naturally */
+    border-right: none; /* Remove border for simplicity */
+  }
+  .pdf-viewer {
+    flex: none;
+    max-width: 100%;
+    height: auto; /* Allow PDF viewer to adjust height */
+    margin-top: 1rem; /* Add spacing between TOC and PDF viewer */
   }
 }
 </style>
