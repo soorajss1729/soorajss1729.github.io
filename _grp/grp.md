@@ -235,7 +235,7 @@ body {
 
 /* PDF Viewer styling */
 .pdf-viewer {
-    flex: 1 1 70%; /* PDF viewer takes up 70% of the width */
+    flex: 1 1 60%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
