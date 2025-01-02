@@ -163,7 +163,8 @@ h1 {
 </div>
   </div>
   
-<script>
+
+  <script>
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
@@ -174,7 +175,7 @@ function loadPdfPage(url) {
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf" width="100%" height="700px" style="border: none;"></iframe>
   </div>
 </div>
 
