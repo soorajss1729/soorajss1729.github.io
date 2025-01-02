@@ -23,7 +23,7 @@ classes: wide
 h1 {
     all: unset; /* Reset all styles */
     display: block; /* Ensure it behaves like a block element */
-    border-bottom: 1px solid #ddd; /* Add a subtle underline */
+    border-bottom: 0.5px solid #f5f5f5; /* Lighten the underline further */
     padding-bottom: 0.5rem; /* Add space between text and underline */
     font-size: 1.5rem; /* Adjust font size */
     font-weight: bold; /* Ensure it's bold */
