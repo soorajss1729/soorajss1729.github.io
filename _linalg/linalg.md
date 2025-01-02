@@ -395,12 +395,6 @@ body {
   footer {
     position: relative;
     bottom: 0;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    line-height: 50px;
-    background: #f8f8f8;
-    border-top: 1px solid #ddd;
   }
 }
 </style>
