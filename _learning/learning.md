@@ -18,8 +18,8 @@ h2 {
   padding-bottom: 0.5rem; /* Add space between text and underline */
 }
 .learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
   max-width: 35cm;
 }
 .text-block {
