@@ -396,18 +396,24 @@ body {
 @media (max-width: 768px) {
   .content-container {
     flex-direction: column; /* Stack TOC and viewer vertically */
+    margin-bottom: 50px; /* Ensure space for the footer */
+    height: auto; /* Adjust the height dynamically */
   }
+
   #toc-container {
-    flex: none;
     max-width: 100%;
-    height: auto; /* Allow TOC to expand naturally */
-    border-right: none; /* Remove border for simplicity */
+    height: auto; /* Allow it to adjust height */
+    margin-bottom: 10px; /* Add spacing between TOC and PDF viewer */
   }
+
   .pdf-viewer {
-    flex: none;
     max-width: 100%;
-    height: auto; /* Allow PDF viewer to adjust height */
-    margin-top: 1rem; /* Add spacing between TOC and PDF viewer */
+    height: calc(100vh - 100px); /* Set the height relative to the screen and footer */
+  }
+
+  footer {
+    position: relative;
+    bottom:
   }
 }
 </style>
