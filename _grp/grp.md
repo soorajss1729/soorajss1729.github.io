@@ -13,77 +13,38 @@ classes: wide
 </div>
 
 <style>
-body {
-    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
-}
-a {
-    text-decoration: none; /* Remove underline for all hyperlinks */
-}
-h2 {
-  margin-top: 15px;
-  border-bottom: 1px solid #ddd; /* Add a subtle underline */
-  padding-bottom: 0.5rem; /* Add space between text and underline */
-}
-.learning-content {
-  margin-left: 5%;
-  margin-right: 5%;
-  max-width: 35cm;
-}
 .text-block {
+    margin-left: 2%;
+    margin-right: 2%;
     text-align: justify;
     text-indent: 50px;
     max-width: 35cm;
+    margin-bottom: 1rem; /* Add space below */
 }
-#toc-container details {
-  margin-bottom: 1em; /* Add spacing between collapsible sections */
-}
-#toc-container summary {
-  font-weight: bold;
-  cursor: pointer;
-}
-/* General styles for TOC */
-#toc-container ul {
-  margin-left: 10px; /* Indent nested lists */
-  padding-left: 10px;   /* Remove any default browser padding */
-  list-style-type: square;
-}
-
-/* Nested lists inside TOC */
-#toc-container ul ul {
-  margin-left: 10px; /* Additional indentation for nested lists */
-}
-
-/* Mobile-specific adjustments */
-@media (max-width: 768px) {
-  #toc-container ul {
-    margin-left: 2px; /* Reduced indentation on mobile */
-  }
-  #toc-container ul ul {
-    margin-left: 2px; /* Further reduced for nested lists */
-  }
+h1 {
+    all: unset; /* Reset all styles */
+    display: block; /* Ensure it behaves like a block element */
+    border-bottom: 1px solid #ddd; /* Add a subtle underline */
+    padding-bottom: 0.5rem; /* Add space between text and underline */
+    font-size: 1.5rem; /* Adjust font size */
+    font-weight: bold; /* Ensure it's bold */
+    text-align: left; /* Align text to the left */
+    margin-left: 2%; /* Align with text block */
+    margin-bottom: 1rem; /* Add space below */
 }
 </style>
-
-<div class="learning-content">
   <h1>Group Theory</h1>
 
-<a name="qc"></a>
 <div class="text-block">
- <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://edisciplinas.usp.br/pluginfile.php/5409004/mod_resource/content/2/John%20B.%20Fraleigh%2C%20Victor%20J.%20Katz%20-%20A%20first%20course%20in%20abstract%20algebra-Addison-Wesley%20%282003%29%20%281%29.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>
+  <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://edisciplinas.usp.br/pluginfile.php/5409004/mod_resource/content/2/John%20B.%20Fraleigh%2C%20Victor%20J.%20Katz%20-%20A%20first%20course%20in%20abstract%20algebra-Addison-Wesley%20%282003%29%20%281%29.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>
  
  <p>My notes include detailed proofs and explanations from the textbook, insights gained from solving problems, and explorations of challenging topics tackled independently. They also feature a dedicated section for problems with solutions and the project report where I contributed to the final proof for the Simplicity of the Alternating Group $A_n$.</p>
 </div>
 
-<script>
-function loadPdfPage(pdfUrl) {
-  document.getElementById('pdf-viewer').src = pdfUrl;
-  document.getElementById('pdf-viewer-container').scrollIntoView({ behavior: 'smooth' });
-}
-</script>
+<div class="content-container">
+  <!-- Table of Contents -->
+  <div id="toc-container">
 
-<h2 id="toc">Table of Contents</h2>
-
-<div id="toc-container">
   <details>
     <summary>Section 1: Introduction to Groups</summary>
     <ul>
@@ -202,20 +163,104 @@ function loadPdfPage(pdfUrl) {
 </div>
 
 
+  </div>
+  
+  <script>
+function loadPdfPage(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
+}
+</script>
 
-
-<div id="pdf-viewer-container" style="width: 100%; display: flex; justify-content: center;">
-  <iframe id="pdf-viewer"
-    src="{% if page.permalink == '/grp/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf&zoom=110
-         {% elsif page.permalink == '/linalg/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf&zoom=110
-         {% elsif page.permalink == '/qc/' %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf&zoom=110
-         {% else %}
-            https://soorajss1729.github.io/pdfjs/viewer.html?file=default.pdf&zoom=110
-         {% endif %}"
-    style="width: 210mm; height: 297mm; border: none;">
-  </iframe>
+  <!-- PDF Viewer -->
+  <div class="pdf-viewer">
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+  </div>
 </div>
 
+<style>
+/* General styling */
+a {
+    text-decoration: none; /* Remove underline for all hyperlinks */
+}
+  
+body {
+    padding-bottom: 50px; /* Adds 50px of vertical space at the bottom of the page */
+}
+
+.learning-content {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/* Flexbox container for TOC and PDF viewer */
+.content-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 700px; /* Set a height for the container */
+}
+
+/* TOC styling */
+#toc-container {
+    flex: 1 1 40%; /* TOC takes up 30% of the width */
+    max-width: 350px;
+    overflow-y: auto; /* Enable vertical scrolling */
+    border-right: 0px solid #ddd; /* Optional right border for separation */
+    padding-right: 10px; /* Space for scroll bar */
+    height: 100%; /* Match the container height */
+}
+
+#toc-container details {
+  margin-bottom: 1em; /* Add spacing between collapsible sections */
+}
+
+#toc-container summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#toc-container ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* PDF Viewer styling */
+.pdf-viewer {
+    flex: 1 1 70%; /* PDF viewer takes up 70% of the width */
+    border: 0px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stack TOC and viewer vertically */
+    height: auto; /* Allow the container height to adjust naturally */
+    margin-bottom: 50px; /* Prevent overlap with footer */
+  }
+  #toc-container {
+    max-width: 100%;
+    height: auto; /* Adjust height naturally */
+  }
+  .pdf-viewer {
+    max-width: 100%;
+    height: calc(100vh - 50px); /* Take up remaining space above footer */
+    margin-top: 1rem; /* Add spacing between TOC and PDF viewer */
+    flex-grow: 1; /* Ensure it stretches to fill available space */
+  }
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+}
+</style>
