@@ -295,42 +295,17 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=185')">Matrix Exponential (Page 185)</a></li>
     </ul>
   </details>
+
+
   </div>
   
-<script>
-// Function to get the 'page' query parameter from the URL
-function getQueryParameter(name) {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-}
-
-// Dynamically update the PDF viewer's src attribute on page load
-function loadFixedPageOnNavigation() {
-    const page = getQueryParameter('page') || 1; // Default to page 1 if no parameter
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (pdfViewer) {
-        pdfViewer.src = `https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf#page=${page}`;
-    }
-}
-
-// Call the function on page load
-document.addEventListener('DOMContentLoaded', loadFixedPageOnNavigation);
-
-// Function to load a specific page dynamically from TOC
+  <script>
 function loadPdfPage(url) {
-    console.log("loadPdfPage triggered with URL:", url);
-
-    // Locate the iframe
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        // Update iframe src
         pdfViewer.src = url;
-        console.log("Iframe src updated to:", pdfViewer.src);
-    } else {
-        console.error("PDF viewer iframe not found in the DOM!");
     }
 }
-
 </script>
 
   <!-- PDF Viewer -->
@@ -400,28 +375,17 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Responsive design for smaller screens */
+/* Mobile adjustments */
 @media (max-width: 768px) {
   .content-container {
-    flex-direction: column; /* Stack TOC and viewer vertically */
-    margin-bottom: 50px; /* Ensure space for the footer */
-    height: auto; /* Adjust the height dynamically */
+    flex-direction: column;
   }
-
+  #toc-container, .pdf-viewer {
+    max-width: 100%;
+    height: auto; /* Allow TOC and viewer to expand naturally on smaller screens */
+  }
   #toc-container {
-    max-width: 100%;
-    height: auto; /* Allow it to adjust height */
-    margin-bottom: 10px; /* Add spacing between TOC and PDF viewer */
-  }
-
-  .pdf-viewer {
-    max-width: 100%;
-    height: calc(100vh - 100px); /* Set the height relative to the screen and footer */
-  }
-
-  footer {
-    position: relative;
-    bottom:0;
+    border-right: none; /* Remove border on smaller screens */
   }
 }
 </style>
