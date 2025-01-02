@@ -421,7 +421,7 @@ body {
 
   footer {
     position: relative;
-    bottom:
+    bottom:0;
   }
 }
 </style>
