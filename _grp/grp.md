@@ -1,15 +1,14 @@
 ---
-title: "Group Theory"
+title: "Linear Algebra"
 permalink: /grp/
-collection: grp
 layout: default
 classes: wide
 ---
 
 <div class="learning-topnav">
   <a href="/learning/">Back</a>
-  <a href="/linalg/">Linear Algebra</a>
-  <a href="/qc#">Quantum Computing</a>
+  <a href="/qc#">Quantum Computing</a>  
+  <a href="/grp/">Group Theory</a>  
 </div>
 
 <style>
@@ -35,6 +34,7 @@ h1 {
 </style>
   <h1>Group Theory</h1>
 
+
 <div class="text-block">
   <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://edisciplinas.usp.br/pluginfile.php/5409004/mod_resource/content/2/John%20B.%20Fraleigh%2C%20Victor%20J.%20Katz%20-%20A%20first%20course%20in%20abstract%20algebra-Addison-Wesley%20%282003%29%20%281%29.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>
  
@@ -44,6 +44,7 @@ h1 {
 <div class="content-container">
   <!-- Table of Contents -->
   <div id="toc-container">
+
 
   <details>
     <summary>Section 1: Introduction to Groups</summary>
@@ -60,6 +61,7 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-2.pdf#page=3')">Cyclic Groups</a></li>
     </ul>
   </details>
+
 
   <details>
     <summary>Section 2: Factor Groups and Homomorphisms</summary>
@@ -134,7 +136,6 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-proj-ppt.pdf#page=10')">Project Presentation</a></li>
     </ul>
   </details>
-
   <details>
     <summary>Number Theory: Book 1</summary>
     <ul>
@@ -159,12 +160,10 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=rsa.pdf#page=9')">RSA Cryptosystem</a></li>   
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=rsa.pdf#page=20')">Diffie-Hellman Key Exchange</a></li>   
     </ul>
-  </details>  
-</div>
+  </details>    
   </div>
   
-
-  <script>
+<script>
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
@@ -175,7 +174,7 @@ function loadPdfPage(url) {
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="700px" style="border: none;"></iframe>
   </div>
 </div>
 
