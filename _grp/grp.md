@@ -17,13 +17,12 @@ classes: wide
     margin-right: 2%;
     text-align: justify;
     text-indent: 50px;
-    max-width: 35cm;
     margin-bottom: 1rem; /* Add space below */
 }
 h1 {
     all: unset; /* Reset all styles */
     display: block; /* Ensure it behaves like a block element */
-    border-bottom: 1px solid #f5f5f5; /* Lighten the underline further */
+    border-bottom: 0.5px solid #f5f5f5; /* Lighten the underline further */
     padding-bottom: 0.5rem; /* Add space between text and underline */
     font-size: 1.5rem; /* Adjust font size */
     font-weight: bold; /* Ensure it's bold */
@@ -174,7 +173,7 @@ function loadPdfPage(url) {
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="1000px" style="border: none;"></iframe>
   </div>
 </div>
 
@@ -205,13 +204,13 @@ body {
     gap: 0px;
     margin-left: 2%;
     margin-right: 2%;
-    height: 700px; /* Set a height for the container */
+    height: 1000px; /* Set a height for the container */
 }
 
 /* TOC styling */
 #toc-container {
-    flex: 1 1 40%; /* TOC takes up 30% of the width */
-    max-width: 350px;
+    flex: 1 1 45%; /* TOC takes up 30% of the width */
+    max-width: 400px;
     overflow-y: auto; /* Enable vertical scrolling */
     border-right: 0px solid #ddd; /* Optional right border for separation */
     padding-right: 10px; /* Space for scroll bar */
@@ -234,7 +233,7 @@ body {
 
 /* PDF Viewer styling */
 .pdf-viewer {
-    flex: 1 1 60%; /* PDF viewer takes up 70% of the width */
+    flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
