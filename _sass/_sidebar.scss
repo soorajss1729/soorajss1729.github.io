@@ -92,9 +92,9 @@
   display: flex;
   flex-direction: column;
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 900px) {
     width: 320px;
-    margin: 0; /* Remove all margins on small screens */
+    margin: 0 auto; /* Remove all margins on small screens */
     padding-left: 0.1em; /* Add padding for both sides */
     padding-right: 0.1em;
   }
