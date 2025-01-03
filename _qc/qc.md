@@ -285,7 +285,7 @@ function loadPdfPage(url) {
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf" width="100%" height="700px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf" width="100%" height="1000px" style="border: none;"></iframe>
   </div>
 </div>
 
@@ -316,13 +316,13 @@ body {
     gap: 0px;
     margin-left: 2%;
     margin-right: 2%;
-    height: 700px; /* Set a height for the container */
+    height: 1000px; /* Use full viewport height */
 }
 
 /* TOC styling */
 #toc-container {
-    flex: 1 1 40%; /* TOC takes up 30% of the width */
-    max-width: 350px;
+    flex: 1 1 45%; /* TOC takes up 30% of the width */
+    max-width: 400px;
     overflow-y: auto; /* Enable vertical scrolling */
     border-right: 0px solid #ddd; /* Optional right border for separation */
     padding-right: 10px; /* Space for scroll bar */
@@ -345,7 +345,7 @@ body {
 
 /* PDF Viewer styling */
 .pdf-viewer {
-    flex: 1 1 70%; /* PDF viewer takes up 70% of the width */
+    flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
