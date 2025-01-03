@@ -28,18 +28,15 @@ h2 {
 .learning-content {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 35cm;
   position: relative;
 }
 .text-block {
     text-align: justify;
     text-indent: 50px;
-    max-width: 35cm;
 }
 #toc-container {
   margin-left: 5%;
   margin-right: 5%;
-  max-width: 35cm; /* Match the width of .learning-content */
   box-sizing: border-box; /* Ensures padding and borders are included in the width */
 }
   
