@@ -9,6 +9,7 @@
   height: $masthead-height;
   top: 0;
   width: 100%;
+  
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -19,7 +20,8 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 3em 1em;
+    padding: 1em 0em 1em;
+    margin-left:4%;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
