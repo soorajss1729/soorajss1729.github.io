@@ -17,7 +17,6 @@ classes: wide
     margin-right: 2%;
     text-align: justify;
     text-indent: 50px;
-    max-width: 35cm;
     margin-bottom: 1rem; /* Add space below */
 }
 h1 {
