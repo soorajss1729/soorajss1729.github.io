@@ -76,7 +76,7 @@
    Author profile and links
    ========================================================================== */
 .sidebar {
-  width: 800px;
+  width: 20%;
   background: linear-gradient(180deg, rgba(200, 200, 200, 0.8), rgba(220, 220, 220, 0.8)); /* Subtle grey tones */
   /*background: linear-gradient(180deg, rgba(64, 224, 208, 0.8), rgba(135, 206, 235, 0.8));*/
   backdrop-filter: blur(10px);
@@ -88,7 +88,10 @@
   margin-right:0;
   padding-left: 0;
   padding-right: 0;
-
+  /* Flexbox for layout consistency */
+  display: flex;
+  flex-direction: column;
+  
   @media screen and (max-width: 600px) {
     width: 320px;
     margin: 0; /* Remove all margins on small screens */
