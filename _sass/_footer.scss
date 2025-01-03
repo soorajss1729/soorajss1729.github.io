@@ -4,13 +4,12 @@
 
 .page__footer {
   @include clearfix;
-  float: left;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
   clear: both;
   /* sticky footer fix start */
-  position: absolute;
+  position: fixed;
   bottom: 0em;
   height: auto;
   /* sticky footer fix end */
@@ -25,11 +24,9 @@
 
   footer {
     @include clearfix;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
+    margin: 0; /* Remove auto margins */
     max-width: 100%;
-    padding: 0.2em 1em 0;
+    padding: 0.2em 0.5em 0;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -56,6 +53,7 @@
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
+  text-align: left;
 }
 
 .page__footer-follow {
@@ -67,8 +65,8 @@
 
   li {
     display: inline-block;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
