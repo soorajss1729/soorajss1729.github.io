@@ -173,7 +173,7 @@ function loadPdfPage(url) {
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="1123px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="1000px" style="border: none;"></iframe>
   </div>
 </div>
 
@@ -204,7 +204,7 @@ body {
     gap: 0px;
     margin-left: 2%;
     margin-right: 2%;
-    height: 1123px; /* Set a height for the container */
+    height: 1000px; /* Set a height for the container */
 }
 
 /* TOC styling */
