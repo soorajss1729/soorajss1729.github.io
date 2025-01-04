@@ -26,7 +26,7 @@
     @include clearfix;
     margin: 0; /* Remove auto margins */
     max-width: 100%;
-    padding: 0.2em 0.5em 0;
+    padding: 0.2em 0em 0.2em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -52,8 +52,9 @@
 
 .page__footer-copyright {
   font-family: $global-font-family;
-  font-size: $type-size-7;
-  text-align: left;
+  font-size: $type-size-8;
+  text-align: right;
+  line-height: 1; /* Adjust this value to control spacing */
 }
 
 .page__footer-follow {
