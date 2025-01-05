@@ -13,7 +13,7 @@ h1 {
     font-size: 1.5rem; /* Adjust font size */
     font-weight: bold; /* Ensure it's bold */
     text-align: left; /* Align text to the left */
-    margin-left: 2%; /* Align with text block */
+    margin-left: 5%; /* Align with text block */
     margin-bottom: 1rem; /* Add space below */
 }
 .text-block {
