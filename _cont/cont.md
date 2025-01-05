@@ -24,8 +24,6 @@ h1 {
   <h1>Contact</h1>
 
 <div class="text-block">
-
-<div style="font-size: 14px;">
   Sooraj Soman<br>
   PhD Student, Computer Science Department<br>
   Missouri University of Science and Technology<br>  
