@@ -15,6 +15,7 @@ h1 {
     text-align: left; /* Align text to the left */
     margin-left: 5%; /* Align with text block */
     margin-bottom: 1rem; /* Add space below */
+    margin-top: 1rem; /* Add space below */
 }
 .text-block {
     margin-left: 5%; /* Align with text block */
