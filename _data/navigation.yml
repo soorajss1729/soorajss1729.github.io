@@ -40,7 +40,7 @@ main:
 #    url: /cv/
 
   - title: "Contact"
-    url: /cont#
+    url: /#contact
     
 #  - title: "Guide"
 #    url: /#contact
