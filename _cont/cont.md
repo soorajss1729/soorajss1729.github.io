@@ -20,7 +20,7 @@ h1 {
 .text-block {
     margin-left: 5%; /* Align with text block */
     text-align: justify;
-    font-size:14px;
+    font-size:12px;
 }    
 </style>
   <h1>Contact</h1>
