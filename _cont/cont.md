@@ -18,7 +18,6 @@ h1 {
 }
 .text-block {
     text-align: justify;
-    text-indent: 50px;
 }    
 </style>
   <h1>Contact</h1>
