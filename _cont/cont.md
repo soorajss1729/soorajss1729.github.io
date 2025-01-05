@@ -17,7 +17,9 @@ h1 {
     margin-bottom: 1rem; /* Add space below */
 }
 .text-block {
+    margin-left: 5%; /* Align with text block */
     text-align: justify;
+    font-size:14px;
 }    
 </style>
   <h1>Contact</h1>
