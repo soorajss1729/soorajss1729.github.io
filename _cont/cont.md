@@ -5,7 +5,7 @@ layout: default
 classes: wide
 ---
 
-## Contact {/cont/}
+## Contact
 
 <div style="font-size: 14px;">
   Sooraj Soman<br>
