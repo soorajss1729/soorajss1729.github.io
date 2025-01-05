@@ -4,6 +4,13 @@ permalink: /cont/
 layout: default
 classes: wide
 ---
+<style>
+.text-block {
+    text-align: justify;
+    text-indent: 50px;
+</style>
+
+
 
 ## Contact
 
