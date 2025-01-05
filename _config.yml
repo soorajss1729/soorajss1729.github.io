@@ -220,6 +220,9 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
+  cont:
+    output: true
+    permalink: /:collection/:path/
   linalg:
     output: true
     permalink: /:collection/:path/
