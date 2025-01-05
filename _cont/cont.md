@@ -11,7 +11,7 @@ classes: wide
 </style>
 
 
-
+<div class="text-block">
 ## Contact
 
 <div style="font-size: 14px;">
