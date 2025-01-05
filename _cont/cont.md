@@ -21,10 +21,9 @@ h1 {
     text-indent: 50px;
 }    
 </style>
-
+  <h1>Contact</h1>
 
 <div class="text-block">
-## Contact
 
 <div style="font-size: 14px;">
   Sooraj Soman<br>
