@@ -96,8 +96,8 @@
   @media screen and (max-width: 924px) {
     width: 320px;
     margin: 0 auto; /* Remove all margins on small screens */
-    padding-left: 0.1em; /* Add padding for both sides */
-    padding-right: 0.1em;
+    padding-left: 0; /* Add padding for both sides */
+    padding-right: 0;
   }
 }
 
