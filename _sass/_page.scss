@@ -7,8 +7,8 @@
   @include clearfix;
   margin-top: 0;
   margin-bottom:0;
-  margin-left:0;
-  margin-right:0;
+  margin-left:0.2em;
+  margin-right:0.2em;
   padding-top: 0;
   padding-bottom:0;
   padding-left: 0;
@@ -21,7 +21,7 @@
     max-width: 100%;
   }
    
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 924px) {
     padding-left: 1em; /* Add space only on mobile screens */
     padding-right: 1em;
   }
@@ -30,7 +30,7 @@
 .page {
   @include breakpoint($large) {
     @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
+    @include prefix(0.6 of 12); /*controls left margin*/
     @include suffix(0.2 of 12); /*controls right margin*/
   }
 
