@@ -95,6 +95,7 @@
   
   @media screen and (max-width: 924px) {
     width: 320px;
+    height:400px;
     margin: 0 auto; /* Remove all margins on small screens */
     padding-left: 0; /* Add padding for both sides */
     padding-right: 0;
@@ -237,7 +238,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1em;
+    margin-top: 0;
     text-align: center;
     position: relative; /* Positioning context for child elements */
   }
