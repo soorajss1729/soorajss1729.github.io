@@ -108,21 +108,21 @@ h1 {
     <summary>Book 5: Universal Quantum Gates</summary>
     <ul>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=4')">Single Qubit and CNOT Gates are Universal</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=22')">Approximating Unitary Operators (p.22)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=22')">Approximating Unitary Operators</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=33')">Discrete Sets of Universal Operation</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=35')">Hadamard+$\pi/2$=Single Qubit Unitary</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=62')">Hadamard, Phase, CNOT, Toffoli are Universal</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=76')">Quantum Circuit Model of Computation (p.76)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc5.pdf#page=76')">Quantum Circuit Model of Computation</a></li>
     </ul>
   </details>
 
   <details>
     <summary>Book 6: Simulating Quantum Systems</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=3')">Simulations of Quantum Systems (p.3)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=3')">Simulations of Quantum Systems</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=14')">Baker-Campbell-Hausderff Formula</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=34')">Trotter Formula (p.34)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=54')">Simulating $H=Z_1\otimes Z_2\otimes\cdots\otimes Z_n$ (p.54)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc6.pdf#page=54')">Simulating $H=Z_1\otimes Z_2\otimes\cdots\otimes Z_n$</a></li>
     </ul>
   </details>
 
@@ -146,9 +146,9 @@ h1 {
   <details>
     <summary>Book 8: More Quantum Algorithms</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=3')">Order Finding Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=39')">Performance of Order Finding</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=55')">Period Finding Algorithm</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=3')">Order Finding Algorithm (p.3)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=39')">Performance of Order Finding (p.39)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc8.pdf#page=55')">Period Finding Algorithm (p.55)</a></li>
     </ul>
   </details>
 
@@ -163,12 +163,12 @@ h1 {
   <details>
     <summary>Book 10: Quantum Search</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=4')">Grover's Search Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=11')">Grover Iteration</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=4')">Grover's Search Algorithm (p.4)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=11')">Grover Iteration (p.11)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=24')">Complexity of Grover's Algorithm</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=37')">Performance of Grover's Algorithm</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=46')">Procedure of Grover's Algorithm</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=72')">Quantum Counting</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc10.pdf#page=72')">Quantum Counting (p.72)</a></li>
     </ul>
   </details>
 
