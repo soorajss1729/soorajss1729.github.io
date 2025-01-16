@@ -279,20 +279,13 @@ h1 {
 </div>
 
 
-<script>
+  <script>
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        pdfViewer.src = url; // Corrected from 'URL' to 'url'
-
-        // For smaller screens: Scroll the page to the PDF viewer
-        if (window.innerWidth <= 768) {
-            const viewerContainer = document.querySelector('.pdf-viewer');
-            viewerContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
+        pdfViewer.src = url;
     }
 }
-
 </script>
 
   <!-- PDF Viewer -->
