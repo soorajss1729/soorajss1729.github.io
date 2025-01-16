@@ -163,10 +163,10 @@ h1 {
   </div>
   
 <script>
-    // Handle PDF loading and scrolling separately
+    // Handle the click event for all TOC links
     document.addEventListener('DOMContentLoaded', () => {
-        // Add click event listeners for all TOC links
         const links = document.querySelectorAll('a[href="javascript:void(0)"]');
+        
         links.forEach(link => {
             link.addEventListener('click', function (event) {
                 event.preventDefault(); // Prevent default link behavior
@@ -180,20 +180,22 @@ h1 {
         const pdfViewer = document.querySelector('.pdf-viewer iframe');
         if (pdfViewer) {
             pdfViewer.src = url; // Load the PDF into the iframe
-        }
 
-        // Scroll to the PDF viewer for smaller screens
-        if (window.innerWidth <= 768) {
-            smoothScrollTo('.pdf-viewer');
+            // For smaller screens: Scroll the page to the PDF viewer
+            if (window.innerWidth <= 768) {
+                scrollToElement('.pdf-viewer');
+            }
+        } else {
+            console.error('PDF viewer iframe not found!');
         }
     }
 
-    // Smooth scroll function
-    function smoothScrollTo(selector) {
+    // Smooth scrolling function
+    function scrollToElement(selector) {
         const element = document.querySelector(selector);
         if (element) {
             window.scrollTo({
-                top: element.offsetTop,
+                top: element.offsetTop, 
                 behavior: 'smooth'
             });
         }
