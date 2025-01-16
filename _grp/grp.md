@@ -163,14 +163,15 @@ h1 {
   </div>
   
 <script>
-    // Handle the click event for all TOC links
+    // Handle PDF loading and scrolling when links are clicked
     document.addEventListener('DOMContentLoaded', () => {
-        const links = document.querySelectorAll('a[href="javascript:void(0)"]');
-        
+        // Find all TOC links (assuming these are the only ones with 'javascript:void(0)')
+        const links = document.querySelectorAll('a[data-pdf-url]');  // Use a custom data attribute for links
         links.forEach(link => {
             link.addEventListener('click', function (event) {
                 event.preventDefault(); // Prevent default link behavior
-                const url = this.getAttribute('onclick').match(/'([^']+)'/)[1]; // Extract the URL from the onclick attribute
+                const url = this.getAttribute('data-pdf-url'); // Get PDF URL from the custom attribute
+                console.log("Loading PDF from URL:", url); // Debug log to check if the function is called
                 loadPdfPage(url);
             });
         });
@@ -180,28 +181,27 @@ h1 {
         const pdfViewer = document.querySelector('.pdf-viewer iframe');
         if (pdfViewer) {
             pdfViewer.src = url; // Load the PDF into the iframe
-
-            // For smaller screens: Scroll the page to the PDF viewer
-            if (window.innerWidth <= 768) {
-                scrollToElement('.pdf-viewer');
-            }
         } else {
             console.error('PDF viewer iframe not found!');
         }
+
+        // For smaller screens (<=768px), scroll to the PDF viewer
+        if (window.innerWidth <= 768) {
+            smoothScrollTo('.pdf-viewer');
+        }
     }
 
-    // Smooth scrolling function
-    function scrollToElement(selector) {
+    // Smooth scroll function for smaller screens
+    function smoothScrollTo(selector) {
         const element = document.querySelector(selector);
         if (element) {
             window.scrollTo({
-                top: element.offsetTop, 
+                top: element.offsetTop,
                 behavior: 'smooth'
             });
         }
     }
 </script>
-
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
