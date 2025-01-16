@@ -163,13 +163,43 @@ h1 {
   </div>
   
 <script>
-function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (pdfViewer) {
-        pdfViewer.src = url;
+    // Handle PDF loading and scrolling separately
+    document.addEventListener('DOMContentLoaded', () => {
+        // Add click event listeners for all TOC links
+        const links = document.querySelectorAll('a[href="javascript:void(0)"]');
+        links.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault(); // Prevent default link behavior
+                const url = this.getAttribute('onclick').match(/'([^']+)'/)[1]; // Extract the URL from the onclick attribute
+                loadPdfPage(url);
+            });
+        });
+    });
+
+    function loadPdfPage(url) {
+        const pdfViewer = document.querySelector('.pdf-viewer iframe');
+        if (pdfViewer) {
+            pdfViewer.src = url; // Load the PDF into the iframe
+        }
+
+        // Scroll to the PDF viewer for smaller screens
+        if (window.innerWidth <= 768) {
+            smoothScrollTo('.pdf-viewer');
+        }
     }
-}
+
+    // Smooth scroll function
+    function smoothScrollTo(selector) {
+        const element = document.querySelector(selector);
+        if (element) {
+            window.scrollTo({
+                top: element.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    }
 </script>
+
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
