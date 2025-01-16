@@ -176,10 +176,6 @@ function loadPdfPage(url) {
         if (pdfViewer) {
             pdfViewer.src = url;
             
-            // Scroll into view
-            document.querySelector('.pdf-viewer').scrollIntoView({
-                behavior: 'smooth' // This makes it a smooth scroll
-            });
         }
     }
 }
