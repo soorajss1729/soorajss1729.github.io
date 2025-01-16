@@ -170,6 +170,17 @@ function loadPdfPage(url) {
             pdfViewer.src = url;
         }
     }
+    // For smaller screens (768px or less)
+    else {
+        if (pdfViewer) {
+            pdfViewer.src = url;
+        }
+        // Scroll only if the screen width is less than or equal to 768px
+        window.scrollTo({
+            top: document.querySelector('.pdf-viewer').offsetTop,
+            behavior: 'smooth'
+        });
+    }
 }
 
 </script>
