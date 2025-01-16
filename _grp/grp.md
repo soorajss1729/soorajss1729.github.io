@@ -165,18 +165,25 @@ h1 {
 <script>
 function loadPdfPage(url) {
     if (window.innerWidth > 768) {
+        // Desktop or larger screens
         const pdfViewer = document.querySelector('.pdf-viewer iframe');
         if (pdfViewer) {
             pdfViewer.src = url;
         }
-    }
-    else {
+    } else {
+        // Mobile or smaller screens
         const pdfViewer = document.querySelector('.pdf-viewer iframe');
         if (pdfViewer) {
             pdfViewer.src = url;
+            
+            // Scroll into view
+            document.querySelector('.pdf-viewer').scrollIntoView({
+                behavior: 'smooth' // This makes it a smooth scroll
+            });
         }
     }
 }
+
 </script>
 
   <!-- PDF Viewer -->
