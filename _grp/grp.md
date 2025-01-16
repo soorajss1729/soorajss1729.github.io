@@ -175,7 +175,6 @@ function loadPdfPage(url) {
         }
     }
 }
-
 </script>
 
   <!-- PDF Viewer -->
