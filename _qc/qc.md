@@ -279,7 +279,7 @@ h1 {
 </div>
 
 
-  <script>
+<script>
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
