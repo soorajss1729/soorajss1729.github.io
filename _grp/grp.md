@@ -165,24 +165,20 @@ h1 {
 <script>
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (window.innerWidth > 768) {
-        if (pdfViewer) {
-            pdfViewer.src = url;
+
+    if (pdfViewer) {
+        // Update the iframe source
+        pdfViewer.src = url;
+
+        // If the screen width is less than or equal to 768px, scroll to the viewer
+        if (window.innerWidth <= 768) {
+            window.scrollTo({
+                top: document.querySelector('.pdf-viewer').offsetTop,
+                behavior: 'smooth'
+            });
         }
-    }
-    // For smaller screens (768px or less)
-    else {
-        if (pdfViewer) {
-            pdfViewer.src = url;
-        }
-        // Scroll only if the screen width is less than or equal to 768px
-        window.scrollTo({
-            top: document.querySelector('.pdf-viewer').offsetTop,
-            behavior: 'smooth'
-        });
     }
 }
-
 </script>
 
   <!-- PDF Viewer -->
