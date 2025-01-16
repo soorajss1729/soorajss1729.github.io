@@ -161,7 +161,8 @@ h1 {
     </ul>
   </details>    
   </div>
-  
+
+{% raw %}
 <script>
 function loadPdfPage(url) {
   // Optional: Log to see if function is firing
@@ -183,6 +184,7 @@ function loadPdfPage(url) {
   }
 }
 </script>
+{% endraw %}
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
