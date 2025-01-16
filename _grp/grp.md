@@ -164,23 +164,22 @@ h1 {
   
 <script>
 function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+  const pdfViewer = document.querySelector('.pdf-viewer iframe');
+  if (!pdfViewer) return;  // If no iframe found, do nothing
+  
+  // Always set the iframe source
+  pdfViewer.src = url;
 
-    // First, we check if the iframe exists
-    if (pdfViewer) {
-        // Update the iframe source
-        pdfViewer.src = url;
-
-        // For smaller screens (<= 768px), scroll down to the PDF viewer
-        if (window.innerWidth <= 768) {
-            window.setTimeout(() => {
-                window.scrollTo({
-                    top: document.querySelector('.pdf-viewer').offsetTop,
-                    behavior: 'smooth'
-                });
-            }, 50); // Small delay to ensure other actions are completed
-        }
-    }
+  // Scroll ONLY if mobile
+  if (window.innerWidth <= 768) {
+    // A tiny delay ensures the DOM is updated before scrolling
+    setTimeout(() => {
+      window.scrollTo({
+        top: document.querySelector('.pdf-viewer').offsetTop,
+        behavior: 'smooth'
+      });
+    }, 50);
+  }
 }
 
 </script>
