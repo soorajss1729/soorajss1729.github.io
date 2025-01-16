@@ -224,6 +224,7 @@ body {
 
 /* TOC styling */
 #toc-container {
+    z-index: 10;
     flex: 1 1 45%; /* TOC takes up 30% of the width */
     max-width: 400px;
     overflow-y: auto; /* Enable vertical scrolling */
@@ -248,6 +249,7 @@ body {
 
 /* PDF Viewer styling */
 .pdf-viewer {
+    z-index: 1;
     flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
