@@ -169,15 +169,6 @@ function loadPdfPage(url) {
         if (pdfViewer) {
             pdfViewer.src = url;
         }
-    } else {
-        if (pdfViewer) {
-            pdfViewer.src = url;
-        }
-        // Move down to the viewer
-        window.scrollTo({
-            top: document.querySelector('.pdf-viewer').offsetTop,
-            behavior: 'smooth'  // This adds smooth scrolling
-        });
     }
 }
 
