@@ -283,15 +283,16 @@ h1 {
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        pdfViewer.src = url;
+        pdfViewer.src = url; // Corrected from 'URL' to 'url'
 
-        // Check if the screen width is less than or equal to 768px (for smaller screens)
+        // For smaller screens: Scroll the page to the PDF viewer
         if (window.innerWidth <= 768) {
             const viewerContainer = document.querySelector('.pdf-viewer');
             viewerContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
     }
 }
+
 </script>
 
   <!-- PDF Viewer -->
