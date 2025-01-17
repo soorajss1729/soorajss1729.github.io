@@ -3,6 +3,7 @@ title: "Linear Algebra"
 permalink: /grp/
 layout: default
 classes: wide
+mathjax: false
 ---
 
 <div class="learning-topnav">
