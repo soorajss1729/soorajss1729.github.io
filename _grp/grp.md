@@ -165,21 +165,10 @@ h1 {
 {% raw %}
 <script>
 function loadPdfPage(url) {
-  // 1. Find the PDF iframe
+  alert("Clicked link: " + url);  // Just for debugging!
   const pdfViewer = document.querySelector('.pdf-viewer iframe');
-  if (!pdfViewer) {
-    console.error("PDF viewer iframe not found.");
-    return;
-  }
-
-  // 2. Update the src to load the PDF page
-  pdfViewer.src = url;
-  console.log("PDF loaded:", url);
-
-  // 3. If on smaller screens, scroll to .pdf-viewer
-  if (window.innerWidth < 768) {
-    // Smoothly scroll .pdf-viewer into view
-    document.querySelector('.pdf-viewer').scrollIntoView({ behavior: 'smooth' });
+  if (pdfViewer) {
+    pdfViewer.src = url;
   }
 }
 </script>
