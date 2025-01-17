@@ -162,26 +162,8 @@ h1 {
   </details>    
   </div>
   
-<script>
-function loadPdfPage(url) {
-  const pdfViewer = document.querySelector('.pdf-viewer iframe');
-  if (!pdfViewer) return;
 
-  pdfViewer.src = url;
 
-  if (window.innerWidth < 768) {
-    setTimeout(() => {
-      const pdfViewerContainer = document.querySelector('.pdf-viewer');
-      if (pdfViewerContainer) {
-        const yOffset = -20; // Adjust offset if needed
-        const y = pdfViewerContainer.getBoundingClientRect().top + window.scrollY + yOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
-      }
-    }, 300);
-  }
-}
-
-</script>
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
@@ -273,3 +255,13 @@ body {
   }
 }
 </style>
+
+<script>
+function loadPdfPage(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
+}
+</script>
+
