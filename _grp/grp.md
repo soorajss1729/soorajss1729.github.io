@@ -257,40 +257,42 @@ body {
 </style>
 
 <script>
-console.log("🚀 Script Loaded!");
+window.onload = function () {
+    console.log("🚀 Script Loaded after window load!");
 
-function loadPdfPage(url) {
-    console.log("📌 loadPdfPage() called with URL:", url);
+    function loadPdfPage(url) {
+        console.log("📌 loadPdfPage() called with URL:", url);
 
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (!pdfViewer) {
-        console.error("❌ ERROR: PDF Viewer not found!");
-        return;
+        const pdfViewer = document.querySelector('.pdf-viewer iframe');
+        if (!pdfViewer) {
+            console.error("❌ ERROR: PDF Viewer not found!");
+            return;
+        }
+
+        console.log("✅ PDF Viewer found. Setting new URL...");
+        pdfViewer.src = url;
+
+        if (window.innerWidth < 768) {
+            setTimeout(() => {
+                const pdfViewerContainer = document.querySelector('.pdf-viewer');
+                if (!pdfViewerContainer) {
+                    console.error("❌ ERROR: PDF viewer container not found!");
+                    return;
+                }
+
+                console.log("🟢 Scrolling to PDF viewer...");
+                const yOffset = -20;  // Adjust if needed
+                const y = pdfViewerContainer.getBoundingClientRect().top + window.scrollY + yOffset;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+
+            }, 300);
+        }
     }
 
-    console.log("✅ PDF Viewer found. Setting new URL...");
-    pdfViewer.src = url;
+    // ✅ Declare globally
+    window.loadPdfPage = loadPdfPage;
 
-    if (window.innerWidth < 768) {
-        setTimeout(() => {
-            const pdfViewerContainer = document.querySelector('.pdf-viewer');
-            if (!pdfViewerContainer) {
-                console.error("❌ ERROR: PDF viewer container not found!");
-                return;
-            }
-
-            console.log("🟢 Scrolling to PDF viewer...");
-            const yOffset = -20;  // Adjust if needed
-            const y = pdfViewerContainer.getBoundingClientRect().top + window.scrollY + yOffset;
-            window.scrollTo({ top: y, behavior: 'smooth' });
-
-        }, 300);
-    }
-}
-
-// ✅ Declare globally
-window.loadPdfPage = loadPdfPage;
-
-console.log("✅ loadPdfPage() function is globally defined:", typeof window.loadPdfPage);
+    console.log("✅ loadPdfPage() function is globally defined:", typeof window.loadPdfPage);
+};
 </script>
 
