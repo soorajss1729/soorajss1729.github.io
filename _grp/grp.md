@@ -257,8 +257,8 @@ body {
 </style>
 
 <script>
-window.onload = function () {
-    console.log("🚀 Script Loaded after window load!");
+(function () {
+    console.log("🚀 Script Loaded!");
 
     function loadPdfPage(url) {
         console.log("📌 loadPdfPage() called with URL:", url);
@@ -293,6 +293,6 @@ window.onload = function () {
     window.loadPdfPage = loadPdfPage;
 
     console.log("✅ loadPdfPage() function is globally defined:", typeof window.loadPdfPage);
-};
+})();
 </script>
 
