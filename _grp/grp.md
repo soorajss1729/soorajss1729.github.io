@@ -161,14 +161,26 @@ h1 {
     </ul>
   </details>    
   </div>
-
+  
 {% raw %}
 <script>
 function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (pdfViewer) {
-        pdfViewer.src = url;
-    }
+  // 1. Find the PDF iframe
+  const pdfViewer = document.querySelector('.pdf-viewer iframe');
+  if (!pdfViewer) {
+    console.error("PDF viewer iframe not found.");
+    return;
+  }
+
+  // 2. Update the src to load the PDF page
+  pdfViewer.src = url;
+  console.log("PDF loaded:", url);
+
+  // 3. If on smaller screens, scroll to .pdf-viewer
+  if (window.innerWidth < 768) {
+    // Smoothly scroll .pdf-viewer into view
+    document.querySelector('.pdf-viewer').scrollIntoView({ behavior: 'smooth' });
+  }
 }
 </script>
 {% endraw %}
@@ -211,7 +223,6 @@ body {
 
 /* TOC styling */
 #toc-container {
-    z-index: 10;
     flex: 1 1 45%; /* TOC takes up 30% of the width */
     max-width: 400px;
     overflow-y: auto; /* Enable vertical scrolling */
@@ -236,7 +247,6 @@ body {
 
 /* PDF Viewer styling */
 .pdf-viewer {
-    z-index: 1;
     flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
