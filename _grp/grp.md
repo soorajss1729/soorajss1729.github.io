@@ -175,11 +175,18 @@ function loadPdfPage(url) {
   pdfViewer.src = url;
   console.log("PDF updated:", url);
 
-  // 2. Jump down only on smaller screens
+  // 2. For screens < 768px, do both a hash jump AND a manual scroll
   if (window.innerWidth < 768) {
-    // This changes the page’s URL fragment to #pdf-viewer,
-    // causing a normal anchor jump to that element.
+    // A) Change the location hash to jump natively
     window.location.hash = "pdf-viewer";
+
+    // B) Also do a short delay, then scrollIntoView for good measure
+    setTimeout(() => {
+      const pdfContainer = document.getElementById('pdf-viewer');
+      if (pdfContainer) {
+        pdfContainer.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100); 
   }
 }
 </script>
