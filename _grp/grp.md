@@ -288,7 +288,9 @@ function loadPdfPage(url) {
     }
 }
 
-// Confirm function is loaded
-console.log("✅ loadPdfPage() function is defined globally:", typeof loadPdfPage);
+// Ensure function is available globally
+window.loadPdfPage = loadPdfPage;
+
+console.log("✅ loadPdfPage() function is globally defined:", typeof window.loadPdfPage);
 </script>
 
