@@ -3,7 +3,6 @@ title: "Linear Algebra"
 permalink: /grp/
 layout: default
 classes: wide
-mathjax: false
 ---
 
 <div class="learning-topnav">
@@ -163,43 +162,20 @@ h1 {
   </details>    
   </div>
   
-{% raw %}
 <script>
 function loadPdfPage(url) {
-  const pdfViewer = document.querySelector('.pdf-viewer iframe');
-  if (!pdfViewer) {
-    console.error("PDF viewer iframe not found.");
-    return;
-  }
-
-  // 1. Update the PDF
-  pdfViewer.src = url;
-  console.log("PDF updated:", url);
-
-  // 2. For screens < 768px, do both a hash jump AND a manual scroll
-  if (window.innerWidth < 768) {
-    // A) Change the location hash to jump natively
-    window.location.hash = "pdf-viewer";
-
-    // B) Also do a short delay, then scrollIntoView for good measure
-    setTimeout(() => {
-      const pdfContainer = document.getElementById('pdf-viewer');
-      if (pdfContainer) {
-        pdfContainer.scrollIntoView({ behavior: 'smooth' });
-      }
-    }, 100); 
-  }
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
 }
 </script>
-{% endraw %}
 
-<div id="pdf-viewer" class="pdf-viewer">
-  <iframe
-    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf"
-    width="100%" height="1000" style="border: none;">
-  </iframe>
+  <!-- PDF Viewer -->
+  <div class="pdf-viewer">
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="1000px" style="border: none;"></iframe>
+  </div>
 </div>
-
 
 <style>
 /* General styling */
@@ -285,3 +261,28 @@ body {
   }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // 1) Check screen size only once on load (or you can do inside the click handler).
+  if (window.innerWidth < 768) {
+    // 2) Grab all the TOC links
+    const tocLinks = document.querySelectorAll('#toc-container li a');
+
+    // 3) Add a click listener to each
+    tocLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        // The existing "onclick=loadPdfPage(...)" still runs,
+        // We just add a short delay, then scroll down:
+        setTimeout(() => {
+          const pdfViewerElem = document.querySelector('.pdf-viewer');
+          if (pdfViewerElem) {
+            pdfViewerElem.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 200);
+      });
+    });
+  }
+});
+</script>
+

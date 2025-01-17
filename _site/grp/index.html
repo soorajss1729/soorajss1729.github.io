@@ -447,6 +447,30 @@ body {
 }
 </style>
 
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // 1) Check screen size only once on load (or you can do inside the click handler).
+  if (window.innerWidth < 768) {
+    // 2) Grab all the TOC links
+    const tocLinks = document.querySelectorAll('#toc-container li a');
+
+    // 3) Add a click listener to each
+    tocLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        // The existing "onclick=loadPdfPage(...)" still runs,
+        // We just add a short delay, then scroll down:
+        setTimeout(() => {
+          const pdfViewerElem = document.querySelector('.pdf-viewer');
+          if (pdfViewerElem) {
+            pdfViewerElem.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 200);
+      });
+    });
+  }
+});
+</script>
+
 
 
     <div class="page__footer">
@@ -460,7 +484,7 @@ body {
 
 <div class="page__footer-copyright">
   &copy; 2025 SOORAJ SOMAN.<br />
-  Site last updated 2025-01-16
+  Site last updated 2025-01-17
 </div>
 
       </footer>
