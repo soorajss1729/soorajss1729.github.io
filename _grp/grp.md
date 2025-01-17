@@ -162,17 +162,26 @@ h1 {
   </details>    
   </div>
   
-{% raw %}
 <script>
 function loadPdfPage(url) {
-  alert("Clicked link: " + url);  // Just for debugging!
-  const pdfViewer = document.querySelector('.pdf-viewer iframe');
-  if (pdfViewer) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (!pdfViewer) {
+        console.error("PDF viewer iframe not found.");
+        return;
+    }
+
+    // 1. Set the PDF source
     pdfViewer.src = url;
-  }
+
+    // 2. Scroll only on smaller screens
+    if (window.innerWidth < 768) {
+        // Short delay to ensure iframe updates before scrolling
+        setTimeout(() => {
+            document.querySelector('.pdf-viewer').scrollIntoView({ behavior: 'smooth' });
+        }, 50);
+    }
 }
 </script>
-{% endraw %}
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
