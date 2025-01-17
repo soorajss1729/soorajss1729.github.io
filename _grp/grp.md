@@ -40,35 +40,6 @@ h1 {
  <p>My notes include detailed proofs and explanations from the textbook, insights gained from solving problems, and explorations of challenging topics tackled independently. They also feature a dedicated section for problems with solutions and the project report where I contributed to the final proof for the Simplicity of the Alternating Group $A_n$. These sections include notes on number theory and cryptography, topics I studied independently alongside related areas in mathematics and quantum computing.</p>
 </div>
 
-
-<script>
-  /**
-   * This function changes the iframe src to the given PDF
-   * then scrolls to the iframe if on mobile (window.innerWidth < 768).
-   */
-  function loadPdfPage(url) {
-    const iframe = document.querySelector('.pdf-viewer iframe');
-    if (!iframe) return;
-
-    // Set the PDF URL
-    iframe.src = url;
-
-    // Check if we're on a small screen
-    console.log("Inner width:", window.innerWidth);
-    if (window.innerWidth < 768) {
-      // Wait a bit for the iframe to update its content
-      setTimeout(() => {
-        const pdfViewerElem = document.querySelector('.pdf-viewer');
-        if (pdfViewerElem) {
-          pdfViewerElem.scrollIntoView({ behavior: 'smooth' });
-        }
-      }, 300);
-    }
-  }
-</script>
-
-
-
 <div class="content-container">
   <!-- Table of Contents -->
   <div id="toc-container">
@@ -290,5 +261,3 @@ body {
   }
 }
 </style>
-
-
