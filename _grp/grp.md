@@ -256,25 +256,29 @@ body {
 }
 </style>
 
-<!-- Place script here before closing </body> -->
-<script>
+console.log("Script Loaded!");
 window.loadPdfPage = function(url) {
+  console.log("loadPdfPage() triggered with URL:", url);
   const pdfViewer = document.querySelector('.pdf-viewer iframe');
-  if (!pdfViewer) return;
+  if (!pdfViewer) {
+    console.error("PDF Viewer not found!");
+    return;
+  }
 
   pdfViewer.src = url;
 
   if (window.innerWidth < 768) {
     setTimeout(() => {
       const pdfViewerContainer = document.querySelector('.pdf-viewer');
-      if (pdfViewerContainer) {
-        const yOffset = -20; // Adjust offset if needed
-        const y = pdfViewerContainer.getBoundingClientRect().top + window.scrollY + yOffset;
-        window.scrollTo({ top: y, behavior: 'smooth' });
+      if (!pdfViewerContainer) {
+        console.error("PDF viewer container not found!");
+        return;
       }
+      console.log("Scrolling to PDF viewer...");
+      const yOffset = -20;
+      const y = pdfViewerContainer.getBoundingClientRect().top + window.scrollY + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }, 300);
   }
 };
-
-</script>
 
