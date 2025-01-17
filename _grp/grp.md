@@ -111,7 +111,7 @@ h1 {
   <details>
     <summary>Section 6: Sylow Theorems</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=29')">Introduction</a></li>
+      <li><a href="#" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=29')">Introduction</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=33')">Cauchy's Theorem and p-Group</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=37')">Normalizer of a Subgroup</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=41')">First Sylow Theorem</a></li>
