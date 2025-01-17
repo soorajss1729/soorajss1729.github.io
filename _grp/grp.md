@@ -257,7 +257,7 @@ body {
 </style>
 
 <script>
-console.log("🚀 Script Loaded! Checking function availability...");
+console.log("🚀 Script Loaded!");
 
 function loadPdfPage(url) {
     console.log("📌 loadPdfPage() called with URL:", url);
@@ -288,7 +288,7 @@ function loadPdfPage(url) {
     }
 }
 
-// Ensure function is available globally
+// ✅ Declare globally
 window.loadPdfPage = loadPdfPage;
 
 console.log("✅ loadPdfPage() function is globally defined:", typeof window.loadPdfPage);
