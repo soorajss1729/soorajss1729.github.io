@@ -111,7 +111,7 @@ h1 {
   <details>
     <summary>Section 6: Sylow Theorems</summary>
     <ul>
-      <li><a href="#" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=29')">Introduction</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=29')">Introduction</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=33')">Cauchy's Theorem and p-Group</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=37')">Normalizer of a Subgroup</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-note-3.pdf#page=41')">First Sylow Theorem</a></li>
@@ -165,23 +165,10 @@ h1 {
 {% raw %}
 <script>
 function loadPdfPage(url) {
-  // Optional: Log to see if function is firing
-  console.log("loadPdfPage called with url:", url);
-
-  // Find the iframe inside .pdf-viewer
-  const pdfFrame = document.querySelector('.pdf-viewer iframe');
-  if (!pdfFrame) {
-    console.error("PDF viewer iframe not found.");
-    return;
-  }
-
-  // Update PDF source
-  pdfFrame.src = url;
-
-  // If on smaller screens, scroll to the PDF viewer
-  if (window.innerWidth < 768) {
-    document.querySelector('.pdf-viewer').scrollIntoView({ behavior: 'smooth' });
-  }
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
 }
 </script>
 {% endraw %}
