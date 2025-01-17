@@ -162,32 +162,36 @@ h1 {
   </details>    
   </div>
   
+{% raw %}
 <script>
 function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (!pdfViewer) {
-        console.error("PDF viewer iframe not found.");
-        return;
-    }
+  const pdfViewer = document.querySelector('.pdf-viewer iframe');
+  if (!pdfViewer) {
+    console.error("PDF viewer iframe not found.");
+    return;
+  }
 
-    // 1. Set the PDF source
-    pdfViewer.src = url;
+  // 1. Update the PDF
+  pdfViewer.src = url;
+  console.log("PDF updated:", url);
 
-    // 2. Scroll only on smaller screens
-    if (window.innerWidth < 768) {
-        // Short delay to ensure iframe updates before scrolling
-        setTimeout(() => {
-            document.querySelector('.pdf-viewer').scrollIntoView({ behavior: 'smooth' });
-        }, 50);
-    }
+  // 2. Jump down only on smaller screens
+  if (window.innerWidth < 768) {
+    // This changes the page’s URL fragment to #pdf-viewer,
+    // causing a normal anchor jump to that element.
+    window.location.hash = "pdf-viewer";
+  }
 }
 </script>
+{% endraw %}
 
-  <!-- PDF Viewer -->
-  <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf" width="100%" height="1000px" style="border: none;"></iframe>
-  </div>
+<div id="pdf-viewer" class="pdf-viewer">
+  <iframe
+    src="https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf"
+    width="100%" height="1000" style="border: none;">
+  </iframe>
 </div>
+
 
 <style>
 /* General styling */
