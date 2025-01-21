@@ -276,6 +276,14 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.3.pdf#page=49')">Subadditivity of Conditional Entropy</a></li>
     </ul>
   </details>
+  <details>
+    <summary>Chapter 12 : Quantum Key Distribution</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.1.pdf#page=4')">The BB84 protocol</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.1.pdf#page=8')">The B92 protocol</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc12.1.pdf#page=10')">The EPR protocol</a></li>
+    </ul>
+  </details>  
 </div>
 
 
