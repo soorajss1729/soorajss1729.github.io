@@ -347,14 +347,8 @@ h1 {
   </details>    
   </div>
   
-<script>
-function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (pdfViewer) {
-        pdfViewer.src = url;
-    }
-}
-</script>
+
+
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
@@ -448,27 +442,12 @@ body {
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  // 1) Check screen size only once on load (or you can do inside the click handler).
-  if (window.innerWidth < 768) {
-    // 2) Grab all the TOC links
-    const tocLinks = document.querySelectorAll('#toc-container li a');
-
-    // 3) Add a click listener to each
-    tocLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        // The existing "onclick=loadPdfPage(...)" still runs,
-        // We just add a short delay, then scroll down:
-        setTimeout(() => {
-          const pdfViewerElem = document.querySelector('.pdf-viewer');
-          if (pdfViewerElem) {
-            pdfViewerElem.scrollIntoView({ behavior: 'smooth' });
-          }
-        }, 200);
-      });
-    });
-  }
-});
+function loadPdfPage(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+        pdfViewer.src = url;
+    }
+}
 </script>
 
 
