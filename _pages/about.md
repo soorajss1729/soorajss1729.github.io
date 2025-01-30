@@ -86,7 +86,7 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 7,920</div>
+    <div><strong>Reputation:</strong> 7,910</div>
     <div><strong>Questions:</strong> 393</div>
     <div><strong>Answers:</strong> 57</div>
     <div><strong>Reached:</strong> 846k</div>
@@ -117,7 +117,7 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 851</div>
+    <div><strong>Reputation:</strong> 861</div>
     <div><strong>Posts:</strong> 35</div>
     <div><strong>Overall Rank:</strong> #169</div>
     <div><strong>Reached:</strong> 11k</div>
@@ -157,8 +157,8 @@ Cochin University of Science and Technology, 2017
     <li>MATH 5105 Modern Algebra</li>
     <li>CS 5200 Analysis of Algorithms</li>
     <li>CS 5001 Introduction to Quantum Computing</li>
-    <li>CS 5001 Probability and Its Applications to Computing</li>
-    <li>CS 6204 Applied Graph Theory for Computer Science (Planned 6000-Level Course)</li>
+    <li>CS 5001 Probability and Its Applications in Computing</li>
+    <li>CS 6204 Applied Graph Theory</li>
     <li>Quantum Optics</li>
 </ul>
 </div>
