@@ -269,7 +269,7 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=43')">Properties Von Neumann Entropy</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=46')">$AB$ is pure state$\implies S(A)=S(B)$</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=52')">Joint Entropy Theorem</a></li>      
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=54')">Entropyof Tensor Product</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=54')">Entropy of Tensor Product</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=59')">Entanglement and Negative Conditional Entropy</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=60')">Measurement and Entropy</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qc11.2.pdf#page=61')">Projective Measurement Increases Entropy</a></li>
