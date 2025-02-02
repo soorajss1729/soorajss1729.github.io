@@ -117,7 +117,7 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 861</div>
+    <div><strong>Reputation:</strong> 871</div>
     <div><strong>Posts:</strong> 35</div>
     <div><strong>Overall Rank:</strong> #169</div>
     <div><strong>Reached:</strong> 11k</div>
