@@ -273,9 +273,9 @@ h1 {
   <details>
     <summary>Miscellaneous 1: Linear Algebra</summary>
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la16.pdf#page=3')">Trace of a Matrix (Page 3)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la16.pdf#page=11')">Jacobi's Formula (Page 11)</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=la16.pdf#page=14')">Crammer's Rule (Page 14)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=3')">Trace of a Matrix (Page 3)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=11')">Jacobi's Formula (Page 11)</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=14')">Crammer's Rule (Page 14)</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=15')">Nilpotent Matrix</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=18')">Cayley Hamilton Theorem</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=22')">Diagonalization and Similarity</a></li>
