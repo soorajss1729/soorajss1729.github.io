@@ -86,7 +86,7 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 7,910</div>
+    <div><strong>Reputation:</strong> 7,930</div>
     <div><strong>Questions:</strong> 393</div>
     <div><strong>Answers:</strong> 57</div>
     <div><strong>Reached:</strong> 846k</div>
@@ -117,9 +117,9 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 871</div>
+    <div><strong>Reputation:</strong> 891</div>
     <div><strong>Posts:</strong> 35</div>
-    <div><strong>Overall Rank:</strong> #169</div>
+    <div><strong>Overall Rank:</strong> #160</div>
     <div><strong>Reached:</strong> 11k</div>
   </div>
   <!-- Example Contribution -->
@@ -153,10 +153,10 @@ Cochin University of Science and Technology, 2017
 
 <div class="cors">
 <ul>
-    <li>MATH 6108 Applied Matrix Theory</li>
-    <li>MATH 5105 Modern Algebra</li>
-    <li>CS 5200 Analysis of Algorithms</li>
     <li>CS 5001 Introduction to Quantum Computing</li>
+    <li>MATH 6108 Applied Matrix Theory</li>
+    <li>MATH 5105 Modern Algebra I (Group Theory)</li>
+    <li>CS 5200 Analysis of Algorithms</li>
     <li>CS 5001 Probability and Its Applications in Computing</li>
     <li>CS 6204 Applied Graph Theory</li>
     <li>Quantum Optics</li>
@@ -245,8 +245,8 @@ Cochin University of Science and Technology, 2017
 ## Teaching Assistant Experience
 <div class="teach">
 <ul>
-    <li>CS1500 Computational Problem Solving, Fall 2024</li>
-    <li>CS1200 Discrete Mathematics for Computer Science, Spring 2024</li>
+    <li>CS1500 Computational Problem Solving (Python Lab) | Fall 2024, Spring 2025</li>
+    <li>CS1200 Discrete Mathematics for Computer Science | Spring 2024</li>
 </ul>
 </div>
 
