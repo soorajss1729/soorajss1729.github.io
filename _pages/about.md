@@ -89,7 +89,7 @@ Cochin University of Science and Technology, 2017
     <div><strong>Reputation:</strong> 7,930</div>
     <div><strong>Questions:</strong> 393</div>
     <div><strong>Answers:</strong> 57</div>
-    <div><strong>Reached:</strong> 846k</div>
+    <div><strong>Reached:</strong> 858k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -120,7 +120,7 @@ Cochin University of Science and Technology, 2017
     <div><strong>Reputation:</strong> 891</div>
     <div><strong>Posts:</strong> 35</div>
     <div><strong>Overall Rank:</strong> #160</div>
-    <div><strong>Reached:</strong> 11k</div>
+    <div><strong>Reached:</strong> 12k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
