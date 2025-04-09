@@ -364,6 +364,8 @@ body {
     flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left:5%;
+    padding-left:5%;    
 }
 
 /* Mobile adjustments */
