@@ -257,25 +257,24 @@ body {
 </style>
 
 <script>
-function loadPdfPage(url) {
+document.addEventListener('DOMContentLoaded', function () {
+  window.loadPdfPage = function(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        // Force reload the iframe even if the same URL is clicked
-        pdfViewer.src = url;
-
-        // Scroll into view on mobile devices only
-        if (window.innerWidth <= 768) {
-            setTimeout(() => {
-                const pdfSection = document.querySelector('.pdf-viewer');
-                if (pdfSection) {
-                    pdfSection.scrollIntoView({ behavior: 'smooth' });
-                }
-            }, 300); // delay ensures iframe is updated before scrolling
-        }
+      pdfViewer.src = url;
+      if (window.innerWidth <= 768) {
+        setTimeout(() => {
+          const pdfSection = document.querySelector('.pdf-viewer');
+          if (pdfSection) {
+            pdfSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 300);
+      }
     } else {
-        console.error("PDF viewer iframe not found.");
+      console.error("PDF viewer iframe not found.");
     }
-}
+  }
+});
 </script>
 
 
