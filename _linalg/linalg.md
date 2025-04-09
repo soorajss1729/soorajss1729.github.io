@@ -365,7 +365,7 @@ body {
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding-left:5%;
-    padding-left:5%;    
+    padding-right:5%;    
 }
 
 /* Mobile adjustments */
