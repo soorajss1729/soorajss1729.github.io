@@ -234,6 +234,7 @@ body {
     padding-right:5%;    
 }
 
+
 /* Mobile adjustments */
 @media (max-width: 768px) {
   .content-container {
