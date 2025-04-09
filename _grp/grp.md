@@ -262,6 +262,15 @@ function loadPdfPage(url) {
     if (pdfViewer) {
         pdfViewer.src = url;
     }
+
+    // Smooth scroll to PDF viewer on mobile
+    if (window.innerWidth <= 768) {
+        const pdfSection = document.querySelector('.pdf-viewer');
+        if (pdfSection) {
+            pdfSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 }
 </script>
+
 
