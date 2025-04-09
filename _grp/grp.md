@@ -260,15 +260,20 @@ body {
 function loadPdfPage(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
+        // Force reload the iframe even if the same URL is clicked
         pdfViewer.src = url;
-    }
 
-    // Smooth scroll to PDF viewer on mobile
-    if (window.innerWidth <= 768) {
-        const pdfSection = document.querySelector('.pdf-viewer');
-        if (pdfSection) {
-            pdfSection.scrollIntoView({ behavior: 'smooth' });
+        // Scroll into view on mobile devices only
+        if (window.innerWidth <= 768) {
+            setTimeout(() => {
+                const pdfSection = document.querySelector('.pdf-viewer');
+                if (pdfSection) {
+                    pdfSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            }, 300); // delay ensures iframe is updated before scrolling
         }
+    } else {
+        console.error("PDF viewer iframe not found.");
     }
 }
 </script>
