@@ -304,14 +304,6 @@ h1 {
 </div>
 
 
-  <script>
-function loadPdfPage(url) {
-    const pdfViewer = document.querySelector('.pdf-viewer iframe');
-    if (pdfViewer) {
-        pdfViewer.src = url;
-    }
-}
-</script>
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
@@ -403,4 +395,27 @@ body {
   }
 }
 </style>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  window.loadPdfPage = function(url) {
+    const pdfViewer = document.querySelector('.pdf-viewer iframe');
+    if (pdfViewer) {
+      pdfViewer.src = url;
+      if (window.innerWidth <= 768) {
+        setTimeout(() => {
+          const pdfSection = document.querySelector('.pdf-viewer');
+          if (pdfSection) {
+            pdfSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 300);
+      }
+    } else {
+      console.error("PDF viewer iframe not found.");
+    }
+  }
+});
+</script>
+
 
