@@ -241,6 +241,9 @@ collections:
   stac:
     output: true
     permalink: /:collection/:path/
+  explorations:
+    output: true
+    permalink: /:collection/:path/    
   teaching:
     output: true
     permalink: /:collection/:path/

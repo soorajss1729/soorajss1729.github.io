@@ -181,6 +181,9 @@
             <li class="masthead__menu-item"><a href="http://localhost:4000/stac#">Stack Exchange</a></li>
           
             
+            <li class="masthead__menu-item"><a href="http://localhost:4000/explorations/">Explorations</a></li>
+          
+            
             <li class="masthead__menu-item"><a href="http://localhost:4000/#contact">Contact</a></li>
           
         </ul>
@@ -415,7 +418,10 @@ body {
     flex: 1 1 55%; /* PDF viewer takes up 70% of the width */
     border: 0px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left:5%;
+    padding-right:5%;    
 }
+
 
 /* Mobile adjustments */
 @media (max-width: 768px) {
@@ -442,12 +448,24 @@ body {
 </style>
 
 <script>
-function loadPdfPage(url) {
+document.addEventListener('DOMContentLoaded', function () {
+  window.loadPdfPage = function(url) {
     const pdfViewer = document.querySelector('.pdf-viewer iframe');
     if (pdfViewer) {
-        pdfViewer.src = url;
+      pdfViewer.src = url;
+      if (window.innerWidth <= 768) {
+        setTimeout(() => {
+          const pdfSection = document.querySelector('.pdf-viewer');
+          if (pdfSection) {
+            pdfSection.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 300);
+      }
+    } else {
+      console.error("PDF viewer iframe not found.");
     }
-}
+  }
+});
 </script>
 
 
@@ -463,7 +481,7 @@ function loadPdfPage(url) {
 
 <div class="page__footer-copyright">
   &copy; 2025 SOORAJ SOMAN.<br />
-  Site last updated 2025-01-21
+  Site last updated 2025-05-19
 </div>
 
       </footer>
