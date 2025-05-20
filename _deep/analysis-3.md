@@ -1,6 +1,6 @@
-	---
+---
 title: "Semi-Quantum Random Number Generation"
-permalink: /deep-dives/analysis-3/
+permalink: /deep/analysis-3/
 layout: default
 classes: wide
 footer_fixed: false
@@ -140,7 +140,7 @@ h2, h3, h4, h5, h6 {
 
 <!-- Main Heading -->
 <h1>
-  A Simple Method for Sampling Random Clifford Operators
+  Semi-Quantum Random Number Generation
   <a href="https://doi.org/10.1109/QCE52317.2021.00021"
      target="_blank" rel="noopener"
      title="E. van den Berg et al., IEEE Quantum Comput. Eng. (2021)."

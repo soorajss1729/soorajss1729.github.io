@@ -1,6 +1,6 @@
 ---
 title: "A Simple Method for Sampling Random Clifford Operators"
-permalink: /explorations/analysis-1/
+permalink: /deep/analysis-1/
 layout: default
 classes: wide
 footer_fixed: false
