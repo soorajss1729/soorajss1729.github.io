@@ -1,6 +1,6 @@
 ---
-title: "Explorations"
-permalink: /explorations/
+title: "Deep Dives"
+permalink: /deep-dives/
 layout: default
 classes: wide
 ---
@@ -64,11 +64,11 @@ h1 {
 </style>
 
 <!-- Main Heading -->
-<h1>Explorations</h1>
+<h1>Deep Dives</h1>
 
 <!-- Introduction Paragraph -->
 <div class="text-block">
-  <p>This page is a collection of detailed explorations where I unpack complex topics, break down methods, and present my analysis. Each link below leads to a dedicated page where you can explore the topic in depth.</p>
+This section presents in-depth readings of research papers, focusing on reconstructing key ideas, formal derivations, and where applicable, implementing core algorithms. Each page reflects my attempt to engage with the material as thoroughly and concretely as possible.
 </div>
 
 <!-- Table of Contents -->

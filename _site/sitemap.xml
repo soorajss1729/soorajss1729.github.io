@@ -10,7 +10,16 @@
 <loc>http://localhost:4000/explorations/analysis-1/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/explorations/</loc>
+<loc>http://localhost:4000/explorations/analysis-1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/explorations/analysis-1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/deep-dives/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/deep-dives/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/grp/</loc>

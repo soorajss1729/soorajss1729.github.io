@@ -3,6 +3,7 @@ title: "Linear Algebra"
 permalink: /linalg/
 layout: default
 classes: wide
+footer_fixed: false
 ---
 
 <div class="learning-topnav">

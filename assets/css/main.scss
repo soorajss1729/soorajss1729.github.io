@@ -107,7 +107,14 @@
   position: relative; /* For pseudo-element positioning */
   transition: color 0.3s ease; /* Smooth transition for text color */
 }
-
+.learning-topnav a,
+.learning-topnav a:visited,
+.learning-topnav a:focus,
+.learning-topnav a:active,
+.learning-topnav a:link {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
 .learning-topnav a::after {
   content: ""; /* Empty content for pseudo-element */
   position: absolute;
@@ -141,3 +148,24 @@
     padding: 5px; /* Adjust padding */
   }
 }
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page__content {
+  flex: 1;
+}
+

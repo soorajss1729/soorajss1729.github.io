@@ -1,39 +1,164 @@
----
-title: "Linear Algebra"
-permalink: /grp/
+	---
+title: "Semi-Quantum Random Number Generation"
+permalink: /explorations/analysis-3/
 layout: default
 classes: wide
 footer_fixed: false
 ---
 
+<!-- Top Navigation Bar (Empty but maintaining design consistency) -->
 <div class="learning-topnav">
-  <a href="/learning/">Back</a>
-  <a href="/linalg/">Linear Algebra</a>  
-  <a href="/qc#">Quantum Computing</a>  
+  <a>&#8203;</a>
+  <a>&#8203;</a>  
+  <a>&#8203;</a>  
 </div>
 
+<!-- Main Content Style -->
+<!-- Main Content Style (Updated) -->
 <style>
+/* Text blocks: no longer indent every first line */
 .text-block {
     margin-left: 2%;
     margin-right: 2%;
     text-align: justify;
-    text-indent: 50px;
-    margin-bottom: 1rem; /* Add space below */
+    margin-bottom: 1rem;
 }
+
+/* Only paragraphs get the 50px indent */
+.text-block p {
+    text-indent: 50px;
+    margin-bottom: 1rem;
+}
+
+/* Main Title Style */
 h1 {
-    all: unset; /* Reset all styles */
-    display: block; /* Ensure it behaves like a block element */
-    border-bottom: 0.5px solid #f5f5f5; /* Lighten the underline further */
-    padding-bottom: 0.5rem; /* Add space between text and underline */
-    font-size: 1.5rem; /* Adjust font size */
-    font-weight: bold; /* Ensure it's bold */
-    text-align: left; /* Align text to the left */
-    margin-left: 2%; /* Align with text block */
-    margin-bottom: 1rem; /* Add space below */
+    all: unset;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1rem;
+    border-bottom: 0.5px solid #f5f5f5;
+}
+
+/* Subheading Styles (Aligned Same as Main Title) */
+h2, h3, h4, h5, h6 {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 2%;
+    margin-top: 0;           /* remove default top margin */
+    margin-bottom: 0.8rem;   /* controlled bottom margin */
+    text-indent: 0;
+    border-bottom: 0.5px solid #f5f5f5;
+}
+
+/* Compact List Styling */
+.text-block ol {
+    margin-left: 0;
+    padding-left: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.text-block ol li {
+    margin-bottom: 0.3rem;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+/* Sub-lists */
+.text-block ul {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+.text-block ul li {
+    margin-bottom: 0.2rem;
+    font-size: 0.95rem;
+    line-height: 1.3;
+    text-indent: 0;
+}
+
+/* TOC Container Styling */
+#toc-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0.5rem;   /* reduced gap below TOC */
+}
+
+#toc-container ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+#toc-container li {
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+}
+
+#toc-container a {
+    text-decoration: none;
+    color: #2f7f93;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#toc-container a:hover {
+    color: #1a5e73;
+    text-decoration: underline;
+}
+.subtitle {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+.subtitle a {
+  color: #2f7f93;
+  text-decoration: none;
+}
+.subtitle a:hover {
+  text-decoration: underline;
+}
+#further-reading {
+  margin-bottom: 3rem;
+}
+.text-block p.no-indent {
+  text-indent: 0;
 }
 </style>
-  <h1>Group Theory</h1>
 
+
+
+<!-- Main Heading -->
+<h1>
+  A Simple Method for Sampling Random Clifford Operators
+  <a href="https://doi.org/10.1109/QCE52317.2021.00021"
+     target="_blank" rel="noopener"
+     title="E. van den Berg et al., IEEE Quantum Comput. Eng. (2021)."
+     style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
+    📄
+  </a>
+</h1>
+
+<!-- Table of Contents -->
+<div id="toc-container">
+  <ul>
+    <li><a href="#clifford">The Clifford Group</a></li>
+    <li><a href="#algorithm-outline">Approach Overview</a></li>
+    <li><a href="#sweep">Detailed Sweep Steps</a></li>
+    <li><a href="#code-simulation">Interactive Simulator</a></li>
+    <li><a href="#further-reading">Further Reading</a></li>
+  </ul>
+</div>
 
 <div class="text-block">
   <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://edisciplinas.usp.br/pluginfile.php/5409004/mod_resource/content/2/John%20B.%20Fraleigh%2C%20Victor%20J.%20Katz%20-%20A%20first%20course%20in%20abstract%20algebra-Addison-Wesley%20%282003%29%20%281%29.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>

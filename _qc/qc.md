@@ -4,6 +4,7 @@ permalink: /qc/
 collection: qc
 layout: default
 classes: wide
+footer_fixed: false
 ---
 
 <div class="learning-topnav">

@@ -21,8 +21,8 @@ main:
   - title: "Stack Exchange"
     url: /stac#
 
-  - title: "Explorations"
-    url: /explorations/
+  - title: "Deep Dives"
+    url: /deep-dives/
 
 #  - title: "Publications"
 #    url: /publications/

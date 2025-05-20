@@ -11,21 +11,26 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body>
-    
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  <body class="site-wrapper">
 
-    {{ content }}
+    <div class="site-container">
+      {% include browser-upgrade.html %}
+      {% include masthead.html %}
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+      <main class="page__content">
+        {{ content }}
+      </main>
+
+      <div class="page__footer{% unless page.footer_fixed == false %} fixed-footer{% endunless %}">
+        <footer>
+          {% include footer/custom.html %}
+          {% include footer.html %}
+        </footer>
+      </div>
     </div>
 
     {% include scripts.html %}
-
+    
   </body>
 </html>
+
