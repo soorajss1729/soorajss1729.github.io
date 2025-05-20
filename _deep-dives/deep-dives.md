@@ -74,9 +74,9 @@ This section presents in-depth readings of research papers, focusing on reconstr
 <!-- Table of Contents -->
 <div id="toc-container">
   <ul>
-    <li><a href="/explorations/analysis-1/">A Simple Method for Sampling Random Clifford Operators (Ewout van den Berg, 2021)</a></li>
-    <li><a href="/explorations/analysis-2/">Quantum Fast-Forwarding: Markov Chains and Graph Property Testing (Simon Apers and Alain Sarlette, 2019)</a></li>
-    <li><a href="/explorations/analysis-3/">Semi-Quantum Random Number Generation (Julia Guskind and Walter O. Krawec, 2022)</a></li>
+    <li><a href="/deep-dives/analysis-1/">A Simple Method for Sampling Random Clifford Operators (Ewout van den Berg, 2021)</a></li>
+    <li><a href="/deep-dives/analysis-2/">Quantum Fast-Forwarding: Markov Chains and Graph Property Testing (Simon Apers and Alain Sarlette, 2019)</a></li>
+    <li><a href="/deep-dives/analysis-3/">Semi-Quantum Random Number Generation (Julia Guskind and Walter O. Krawec, 2022)</a></li>
   </ul>
 </div>
 

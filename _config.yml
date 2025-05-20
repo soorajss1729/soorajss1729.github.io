@@ -241,7 +241,7 @@ collections:
   stac:
     output: true
     permalink: /:collection/:path/
-  explorations:
+  deep-dives:
     output: true
     permalink: /:collection/:path/    
   teaching:

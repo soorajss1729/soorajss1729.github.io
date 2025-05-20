@@ -1,6 +1,6 @@
 	---
 title: "Semi-Quantum Random Number Generation"
-permalink: /explorations/analysis-3/
+permalink: /deep-dives/analysis-3/
 layout: default
 classes: wide
 footer_fixed: false
