@@ -7,7 +7,7 @@ footer_fixed: false
 ---
 
 <div class="learning-topnav">
-  <a href="/learning/">Back</a>
+  <a href="/learning/">‹ Back</a>
   <a href="/qc#">Quantum Computing</a>  
   <a href="/grp/">Group Theory</a>  
 </div>
