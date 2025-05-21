@@ -171,7 +171,7 @@ This page presents my detailed reconstruction of the formalism introduced in the
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=14')">Approximation of Eigenvalue Functions</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=21')">Error Bound and Truncation via Normal Approximation</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=24')">Quantum Fast-Forwarding</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_paper.pdf#page=5')">Original Paper</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_paper.pdf#page=1')">Original Paper</a></li>
     </ul>
   </div>
   
