@@ -335,21 +335,10 @@ h2, h3, h4, h5, h6 {
 <!-- Main Heading -->
 <h1>
   Semi-Quantum Random Number Generation
-  <a href="https://doi.org/10.1109/QCE52317.2021.00021" target="_blank" rel="noopener" title="E. van den Berg et al., IEEE Quantum Comput. Eng. (2021)." style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
+  <a href="https://arxiv.org/abs/2210.16427" target="_blank" rel="noopener" title="Guskind &amp; Krawec, IEEE QCE 2023 / arXiv:2210.16427" style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
     📄
   </a>
 </h1>
-
-<!-- Table of Contents -->
-<div id="toc-container">
-  <ul>
-    <li><a href="#clifford">The Clifford Group</a></li>
-    <li><a href="#algorithm-outline">Approach Overview</a></li>
-    <li><a href="#sweep">Detailed Sweep Steps</a></li>
-    <li><a href="#code-simulation">Interactive Simulator</a></li>
-    <li><a href="#further-reading">Further Reading</a></li>
-  </ul>
-</div>
 
 <div class="text-block">
 This page presents a detailed study of the protocol described in the paper <a href="https://arxiv.org/pdf/2210.16427" style="text-decoration: none;">Semi-Quantum Random Number Generation</a> by Guskind and Krawec. The focus is on clarifying the theoretical structure of the protocol, particularly the entanglement-based security proof and the derivation of the secure bit generation rate. The content has been fully reformatted and typeset to improve readability, with mathematical steps and reasoning presented in a structured and accessible way. While no simulations or code implementations are included, the goal is to trace the logic of the protocol with precision and depth.
@@ -359,11 +348,12 @@ This page presents a detailed study of the protocol described in the paper <a hr
   <!-- Table of Contents -->
   <div id="toc-container">
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">Protocol Description</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">Entanglement-Based Equivalent</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">State Representation and Mismatched Bases</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=23')">Security Parameter Extraction</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">Key Rate Formula</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=1')">SQRNG Protocol</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">Purified SQRNG Protocol</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=4')">e-QRNG Protocol</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=6')">Theorem 1: Mapping SQRNG Attacks to e-QNRG</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=8')">Theorem 1: Proof</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=17')">Secure Bit Rate Analysis</a></li>
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_paper.pdf#page=5')">Original Paper</a></li>
     </ul>
   </div>
@@ -409,7 +399,7 @@ body {
 
 /* TOC styling */
 #toc-container {
-    flex: 1 1 45%; /* TOC takes up 30% of the width */
+    flex: 1 1 30%; /* TOC takes up 30% of the width */
     max-width: 400px;
     overflow-y: auto; /* Enable vertical scrolling */
     border-right: 0px solid #ddd; /* Optional right border for separation */
@@ -500,7 +490,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <div class="page__footer-copyright">
   &copy; 2025 SOORAJ SOMAN.<br />
-  Site last updated 2025-05-20
+  Site last updated 2025-05-21
 </div>
 
         </footer>

@@ -7,7 +7,7 @@
 <loc>http://localhost:4000/deep/analysis-1/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/deep/analysis-1/</loc>
+<loc>http://localhost:4000/deep/analysis-2/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/deep/analysis-3/</loc>
@@ -390,6 +390,14 @@
 <url>
 <loc>http://localhost:4000/pdfjs/qc9.pdf</loc>
 <lastmod>2025-01-06T10:00:56+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pdfjs/qff_analysis.pdf</loc>
+<lastmod>2025-03-10T19:12:50+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/pdfjs/qff_paper.pdf</loc>
+<lastmod>2025-03-31T22:19:29+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pdfjs/rsa.pdf</loc>
