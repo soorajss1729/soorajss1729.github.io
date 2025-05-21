@@ -178,7 +178,7 @@ This page presents my detailed reconstruction of the formalism introduced in the
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf" width="100%" height="1000px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf" width="100%" height="1000px" style="border: none;"></iframe>
   </div>
 </div>
 
