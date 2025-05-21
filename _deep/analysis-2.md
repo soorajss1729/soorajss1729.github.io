@@ -8,9 +8,7 @@ footer_fixed: false
 
 <!-- Top Navigation Bar (Empty but maintaining design consistency) -->
 <div class="learning-topnav">
-  <a>&#8203;</a>
-  <a>&#8203;</a>  
-  <a>&#8203;</a>  
+  <a href="/deep/">‹ Back</a>
 </div>
 
 <!-- Main Content Style -->
