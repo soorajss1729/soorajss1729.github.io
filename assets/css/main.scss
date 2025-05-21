@@ -70,7 +70,16 @@
   line-height: 1;         /* Fix vertical alignment */
 }
 
+a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
 
+/* If you only want to target links inside the Learning Journey pages: */
+.page__content a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
 
 
 
