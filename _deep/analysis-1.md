@@ -218,7 +218,7 @@ According to Lagrange's Theorem in group theory, the size of a group \( G \) is 
 Therefore, the size of the Clifford group \( C_n \) is:
 
 \begin{align}
-|C_n| &= (4^n - 1) 4^n |C_{n-1}|\\
+|C_n| &= 2(4^n - 1) 4^n |C_{n-1}|\\
 &=\prod_{j=1}^n 2(4^j - 1) 4^j\\
 &=2^{n^2+2n}\prod_{j=1}^n (4^j-1)
 \end{align}
