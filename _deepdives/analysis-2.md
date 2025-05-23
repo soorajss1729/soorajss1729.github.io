@@ -1,6 +1,6 @@
 ---
-title: "Semi-Quantum Random Number Generation"
-permalink: /deep/analysis-3/
+title: "Quantum Fast-Forwarding: Markov Chains and Graph Property Testing"
+permalink: /deepdives/analysis-2/
 layout: default
 classes: wide
 footer_fixed: false
@@ -145,30 +145,31 @@ h2, h3, h4, h5, h6 {
 
 <!-- Main Heading -->
 <h1>
-  Semi-Quantum Random Number Generation
-  <a href="https://arxiv.org/abs/2210.16427"
+  Quantum Fast-Forwarding: Markov Chains and Graph Property Testing
+  <a href="https://arxiv.org/abs/1804.02321"
      target="_blank" rel="noopener"
-     title="Guskind & Krawec, IEEE QCE 2023 / arXiv:2210.16427"
+     title="Based on the paper by Apers & Sarlette, arXiv:1804.02321"
      style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
     📄
   </a>
 </h1>
 
 <div class="text-block">
-This page presents a detailed study of the protocol described in the paper <a href="https://arxiv.org/pdf/2210.16427" style="text-decoration: none;">Semi-Quantum Random Number Generation</a> by Guskind and Krawec. The focus is on clarifying the theoretical structure of the protocol, particularly the entanglement-based security proof and the derivation of the secure bit generation rate. The content has been fully reformatted and typeset to improve readability, with mathematical steps and reasoning presented in a structured and accessible way. While no simulations or code implementations are included, the goal is to trace the logic of the protocol with precision and depth.
+This page presents my detailed reconstruction of the formalism introduced in the paper <a href="https://arxiv.org/pdf/1804.02321" style="text-decoration: none;">Quantum Fast-Forwarding: Markov Chains and Graph Property Testing</a> by Apers and Sarlette. The write-up explores the structure of the discriminant operator, its role in simulating Markov chains, and how Chebyshev polynomial expansions enable quadratic speedups. Key derivations have been carefully restructured and typeset to highlight the spectral dynamics and operator behavior underlying the fast-forwarding process.
 </div>
 
 <div class="content-container">
   <!-- Table of Contents -->
   <div id="toc-container">
     <ul>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=1')">SQRNG Protocol</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=3')">Purified SQRNG Protocol</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=4')">e-QRNG Protocol</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=6')">Theorem 1: Mapping SQRNG Attacks to e-QNRG</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=8')">Theorem 1: Proof</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf#page=17')">Secure Bit Rate Analysis</a></li>
-      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_paper.pdf#page=1')">Original Paper</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=5')">Quantum Walk Scheme</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=7')">Discriminant Operator and Eigenvalue Mapping</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=9')">Chebyshev Polynomial Expansion</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=12')">Linear Combination of Unitaries (LCU) Framework</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=14')">Approximation of Eigenvalue Functions</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=21')">Error Bound and Truncation via Normal Approximation</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf#page=24')">Quantum Fast-Forwarding</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_paper.pdf#page=1')">Original Paper</a></li>
     </ul>
   </div>
   
@@ -177,7 +178,7 @@ This page presents a detailed study of the protocol described in the paper <a hr
 
   <!-- PDF Viewer -->
   <div class="pdf-viewer">
-    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf" width="100%" height="1000px" style="border: none;"></iframe>
+    <iframe src="https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf" width="100%" height="1000px" style="border: none;"></iframe>
   </div>
 </div>
 

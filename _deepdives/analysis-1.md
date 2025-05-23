@@ -1,201 +1,12 @@
-
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-
-<meta charset="utf-8">  
-
-
-
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>            A Simple Method for Sampling Random Clifford Operators      SOORAJ SOMAN      </title>
-
-
-
-
-
-
-
-<meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="SOORAJ SOMAN">
-<meta property="og:title" content="A Simple Method for Sampling Random Clifford Operators">
-
-
-  <link rel="canonical" href="http://localhost:4000/deep/analysis-1/">
-  <meta property="og:url" content="http://localhost:4000/deep/analysis-1/">
-
-
-
-  <meta property="og:description" name="description" content="  ‹ Back">
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "",
-      "url" : "http://localhost:4000",
-      "sameAs" : null
-    }
-  </script>
-
-
-
-
-
-
-<!-- end SEO -->
-
-
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-
-
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="SOORAJ SOMAN Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- Add MathJax Script -->
-<script type="text/javascript" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<script>
-    window.MathJax = {
-        tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']]
-        },
-        options: {
-            ignoreHtmlClass: 'no-mathjax',
-            processHtmlClass: 'mathjax'
-        }
-    };
-</script>
-
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D8TZQQP6RS"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-D8TZQQP6RS');
-</script>
-
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
-
-    
-
-<!-- start custom head snippets -->
-
-<link rel="apple-touch-icon" sizes="57x57" href="http://localhost:4000/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="60x60" href="http://localhost:4000/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="72x72" href="http://localhost:4000/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="76x76" href="http://localhost:4000/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="114x114" href="http://localhost:4000/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="120x120" href="http://localhost:4000/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
-<link rel="icon" type="image/png" href="http://localhost:4000/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
-<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
-<link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
-<link rel="manifest" href="http://localhost:4000/images/manifest.json?v=M44lzPylqQ">
-<link rel="mask-icon" href="http://localhost:4000/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
-<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
-
-
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-<!-- end custom head snippets -->
-
-  </head>
-
-  <body class="site-wrapper">
-
-    <div class="site-container">
-      <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-      
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="http://localhost:4000/">SOORAJ SOMAN</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/learning#">Learning Journey</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/stac#">Stack Exchange</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/deep/">Deep Dives</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="http://localhost:4000/#contact">Contact</a></li>
-          
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
-  </div>
-</div>
-
-      <main class="page__content">
-        <!-- Top Navigation Bar (Empty but maintaining design consistency) -->
+---
+title: "A Simple Method for Sampling Random Clifford Operators"
+permalink: /deepdives/analysis-1/
+layout: default
+classes: wide
+footer_fixed: false
+---
+
+<!-- Top Navigation Bar (Empty but maintaining design consistency) -->
 <div class="learning-topnav">
   <a href="/deep/">‹ Back</a>
 </div>
@@ -323,10 +134,15 @@ h2, h3, h4, h5, h6 {
 }
 </style>
 
+
+
 <!-- Main Heading -->
 <h1>
   A Simple Method for Sampling Random Clifford Operators
-  <a href="https://doi.org/10.1109/QCE52317.2021.00021" target="_blank" rel="noopener" title="E. van den Berg et al., IEEE Quantum Comput. Eng. (2021)." style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
+  <a href="https://doi.org/10.1109/QCE52317.2021.00021"
+     target="_blank" rel="noopener"
+     title="E. van den Berg et al., IEEE Quantum Comput. Eng. (2021)."
+     style="font-size:0.6em; margin-left:0.5em; vertical-align:middle; color:#2f7f93; text-decoration:none;">
     📄
   </a>
 </h1>
@@ -402,9 +218,9 @@ According to Lagrange's Theorem in group theory, the size of a group \( G \) is 
 Therefore, the size of the Clifford group \( C_n \) is:
 
 \begin{align}
-|C_n| &amp;= 2(4^n - 1) 4^n |C_{n-1}|\\
-&amp;=\prod_{j=1}^n 2(4^j - 1) 4^j\\
-&amp;=2^{n^2+2n}\prod_{j=1}^n (4^j-1)
+|C_n| &= 2(4^n - 1) 4^n |C_{n-1}|\\
+&=\prod_{j=1}^n 2(4^j - 1) 4^j\\
+&=2^{n^2+2n}\prod_{j=1}^n (4^j-1)
 \end{align}
 
     </div>
@@ -412,7 +228,7 @@ Therefore, the size of the Clifford group \( C_n \) is:
 </div>
 
 
-and used this to build a bijection between integers \(0 \le k &lt; |C_n|\) and Clifford elements, achieving uniform sampling in \(O(n^3)\) time via symplectic transvections.
+and used this to build a bijection between integers \(0 \le k < |C_n|\) and Clifford elements, achieving uniform sampling in \(O(n^3)\) time via symplectic transvections.
 
   This page focuses on the more direct tableau-based method of Ewout van den Berg (2021), which samples random Clifford operators in \(O(n^2)\) gates and \(O(n\log n)\) depth by streaming localized “sweep” steps.
 </div>
@@ -446,6 +262,7 @@ The sweeping step is the core of the algorithm, transforming a pair of anticommu
     <li><strong>Repeat for All Pairs:</strong> This sweeping process is repeated for each pair of rows in the tableau, ensuring that all rows are transformed into a consistent, standardized form.</li>
   </ol>
 </div>
+
 
 <div id="code-simulation" class="text-block">
   <h2>Interactive Simulator</h2>
@@ -481,7 +298,7 @@ def clear_z_block(row, k, sx, sz, gates):
 def sweep_x_to_pivot(row, k, sx, sz, gates):
     """Collapse all X’s in the row down to a single pivot via CX gates."""
     J = [j for j in range(k) if sx[row, j]]
-    while len(J) &gt; 1:
+    while len(J) > 1:
         a, b = J[0], J[1]
         gates.append(("cx", a, b))
         sx[:, b] ^= sx[:, a]
@@ -493,14 +310,18 @@ def sweep_x_to_pivot(row, k, sx, sz, gates):
 </code></pre>
     </details>
 
-    <a href="https://github.com/soorajss1729/clifford-sim/blob/main/streamlit_app.py" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:0.5rem; text-decoration:none; font-weight:500; color:#2f7f93; padding:0.25em 0.5em; border-radius:4px; transition:background-color 0.2s;">
+    <a href="https://github.com/soorajss1729/clifford-sim/blob/main/streamlit_app.py"
+       target="_blank" rel="noopener"
+       style="display:flex; align-items:center; gap:0.5rem; text-decoration:none; font-weight:500; color:#2f7f93; padding:0.25em 0.5em; border-radius:4px; transition:background-color 0.2s;">
       📂 View full implementation on GitHub
     </a>
   </div>
 
   <!-- primary call-to-action -->
   <div style="text-align:center; margin:1.5rem 0;">
-    <a href="https://soorajss1729-clifford-sim-streamlit-app-baqysj.streamlit.app" target="_blank" rel="noopener" style="display:inline-block; padding:0.75em 1.5em; background:#2f7f93; color:#fff; border-radius:4px; font-weight:500; text-decoration:none;">
+    <a href="https://soorajss1729-clifford-sim-streamlit-app-baqysj.streamlit.app"
+       target="_blank" rel="noopener"
+       style="display:inline-block; padding:0.75em 1.5em; background:#2f7f93; color:#fff; border-radius:4px; font-weight:500; text-decoration:none;">
       ▶️ Launch Simulator
     </a>
   </div>
@@ -508,47 +329,16 @@ def sweep_x_to_pivot(row, k, sx, sz, gates):
 This Python demo implements the tableau‐based “sweep” algorithm from van den Berg’s paper, letting you interactively sample random Clifford operators.
 </div>
 
+
+
+
 <!-- Further Reading -->
 <div id="further-reading" class="text-block">
   <h3>Further Reading</h3>
 For a deeper understanding, refer to the original research paper, as well as other related works that explore Clifford operators, tableau representation, and their applications in quantum computing.
   <ul>
     <li><a href="https://doi.org/10.1109/QCE52317.2021.00021" target="_blank" style="text-decoration: none;">van den Berg, “A Simple Method for Sampling Random Clifford Operators”</a></li>
-    <li><a href="https://arxiv.org/abs/2003.09412" target="_blank" style="text-decoration: none;">Bravyi &amp; Maslov, “Hadamard-free circuits expose the structure of the Clifford group”</a></li>
+    <li><a href="https://arxiv.org/abs/2003.09412" target="_blank" style="text-decoration: none;">Bravyi & Maslov, “Hadamard-free circuits expose the structure of the Clifford group”</a></li>
   </ul>
 </div>
-
-
-      </main>
-
-      <div class="page__footer">
-        <footer>
-          <!-- start custom footer snippets -->
-<!-- <a href="/sitemap/">Sitemap</a> -->
-<!-- end custom footer snippets -->
-
-          
-
-
-<div class="page__footer-copyright">
-  &copy; 2025 SOORAJ SOMAN.<br />
-  Site last updated 2025-05-22
-</div>
-
-        </footer>
-      </div>
-    </div>
-
-    <script src="http://localhost:4000/assets/js/main.min.js"></script>
-
-
-
-
-
-
-
-    
-  </body>
-</html>
-
 
