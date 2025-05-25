@@ -12,7 +12,7 @@ title                    : "SOORAJ SOMAN"
 title_separator          : "|"
 name                     : #"Sooraj Soman"
 description              : &description "My academic site"
-url                      : https://soorajss1729.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://soorajss1729.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : ""
 repository               : "soorajss1729/soorajss1729.github.io"
 
