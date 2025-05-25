@@ -86,10 +86,10 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 7,930</div>
+    <div><strong>Reputation:</strong> 7,998</div>
     <div><strong>Questions:</strong> 393</div>
     <div><strong>Answers:</strong> 57</div>
-    <div><strong>Reached:</strong> 858k</div>
+    <div><strong>Reached:</strong> 884k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -119,8 +119,8 @@ Cochin University of Science and Technology, 2017
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
     <div><strong>Reputation:</strong> 891</div>
     <div><strong>Posts:</strong> 35</div>
-    <div><strong>Overall Rank:</strong> #160</div>
-    <div><strong>Reached:</strong> 12k</div>
+    <div><strong>Overall Rank:</strong> #161</div>
+    <div><strong>Reached:</strong> 13k</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -157,8 +157,8 @@ Cochin University of Science and Technology, 2017
     <li>MATH 6108 Applied Matrix Theory</li>
     <li>MATH 5105 Modern Algebra I (Group Theory)</li>
     <li>CS 5200 Analysis of Algorithms</li>
-    <li>CS 5001 Probability and Its Applications in Computing</li>
     <li>CS 6204 Applied Graph Theory</li>
+    <li>CS 5001 Probability and Its Applications in Computing</li>
     <li>Quantum Optics</li>
 </ul>
 </div>
@@ -206,8 +206,8 @@ Cochin University of Science and Technology, 2017
 ### Coursework Projects
 <div class="c-proj">
 <ul>
-    <li>Enhanced the proof for the <i>Simplicity of the Alternating Group $A_n$</i> by developing intermediate mathematical steps and bridging reasoning gaps.</li>
     <li>Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>,” a focus on sampling techniques and their relevance to quantum algorithms.</li>
+    <li>Enhanced the proof for the <i>Simplicity of the Alternating Group $A_n$</i> by developing intermediate mathematical steps and bridging reasoning gaps.</li>
 </ul>
 </div>
 
