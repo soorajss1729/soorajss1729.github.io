@@ -1,1 +1,4 @@
 Sitemap: https://soorajss1729.github.io/sitemap.xml
+User-agent: *
+Disallow:
+
