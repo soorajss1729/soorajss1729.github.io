@@ -162,7 +162,6 @@ include:
   - .htaccess
   - _pages
   - files
-  - sitemap.xml
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
