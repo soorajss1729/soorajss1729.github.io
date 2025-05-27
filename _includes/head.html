@@ -1,53 +1,42 @@
 {% include base_path %}
 
-<meta charset="utf-8">  
-
+<meta charset="utf-8">
 {% include seo.html %}
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"
       type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-<meta name="HandheldFriendly"   content="True">
-<meta name="MobileOptimized"     content="320">
-<meta name="viewport"            content="width=device-width, initial-scale=1.0">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <!-- ————————————————————————————————————————————
-     FAVICONS & PWA MANIFEST
+     FAVICONS & PWA MANIFEST (SEO-Optimized)
      ———————————————————————————————————————————— -->
 
-<link rel="shortcut icon"
-      href="https://soorajss1729.github.io/favicon.ico"
-      type="image/x-icon">
+<!-- Basic icon for Google/Bing -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-<link rel="icon" type="image/png"
-      sizes="48x48"
-      href="https://soorajss1729.github.io/images/favicon-48x48.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png"
-      sizes="32x32"
-      href="https://soorajss1729.github.io/images/favicon-32x32.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png"
-      sizes="16x16"
-      href="https://soorajss1729.github.io/images/favicon-16x16.png?v=M44lzPylqQ">
+<!-- Optional PNG favicons -->
+<link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 
-<link rel="apple-touch-icon"
-      sizes="180x180"
-      href="https://soorajss1729.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-
-<link rel="mask-icon"
-      href="https://soorajss1729.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ"
-      color="#2f7f93">
-
-<link rel="manifest"
-      href="https://soorajss1729.github.io/site.webmanifest?v=M44lzPylqQ">
+<!-- Apple / Safari / PWA -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#2f7f93">
+<link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#ffffff">
 
+<!-- JS Fallback class -->
 <script>
   document.documentElement.className = document.documentElement.className
     .replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- Add MathJax Script -->
+<!-- MathJax Script -->
 <script type="text/javascript" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -64,7 +53,7 @@
   };
 </script>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8TZQQP6RS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -79,7 +68,6 @@
 <!-- ————————————————————————————————————————————
      Person structured data for Knowledge Panel
      ———————————————————————————————————————————— -->
-<!-- Person structured data for Knowledge Panel -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
