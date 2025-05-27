@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://soorajss1729.github.io/sitemap.xml
+Sitemap: https://soorajss1729.github.io/sitemap_index.xml
 
