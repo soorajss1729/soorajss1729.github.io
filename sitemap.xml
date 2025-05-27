@@ -1,422 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-<loc>https://soorajss1729.github.io/cont/</loc>
+  <loc>https://soorajss1729.github.io/</loc>
+  <lastmod>2025-05-27T06:49:31+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deepdives/analysis-1/</loc>
+  <loc>https://soorajss1729.github.io/learning/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deepdives/analysis-2/</loc>
+  <loc>https://soorajss1729.github.io/stac/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deepdives/analysis-3/</loc>
+  <loc>https://soorajss1729.github.io/deepdives/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deepdives/</loc>
+  <loc>https://soorajss1729.github.io/linalg/</loc>
+  <lastmod>2025-05-27T06:49:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/explorations/analysis-1/</loc>
+  <loc>https://soorajss1729.github.io/qc/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/explorations/analysis-1/</loc>
+  <loc>https://soorajss1729.github.io/grp/</loc>
+  <lastmod>2025-05-27T06:49:31+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deep-dives/</loc>
+  <loc>https://soorajss1729.github.io/deepdives/analysis-1/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/deep-dives/</loc>
+  <loc>https://soorajss1729.github.io/deepdives/analysis-2/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/grp/</loc>
+  <loc>https://soorajss1729.github.io/deepdives/analysis-3/</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/grp/</loc>
+  <loc>https://soorajss1729.github.io/pdfjs/viewer.html?file=la1.pdf</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/learning/</loc>
+  <loc>https://soorajss1729.github.io/pdfjs/viewer.html?file=qc1.pdf</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/linalg/</loc>
+  <loc>https://soorajss1729.github.io/pdfjs/viewer.html?file=grp-qca2-1.pdf</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/linalg/</loc>
+  <loc>https://soorajss1729.github.io/pdfjs/viewer.html?file=qff_analysis.pdf</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-<loc>https://soorajss1729.github.io/mathematics/</loc>
+  <loc>https://soorajss1729.github.io/pdfjs/viewer.html?file=sqrng_analysis.pdf</loc>
+  <lastmod>2025-05-27T06:49:30+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
-<url>
-<loc>https://soorajss1729.github.io/portfolio/portfolio-1/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/portfolio/portfolio-2/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/posts/2012/08/blog-post-1/</loc>
-<lastmod>2012-08-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/posts/2013/08/blog-post-2/</loc>
-<lastmod>2013-08-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/posts/2014/08/blog-post-3/</loc>
-<lastmod>2014-08-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/posts/2012/08/blog-post-4/</loc>
-<lastmod>2015-08-14T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/posts/2012/08/blog-post-4/</loc>
-<lastmod>2199-01-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/publication/2009-10-01-paper-title-number-1</loc>
-<lastmod>2009-10-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/publication/2010-10-01-paper-title-number-2</loc>
-<lastmod>2010-10-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/publication/2015-10-01-paper-title-number-3</loc>
-<lastmod>2015-10-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/publication/2024-02-17-paper-title-number-4</loc>
-<lastmod>2024-02-17T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/qc/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/qc/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/stac/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talks/2012-03-01-talk-1</loc>
-<lastmod>2012-03-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talks/2013-03-01-tutorial-1</loc>
-<lastmod>2013-03-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talks/2014-02-01-talk-2</loc>
-<lastmod>2014-02-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talks/2014-03-01-talk-3</loc>
-<lastmod>2014-03-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/teaching/2014-spring-teaching-1</loc>
-<lastmod>2014-01-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/teaching/2015-spring-teaching-1</loc>
-<lastmod>2015-01-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/archive-layout-with-content/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/categories/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/collection-archive/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/cv/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/markdown/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/non-menu-page/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/page-archive/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/portfolio/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/publications/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/sitemap/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/tags/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talkmap.html</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talks/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/teaching/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/terms/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/year-archive/</loc>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/paper1.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/paper2.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/paper3.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/slides1.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/slides2.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/files/slides3.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/google4f20a5695bb560e2.html</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/compressed.tracemonkey-pldi-09.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-note-1.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-note-2.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-note-3.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-proj-ppt.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-proj-report.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-qca2-1.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/grp-qca2-2.pdf</loc>
-<lastmod>2025-01-06T10:00:52+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la1.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la10.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la11.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la12.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la13.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la14.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la15.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la16.pdf</loc>
-<lastmod>2025-01-06T10:00:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la17.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la18.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la2.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la3.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la4.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la5.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la6.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la7.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la8.pdf</loc>
-<lastmod>2025-01-06T10:00:54+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/la9.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/nmbr-qca4-2.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/om23.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc1.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc10.1.pdf</loc>
-<lastmod>2025-01-09T08:12:27+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc10.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc11.1.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc11.2.pdf</loc>
-<lastmod>2025-01-27T20:24:53+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc11.3.pdf</loc>
-<lastmod>2025-01-06T10:00:55+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc12.1.pdf</loc>
-<lastmod>2025-01-21T01:41:33+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc12.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc13.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc14.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc15.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc2.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc3.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc4.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc5.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc6.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc7.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc8.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc9.1.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qc9.pdf</loc>
-<lastmod>2025-01-06T10:00:56+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qff_analysis.pdf</loc>
-<lastmod>2025-03-10T19:12:50+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/qff_paper.pdf</loc>
-<lastmod>2025-03-31T22:19:29+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/rsa.pdf</loc>
-<lastmod>2025-01-06T10:00:57+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/sqrng_analysis.pdf</loc>
-<lastmod>2025-05-21T08:12:44+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/sqrng_paper.pdf</loc>
-<lastmod>2025-02-21T03:05:51+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/pdfjs/viewer.html</loc>
-<lastmod>2025-01-06T10:00:57+00:00</lastmod>
-</url>
-<url>
-<loc>https://soorajss1729.github.io/talkmap/map.html</loc>
-<lastmod>2025-01-06T10:00:57+00:00</lastmod>
-</url>
+
+
 </urlset>
