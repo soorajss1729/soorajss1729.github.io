@@ -3,10 +3,14 @@
 <meta charset="utf-8">
 {% include seo.html %}
 
+<!-- Font Awesome (optional icons) -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<!-- RSS Feed -->
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"
       type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
+<!-- Viewport & Mobile Compatibility -->
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,28 +19,30 @@
      FAVICONS & PWA MANIFEST (SEO-Optimized)
      ———————————————————————————————————————————— -->
 
-<!-- Basic icon for Google/Bing -->
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<!-- Primary Favicon for Browsers and Crawlers -->
+<link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-<!-- Optional PNG favicons -->
+<!-- Optional PNG Favicons -->
 <link rel="icon" type="image/png" sizes="48x48" href="/images/favicon-48x48.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 
-<!-- Apple / Safari / PWA -->
+<!-- Apple and Safari -->
 <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-180x180.png">
 <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#2f7f93">
+
+<!-- Web App Manifest -->
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#ffffff">
 
-<!-- JS Fallback class -->
+<!-- JavaScript Detection Fallback -->
 <script>
   document.documentElement.className = document.documentElement.className
     .replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
-<!-- MathJax Script -->
+<!-- MathJax Configuration -->
 <script type="text/javascript" async
         src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
 </script>
@@ -53,7 +59,7 @@
   };
 </script>
 
-<!-- Google Analytics Tag -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D8TZQQP6RS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -62,11 +68,12 @@
   gtag('config', 'G-D8TZQQP6RS');
 </script>
 
+<!-- CSS Stylesheet -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 <meta http-equiv="cleartype" content="on">
 
 <!-- ————————————————————————————————————————————
-     Person structured data for Knowledge Panel
+     Structured Data: Person for Knowledge Graph
      ———————————————————————————————————————————— -->
 <script type="application/ld+json">
 {
