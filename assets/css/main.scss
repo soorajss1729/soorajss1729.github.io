@@ -178,3 +178,19 @@ html, body {
   flex: 1;
 }
 
+
+
+
+//------------------------------------------------------------------------------
+// Re-enable underline on hover for only the sidebar social links
+//------------------------------------------------------------------------------
+.author__urls.social-icons li a {
+  text-decoration: none !important;        /* base state: no underline */
+}
+
+.author__urls.social-icons li a:hover,
+.author__urls.social-icons li a:focus {
+  text-decoration: underline !important;   /* bring underline back on hover */
+}
+
+
