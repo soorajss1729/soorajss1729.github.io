@@ -205,7 +205,7 @@ Cochin University of Science and Technology, 2017
 
 ### Coursework Projects
 <div class="c-proj">
-<ul><li>{Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>," reconstructing its tableau-based algorithm with a step-by-step derivation and simulator available in the <a href="https://soorajss1729.github.io/deepdives/analysis-1/" style="text-decoration: none;">Deep Dives section</a></li>
+<ul><li>{Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>," reconstructing its tableau-based algorithm with a step-by-step derivation and simulator available in the <a href="https://soorajss1729.github.io/deepdives/analysis-1/" style="text-decoration: none;">Deep Dives section</a>.</li>
     <li>Enhanced the proof for the <i>Simplicity of the Alternating Group $A_n$</i> by developing intermediate mathematical steps and bridging reasoning gaps.</li>
 </ul>
 </div>
