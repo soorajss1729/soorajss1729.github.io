@@ -11,6 +11,7 @@ footer_fixed: false
   <a href="/learning/">‹ Back</a>
   <a href="/linalg/">Linear Algebra</a>
   <a href="/grp/">Group Theory</a>
+  <a href="/field/">Field Theory</a>    
 </div>
 
 <style>

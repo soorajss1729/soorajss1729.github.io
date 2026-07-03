@@ -9,6 +9,7 @@ classes: wide
   <a href="/linalg/">Linear Algebra</a>
   <a href="/qc#">Quantum Computing</a>
   <a href="/grp/">Group Theory</a>
+  <a href="/field/">Field Theory</a>  
 </div>
 
 <style>

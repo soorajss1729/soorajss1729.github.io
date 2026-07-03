@@ -9,7 +9,8 @@ footer_fixed: false
 <div class="learning-topnav">
   <a href="/learning/">‹ Back</a>
   <a href="/linalg/">Linear Algebra</a>  
-  <a href="/qc#">Quantum Computing</a>  
+  <a href="/qc#">Quantum Computing</a>
+  <a href="/field/">Field Theory</a>    
 </div>
 
 <style>
@@ -36,7 +37,7 @@ h1 {
 
 
 <div class="text-block">
-  <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://edisciplinas.usp.br/pluginfile.php/5409004/mod_resource/content/2/John%20B.%20Fraleigh%2C%20Victor%20J.%20Katz%20-%20A%20first%20course%20in%20abstract%20algebra-Addison-Wesley%20%282003%29%20%281%29.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>
+  <p>I began studying group theory after enrolling in Math 5105 Modern Algebra I at Missouri S&T, taught by <a href="https://sites.mst.edu/cjlungstrum/" style="text-decoration: none;">Dr. Clayton Lungstrum</a>. His clear and engaging teaching style made the subject both accessible and inspiring, and I consider him the best instructor I’ve had at this university. While the course provided a strong foundation, much of my deeper understanding came from self-study and working through <a href="https://teachmint.storage.googleapis.com/public/373302663/StudyMaterial/f0de1f88-94cc-48b5-88bb-a0d5924e3e91.pdf" style="text-decoration: none;">A First Course in Abstract Algebra by John B. Fraleigh (7th Edition)</a>.</p>
  
  <p>My notes include detailed proofs and explanations from the textbook, insights gained from solving problems, and explorations of challenging topics tackled independently. They also feature a dedicated section for problems with solutions and the project report where I contributed to the final proof for the Simplicity of the Alternating Group $A_n$. These sections include notes on number theory and cryptography, topics I studied independently alongside related areas in mathematics and quantum computing.</p>
 </div>

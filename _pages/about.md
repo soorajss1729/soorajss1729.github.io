@@ -28,9 +28,9 @@ h3 {
 <a name="about-me"></a>
 
 <div class="text-block">
-<p>I am a graduate student at the Computer Science Department of Missouri S&T (Missouri University of Science and Technology), specializing in theoretical quantum computing. My academic journey began in Photonics, but my deep passion for mathematics and quantum computing inspired me to gradually transition into theoretical research.</p>
+<p>I received my M.S. in Computer Science from Missouri University of Science and Technology, where I worked in theoretical quantum computing. My academic journey began in Photonics, but my interest in mathematics and quantum computing gradually led me toward theoretical research.</p>
 
-<p>Over the years, I have dedicated myself to building a strong foundation in mathematics and quantum computing through self-learning and independent study. Platforms like <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile" style="text-decoration: none;">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile" style="text-decoration: none;">Quantum Computing Stack Exchange</a> have been invaluable in this process, allowing me to engage with global communities, tackle challenging problems, and develop a structured understanding of complex concepts. Navigating this unconventional path has required resilience and perseverance to overcome both uncertainty and criticism, making the journey profoundly rewarding and fulfilling.</p> 
+<p>Over the years, I have dedicated myself to building a strong foundation in mathematics and quantum computing through self-learning and independent study. Platforms like <a href="https://math.stackexchange.com/users/223599/sooraj-soman?tab=profile" style="text-decoration: none;">Mathematics</a> and <a href="https://quantumcomputing.stackexchange.com/users/18369/sooraj-soman?tab=profile" style="text-decoration: none;">Quantum Computing Stack Exchange</a> have been invaluable in this process, allowing me to engage with global communities, tackle challenging problems, and develop a structured understanding of complex concepts. This path has strengthened my mathematical maturity and my ability to learn independently, while helping me connect ideas across mathematics, theoretical computer science, and quantum computing.</p> 
 
 <p>Feel free to navigate through the <a href="/learning/" style="text-decoration: none;">Learning Journey</a> section to explore my notes, insights, and resources that have fueled my learning journey.</p>
 </div>
@@ -54,19 +54,28 @@ h3 {
 
 <div class="interests-list">
 <ul>
-    <li>Mathematical Constructs of Quantum Computing</li>
+    <li>Mathematical Foundations of Quantum Computing</li>
     <li>Classical and Quantum Algorithms</li>
-    <li>Advanced Linear Algebra and Group Theory</li>
+    <li>Advanced Linear Algebra, Group Theory, and Field Theory</li>
 </ul>
 </div>
 
 ## Education
 
 🎓 **Master's in Computer Science (Theoretical Quantum Computing)**  
-Missouri University of Science and Technology, 2023 Fall - Present
+Missouri University of Science and Technology, 2025\\
+Thesis Advisor: <a href="https://www.avahbanerjee.com/" style="text-decoration:none;">Dr. Avah Banerjee</a>
 
 🎓 **Integrated MSc in Photonics**  
 Cochin University of Science and Technology, 2017
+
+## Selected Work
+<div class="intern">
+<ul>
+<li><a href="https://arxiv.org/abs/2606.26584" style="text-decoration:none;"><i>Quantum Fast-Forwarding Beyond Reversibility: The α-Perturbed n-Cycle</i></a> (with Dr. Avah Banerjee and Asim Sharma). This work grew out of my M.S. thesis and was later expanded collaboratively. Available as an arXiv preprint. Submitted to <i>Quantum</i> (under review).</li>
+<li>Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>," reconstructing its tableau-based algorithm with a step-by-step derivation and simulator available in the <a href="https://soorajss1729.github.io/deepdives/analysis-1/" style="text-decoration: none;">Deep Dives section</a>.</li>
+</ul>
+</div>
 
 ## Stack Exchange Highlights
 
@@ -86,10 +95,10 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 8,008</div>
-    <div><strong>Questions:</strong> 393</div>
+    <div><strong>Reputation:</strong> 8,146+</div>
+    <div><strong>Questions:</strong> 394</div>
     <div><strong>Answers:</strong> 57</div>
-    <div><strong>Reached:</strong> 884k</div>
+    <div><strong>Reached:</strong> 936k+</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -117,10 +126,10 @@ Cochin University of Science and Technology, 2017
   </div>
   <!-- Stats at the Top -->
   <div style="display: flex; justify-content: space-between; margin-bottom: 10px; font-size: 0.95rem;">
-    <div><strong>Reputation:</strong> 891</div>
+    <div><strong>Reputation:</strong> 891+</div>
     <div><strong>Posts:</strong> 35</div>
-    <div><strong>Overall Rank:</strong> #161</div>
-    <div><strong>Reached:</strong> 13k</div>
+    <div><strong>Overall Rank:</strong> #169</div>
+    <div><strong>Reached:</strong> 16k+</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
@@ -149,17 +158,17 @@ Cochin University of Science and Technology, 2017
     line-height: inherit; /* Maintain the global line height */
     margin-bottom: 5px; /* Space between list items */}
 </style>
-## Relevant Coursework
+## Selected Graduate Coursework
 
 <div class="cors">
 <ul>
-    <li>CS 5001 Introduction to Quantum Computing</li>
-    <li>MATH 6108 Applied Matrix Theory</li>
-    <li>MATH 5105 Modern Algebra I (Group Theory)</li>
-    <li>CS 5200 Analysis of Algorithms</li>
-    <li>CS 6204 Applied Graph Theory</li>
-    <li>CS 5001 Probability and Its Applications in Computing</li>
-    <li>Quantum Optics</li>
+<li>Introduction to Quantum Computing</li>
+<li>Applied Matrix Theory</li>
+<li>Abstract Algebra: Groups, Rings, Fields, and Galois Theory</li>
+<li>Analysis of Algorithms</li>
+<li>Applied Graph Theory</li>
+<li>Probability and Its Applications in Computing</li>
+<li>Quantum Optics</li>
 </ul>
 </div>
 
@@ -201,25 +210,25 @@ Cochin University of Science and Technology, 2017
     margin-bottom: 5px; /* Space between list items */}
 </style>
 
-## Projects and Publications
+## Other Academic Work
 
-### Coursework Projects
+### Additional Mathematical Projects
 <div class="c-proj">
-<ul><li>Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>," reconstructing its tableau-based algorithm with a step-by-step derivation and simulator available in the <a href="https://soorajss1729.github.io/deepdives/analysis-1/" style="text-decoration: none;">Deep Dives section</a>.</li>
+<ul>
     <li>Enhanced the proof for the <i>Simplicity of the Alternating Group $A_n$</i> by developing intermediate mathematical steps and bridging reasoning gaps.</li>
 </ul>
 </div>
 
-### Internships
+### Research Experience
 <div class="intern">
 <ul>
-    <li><i>Analytically Solvable Models of Bosons in a Double Well Potential</i>, Project Student (Jan-May 2016), Dr. C. M. Chandrashekar, The Institute of Mathematical Sciences (IMSc), India</li>
-    <li><i>Bosons in a triple-well potential: Exact results via Multi-configurational Time-dependent Hartree for Bosons</i>, Project Student (Dec 2014-June 2015), Prof. Saurabh Basu, IIT Guwahati, India</li>
-    <li><i>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids</i>, Summer Student (May-July 2012), Dr. Moloy Sarkar, NISER, India</li>
-    <li><i>Fluorescent quenching of Rhodamine 6G in Methyl Methacrylate by laser ablated gold nanoparticles</i>, Project Student (Dec 2011-May 2012), Dr. M. Kailasnath, CUSAT, India</li>
+    <li><i>Analytically Solvable Models of Bosons in a Double Well Potential</i>, Project Student, Dr. C. M. Chandrashekar, The Institute of Mathematical Sciences (IMSc), Jan–May 2016</li>
+    <li><i>Bosons in a triple-well potential: Exact results via Multi-configurational Time-dependent Hartree for Bosons</i>, Project Student, Prof. Saurabh Basu, IIT Guwahati, Dec 2014-June 2015</li>
+    <li><i>Studies on Solvation and Rotational Relaxation of Organic Solutes in Imadazolium-based Room Temperature Ionic Liquids</i>, Summer Student, Dr. Moloy Sarkar, NISER, May-July 2012</li>
+    <li><i>Fluorescent quenching of Rhodamine 6G in Methyl Methacrylate by laser ablated gold nanoparticles</i>, Project Student, Dr. M. Kailasnath, CUSAT, Dec 2011-May 2012</li>
 </ul>
 </div>
-### Publications
+### Conference Publications
 <div class="publ">
 <ul>
     <li>S. Sebastian, <i>S. Sooraj</i>, A. Aaryan, J. Peter, V. P. Namboori, and C. P. G. Vallaban, "<i>Impact of laser ablated gold nanoparticles on absorption and fluorescence of Rhodamine 6G in Methyl Methacrylate</i>," in 2012 International Conference on Optical Engineering (ICOE), Belgaum, India, 2012, pp. 1-5. doi: 10.1109/ICOE.2012.6409575.</li>
@@ -253,10 +262,9 @@ Cochin University of Science and Technology, 2017
 
 <div style="font-size: 14px;">
   Sooraj Soman<br>
-  Graduate Student, Computer Science Department<br>
-  Missouri University of Science and Technology<br>  
-  Rolla, MO - 65401, United States<br>  
-  Email: <a href="mailto:ss4kx@mst.edu" style="text-decoration: none;">ss4kx@mst.edu</a>, <a href="mailto:soorajss1729@gmail.com" style="text-decoration: none;">soorajss1729@gmail.com</a><br>
+  M.S. Computer Science, Missouri University of Science and Technology<br>
+  Email: <a href="mailto:soorajss1729@gmail.com" style="text-decoration: none;">soorajss1729@gmail.com</a>, 
+  <a href="mailto:ss4kx@mst.edu" style="text-decoration: none;">ss4kx@mst.edu</a>
 </div>
 
 

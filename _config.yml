@@ -226,6 +226,9 @@ collections:
   linalg:
     output: true
     permalink: /:collection/:path/
+  field:
+    output: true
+    permalink: /:collection/:path/
   grp:
     output: true
     permalink: /:collection/:path/

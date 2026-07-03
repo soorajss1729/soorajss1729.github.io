@@ -10,6 +10,7 @@ footer_fixed: false
   <a href="/learning/">‹ Back</a>
   <a href="/qc#">Quantum Computing</a>  
   <a href="/grp/">Group Theory</a>  
+  <a href="/field/">Field Theory</a>    
 </div>
 
 <style>
