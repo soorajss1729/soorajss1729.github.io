@@ -296,7 +296,25 @@ h1 {
       <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=om23.pdf#page=185')">Matrix Exponential (Page 185)</a></li>
     </ul>
   </details>
-
+  <details>
+    <summary>Algebra of Linear Transformations</summary>
+    <ul>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=1')">LT from V into W</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=2')">Existence and Uniqueness of Linear Maps from a Basis</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=6')">L(V,W), vector space of LTs from V to W</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=9')">Representation of LTs by matrices</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=11')">Linear Functionals</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=13')">$V^*=L(V,\mathbb{F})$, Dual Space of V</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=16')">Hyperspace</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=19')">Annihilator $W^\circ$ of subspace $W$</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=25')">Double Dual</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=30')">Transpose of LTs</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=38')">Linear Algebra over the field $F$</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=39')">$F^\infty$, Vector space of all functions from S to F</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=42')">Algebra of polynomials</a></li>
+      <li><a href="javascript:void(0)" onclick="loadPdfPage('https://soorajss1729.github.io/pdfjs/viewer.html?file=lintran.pdf#page=49')">Lagrange Interpolation</a></li>
+    </ul>
+  </details>
 
   </div>
   
