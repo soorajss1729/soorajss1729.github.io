@@ -21,7 +21,7 @@
     @include container;
     @include clearfix;
     padding: 1em 0em 1em;
-    margin-left:6.5%;
+    margin-left:2.5%;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -61,7 +61,7 @@
 
 .masthead__menu-item {
   display: block;
-  padding-left:0em;
+  padding-left:4.2em;
   list-style-type: none;
   white-space: nowrap;
 
