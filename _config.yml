@@ -236,7 +236,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   mathematics:
-    output: true
+    output: false
     permalink: /:collection/:path/
   qc:
     output: true
@@ -248,16 +248,16 @@ collections:
     output: true
     permalink: /:collection/:path/    
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
