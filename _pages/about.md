@@ -72,7 +72,7 @@ Cochin University of Science and Technology, 2017
 ## Selected Work
 <div class="intern">
 <ul>
-<li><a href="https://arxiv.org/abs/2606.26584" style="text-decoration:none;"><i>Quantum Fast-Forwarding Beyond Reversibility: The α-Perturbed n-Cycle</i></a> (with Dr. Avah Banerjee and Asim Sharma). This work grew out of my M.S. thesis and was later expanded collaboratively. Available as an arXiv preprint. Submitted to <i>Quantum</i> (under review).</li>
+<li><a href="https://arxiv.org/abs/2606.26584" style="text-decoration:none;"><i>Quantum Fast-Forwarding Beyond Reversibility: The α-Perturbed n-Cycle</i></a> (with Dr. Avah Banerjee and Asim Sharma). This work grew out of my M.S. thesis and was later expanded collaboratively. Available as an arXiv preprint. Submitted to <i>Quantum</i>.</li>
 <li>Analyzed the paper “<i>A Simple Method for Sampling Random Clifford Operators</i>," reconstructing its tableau-based algorithm with a step-by-step derivation and simulator available in the <a href="https://soorajss1729.github.io/deepdives/analysis-1/" style="text-decoration: none;">Deep Dives section</a>.</li>
 </ul>
 </div>
