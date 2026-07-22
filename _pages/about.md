@@ -98,7 +98,7 @@ Cochin University of Science and Technology, 2017
     <div><strong>Reputation:</strong> 8,146+</div>
     <div><strong>Questions:</strong> 394</div>
     <div><strong>Answers:</strong> 57</div>
-    <div><strong>Reached:</strong> 936k+</div>
+    <div><strong>Reached:</strong> 939k+</div>
   </div>
   <!-- Example Contribution -->
   <div style="margin-top: 15px;">
